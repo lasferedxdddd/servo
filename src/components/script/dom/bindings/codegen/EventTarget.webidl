@@ -11,4 +11,12 @@
  */
 
 interface EventTarget {
+  void addEventListener(DOMString type,
+                        EventListener? listener,
+                        optional boolean capture = false);
+  void removeEventListener(DOMString type,
+                           EventListener? listener,
+                           optional boolean capture = false);
+  [Throws]
+  boolean dispatchEvent(Event event);
 };
