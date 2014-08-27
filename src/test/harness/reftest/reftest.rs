@@ -114,6 +114,7 @@ struct Reftest {
     servo_args: Vec<String>,
     render_mode: RenderMode,
     is_flaky: bool,
+    experimental: bool,
 }
 
 struct TestLine<'a> {
@@ -166,12 +167,14 @@ fn parse_lists(file: &str, servo_args: &[String], render_mode: RenderMode, id_of
 
         let mut conditions_list = test_line.conditions.split(',');
         let mut flakiness = RenderMode::empty();
+        let mut experimental = false;
         for condition in conditions_list {
             match condition {
                 "flaky_cpu" => flakiness.insert(CpuRendering),
                 "flaky_gpu" => flakiness.insert(GpuRendering),
                 "flaky_linux" => flakiness.insert(LinuxTarget),
                 "flaky_macos" => flakiness.insert(MacOsTarget),
+                "experimental" => experimental = true,
                 _ => (),
             }
         }
@@ -184,6 +187,7 @@ fn parse_lists(file: &str, servo_args: &[String], render_mode: RenderMode, id_of
             render_mode: render_mode,
             servo_args: servo_args.iter().map(|x| x.clone()).collect(),
             is_flaky: render_mode.intersects(flakiness),
+            experimental: experimental,
         };
 
         tests.push(make_test(reftest));
@@ -212,7 +216,11 @@ fn capture(reftest: &Reftest, side: uint) -> png::Image {
     if reftest.render_mode.contains(CpuRendering) {
         args.push("-c".to_string());
     }
-    args.push_all_move(vec!("-f".to_string(), "-o".to_string(), filename.clone(), reftest.files[side].clone()));
+    if reftest.experimental {
+        args.push("--experimental".to_string());
+    }
+    args.push_all(["-f".to_string(), "-o".to_string(), filename.clone(),
+                   reftest.files[side].clone()]);
 
     let retval = match Command::new("./servo").args(args.as_slice()).status() {
         Ok(status) => status,
