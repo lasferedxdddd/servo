@@ -1,4 +1,4 @@
-// Copyright (c) 2014 Marshall A. Greenblatt. All rights reserved.
+// Copyright (c) 2015 Marshall A. Greenblatt. All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -46,7 +46,9 @@ use std::collections::HashMap;
 use std::ptr;
 
 //
-// Implement this structure to provide handler implementations.
+// Implement this structure to provide handler implementations. The handler
+// instance will not be released until all objects related to the context have
+// been destroyed.
 //
 #[repr(C)]
 pub struct _cef_request_context_handler_t {
@@ -56,8 +58,9 @@ pub struct _cef_request_context_handler_t {
   pub base: types::cef_base_t,
 
   //
-  // Called on the IO thread to retrieve the cookie manager. The global cookie
-  // manager will be used if this function returns NULL.
+  // Called on the IO thread to retrieve the cookie manager. If this function
+  // returns NULL the default cookie manager retrievable via
+  // cef_request_tContext::get_default_cookie_manager() will be used.
   //
   pub get_cookie_manager: Option<extern "C" fn(
       this: *mut cef_request_context_handler_t) -> *mut interfaces::cef_cookie_manager_t>,
@@ -77,7 +80,9 @@ pub type cef_request_context_handler_t = _cef_request_context_handler_t;
 
 
 //
-// Implement this structure to provide handler implementations.
+// Implement this structure to provide handler implementations. The handler
+// instance will not be released until all objects related to the context have
+// been destroyed.
 //
 pub struct CefRequestContextHandler {
   c_object: *mut cef_request_context_handler_t,
@@ -143,8 +148,9 @@ impl CefRequestContextHandler {
   }
 
   //
-  // Called on the IO thread to retrieve the cookie manager. The global cookie
-  // manager will be used if this function returns NULL.
+  // Called on the IO thread to retrieve the cookie manager. If this function
+  // returns NULL the default cookie manager retrievable via
+  // cef_request_tContext::get_default_cookie_manager() will be used.
   //
   pub fn get_cookie_manager(&self) -> interfaces::CefCookieManager {
     if self.c_object.is_null() {
