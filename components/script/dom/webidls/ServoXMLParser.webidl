@@ -6,6 +6,6 @@
 // web pages.
 
 [NoInterfaceObject, Exposed=(Window,Worker)]
-interface ServoXMLParser {
+interface ServoXMLParser : ServoParser {
 };
 
