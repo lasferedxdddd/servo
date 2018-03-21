@@ -125607,6 +125607,18 @@
      {}
     ]
    ],
+   "css/css-scoping/shadow-disabled-sheet-001.html": [
+    [
+     "/css/css-scoping/shadow-disabled-sheet-001.html",
+     [
+      [
+       "/css/css-scoping/reference/green-box.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "css/css-scoping/shadow-fallback-dynamic-001.html": [
     [
      "/css/css-scoping/shadow-fallback-dynamic-001.html",
@@ -125658,6 +125670,18 @@
    "css/css-scoping/shadow-fallback-dynamic-005.html": [
     [
      "/css/css-scoping/shadow-fallback-dynamic-005.html",
+     [
+      [
+       "/css/css-scoping/reference/green-box.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
+   "css/css-scoping/shadow-root-insert-into-document.html": [
+    [
+     "/css/css-scoping/shadow-root-insert-into-document.html",
      [
       [
        "/css/css-scoping/reference/green-box.html",
@@ -291373,6 +291397,11 @@
      {}
     ]
    ],
+   "service-workers/cache-storage/script-tests/cache-abort.js": [
+    [
+     {}
+    ]
+   ],
    "service-workers/cache-storage/script-tests/cache-add.js": [
     [
      {}
@@ -305442,15 +305471,13 @@
      {}
     ]
    ],
-   "IndexedDB/interfaces.html": [
+   "IndexedDB/interfaces.any.js": [
     [
-     "/IndexedDB/interfaces.html",
+     "/IndexedDB/interfaces.any.html",
      {}
-    ]
-   ],
-   "IndexedDB/interfaces.worker.js": [
+    ],
     [
-     "/IndexedDB/interfaces.worker.html",
+     "/IndexedDB/interfaces.any.worker.html",
      {}
     ]
    ],
@@ -317433,6 +317460,12 @@
    "css/css-typed-om/the-stylepropertymap/properties/padding.html": [
     [
      "/css/css-typed-om/the-stylepropertymap/properties/padding.html",
+     {}
+    ]
+   ],
+   "css/css-typed-om/the-stylepropertymap/properties/pointer-events.html": [
+    [
+     "/css/css-typed-om/the-stylepropertymap/properties/pointer-events.html",
      {}
     ]
    ],
@@ -359778,6 +359811,12 @@
      }
     ]
    ],
+   "service-workers/cache-storage/serviceworker/cache-abort.https.html": [
+    [
+     "/service-workers/cache-storage/serviceworker/cache-abort.https.html",
+     {}
+    ]
+   ],
    "service-workers/cache-storage/serviceworker/cache-add.https.html": [
     [
      "/service-workers/cache-storage/serviceworker/cache-add.https.html",
@@ -359853,6 +359892,12 @@
    "service-workers/cache-storage/serviceworker/credentials.https.html": [
     [
      "/service-workers/cache-storage/serviceworker/credentials.https.html",
+     {}
+    ]
+   ],
+   "service-workers/cache-storage/window/cache-abort.https.html": [
+    [
+     "/service-workers/cache-storage/window/cache-abort.https.html",
      {}
     ]
    ],
@@ -359934,6 +359979,12 @@
      {
       "timeout": "long"
      }
+    ]
+   ],
+   "service-workers/cache-storage/worker/cache-abort.https.html": [
+    [
+     "/service-workers/cache-storage/worker/cache-abort.https.html",
+     {}
     ]
    ],
    "service-workers/cache-storage/worker/cache-add.https.html": [
@@ -371607,6 +371658,12 @@
    "xhr/xmlhttprequest-basic.htm": [
     [
      "/xhr/xmlhttprequest-basic.htm",
+     {}
+    ]
+   ],
+   "xhr/xmlhttprequest-closing-worker.html": [
+    [
+     "/xhr/xmlhttprequest-closing-worker.html",
      {}
     ]
    ],
@@ -391186,7 +391243,7 @@
    "support"
   ],
   "./.travis.yml": [
-   "db5838d29eefceadbb7f088f7de75d765dbaa58c",
+   "6aeadb7da2f5fa8d09762a07b3a874b306e1fc22",
    "support"
   ],
   "./CONTRIBUTING.md": [
@@ -391214,7 +391271,7 @@
    "support"
   ],
   "./lint.whitelist": [
-   "b35324fd499dcb7ba0a9deedc794bb13ee62e175",
+   "697da251dd64d990c1ec0603fd252ba6ea11ad26",
    "support"
   ],
   "./serve.py": [
@@ -396841,12 +396898,8 @@
    "251a828d333bdd3face9d20a2a28ddf0c0ffeb49",
    "testharness"
   ],
-  "IndexedDB/interfaces.html": [
-   "348a7350d749c4ea11d383d1f3e07e54a9d0d377",
-   "testharness"
-  ],
-  "IndexedDB/interfaces.worker.js": [
-   "a74350d69819f73cf9f75ac636f8793f018ba2fd",
+  "IndexedDB/interfaces.any.js": [
+   "df07f5da63c34969a24fe43bc4268418ab0a5132",
    "testharness"
   ],
   "IndexedDB/interleaved-cursors-common.js": [
@@ -507665,24 +507718,32 @@
    "46913ea7e47811b11be898de5c3bd0a330ea6637",
    "testharness"
   ],
+  "css/css-scoping/shadow-disabled-sheet-001.html": [
+   "3de2d23c1b3339b964ec2c009832a3207a3b9dc4",
+   "reftest"
+  ],
   "css/css-scoping/shadow-fallback-dynamic-001.html": [
-   "062c99df18077a0205d0170d641b1d1e61199657",
+   "741cd9e29067a4634aa5beb6bd06afa540895d22",
    "reftest"
   ],
   "css/css-scoping/shadow-fallback-dynamic-002.html": [
-   "2f66c8bca48c2ce5c9e82c5d67b152e2d143f4c6",
+   "e9a0d8178387901404030dde1b7ae7b2842f2eca",
    "reftest"
   ],
   "css/css-scoping/shadow-fallback-dynamic-003.html": [
-   "f054b0974277fbee38a96a26559c9a15400266db",
+   "0b75fadbaee366349576e2d6f3ca8d6a49069f66",
    "reftest"
   ],
   "css/css-scoping/shadow-fallback-dynamic-004.html": [
-   "fc33527eaaa7711ecb2c7cd9523e793bce2503f2",
+   "71dcc60c4ff59690927c1575fff2eecf85ee558f",
    "reftest"
   ],
   "css/css-scoping/shadow-fallback-dynamic-005.html": [
-   "46d78b6d6931505bbc4bfc2f83e2bd0bac0d3472",
+   "ab3c3d205e59df800ba5b4217245b83685521c31",
+   "reftest"
+  ],
+  "css/css-scoping/shadow-root-insert-into-document.html": [
+   "2cee9fff35c9222074f4ef78dcfcb8a3e02bbc98",
    "reftest"
   ],
   "css/css-scoping/slotted-invalidation.html": [
@@ -522585,6 +522646,10 @@
    "70c2e29badef7528469bcf11e1cb7bbc6cd519ea",
    "testharness"
   ],
+  "css/css-typed-om/the-stylepropertymap/properties/pointer-events.html": [
+   "71b42cb53d950eb62309b4567d3c7bc62dd1e28e",
+   "testharness"
+  ],
   "css/css-typed-om/the-stylepropertymap/properties/position.html": [
    "4e3eccee58cec470febe4cd9a9149f4b4436487e",
    "testharness"
@@ -522594,7 +522659,7 @@
    "testharness"
   ],
   "css/css-typed-om/the-stylepropertymap/properties/resources/testsuite.js": [
-   "6b7b909fe2cf5576ea5e483a0c0ee8a2977171f6",
+   "7e6c530cf36cce5d7b8d02abbbefbdd4370d1be1",
    "support"
   ],
   "css/css-typed-om/the-stylepropertymap/properties/right.html": [
@@ -533406,11 +533471,11 @@
    "testharness"
   ],
   "css/filter-effects/parsing/filter-parsing-invalid.html": [
-   "ed49a343fbf4ebffc7c98797b21bf6fed83d5f89",
+   "296e73b68ea36f9070c889728723bf877ad65e23",
    "testharness"
   ],
   "css/filter-effects/parsing/filter-parsing-valid.html": [
-   "a53c5723d7f151f94b1ecbff1e4813beca40d546",
+   "7c17e0cd21b0a6859dd3a38a2cd7568037bca15c",
    "testharness"
   ],
   "css/filter-effects/parsing/lighting-color-parsing-invalid.html": [
@@ -572054,7 +572119,7 @@
    "support"
   ],
   "interfaces/web-share.idl": [
-   "d3ab33fa078f1b3bd4b29e174369073aab3963d5",
+   "21b54128664c5962c29fd708ebba3d8d90987f26",
    "support"
   ],
   "interfaces/webaudio.idl": [
@@ -591905,6 +591970,10 @@
    "fc315489c4d337f7cf8395beb4005be9c12da9d6",
    "support"
   ],
+  "service-workers/cache-storage/script-tests/cache-abort.js": [
+   "7c381e34a8e1444ad82645caf05ec8cbfe8360f8",
+   "support"
+  ],
   "service-workers/cache-storage/script-tests/cache-add.js": [
    "5807ce231254f89d9e5f2fc43955a8dda5bd865d",
    "support"
@@ -591940,6 +592009,10 @@
   "service-workers/cache-storage/script-tests/cache-storage.js": [
    "43a44ad35e90ce759de7a855f75b149b756029b4",
    "support"
+  ],
+  "service-workers/cache-storage/serviceworker/cache-abort.https.html": [
+   "6b44436f3b2e1a463e64f3f5fc343086a295a975",
+   "testharness"
   ],
   "service-workers/cache-storage/serviceworker/cache-add.https.html": [
    "294e76cb7b067b17fc9a0850bdab1d6e169cc25a",
@@ -591981,6 +592054,10 @@
    "ef598649e75e3c8736729d7e233982748e31eb79",
    "testharness"
   ],
+  "service-workers/cache-storage/window/cache-abort.https.html": [
+   "2143ee1d78242bd2d055f6ea1b63a1becff657fe",
+   "testharness"
+  ],
   "service-workers/cache-storage/window/cache-add.https.html": [
    "d2c83935c4f413fa6f9459843a9ba669deb0e8ce",
    "testharness"
@@ -592019,6 +592096,10 @@
   ],
   "service-workers/cache-storage/window/sandboxed-iframes.https.html": [
    "dafb0d18e02c256a78188fdaf6997a1abd58b215",
+   "testharness"
+  ],
+  "service-workers/cache-storage/worker/cache-abort.https.html": [
+   "d67a78e50008a587d0b349daaacafc25a18cfd5b",
    "testharness"
   ],
   "service-workers/cache-storage/worker/cache-add.https.html": [
@@ -594958,7 +595039,7 @@
    "testharness"
   ],
   "streams/readable-byte-streams/general.js": [
-   "a7262a490c4a913811c8d0c489b06a567a448fc6",
+   "ce3c72f3a552a6b9a42b4f37be7e6a053cad10a1",
    "support"
   ],
   "streams/readable-byte-streams/general.serviceworker.https.html": [
@@ -609867,6 +609948,10 @@
   ],
   "xhr/xmlhttprequest-basic.htm": [
    "a67d1876d6245fb94d60a937b633c87c51a04d21",
+   "testharness"
+  ],
+  "xhr/xmlhttprequest-closing-worker.html": [
+   "2e12b49aca2dc3908837b6b419c92cb890e60e3f",
    "testharness"
   ],
   "xhr/xmlhttprequest-eventtarget.htm": [
