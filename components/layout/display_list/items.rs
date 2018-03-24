@@ -6,20 +6,17 @@
 //! perform. Using a list instead of painting elements in immediate mode allows transforms, hit
 //! testing, and invalidation to be performed using the same primitives as painting. It also allows
 //! Servo to aggressively cull invisible and out-of-bounds painting elements, to reduce overdraw.
-//! Finally, display lists allow tiles to be farmed out onto multiple CPUs and painted in parallel
-//! (although this benefit does not apply to GPU-based painting).
 //!
 //! Display items describe relatively high-level drawing operations (for example, entire borders
 //! and shadows instead of lines and blur operations), to reduce the amount of allocation required.
 //! They are therefore not exactly analogous to constructs like Skia pictures, which consist of
 //! low-level drawing primitives.
 
-use euclid::{Vector2D, TypedRect, SideOffsets2D};
-use euclid::num::{One, Zero};
+use euclid::{SideOffsets2D, TypedRect, Vector2D};
 use gfx_traits::{self, StackingContextId};
 use gfx_traits::print_tree::PrintTree;
 use msg::constellation_msg::PipelineId;
-use net_traits::image::base::{Image, PixelFormat};
+use net_traits::image::base::Image;
 use servo_geometry::MaxRect;
 use std::cmp::Ordering;
 use std::collections::HashMap;
@@ -29,7 +26,7 @@ use webrender_api::{BorderRadius, BorderWidths, BoxShadowClipMode, ClipMode, Col
 use webrender_api::{ComplexClipRegion, ExtendMode, ExternalScrollId, FilterOp, FontInstanceKey};
 use webrender_api::{GlyphInstance, GradientStop, ImageBorder, ImageKey, ImageRendering};
 use webrender_api::{LayoutPoint, LayoutRect, LayoutSize, LayoutTransform, LayoutVector2D};
-use webrender_api::{LineStyle, MixBlendMode, NormalBorder, ScrollPolicy, ScrollSensitivity};
+use webrender_api::{LineStyle, MixBlendMode, NormalBorder, ScrollPolicy, ScrollSensitivity, Shadow};
 use webrender_api::{StickyOffsetBounds, TransformStyle};
 
 pub use style::dom::OpaqueNode;
@@ -40,7 +37,7 @@ pub static BLUR_INFLATION_FACTOR: i32 = 3;
 
 /// An index into the vector of ClipScrollNodes. During WebRender conversion these nodes
 /// are given ClipIds.
-#[derive(Clone, Copy, Debug, Deserialize, MallocSizeOf, PartialEq, Serialize)]
+#[derive(Clone, Copy, Debug, PartialEq, Serialize)]
 pub struct ClipScrollNodeIndex(pub usize);
 
 impl ClipScrollNodeIndex {
@@ -60,7 +57,7 @@ impl ClipScrollNodeIndex {
 }
 
 /// A set of indices into the clip scroll node vector for a given item.
-#[derive(Clone, Copy, Debug, Deserialize, MallocSizeOf, PartialEq, Serialize)]
+#[derive(Clone, Copy, Debug, PartialEq, Serialize)]
 pub struct ClippingAndScrolling {
     pub scrolling: ClipScrollNodeIndex,
     pub clipping: Option<ClipScrollNodeIndex>,
@@ -74,7 +71,10 @@ impl ClippingAndScrolling {
         }
     }
 
-    pub fn new(scrolling: ClipScrollNodeIndex, clipping: ClipScrollNodeIndex) -> ClippingAndScrolling {
+    pub fn new(
+        scrolling: ClipScrollNodeIndex,
+        clipping: ClipScrollNodeIndex,
+    ) -> ClippingAndScrolling {
         ClippingAndScrolling {
             scrolling,
             clipping: Some(clipping),
@@ -82,7 +82,7 @@ impl ClippingAndScrolling {
     }
 }
 
-#[derive(Deserialize, MallocSizeOf, Serialize)]
+#[derive(Serialize)]
 pub struct DisplayList {
     pub list: Vec<DisplayItem>,
     pub clip_scroll_nodes: Vec<ClipScrollNode>,
@@ -113,11 +113,12 @@ impl DisplayList {
 
         print_tree.new_level("Items".to_owned());
         for item in &self.list {
-            print_tree.add_item(format!("{:?} StackingContext: {:?} {:?}",
+            print_tree.add_item(format!(
+                "{:?} StackingContext: {:?} {:?}",
                 item,
                 item.base().stacking_context_id,
-                item.clipping_and_scrolling())
-            );
+                item.clipping_and_scrolling()
+            ));
         }
         print_tree.end_level();
     }
@@ -130,10 +131,7 @@ impl gfx_traits::DisplayList for DisplayList {
     fn is_contentful(&self) -> bool {
         for item in &self.list {
             match item {
-                &DisplayItem::Text(_) |
-                &DisplayItem::Image(_) => {
-                    return true
-                }
+                &DisplayItem::Text(_) | &DisplayItem::Image(_) => return true,
                 _ => (),
             }
         }
@@ -145,7 +143,7 @@ impl gfx_traits::DisplayList for DisplayList {
 /// Display list sections that make up a stacking context. Each section  here refers
 /// to the steps in CSS 2.1 Appendix E.
 ///
-#[derive(Clone, Copy, Debug, Deserialize, Eq, MallocSizeOf, Ord, PartialEq, PartialOrd, Serialize)]
+#[derive(Clone, Copy, Debug, Eq, Ord, PartialEq, PartialOrd, Serialize)]
 pub enum DisplayListSection {
     BackgroundAndBorders,
     BlockBackgroundsAndBorders,
@@ -153,14 +151,14 @@ pub enum DisplayListSection {
     Outlines,
 }
 
-#[derive(Clone, Copy, Debug, Deserialize, Eq, MallocSizeOf, Ord, PartialEq, PartialOrd, Serialize)]
+#[derive(Clone, Copy, Debug, Eq, Ord, PartialEq, PartialOrd, Serialize)]
 pub enum StackingContextType {
     Real,
     PseudoPositioned,
     PseudoFloat,
 }
 
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 /// Represents one CSS stacking context, which may or may not have a hardware layer.
 pub struct StackingContext {
     /// The ID of this StackingContext for uniquely identifying it.
@@ -203,19 +201,20 @@ pub struct StackingContext {
 impl StackingContext {
     /// Creates a new stacking context.
     #[inline]
-    pub fn new(id: StackingContextId,
-               context_type: StackingContextType,
-               bounds: LayoutRect,
-               overflow: LayoutRect,
-               z_index: i32,
-               filters: Vec<FilterOp>,
-               mix_blend_mode: MixBlendMode,
-               transform: Option<LayoutTransform>,
-               transform_style: TransformStyle,
-               perspective: Option<LayoutTransform>,
-               scroll_policy: ScrollPolicy,
-               parent_clipping_and_scrolling: ClippingAndScrolling)
-               -> StackingContext {
+    pub fn new(
+        id: StackingContextId,
+        context_type: StackingContextType,
+        bounds: LayoutRect,
+        overflow: LayoutRect,
+        z_index: i32,
+        filters: Vec<FilterOp>,
+        mix_blend_mode: MixBlendMode,
+        transform: Option<LayoutTransform>,
+        transform_style: TransformStyle,
+        perspective: Option<LayoutTransform>,
+        scroll_policy: ScrollPolicy,
+        parent_clipping_and_scrolling: ClippingAndScrolling,
+    ) -> StackingContext {
         StackingContext {
             id,
             context_type,
@@ -246,7 +245,7 @@ impl StackingContext {
             TransformStyle::Flat,
             None,
             ScrollPolicy::Scrollable,
-            ClippingAndScrolling::simple(ClipScrollNodeIndex(0))
+            ClippingAndScrolling::simple(ClipScrollNodeIndex(0)),
         )
     }
 
@@ -255,19 +254,15 @@ impl StackingContext {
         base_item.stacking_context_id = self.id;
         base_item.clipping_and_scrolling = self.parent_clipping_and_scrolling;
 
-        let pop_item = DisplayItem::PopStackingContext(Box::new(
-            PopStackingContextItem {
-                base: base_item.clone(),
-                stacking_context_id: self.id,
-            }
-        ));
+        let pop_item = DisplayItem::PopStackingContext(Box::new(PopStackingContextItem {
+            base: base_item.clone(),
+            stacking_context_id: self.id,
+        }));
 
-        let push_item = DisplayItem::PushStackingContext(Box::new(
-            PushStackingContextItem {
-                base: base_item,
-                stacking_context: self,
-            }
-        ));
+        let push_item = DisplayItem::PushStackingContext(Box::new(PushStackingContextItem {
+            base: base_item,
+            stacking_context: self,
+        }));
 
         (push_item, pop_item)
     }
@@ -303,28 +298,28 @@ impl PartialEq for StackingContext {
 
 impl fmt::Debug for StackingContext {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        let type_string =  if self.context_type == StackingContextType::Real {
+        let type_string = if self.context_type == StackingContextType::Real {
             "StackingContext"
         } else {
             "Pseudo-StackingContext"
         };
 
-        write!(f, "{} at {:?} with overflow {:?}: {:?}",
-               type_string,
-               self.bounds,
-               self.overflow,
-               self.id)
+        write!(
+            f,
+            "{} at {:?} with overflow {:?}: {:?}",
+            type_string, self.bounds, self.overflow, self.id
+        )
     }
 }
 
-#[derive(Clone, Debug, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Debug, Serialize)]
 pub struct StickyFrameData {
     pub margins: SideOffsets2D<Option<f32>>,
     pub vertical_offset_bounds: StickyOffsetBounds,
     pub horizontal_offset_bounds: StickyOffsetBounds,
 }
 
-#[derive(Clone, Debug, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Debug, Serialize)]
 pub enum ClipScrollNodeType {
     ScrollFrame(ScrollSensitivity, ExternalScrollId),
     StickyFrame(StickyFrameData),
@@ -332,7 +327,7 @@ pub enum ClipScrollNodeType {
 }
 
 /// Defines a clip scroll node.
-#[derive(Clone, Debug, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Debug, Serialize)]
 pub struct ClipScrollNode {
     /// The index of the parent of this ClipScrollNode.
     pub parent_index: ClipScrollNodeIndex,
@@ -348,7 +343,7 @@ pub struct ClipScrollNode {
 }
 
 /// One drawing command in the list.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub enum DisplayItem {
     SolidColor(Box<SolidColorDisplayItem>),
     Text(Box<TextDisplayItem>),
@@ -367,7 +362,7 @@ pub enum DisplayItem {
 }
 
 /// Information common to all display items.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct BaseDisplayItem {
     /// The boundaries of the display item, in layer coordinates.
     pub bounds: LayoutRect,
@@ -390,13 +385,14 @@ pub struct BaseDisplayItem {
 
 impl BaseDisplayItem {
     #[inline(always)]
-    pub fn new(bounds: LayoutRect,
-               metadata: DisplayItemMetadata,
-               clip_rect: LayoutRect,
-               section: DisplayListSection,
-               stacking_context_id: StackingContextId,
-               clipping_and_scrolling: ClippingAndScrolling)
-               -> BaseDisplayItem {
+    pub fn new(
+        bounds: LayoutRect,
+        metadata: DisplayItemMetadata,
+        clip_rect: LayoutRect,
+        section: DisplayListSection,
+        stacking_context_id: StackingContextId,
+        clipping_and_scrolling: ClippingAndScrolling,
+    ) -> BaseDisplayItem {
         BaseDisplayItem {
             bounds,
             metadata,
@@ -427,7 +423,7 @@ impl BaseDisplayItem {
 /// A clipping region for a display item. Currently, this can describe rectangles, rounded
 /// rectangles (for `border-radius`), or arbitrary intersections of the two. Arbitrary transforms
 /// are not supported because those are handled by the higher-level `StackingContext` abstraction.
-#[derive(Clone, Deserialize, MallocSizeOf, PartialEq, Serialize)]
+#[derive(Clone, PartialEq, Serialize)]
 pub struct ClippingRegion {
     /// The main rectangular region. This does not include any corners.
     pub main: LayoutRect,
@@ -487,7 +483,9 @@ impl ClippingRegion {
     #[inline]
     pub fn might_intersect_point(&self, point: &LayoutPoint) -> bool {
         self.main.contains(point) &&
-            self.complex.iter().all(|complex| complex.rect.contains(point))
+            self.complex
+                .iter()
+                .all(|complex| complex.rect.contains(point))
     }
 
     /// Returns true if this clipping region might intersect the given rectangle and false
@@ -495,7 +493,9 @@ impl ClippingRegion {
     #[inline]
     pub fn might_intersect_rect(&self, rect: &LayoutRect) -> bool {
         self.main.intersects(rect) &&
-            self.complex.iter().all(|complex| complex.rect.intersects(rect))
+            self.complex
+                .iter()
+                .all(|complex| complex.rect.intersects(rect))
     }
 
     /// Returns true if this clipping region completely surrounds the given rect.
@@ -535,10 +535,10 @@ impl ClippingRegion {
         for existing_complex_region in &mut self.complex {
             if existing_complex_region.completely_encloses(&new_complex_region) {
                 *existing_complex_region = new_complex_region;
-                return
+                return;
             }
             if new_complex_region.completely_encloses(existing_complex_region) {
-                return
+                return;
             }
         }
 
@@ -550,13 +550,14 @@ impl ClippingRegion {
     pub fn translate(&self, delta: &LayoutVector2D) -> ClippingRegion {
         ClippingRegion {
             main: self.main.translate(delta),
-            complex: self.complex.iter().map(|complex| {
-                ComplexClipRegion {
+            complex: self.complex
+                .iter()
+                .map(|complex| ComplexClipRegion {
                     rect: complex.rect.translate(delta),
                     radii: complex.radii,
                     mode: complex.mode,
-                }
-            }).collect(),
+                })
+                .collect(),
         }
     }
 
@@ -575,7 +576,11 @@ impl fmt::Debug for ClippingRegion {
         } else if self.main == LayoutRect::max_rect() {
             write!(f, "ClippingRegion(Complex={:?})", self.complex)
         } else {
-            write!(f, "ClippingRegion(Rect={:?}, Complex={:?})", self.main, self.complex)
+            write!(
+                f,
+                "ClippingRegion(Rect={:?}, Complex={:?})",
+                self.main, self.complex
+            )
         }
     }
 }
@@ -590,11 +595,21 @@ impl CompletelyEncloses for ComplexClipRegion {
     fn completely_encloses(&self, other: &Self) -> bool {
         let left = self.radii.top_left.width.max(self.radii.bottom_left.width);
         let top = self.radii.top_left.height.max(self.radii.top_right.height);
-        let right = self.radii.top_right.width.max(self.radii.bottom_right.width);
-        let bottom = self.radii.bottom_left.height.max(self.radii.bottom_right.height);
-        let interior = LayoutRect::new(LayoutPoint::new(self.rect.origin.x + left, self.rect.origin.y + top),
-                                       LayoutSize::new(self.rect.size.width - left - right,
-                                                       self.rect.size.height - top - bottom));
+        let right = self.radii
+            .top_right
+            .width
+            .max(self.radii.bottom_right.width);
+        let bottom = self.radii
+            .bottom_left
+            .height
+            .max(self.radii.bottom_right.height);
+        let interior = LayoutRect::new(
+            LayoutPoint::new(self.rect.origin.x + left, self.rect.origin.y + top),
+            LayoutSize::new(
+                self.rect.size.width - left - right,
+                self.rect.size.height - top - bottom,
+            ),
+        );
         interior.origin.x <= other.rect.origin.x && interior.origin.y <= other.rect.origin.y &&
             interior.max_x() >= other.rect.max_x() && interior.max_y() >= other.rect.max_y()
     }
@@ -603,7 +618,7 @@ impl CompletelyEncloses for ComplexClipRegion {
 /// Metadata attached to each display item. This is useful for performing auxiliary threads with
 /// the display list involving hit testing: finding the originating DOM node and determining the
 /// cursor to use when the element is hovered over.
-#[derive(Clone, Copy, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Copy, Serialize)]
 pub struct DisplayItemMetadata {
     /// The DOM node from which this display item originated.
     pub node: OpaqueNode,
@@ -613,7 +628,7 @@ pub struct DisplayItemMetadata {
 }
 
 /// Paints a solid color.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct SolidColorDisplayItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -623,7 +638,7 @@ pub struct SolidColorDisplayItem {
 }
 
 /// Paints text.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct TextDisplayItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -635,7 +650,7 @@ pub struct TextDisplayItem {
     pub text_color: ColorF,
 }
 
-#[derive(Clone, Deserialize, Eq, MallocSizeOf, PartialEq, Serialize)]
+#[derive(Clone, Eq, PartialEq, Serialize)]
 pub enum TextOrientation {
     Upright,
     SidewaysLeft,
@@ -643,11 +658,11 @@ pub enum TextOrientation {
 }
 
 /// Paints an image.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct ImageDisplayItem {
     pub base: BaseDisplayItem,
 
-    pub webrender_image: WebRenderImageInfo,
+    pub id: ImageKey,
 
     /// The dimensions to which the image display item should be stretched. If this is smaller than
     /// the bounds of this display item, then the image will be repeated in the appropriate
@@ -663,14 +678,14 @@ pub struct ImageDisplayItem {
     pub image_rendering: ImageRendering,
 }
 /// Paints an iframe.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct IframeDisplayItem {
     pub base: BaseDisplayItem,
     pub iframe: PipelineId,
 }
 
 /// Paints a gradient.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct Gradient {
     /// The start point of the gradient (computed during display list construction).
     pub start_point: LayoutPoint,
@@ -685,7 +700,7 @@ pub struct Gradient {
     pub extend_mode: ExtendMode,
 }
 
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct GradientDisplayItem {
     /// Fields common to all display item.
     pub base: BaseDisplayItem,
@@ -705,7 +720,7 @@ pub struct GradientDisplayItem {
 }
 
 /// Paints a radial gradient.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct RadialGradient {
     /// The center point of the gradient.
     pub center: LayoutPoint,
@@ -720,7 +735,7 @@ pub struct RadialGradient {
     pub extend_mode: ExtendMode,
 }
 
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct RadialGradientDisplayItem {
     /// Fields common to all display item.
     pub base: BaseDisplayItem,
@@ -740,7 +755,7 @@ pub struct RadialGradientDisplayItem {
 }
 
 /// A border that is made of linear gradient
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct GradientBorder {
     /// The gradient info that this border uses, border-image-source.
     pub gradient: Gradient,
@@ -750,7 +765,7 @@ pub struct GradientBorder {
 }
 
 /// A border that is made of radial gradient
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct RadialGradientBorder {
     /// The gradient info that this border uses, border-image-source.
     pub gradient: RadialGradient,
@@ -760,7 +775,7 @@ pub struct RadialGradientBorder {
 }
 
 /// Specifies the type of border
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub enum BorderDetails {
     Normal(NormalBorder),
     Image(ImageBorder),
@@ -769,7 +784,7 @@ pub enum BorderDetails {
 }
 
 /// Paints a border.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct BorderDisplayItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -782,7 +797,7 @@ pub struct BorderDisplayItem {
 }
 
 /// Paints a line segment.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct LineDisplayItem {
     pub base: BaseDisplayItem,
 
@@ -794,7 +809,7 @@ pub struct LineDisplayItem {
 }
 
 /// Paints a box shadow per CSS-BACKGROUNDS.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct BoxShadowDisplayItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -822,30 +837,23 @@ pub struct BoxShadowDisplayItem {
 }
 
 /// Defines a text shadow that affects all items until the paired PopTextShadow.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct PushTextShadowDisplayItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
 
-    /// The offset of this shadow from the text.
-    pub offset: LayoutVector2D,
-
-    /// The color of this shadow.
-    pub color: ColorF,
-
-    /// The blur radius for this shadow.
-    pub blur_radius: f32,
+    pub shadow: Shadow,
 }
 
 /// Defines a text shadow that affects all items until the next PopTextShadow.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct PopAllTextShadowsDisplayItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
 }
 
 /// Defines a stacking context.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct PushStackingContextItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -854,7 +862,7 @@ pub struct PushStackingContextItem {
 }
 
 /// Defines a stacking context.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct PopStackingContextItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -863,7 +871,7 @@ pub struct PopStackingContextItem {
 }
 
 /// Starts a group of items inside a particular scroll root.
-#[derive(Clone, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Serialize)]
 pub struct DefineClipScrollNodeItem {
     /// Fields common to all display items.
     pub base: BaseDisplayItem,
@@ -935,14 +943,17 @@ impl fmt::Debug for DisplayItem {
             return write!(f, "DefineClipScrollNode({:?}", item.node_index);
         }
 
-        write!(f, "{} @ {:?} {:?}",
+        write!(
+            f,
+            "{} @ {:?} {:?}",
             match *self {
-                DisplayItem::SolidColor(ref solid_color) =>
-                    format!("SolidColor rgba({}, {}, {}, {})",
-                            solid_color.color.r,
-                            solid_color.color.g,
-                            solid_color.color.b,
-                            solid_color.color.a),
+                DisplayItem::SolidColor(ref solid_color) => format!(
+                    "SolidColor rgba({}, {}, {}, {})",
+                    solid_color.color.r,
+                    solid_color.color.g,
+                    solid_color.color.b,
+                    solid_color.color.a
+                ),
                 DisplayItem::Text(_) => "Text".to_owned(),
                 DisplayItem::Image(_) => "Image".to_owned(),
                 DisplayItem::Border(_) => "Border".to_owned(),
@@ -963,11 +974,10 @@ impl fmt::Debug for DisplayItem {
     }
 }
 
-#[derive(Clone, Copy, Deserialize, MallocSizeOf, Serialize)]
+#[derive(Clone, Copy, Serialize)]
 pub struct WebRenderImageInfo {
     pub width: u32,
     pub height: u32,
-    pub format: PixelFormat,
     pub key: Option<ImageKey>,
 }
 
@@ -977,7 +987,6 @@ impl WebRenderImageInfo {
         WebRenderImageInfo {
             width: image.width,
             height: image.height,
-            format: image.format,
             key: image.id,
         }
     }
@@ -986,7 +995,6 @@ impl WebRenderImageInfo {
 /// The type of the scroll offset list. This is only populated if WebRender is in use.
 pub type ScrollOffsetMap = HashMap<ExternalScrollId, Vector2D<f32>>;
 
-
 pub trait SimpleMatrixDetection {
     fn is_identity_or_simple_translation(&self) -> bool;
 }
@@ -994,11 +1002,9 @@ pub trait SimpleMatrixDetection {
 impl SimpleMatrixDetection for LayoutTransform {
     #[inline]
     fn is_identity_or_simple_translation(&self) -> bool {
-        let (_0, _1) = (Zero::zero(), One::one());
-        self.m11 == _1 && self.m12 == _0 && self.m13 == _0 && self.m14 == _0 &&
-        self.m21 == _0 && self.m22 == _1 && self.m23 == _0 && self.m24 == _0 &&
-        self.m31 == _0 && self.m32 == _0 && self.m33 == _1 && self.m34 == _0 &&
-        self.m44 == _1
+        let (_0, _1) = (0.0, 1.0);
+        self.m11 == _1 && self.m12 == _0 && self.m13 == _0 && self.m14 == _0 && self.m21 == _0 &&
+            self.m22 == _1 && self.m23 == _0 && self.m24 == _0 && self.m31 == _0 &&
+            self.m32 == _0 && self.m33 == _1 && self.m34 == _0 && self.m44 == _1
     }
 }
-
