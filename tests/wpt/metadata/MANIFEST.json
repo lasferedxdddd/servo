@@ -310056,6 +310056,11 @@
      {}
     ]
    ], 
+   "tools/ci/start.sh": [
+    [
+     {}
+    ]
+   ], 
    "tools/ci/tag_master.py": [
     [
      {}
@@ -331621,9 +331626,9 @@
      {}
     ]
    ], 
-   "audio-output/idlharness.window.js": [
+   "audio-output/idlharness.https.window.js": [
     [
-     "/audio-output/idlharness.window.html", 
+     "/audio-output/idlharness.https.window.html", 
      {}
     ]
    ], 
@@ -341126,6 +341131,12 @@
    "css/css-masking/parsing/clip-valid.html": [
     [
      "/css/css-masking/parsing/clip-valid.html", 
+     {}
+    ]
+   ], 
+   "css/css-multicol/balance-table-with-fractional-height-row.html": [
+    [
+     "/css/css-multicol/balance-table-with-fractional-height-row.html", 
      {}
     ]
    ], 
@@ -416885,12 +416896,6 @@
      {}
     ]
    ], 
-   "webxr/xrFrame_lifetime.https.html": [
-    [
-     "/webxr/xrFrame_lifetime.https.html", 
-     {}
-    ]
-   ], 
    "webxr/xrSession_cancelAnimationFrame.https.html": [
     [
      "/webxr/xrSession_cancelAnimationFrame.https.html", 
@@ -441415,7 +441420,7 @@
    "support"
   ], 
   ".taskcluster.yml": [
-   "c4d20d3ed0d58c92645d0e0660f9ff3ac98ad705", 
+   "5e67f71ed89c0dafbcf6cab647a9fad339253314", 
    "support"
   ], 
   ".travis.yml": [
@@ -451362,7 +451367,7 @@
    "b6a7d4d06259117af8fb843f6a8d252bac01a8f3", 
    "support"
   ], 
-  "audio-output/idlharness.window.js": [
+  "audio-output/idlharness.https.window.js": [
    "f10e523bcdc530ee1dbd04a52541ac0b343e9376", 
    "testharness"
   ], 
@@ -451395,7 +451400,7 @@
    "testharness"
   ], 
   "background-fetch/fetch.https.window.js": [
-   "e256c973f3e31fe501e49c098ea70f7f6d5d70cc", 
+   "6a8cf6c0e3a98d33c20ea3b9f3f8c2a274803998", 
    "testharness"
   ], 
   "background-fetch/get-ids.https.window.js": [
@@ -559274,6 +559279,10 @@
    "cc95000ec53ea8daef06251ad5a9f20c5b06a281", 
    "support"
   ], 
+  "css/css-multicol/balance-table-with-fractional-height-row.html": [
+   "434dc52ea3d731bd1393270372294cd007382e59", 
+   "testharness"
+  ], 
   "css/css-multicol/column-count-used-001.html": [
    "2949a1996ebae0c48329906ea7ef34c83080e90f", 
    "reftest"
@@ -631171,7 +631180,7 @@
    "support"
   ], 
   "interfaces/DOM-Parsing.idl": [
-   "f3a13342f5eb24b92523683ccc86b46d15ddbfb0", 
+   "94d437977afac4a1c09bd5588909cec02862694f", 
    "support"
   ], 
   "interfaces/FileAPI.idl": [
@@ -631423,7 +631432,7 @@
    "support"
   ], 
   "interfaces/input-events.idl": [
-   "970bd1212edbf704903b8fad66dc9b53dfb87f5c", 
+   "3bcb0dd78cdccb39d23b29f33a803622aab125c7", 
    "support"
   ], 
   "interfaces/intersection-observer.idl": [
@@ -657443,7 +657452,7 @@
    "support"
   ], 
   "service-workers/service-worker/ServiceWorkerGlobalScope/postmessage.https.html": [
-   "17046eedc6bd2529b452fe03a0e9e2d52c0b2d70", 
+   "99dedebf2e56c744528fd168c05b4fe734563c57", 
    "testharness"
   ], 
   "service-workers/service-worker/ServiceWorkerGlobalScope/registration-attribute.https.html": [
@@ -657523,19 +657532,19 @@
    "testharness"
   ], 
   "service-workers/service-worker/ServiceWorkerGlobalScope/unregister.https.html": [
-   "313309188071747fb139d6dc0dbe2019d0e72748", 
+   "1a124d727687ecfc62bb1443bed2313312762997", 
    "testharness"
   ], 
   "service-workers/service-worker/ServiceWorkerGlobalScope/update.https.html": [
-   "a9285a1c9e2dbfc38c547e3030af8ad9ba292e42", 
+   "a7dde2233972cb3c1b8250f3b0a184413cd7c5a5", 
    "testharness"
   ], 
   "service-workers/service-worker/about-blank-replacement.https.html": [
-   "e1fefaf290fe521590a460942d4c3f6c0022c75f", 
+   "b6efe3ec5620d1c83deb305f2c1ebe008a6a23e2", 
    "testharness"
   ], 
   "service-workers/service-worker/activate-event-after-install-state-change.https.html": [
-   "57fccf13712d97c316874746f770fd7e76f5e897", 
+   "016a52c13c82ebbfb36d48830446b79b4e72f13e", 
    "testharness"
   ], 
   "service-workers/service-worker/activation-after-registration.https.html": [
@@ -657559,19 +657568,19 @@
    "testharness"
   ], 
   "service-workers/service-worker/claim-fetch.https.html": [
-   "050c1ea92ef60b8215fad9cab504647256ad728a", 
+   "6b7d353c6ae3b53c5c7d9398f09fb2f476201db1", 
    "testharness"
   ], 
   "service-workers/service-worker/claim-not-using-registration.https.html": [
-   "1138b7419cfaa78d99f114196fb6870afdf8bd67", 
+   "fd61d05ba4ea8a1c416eb6d4b1128f7b65b4b35c", 
    "testharness"
   ], 
   "service-workers/service-worker/claim-shared-worker-fetch.https.html": [
-   "a07db7b75c7a4c29e9ce756152cd0d4e269e8912", 
+   "f5f44886baa2bff3bc7b7e013a856a6d90ceb26c", 
    "testharness"
   ], 
   "service-workers/service-worker/claim-using-registration.https.html": [
-   "7d77d384837d3c41278bea6f414a6719e80dc520", 
+   "8a2a6ff25c82d8d6de26cca521da99f8ef6d5fbf", 
    "testharness"
   ], 
   "service-workers/service-worker/claim-with-redirect.https.html": [
@@ -657603,7 +657612,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/clients-matchall-client-types.https.html": [
-   "24967172a84ca0bfea7db337fb5d95d9cd4ff114", 
+   "a2a56816a650fa54d6075055a64e0f009e5829ac", 
    "testharness"
   ], 
   "service-workers/service-worker/clients-matchall-exact-controller.https.html": [
@@ -657619,7 +657628,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/clients-matchall-order.https.html": [
-   "0596050c24af4e275ebfe3e040918c115797f2e8", 
+   "ec650f2264df530bd34b11737c4b1d9ed87f4b56", 
    "testharness"
   ], 
   "service-workers/service-worker/clients-matchall.https.html": [
@@ -657635,7 +657644,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/controller-on-reload.https.html": [
-   "e0beb7260be11608439aa16bce0c16a025f24858", 
+   "2e966d425788c0a02b1bb25a4c045089fede5ce7", 
    "testharness"
   ], 
   "service-workers/service-worker/controller-with-no-fetch-event-handler.https.html": [
@@ -657699,15 +657708,15 @@
    "testharness"
   ], 
   "service-workers/service-worker/fetch-csp.https.html": [
-   "91a774a133fd6a1e942e00034c7c05115ee0dea2", 
+   "4f176220d6100c4efb1bfda817b84cf5f53a4f3d", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-after-navigation-within-page.https.html": [
-   "dce1f794fabed81761a83cfa68c23920168f99fb", 
+   "4812d8a91551edae84b5e2805804fc9d8899f3e9", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-async-respond-with.https.html": [
-   "a2b93acfc5b240a148f07a33bd1a0d2a6ca75715", 
+   "87fa04679832f792579b6fefcee2eee550bb58fd", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-is-history-backward-navigation-manual.https.html": [
@@ -657727,7 +657736,7 @@
    "manual"
   ], 
   "service-workers/service-worker/fetch-event-network-error.https.html": [
-   "254919e92327aefd16eb57855f83221cbe8d7ea6", 
+   "fea2ad1e3c26effcc9fd7c8d7a66917e420606b4", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-redirect.https.html": [
@@ -657739,7 +657748,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-respond-with-argument.https.html": [
-   "c78fb784a2f7e4135c2b4429082dc157d9300ffb", 
+   "05e22105243f710273f56e21502659ad1781e28c", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-respond-with-body-loaded-in-chunk.https.html": [
@@ -657767,11 +657776,11 @@
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-respond-with-stops-propagation.https.html": [
-   "cd6861a9d45361a9cbaab3ea639257a14accb349", 
+   "31fd616b6d6f509b7dcb6b56f45e9c2e12e9b8e6", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-throws-after-respond-with.https.html": [
-   "969a3c9d08fb66bf01c1fa2b514b4646e2613b30", 
+   "d98fb22ff423271dd84460200ebdb60573ed6371", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-event-within-sw-manual.https.html": [
@@ -657827,7 +657836,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/fetch-request-redirect.https.html": [
-   "e8e90cf1eb37cfce98f802a0dd25c2702938ccb2", 
+   "57fb8eb4c95d54b20d674728270e140db0f6b473", 
    "testharness"
   ], 
   "service-workers/service-worker/fetch-request-resources.https.html": [
@@ -657975,7 +657984,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/multiple-update.https.html": [
-   "84aac9583b90b1caa8f08b636b9994942304efeb", 
+   "6a83f73a054f8a50284ae9b55bba9cde4d74c108", 
    "testharness"
   ], 
   "service-workers/service-worker/navigate-window.https.html": [
@@ -658107,7 +658116,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/performance-timeline.https.html": [
-   "b66d4a821861b6e6e37e47b652f32756c8062058", 
+   "1fe19da53be6c460cae5f069794bbdee3f4a0da8", 
    "testharness"
   ], 
   "service-workers/service-worker/postmessage-blob-url.https.html": [
@@ -658155,7 +658164,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/register-default-scope.https.html": [
-   "dc136d4e8dd74d3f851880a2bc4ff5f215caf256", 
+   "1d86548eb5eeb5754ca111dd4c55843202216b2d", 
    "testharness"
   ], 
   "service-workers/service-worker/register-same-scope-different-script-url.https.html": [
@@ -658163,7 +658172,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/register-wait-forever-in-install-worker.https.html": [
-   "e23f9f4fc8e3807ad60c90b055f74c38d383c24d", 
+   "0920b5cb223d50e31d044a9323f55c1e77b18857", 
    "testharness"
   ], 
   "service-workers/service-worker/registration-basic.https.html": [
@@ -659431,7 +659440,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/serviceworker-message-event-historical.https.html": [
-   "2f780a604282dc281ebe75a964ed24f832a24e3a", 
+   "fac8f2076fb64870550236dd27470902cdbe040c", 
    "testharness"
   ], 
   "service-workers/service-worker/serviceworkerobject-scripturl.https.html": [
@@ -659439,11 +659448,11 @@
    "testharness"
   ], 
   "service-workers/service-worker/shared-worker-controlled.https.html": [
-   "33d52e01199c2bdc0e85df7d8106ddd970aae082", 
+   "0320c02a4fa2b8066bc6f603bf7abc3eefe1c3b3", 
    "testharness"
   ], 
   "service-workers/service-worker/skip-waiting-installed.https.html": [
-   "21e26be5128454ee05143b10b8039ceb95a48cd5", 
+   "b604f651b3c1deb38d891c77394a8f175a19c34e", 
    "testharness"
   ], 
   "service-workers/service-worker/skip-waiting-using-registration.https.html": [
@@ -659459,7 +659468,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/skip-waiting.https.html": [
-   "48b5a8c9aeeb40648c4d295492d4a44b957d788f", 
+   "f8392fc955b46cdd9f1deb5a7319b8f3f35d91dd", 
    "testharness"
   ], 
   "service-workers/service-worker/state.https.html": [
@@ -659503,11 +659512,11 @@
    "testharness"
   ], 
   "service-workers/service-worker/update-after-oneday.https.html": [
-   "08065d22ce46cc8a3b5916f1c053f477f4414698", 
+   "d9b9fcfb8db37ea3b0d571250b22b88ca7354772", 
    "testharness"
   ], 
   "service-workers/service-worker/update-bytecheck.https.html": [
-   "ec3d15abec09ca5f5e3db9e2c8ac2e9040ffe7fe", 
+   "be414351871ffb94cce4533607e2e58f6da3d8a3", 
    "testharness"
   ], 
   "service-workers/service-worker/update-missing-import-scripts.https.html": [
@@ -659555,7 +659564,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/windowclient-navigate.https.html": [
-   "8ea279ef075e5e6c8904966b005f0baf0d75bca9", 
+   "e62c1ac3aa40e0c412a736e79a77515348398a2c", 
    "testharness"
   ], 
   "service-workers/service-worker/worker-client-id.https.html": [
@@ -659571,7 +659580,7 @@
    "testharness"
   ], 
   "service-workers/service-worker/worker-interception.https.html": [
-   "bf976a29c48a3810ef4ff20b5c7e8b70dec2b219", 
+   "f9ba656b5178359f2c7b6e2419a57ff12ec79d23", 
    "testharness"
   ], 
   "service-workers/specgen.json": [
@@ -664798,6 +664807,10 @@
    "5af38d0b56c1bbabb3e3748633cb7dca4f15c5e6", 
    "support"
   ], 
+  "tools/ci/start.sh": [
+   "9f621b2326e7769a232cf620a4863f4104d35ed1", 
+   "support"
+  ], 
   "tools/ci/tag_master.py": [
    "72bafd3a866317889ecbb75a6981ce1c88a38b9e", 
    "support"
@@ -664827,7 +664840,7 @@
    "support"
   ], 
   "tools/docker/start.sh": [
-   "34a0f3c2206dc689543e1cab6fb5ddbc763880aa", 
+   "52a5127892ca0455c57de1e3b26e26ea6a3f8db2", 
    "support"
   ], 
   "tools/gitignore/__init__.py": [
@@ -670471,7 +670484,7 @@
    "support"
   ], 
   "tools/wptserve/wptserve/request.py": [
-   "b248a054d3b1f3b141d94125da9406463e5a894f", 
+   "aa6306a533e2136a2dc5eea33ebeb18706eb1736", 
    "support"
   ], 
   "tools/wptserve/wptserve/response.py": [
@@ -673071,7 +673084,7 @@
    "testharness"
   ], 
   "web-animations/animation-model/animation-types/property-list.js": [
-   "6ad90a356e483cbfbd94c2cb147e68417f75357e", 
+   "b6ddb0c7eaec378b2c884c771403542f6b42d02b", 
    "support"
   ], 
   "web-animations/animation-model/animation-types/property-types.js": [
@@ -680988,10 +681001,6 @@
   ], 
   "webxr/xrDevice_supportsSession_non_immersive.https.html": [
    "535b0bcbbc282ee5aaa7500cbd3a35ba21fed3d4", 
-   "testharness"
-  ], 
-  "webxr/xrFrame_lifetime.https.html": [
-   "887ff933526292cbcd7a8218660b1911859ed7b4", 
    "testharness"
   ], 
   "webxr/xrSession_cancelAnimationFrame.https.html": [
