@@ -130021,6 +130021,30 @@
      {}
     ]
    ],
+   "css/css-multicol/columnfill-auto-max-height-001.html": [
+    [
+     "css/css-multicol/columnfill-auto-max-height-001.html",
+     [
+      [
+       "/css/reference/ref-filled-green-100px-square.xht",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
+   "css/css-multicol/columnfill-auto-max-height-002.html": [
+    [
+     "css/css-multicol/columnfill-auto-max-height-002.html",
+     [
+      [
+       "/css/reference/ref-filled-green-100px-square.xht",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "css/css-multicol/float-and-block.html": [
     [
      "css/css-multicol/float-and-block.html",
@@ -445530,16 +445554,28 @@
      {}
     ]
    ],
-   "wake-lock/wakelock-insecure-context.html": [
+   "wake-lock/wakelock-insecure-context.any.js": [
     [
-     "wake-lock/wakelock-insecure-context.html",
-     {}
-    ]
-   ],
-   "wake-lock/wakelock-state-is-global.https.html": [
+     "wake-lock/wakelock-insecure-context.any.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "Wake Lock API is not exposed in an insecure context"
+       ]
+      ]
+     }
+    ],
     [
-     "wake-lock/wakelock-state-is-global.https.html",
-     {}
+     "wake-lock/wakelock-insecure-context.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "Wake Lock API is not exposed in an insecure context"
+       ]
+      ]
+     }
     ]
    ],
    "wake-lock/wakelock-supported-by-feature-policy.html": [
@@ -445548,10 +445584,28 @@
      {}
     ]
    ],
-   "wake-lock/wakelock-type.https.html": [
+   "wake-lock/wakelock-type.https.any.js": [
     [
-     "wake-lock/wakelock-type.https.html",
-     {}
+     "wake-lock/wakelock-type.https.any.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "WakeLock.request() with invaild type"
+       ]
+      ]
+     }
+    ],
+    [
+     "wake-lock/wakelock-type.https.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "WakeLock.request() with invaild type"
+       ]
+      ]
+     }
     ]
    ],
    "wasm/create_multiple_memory.worker.js": [
@@ -602143,6 +602197,14 @@
    "2949a1996ebae0c48329906ea7ef34c83080e90f",
    "reftest"
   ],
+  "css/css-multicol/columnfill-auto-max-height-001.html": [
+   "6d8877e7632bed4f989c233ed38d40a00111be32",
+   "reftest"
+  ],
+  "css/css-multicol/columnfill-auto-max-height-002.html": [
+   "7d156b2d0cfde3f1fd1c25a48616e778c3135c74",
+   "reftest"
+  ],
   "css/css-multicol/extremely-tall-multicol-with-extremely-tall-child-crash.html": [
    "6e40afe54c9ce9aa50765f778d74640454dcc1ce",
    "testharness"
@@ -651624,7 +651686,7 @@
    "testharness"
   ],
   "dom/events/EventListener-handleEvent.html": [
-   "6630f273fff4b450d1fcc425828b5f1f53357e54",
+   "1eb80ccb15f0bc6fda7d04d4fc01555ea6b8ab04",
    "testharness"
   ],
   "dom/events/EventListener-incumbent-global-1.sub.html": [
@@ -653020,7 +653082,7 @@
    "testharness"
   ],
   "dom/traversal/TreeWalker-acceptNode-filter.html": [
-   "1446f40f68dd25f13b97bdce2a425cd9f36104d1",
+   "e2110aff3b3dec517f70866f908de2f919c089a4",
    "testharness"
   ],
   "dom/traversal/TreeWalker-basic.html": [
@@ -674840,7 +674902,7 @@
    "support"
   ],
   "html/semantics/rellist-feature-detection.html": [
-   "d290439d8ee647b2f8d95ddc45ac390dccde9843",
+   "45debcc49a487d43437b04e6e8a429f7db321db1",
    "testharness"
   ],
   "html/semantics/scripting-1/META.yml": [
@@ -680596,7 +680658,7 @@
    "support"
   ],
   "interfaces/html.idl": [
-   "f44f5da96ff6e400cd51a404e3f06ae558d4cff4",
+   "5ae46f742922f4c455380745f124769399086eb9",
    "support"
   ],
   "interfaces/image-capture.idl": [
@@ -680900,7 +680962,7 @@
    "support"
   ],
   "interfaces/webxr.idl": [
-   "2d1bd9fe5f5702d69051fe00b2f958a9a3a4b82c",
+   "63327a3f55d79f1acdc2cbd53a98b0a089aade2d",
    "support"
   ],
   "interfaces/worklets.idl": [
@@ -694428,7 +694490,7 @@
    "testharness"
   ],
   "preload/download-resources.html": [
-   "510ebb480457e9e1b0d6ea788a8bd36c825bc634",
+   "557c9656b1813c52e373ee70e565a44e966389bf",
    "testharness"
   ],
   "preload/dynamic-adding-preload-imagesrcset.html": [
@@ -694448,7 +694510,7 @@
    "testharness"
   ],
   "preload/link-header-on-subresource.html": [
-   "087a3429e649348d2b35fd92bf03ebc6307c72dc",
+   "7047115a1caf4989ea5e80e80db35bc2dcdf2a6b",
    "testharness"
   ],
   "preload/link-header-preload-delay-onload.html": [
@@ -694488,7 +694550,7 @@
    "testharness"
   ],
   "preload/onerror-event.html": [
-   "8190be87a4b7caf69ba07d07d239ff8143be3b05",
+   "2038e06e941cf7b146fcb744c6c5a2ded3072abc",
    "testharness"
   ],
   "preload/onload-event.html": [
@@ -694496,11 +694558,11 @@
    "testharness"
   ],
   "preload/preload-csp.sub.html": [
-   "65e9b3a2a6d350598e88cd2c8a7e4fa8d10d7533",
+   "62d0c71039b7c06a4299ac71e055ff3786de5c41",
    "testharness"
   ],
   "preload/preload-default-csp.sub.html": [
-   "923431456cf7e01d66556fda7241be0e660dacc0",
+   "9fc11945866834c70c9ad270fb11d37a443ac3d0",
    "testharness"
   ],
   "preload/preload-strict-dynamic.html": [
@@ -723399,20 +723461,16 @@
    "6f05d23550e2b0c967fac5b436a5e3336222ffe2",
    "support"
   ],
-  "wake-lock/wakelock-insecure-context.html": [
-   "2c61f41311db3f9edf0502ea752ca27970eed3fb",
-   "testharness"
-  ],
-  "wake-lock/wakelock-state-is-global.https.html": [
-   "2eee31982498caab44b5160237c7ce7f8ce9a569",
+  "wake-lock/wakelock-insecure-context.any.js": [
+   "f32cc3c354354f99852bb198760cdbd9229355a4",
    "testharness"
   ],
   "wake-lock/wakelock-supported-by-feature-policy.html": [
    "d6289fff43c8717ac6e9ace59713e6fd70bd249d",
    "testharness"
   ],
-  "wake-lock/wakelock-type.https.html": [
-   "df7a68a040bef273efcd2584dfe3612adc05d85b",
+  "wake-lock/wakelock-type.https.any.js": [
+   "26ebcbef557014fe5b5b7d4f4f145ac5f0305a02",
    "testharness"
   ],
   "wasm/META.yml": [
