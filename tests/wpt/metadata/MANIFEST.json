@@ -14377,6 +14377,12 @@
      {}
     ]
    ],
+   "payment-request/rejects_if_not_active-manual.https.html": [
+    [
+     "payment-request/rejects_if_not_active-manual.https.html",
+     {}
+    ]
+   ],
    "payment-request/shipping-address-changed-manual.https.html": [
     [
      "payment-request/shipping-address-changed-manual.https.html",
@@ -173123,6 +173129,18 @@
      {}
     ]
    ],
+   "css/css-writing-modes/percentage-padding-in-shrink-to-fit.html": [
+    [
+     "css/css-writing-modes/percentage-padding-in-shrink-to-fit.html",
+     [
+      [
+       "/css/reference/nothing.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "css/css-writing-modes/relpos-inline-overflowing-block-vrl.html": [
     [
      "css/css-writing-modes/relpos-inline-overflowing-block-vrl.html",
@@ -199045,18 +199063,6 @@
      [
       [
        "/html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-after-controls-removed-ref.html",
-       "=="
-      ]
-     ],
-     {}
-    ]
-   ],
-   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue.html": [
-    [
-     "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue.html",
-     [
-      [
-       "/html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue-ref.html",
        "=="
       ]
      ],
@@ -306980,11 +306986,6 @@
      {}
     ]
    ],
-   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue-ref.html": [
-    [
-     {}
-    ]
-   ],
    "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-line-doesnt-fit-ref.html": [
     [
      {}
@@ -396658,6 +396659,12 @@
      {}
     ]
    ],
+   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue.html": [
+    [
+     "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue.html",
+     {}
+    ]
+   ],
    "html/semantics/embedded-content/media-elements/track/track-element/track-cues-cuechange.html": [
     [
      "html/semantics/embedded-content/media-elements/track/track-element/track-cues-cuechange.html",
@@ -402323,6 +402330,12 @@
    "html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html": [
     [
      "html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html",
+     {}
+    ]
+   ],
+   "html/semantics/text-level-semantics/the-ruby-element/rt-without-ruby-crash.html": [
+    [
+     "html/semantics/text-level-semantics/the-ruby-element/rt-without-ruby-crash.html",
      {}
     ]
    ],
@@ -421869,12 +421882,6 @@
      }
     ]
    ],
-   "payment-request/rejects_if_not_active_manual.https.html": [
-    [
-     "payment-request/rejects_if_not_active_manual.https.html",
-     {}
-    ]
-   ],
    "performance-timeline/case-sensitivity.any.js": [
     [
      "performance-timeline/case-sensitivity.any.html",
@@ -423661,6 +423668,12 @@
    "referrer-policy/generic/iframe-inheritance.html": [
     [
      "referrer-policy/generic/iframe-inheritance.html",
+     {}
+    ]
+   ],
+   "referrer-policy/generic/iframe-src-change.html": [
+    [
+     "referrer-policy/generic/iframe-src-change.html",
      {}
     ]
    ],
@@ -445347,10 +445360,28 @@
      }
     ]
    ],
-   "wake-lock/wakelock-abortsignal-set.https.html": [
+   "wake-lock/wakelock-abortsignal.https.any.js": [
     [
-     "wake-lock/wakelock-abortsignal-set.https.html",
-     {}
+     "wake-lock/wakelock-abortsignal.https.any.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "WakeLock.request() AbortSignal Test"
+       ]
+      ]
+     }
+    ],
+    [
+     "wake-lock/wakelock-abortsignal.https.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "WakeLock.request() AbortSignal Test"
+       ]
+      ]
+     }
     ]
    ],
    "wake-lock/wakelock-active-document.https.window.js": [
@@ -628982,7 +629013,7 @@
    "reftest"
   ],
   "css/css-values/initial-background-color.html": [
-   "f38226651774f9ac2151b9b951f47f519a4663ea",
+   "7a6c6173c4f6998f56bbcb7f992ad38fca45ce58",
    "reftest"
   ],
   "css/css-values/lh-rlh-on-root-001.html": [
@@ -633179,6 +633210,10 @@
   ],
   "css/css-writing-modes/percent-padding-vrl-006.xht": [
    "187d875cd5115cec781d18bf4fca715441d5b2d7",
+   "reftest"
+  ],
+  "css/css-writing-modes/percentage-padding-in-shrink-to-fit.html": [
+   "2d4364c886c48c3ef7ebddfb43d2210bdf75e094",
    "reftest"
   ],
   "css/css-writing-modes/reference/available-size-001-ref.html": [
@@ -651326,7 +651361,7 @@
    "support"
   ],
   "docs/running-tests/from-local-system.md": [
-   "695f8403da4a8a52eddb25492ac89edd7c33e6e7",
+   "8f908877c40470cf695e6bc1ae6f21988db7b2ec",
    "support"
   ],
   "docs/running-tests/from-web.md": [
@@ -658310,7 +658345,7 @@
    "testharness"
   ],
   "fetch/corb/script-resource-with-nonsniffable-types.tentative.sub.html": [
-   "62fd9ca389da9fda5e7c6655ae88be57b7688d5b",
+   "e599bf26f9445e9e96ee98e4bbab2895e2283fe2",
    "testharness"
   ],
   "fetch/corb/style-css-mislabeled-as-html-nosniff.sub.html": [
@@ -671177,16 +671212,12 @@
    "76019c9b41e4fd4c56f4252d399f088b7b3e4470",
    "reftest"
   ],
-  "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue-ref.html": [
-   "837c4fd7833d569f2949bf1c2a677836ac851597",
-   "support"
-  ],
   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-empty-cue.html": [
-   "c2d300999eeaa207365b5c0b42f9b033e6b96446",
-   "reftest"
+   "427189f6fc78074ae13c58e94ae3d02bc0e513b2",
+   "testharness"
   ],
   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-line-doesnt-fit-ref.html": [
-   "c4c14bc2a394ff19c14bfa76c4b59ad5d6ddb618",
+   "8354041eb2a0aa57b283e12d9c0390f16327ac80",
    "support"
   ],
   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-line-doesnt-fit.html": [
@@ -671194,7 +671225,7 @@
    "reftest"
   ],
   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-transformed-video-ref.html": [
-   "c3ee804c485b762d8b69614136558bbf2ed833a8",
+   "39461350b089b9041a71a6ca9aad7f1cfc078d68",
    "support"
   ],
   "html/semantics/embedded-content/media-elements/track/track-element/track-cue-rendering-transformed-video.html": [
@@ -677348,6 +677379,10 @@
   "html/semantics/text-level-semantics/the-br-element/br-bidi.html": [
    "1dfa6836f398cc0d7e15a694655a68771d51c804",
    "reftest"
+  ],
+  "html/semantics/text-level-semantics/the-ruby-element/rt-without-ruby-crash.html": [
+   "3caed3a02e87ccb9797ba6728bebc5294be2658e",
+   "testharness"
   ],
   "html/semantics/text-level-semantics/the-ruby-element/ruby-usage-notref.html": [
    "f5747811ae40ec6114976d05955e4a85a7c4cf44",
@@ -693525,12 +693560,12 @@
    "687d3a52de9f6bfdb10456147586008b18683eb2",
    "manual"
   ],
+  "payment-request/rejects_if_not_active-manual.https.html": [
+   "f1d2fb83e0e0b17e0030bc991b0135bd21200aa0",
+   "manual"
+  ],
   "payment-request/rejects_if_not_active.https.html": [
    "3c7e85ba970f8c6f2d608f02dd2f60f911124da2",
-   "testharness"
-  ],
-  "payment-request/rejects_if_not_active_manual.https.html": [
-   "f1d2fb83e0e0b17e0030bc991b0135bd21200aa0",
    "testharness"
   ],
   "payment-request/resources/page1.html": [
@@ -693930,7 +693965,7 @@
    "testharness"
   ],
   "pointerevents/pointerevent_pointerout_pen.html": [
-   "972f99d95080ab702da79f8125119a2b27778a84",
+   "a718468c49a965eefee134cc6e6ec4051042cb49",
    "testharness"
   ],
   "pointerevents/pointerevent_pointerout_received_once.html": [
@@ -694010,7 +694045,7 @@
    "testharness"
   ],
   "pointerevents/pointerevent_suppress_compat_events_on_drag_mouse.html": [
-   "5bab6e66121cebc47213914fb07f7995d8b0722d",
+   "6ed75ab4cbcda3c673b3328a826019bdade4db5d",
    "testharness"
   ],
   "pointerevents/pointerevent_touch-action-auto-css_touch.html": [
@@ -695151,6 +695186,10 @@
   ],
   "referrer-policy/generic/iframe-inheritance.html": [
    "28e83df6c2ab9b27417b15948929d044095fdceb",
+   "testharness"
+  ],
+  "referrer-policy/generic/iframe-src-change.html": [
+   "15202a76a1ea3b7ad8deb35cdb33826414d7a95b",
    "testharness"
   ],
   "referrer-policy/generic/link-rel-prefetch.html": [
@@ -704658,7 +704697,7 @@
    "support"
   ],
   "resources/chromium/webxr-test.js": [
-   "8816273705806dd8efb9c33a52a61689f802ecf2",
+   "5406b6745bdf021b59aa21f669e0cdbc6e858045",
    "support"
   ],
   "resources/chromium/webxr-test.js.headers": [
@@ -720242,7 +720281,7 @@
    "support"
   ],
   "tools/wpt/browser.py": [
-   "f617fc3252b13b7fba3d24619ece65e2c51f0a4e",
+   "ddc7837f192ae9307be0028636e92d4faf9b9ced",
    "support"
   ],
   "tools/wpt/commands.json": [
@@ -723361,8 +723400,8 @@
    "7fc080d380c4bd46dfb011910e570ee412561b92",
    "support"
   ],
-  "wake-lock/wakelock-abortsignal-set.https.html": [
-   "cc534d13d6ca81763627291680c8740d6bd5aff2",
+  "wake-lock/wakelock-abortsignal.https.any.js": [
+   "7961674fea6e42f2a6a2b34b23be486e4685ccea",
    "testharness"
   ],
   "wake-lock/wakelock-active-document.https.window.js": [
@@ -723418,7 +723457,7 @@
    "testharness"
   ],
   "wake-lock/wakelock-type.https.any.js": [
-   "e11fccc1ddf80320ffdf0bd893e28f30003dabc2",
+   "cc37c768272512ec412fb749cebd77afa8662ac3",
    "testharness"
   ],
   "wasm/META.yml": [
@@ -734654,7 +734693,7 @@
    "support"
   ],
   "xhr/resources/access-control-basic-options-not-supported.py": [
-   "0c69c76293eaeebc1e9c18fed7904c3bdcdc0d8e",
+   "77b274e957ca87270926ad4622d2c79ec9600fed",
    "support"
   ],
   "xhr/resources/access-control-basic-preflight-cache-invalidation.py": [
