@@ -263029,6 +263029,9 @@
    "fetch/origin/resources/redirect-and-stash.py": [
     []
    ],
+   "fetch/origin/resources/referrer-policy.py": [
+    []
+   ],
    "fetch/range/resources/basic.html": [
     []
    ],
@@ -271033,10 +271036,13 @@
    "kv-storage/META.yml": [
     []
    ],
-   "kv-storage/helpers/class-assert.js": [
+   "kv-storage/helpers/equality-asserters.js": [
     []
    ],
-   "kv-storage/helpers/equality-asserters.js": [
+   "kv-storage/helpers/expose-as-global.html": [
+    []
+   ],
+   "kv-storage/helpers/iter-assert.js": [
     []
    ],
    "kv-storage/helpers/kvs-tests.js": [
@@ -340422,24 +340428,9 @@
      {}
     ]
    ],
-   "fetch/origin/no-cors.any.js": [
+   "fetch/origin/assorted.window.js": [
     [
-     "fetch/origin/no-cors.any.html",
-     {
-      "script_metadata": [
-       [
-        "script",
-        "/common/utils.js"
-       ],
-       [
-        "script",
-        "/common/get-host-info.sub.js"
-       ]
-      ]
-     }
-    ],
-    [
-     "fetch/origin/no-cors.any.worker.html",
+     "fetch/origin/assorted.window.html",
      {
       "script_metadata": [
        [
@@ -356832,12 +356823,6 @@
      {}
     ]
    ],
-   "kv-storage/api-surface.https.html": [
-    [
-     "kv-storage/api-surface.https.html",
-     {}
-    ]
-   ],
    "kv-storage/backingstore.https.html": [
     [
      "kv-storage/backingstore.https.html",
@@ -356847,12 +356832,22 @@
    "kv-storage/cause-errors-via-idb.https.html": [
     [
      "kv-storage/cause-errors-via-idb.https.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "kv-storage/entries.https.html": [
     [
      "kv-storage/entries.https.html",
+     {
+      "timeout": "long"
+     }
+    ]
+   ],
+   "kv-storage/interface.https.html": [
+    [
+     "kv-storage/interface.https.html",
      {}
     ]
    ],
@@ -356867,13 +356862,17 @@
    "kv-storage/keys-values-entries.https.html": [
     [
      "kv-storage/keys-values-entries.https.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "kv-storage/keys.https.html": [
     [
      "kv-storage/keys.https.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "kv-storage/non-secure-context-dynamic-import.html": [
@@ -356897,19 +356896,25 @@
    "kv-storage/storage-smoke-test.https.html": [
     [
      "kv-storage/storage-smoke-test.https.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "kv-storage/undefined-value.https.html": [
     [
      "kv-storage/undefined-value.https.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "kv-storage/values.https.html": [
     [
      "kv-storage/values.https.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "largest-contentful-paint/observe-image.html": [
@@ -541246,7 +541251,7 @@
    "reftest"
   ],
   "css/css-fonts/math-script-level-and-math-style/math-script-level-004.tentative.html": [
-   "084e181b63d96d5df38ccbc9a639a067f556ec39",
+   "6fe35c2719e4e460e0c88f261ba3f5185a5f062d",
    "testharness"
   ],
   "css/css-fonts/math-script-level-and-math-style/math-script-level-005.tentative-ref.html": [
@@ -580062,7 +580067,7 @@
    "testharness"
   ],
   "css/css-values/calc-parenthesis-stack.html": [
-   "1d9033d7eecd14066ee9e4f9c52bf1a39e6ddd1b",
+   "d8dbafb3f720253df4225f5279a1a7a9af2caa35",
    "reftest"
   ],
   "css/css-values/calc-positive-fraction-001.html": [
@@ -597786,7 +597791,7 @@
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/images3/reftest.list": [
-   "1a21c76db1c380794b05300512c5042927c640f5",
+   "b6a70d8bc633bafb8d88ce5fe35f451a027dcea7",
    "support"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/images3/support/colors-16x8-noSize.svg": [
@@ -598562,11 +598567,11 @@
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/ruby/ruby-inlinize-blocks-002-ref.html": [
-   "d1ba587e983270d16495ef8eff65a89672015883",
+   "41533ee76b013a53e07a5effd2e02ff01da9ac65",
    "support"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/ruby/ruby-inlinize-blocks-002.html": [
-   "e16b7731ebc5fed35144f3bbe883ba1c224b90d2",
+   "4616d5014675224793aa9de4f67a79472462c800",
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/ruby/ruby-inlinize-blocks-003-ref.html": [
@@ -599006,11 +599011,11 @@
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-circle-056-ref.html": [
-   "f4f21058a66693efb729653ba2d0599d40f19138",
+   "519d33864d811ca71c15ab4d1b7572371f48e2a9",
    "support"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-circle-056.html": [
-   "57323a42444ee4229d4eb3a1c6e58c5c7b63ce5d",
+   "d51cb50447ee5681459569fbd4fd573fbd2f2ccf",
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-content-box-001-ref.html": [
@@ -599198,11 +599203,11 @@
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-ellipse-052-ref.html": [
-   "f4f21058a66693efb729653ba2d0599d40f19138",
+   "519d33864d811ca71c15ab4d1b7572371f48e2a9",
    "support"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-ellipse-052.html": [
-   "ee95f59dd5cdd6d16237928a272c7540a80ec6eb",
+   "33f7a8fe34fdcd671c96e307d7ee753003f1a2b5",
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-inset-016-ref.html": [
@@ -599462,11 +599467,11 @@
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-polygon-032-ref.html": [
-   "f1fcdf40d719beac17a1cc85619daca2c0abb0ff",
+   "b3f7028eec4112f1b818e95d474b725193e79b84",
    "support"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/shape-outside-polygon-032.html": [
-   "7649a98cdc6b7855babc5da87abf55e0d4825ac3",
+   "6e17492e4496fbd33ec42486f737ba204c343fcf",
    "reftest"
   ],
   "css/vendor-imports/mozilla/mozilla-central-reftests/shapes1/support/Ahem.ttf": [
@@ -609981,12 +609986,16 @@
    "c8c1076df5cffe60845f67ad275c6e36f024d989",
    "testharness"
   ],
-  "fetch/origin/no-cors.any.js": [
-   "c9d1d3b3af3750ec43549a3d96a0912e2cf6b399",
+  "fetch/origin/assorted.window.js": [
+   "9e832724a70ddf406511555e791c9eac5902397c",
    "testharness"
   ],
   "fetch/origin/resources/redirect-and-stash.py": [
-   "1b1b46ba177ad3af56ef83e90b0974dd81cd3eae",
+   "aa9eb35db2bddb59acb1c7ebcbb971ab38d344b9",
+   "support"
+  ],
+  "fetch/origin/resources/referrer-policy.py": [
+   "22b71e33b54160c451f1bbfc8a157600eeb7059f",
    "support"
   ],
   "fetch/range/general.any.js": [
@@ -610154,7 +610163,7 @@
    "support"
   ],
   "fetch/sec-metadata/resources/helper.js": [
-   "1968cfc0dd8ed94047a9c436458ea1c568c15bf1",
+   "9425246881b1bdc7f4cace59e4e211d298316197",
    "support"
   ],
   "fetch/sec-metadata/resources/post-to-owner.py": [
@@ -610186,7 +610195,7 @@
    "testharness"
   ],
   "fetch/sec-metadata/serviceworker.tentative.https.sub.html": [
-   "c86198df6a2e31dc3c665fe5fe3f452bb47eeb26",
+   "43d7ab30525a845f34f0bd4e60aac59c39b62e7e",
    "testharness"
   ],
   "fetch/sec-metadata/sharedworker.tentative.https.sub.html": [
@@ -632402,7 +632411,7 @@
    "support"
   ],
   "interfaces/performance-timeline.idl": [
-   "8ded59d8a269f83037a8845417c1275dd91ec538",
+   "56c0ec4bc2bd7dbfd5bca24f9c548d8c37595259",
    "support"
   ],
   "interfaces/permissions.idl": [
@@ -632486,7 +632495,7 @@
    "support"
   ],
   "interfaces/service-workers.idl": [
-   "89229e377f7eca23e2f9ce625f40fe1e7e87ea78",
+   "8e37060a180328d937d26623aaa030ad434eacc6",
    "support"
   ],
   "interfaces/shape-detection-api.idl": [
@@ -632526,7 +632535,7 @@
    "support"
   ],
   "interfaces/wai-aria.idl": [
-   "cd039adfc5bc39bae26b1024bb7cbee22b0e9612",
+   "c4fbf11409cf142d8295038d256f5a686d860a55",
    "support"
   ],
   "interfaces/wake-lock.idl": [
@@ -632578,7 +632587,7 @@
    "support"
   ],
   "interfaces/webmidi.idl": [
-   "aa2ac7f297b9b6e5d13a34d44ef772a471059f9d",
+   "58d6357f7365765c7e9142024caddba51c373927",
    "support"
   ],
   "interfaces/webrtc-dscp.idl": [
@@ -632586,7 +632595,7 @@
    "support"
   ],
   "interfaces/webrtc-stats.idl": [
-   "981317f6be42d79f8113a1c032f325f673007d27",
+   "f29e00d195e898cb6c2dfce9a82bc81fd168787a",
    "support"
   ],
   "interfaces/webrtc.idl": [
@@ -632602,7 +632611,7 @@
    "support"
   ],
   "interfaces/webxr.idl": [
-   "4af1c96a1847445c7559dabba20cb8a3a1de5c60",
+   "c78683ef6bf6822b0320fe4c16bc9630a63884de",
    "support"
   ],
   "interfaces/worklets.idl": [
@@ -632993,44 +633002,48 @@
    "bf4a1e6e8b44bc78cf7a624a12b254cbac2f25a5",
    "support"
   ],
-  "kv-storage/api-surface.https.html": [
-   "90e705862d599f2920ebdf5fa07cc3e4ba1f6d46",
-   "testharness"
-  ],
   "kv-storage/backingstore.https.html": [
    "44e634d85bbc34621450c4029a63c5e9114075b3",
    "testharness"
   ],
   "kv-storage/cause-errors-via-idb.https.html": [
-   "d77e56621e037b71fa6ae9bfb3e80a0ab85677fc",
+   "1a7294d093f482b1c2c30840684c8b6a74bc5a0c",
    "testharness"
   ],
   "kv-storage/entries.https.html": [
-   "0d1ab849a709bc8361bca88de34aa91c1ee3e23b",
+   "07815920d5eec7235ceaa596558627991866715b",
    "testharness"
-  ],
-  "kv-storage/helpers/class-assert.js": [
-   "89f0889c56d3a990a812be9208377090607335a2",
-   "support"
   ],
   "kv-storage/helpers/equality-asserters.js": [
    "448ab31348cee50be8820185d8bdfb8f626eb9dc",
+   "support"
+  ],
+  "kv-storage/helpers/expose-as-global.html": [
+   "4ff3c6cf9c22fdfedfe7987d46eeba37bd666266",
+   "support"
+  ],
+  "kv-storage/helpers/iter-assert.js": [
+   "e1ac73c8e9abd0d6c55812523abcc590a638da9f",
    "support"
   ],
   "kv-storage/helpers/kvs-tests.js": [
    "0cf4c2fd3d5fcaa392e8cbbcf64101155bcbe441",
    "support"
   ],
+  "kv-storage/interface.https.html": [
+   "ab1930b25c355e2da15fc4d2a2fea8fa2042ffcc",
+   "testharness"
+  ],
   "kv-storage/key-types.https.html": [
    "edf3248fa609252df9a862f6ebc2b7b3755f0f09",
    "testharness"
   ],
   "kv-storage/keys-values-entries.https.html": [
-   "b26323809bb3d33551ee9630bcf841fa0246262b",
+   "27ad3e4f1868d1d774b6ef2e505423aea9a0da37",
    "testharness"
   ],
   "kv-storage/keys.https.html": [
-   "a6be29725bf3274f6b5bb92b370962507a29b692",
+   "3535d2fb93993af74d752c80626d5f10c0d24a60",
    "testharness"
   ],
   "kv-storage/non-secure-context-dynamic-import.html": [
@@ -633046,15 +633059,15 @@
    "testharness"
   ],
   "kv-storage/storage-smoke-test.https.html": [
-   "da48dc7cf13cb31fd5f5a3b4b7fa086100197bd9",
+   "31dac972d984f4301f54f2948eb4e2c7d6481c25",
    "testharness"
   ],
   "kv-storage/undefined-value.https.html": [
-   "4cb483a3d982ab150fb28c6aee3a1398c273e82c",
+   "d87641e95b8f55a0f7c3d724f620f17943537c96",
    "testharness"
   ],
   "kv-storage/values.https.html": [
-   "64756bf195fc3319d9dd21abad4c5d86fa266cfe",
+   "bbdc7aee84437ebd0e029556dd1d1fcb9670dc5d",
    "testharness"
   ],
   "largest-contentful-paint/observe-image.html": [
@@ -658854,7 +658867,7 @@
    "testharness"
   ],
   "service-workers/service-worker/interfaces-sw.https.html": [
-   "50c76d306dc2f43eac0f4d827e9b72464b63220c",
+   "73ffb28b36ea38b7230a7042feb444fde0bcf2e9",
    "testharness"
   ],
   "service-workers/service-worker/interfaces-window.https.html": [
