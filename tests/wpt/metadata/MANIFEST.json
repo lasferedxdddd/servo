@@ -179605,6 +179605,18 @@
      {}
     ]
    ],
+   "css/filter-effects/backdrop-filter-containing-block.html": [
+    [
+     "css/filter-effects/backdrop-filter-containing-block.html",
+     [
+      [
+       "/css/filter-effects/backdrop-filter-containing-block-ref.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "css/filter-effects/backdrop-filter-edge-clipping.html": [
     [
      "css/filter-effects/backdrop-filter-edge-clipping.html",
@@ -205265,6 +205277,18 @@
      {}
     ]
    ],
+   "svg/extensibility/foreignObject/filter-repaint.html": [
+    [
+     "svg/extensibility/foreignObject/filter-repaint.html",
+     [
+      [
+       "/svg/extensibility/foreignObject/filter-repaint-ref.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "svg/extensibility/foreignObject/foreign-object-margin-collapsing.html": [
     [
      "svg/extensibility/foreignObject/foreign-object-margin-collapsing.html",
@@ -227705,6 +227729,12 @@
     []
    ],
    "console/META.yml": [
+    []
+   ],
+   "contacts/resources/helpers.js": [
+    []
+   ],
+   "contacts/resources/non-main-frame-select.html": [
     []
    ],
    "content-security-policy/META.yml": [
@@ -260404,6 +260434,9 @@
    "css/filter-effects/backdrop-filter-clipped-ref.html": [
     []
    ],
+   "css/filter-effects/backdrop-filter-containing-block-ref.html": [
+    []
+   ],
    "css/filter-effects/backdrop-filter-edge-pixels-ref.html": [
     []
    ],
@@ -266447,6 +266480,9 @@
     []
    ],
    "fetch/sec-metadata/resources/sharedWorker.js": [
+    []
+   ],
+   "fetch/sec-metadata/resources/unload-with-beacon.html": [
     []
    ],
    "fetch/sec-metadata/resources/xslt-test.sub.xml": [
@@ -278329,6 +278365,9 @@
    "resources/chromium/big_buffer.mojom.js.headers": [
     []
    ],
+   "resources/chromium/contacts_manager_mock.js": [
+    []
+   ],
    "resources/chromium/device.mojom.js": [
     []
    ],
@@ -280934,6 +280973,9 @@
     []
    ],
    "svg/extensibility/foreignObject/compositing-backface-visibility-ref.html": [
+    []
+   ],
+   "svg/extensibility/foreignObject/filter-repaint-ref.html": [
     []
    ],
    "svg/extensibility/foreignObject/foreign-object-paints-before-rect-ref.html": [
@@ -306974,6 +307016,27 @@
      }
     ]
    ],
+   "contacts/contacts-select.https.window.js": [
+    [
+     "contacts/contacts-select.https.window.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "/resources/testdriver.js"
+       ],
+       [
+        "script",
+        "/resources/testdriver-vendor.js"
+       ],
+       [
+        "script",
+        "resources/helpers.js"
+       ]
+      ]
+     }
+    ]
+   ],
    "content-security-policy/base-uri/base-uri-allow.sub.html": [
     [
      "content-security-policy/base-uri/base-uri-allow.sub.html",
@@ -319491,9 +319554,15 @@
      {}
     ]
    ],
-   "css/css-sizing/inheritance.html": [
+   "css/css-sizing/inheritance-001.html": [
     [
-     "css/css-sizing/inheritance.html",
+     "css/css-sizing/inheritance-001.html",
+     {}
+    ]
+   ],
+   "css/css-sizing/inheritance-002.html": [
+    [
+     "css/css-sizing/inheritance-002.html",
      {}
     ]
    ],
@@ -328594,6 +328663,12 @@
    "custom-elements/form-associated/ElementInternals-NotSupportedError.html": [
     [
      "custom-elements/form-associated/ElementInternals-NotSupportedError.html",
+     {}
+    ]
+   ],
+   "custom-elements/form-associated/ElementInternals-accessibility.html": [
+    [
+     "custom-elements/form-associated/ElementInternals-accessibility.html",
      {}
     ]
    ],
@@ -346036,6 +346111,14 @@
     [
      "fetch/sec-metadata/trailing-dot.tentative.https.sub.html",
      {}
+    ]
+   ],
+   "fetch/sec-metadata/unload.tentative.https.sub.html": [
+    [
+     "fetch/sec-metadata/unload.tentative.https.sub.html",
+     {
+      "testdriver": true
+     }
     ]
    ],
    "fetch/sec-metadata/window-open.tentative.https.sub.html": [
@@ -391235,6 +391318,23 @@
     [
      "service-workers/service-worker/ServiceWorkerGlobalScope/extendable-message-event.https.html",
      {}
+    ]
+   ],
+   "service-workers/service-worker/ServiceWorkerGlobalScope/fetch-on-the-right-interface.https.any.js": [
+    [
+     "service-workers/service-worker/ServiceWorkerGlobalScope/fetch-on-the-right-interface.https.any.serviceworker.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "fetch method on the right interface"
+       ],
+       [
+        "global",
+        "!default,serviceworker"
+       ]
+      ]
+     }
     ]
    ],
    "service-workers/service-worker/ServiceWorkerGlobalScope/isSecureContext.https.html": [
@@ -469277,6 +469377,18 @@
    "1e7ba76ecddca2ad707784a7ff6edfc270428c26",
    "testharness"
   ],
+  "contacts/contacts-select.https.window.js": [
+   "8d1fdfbfdff539e7dd17da4b0e28ef01ae47a2d5",
+   "testharness"
+  ],
+  "contacts/resources/helpers.js": [
+   "88b2f1656ee7203a6f88ba2c747e2ba192a8335e",
+   "support"
+  ],
+  "contacts/resources/non-main-frame-select.html": [
+   "c64ecd067c82d050f989f1cbe005fe0b33bb9e96",
+   "support"
+  ],
   "content-security-policy/META.yml": [
    "ee8f1ea7e07b94711ddc65e43a6c32dbc5983612",
    "support"
@@ -472290,7 +472402,7 @@
    "support"
   ],
   "cookie-store/serviceworker_cookieStore_arguments.tentative.https.html": [
-   "06c950149751ab6e264c3bd12c826d8a60b9baf6",
+   "7d006926dac7883deb5e92b01bcc103ab3e1ea83",
    "testharness"
   ],
   "cookie-store/serviceworker_cookieStore_basic.js": [
@@ -472298,7 +472410,7 @@
    "support"
   ],
   "cookie-store/serviceworker_cookieStore_basic.tentative.https.html": [
-   "d4385d64ea993a7ecd8e92da4b722b7951134c30",
+   "379a8d764216ea7479c0df44f7e8dd1b87f149ab",
    "testharness"
   ],
   "cookie-store/serviceworker_cookieStore_cross_origin.js": [
@@ -472314,7 +472426,7 @@
    "support"
   ],
   "cookie-store/serviceworker_cookieStore_subscriptions.tentative.https.html": [
-   "2f26094aa2e3de355fa5f5778f4ede1c34b59559",
+   "375bce622c348d831c968ae63b90b44ae98de5c2",
    "testharness"
   ],
   "cookie-store/serviceworker_cookieStore_subscriptions_basic.js": [
@@ -472322,7 +472434,7 @@
    "support"
   ],
   "cookie-store/serviceworker_cookieStore_subscriptions_basic.tentative.https.html": [
-   "525c3b3c5c15007b282008eff8cd541e193764b6",
+   "0353bc2c2096f72450ad6f7b6aad5439e9bd0b20",
    "testharness"
   ],
   "cookie-store/serviceworker_cookieStore_subscriptions_empty.js": [
@@ -472330,7 +472442,7 @@
    "support"
   ],
   "cookie-store/serviceworker_cookieStore_subscriptions_empty.tentative.https.html": [
-   "38690fe3c72b58c7ed89d263990a2d0a2a1aa16f",
+   "38ec4048f1944c3f6bfe904592ee0646e28979f2",
    "testharness"
   ],
   "cookie-store/serviceworker_cookieStore_subscriptions_eventhandler_attribute.js": [
@@ -558794,7 +558906,7 @@
    "support"
   ],
   "css/css-inline/inheritance.html": [
-   "f4c93b5b2531e0c4b32ed99a34ec71abe33c6cd9",
+   "7728f67e159eabbcb9dcc87d1a1db1d14b370cb3",
    "testharness"
   ],
   "css/css-inline/inline-crash-chrome-001.html": [
@@ -569753,8 +569865,12 @@
    "5b1713975eb21e96a558933f81412a7bb0007d19",
    "reftest"
   ],
-  "css/css-sizing/inheritance.html": [
-   "367ad0201daa5a307f8e87432c49f9719fa80191",
+  "css/css-sizing/inheritance-001.html": [
+   "2516288e48685cc22a5b7ca4051d3c605671ea79",
+   "testharness"
+  ],
+  "css/css-sizing/inheritance-002.html": [
+   "2af768b2c49fa973db7f5871e21f9f9c6442f81a",
    "testharness"
   ],
   "css/css-sizing/intrinsic-percent-non-replaced-001-ref.html": [
@@ -598525,6 +598641,14 @@
    "bc25b25944f47d6f053580939752803f0b929c99",
    "reftest"
   ],
+  "css/filter-effects/backdrop-filter-containing-block-ref.html": [
+   "f429dd9a3351cc5580a312549e02a2fbe8db2ccc",
+   "support"
+  ],
+  "css/filter-effects/backdrop-filter-containing-block.html": [
+   "7300d7da86988ee92137ff35ef8b027f96f061c4",
+   "reftest"
+  ],
   "css/filter-effects/backdrop-filter-edge-clipping.html": [
    "5d09c414497de3d1d34bf2a6032c94c87a9bdb82",
    "reftest"
@@ -611717,6 +611841,10 @@
    "0d8a5ffc8c35016ef33dedc73fdd0b2c1c1fef59",
    "testharness"
   ],
+  "custom-elements/form-associated/ElementInternals-accessibility.html": [
+   "f5d96643ba23e6549d854649912626668f6118a1",
+   "testharness"
+  ],
   "custom-elements/form-associated/ElementInternals-labels.html": [
    "94e0a0457ef35bbf3de7e2cff09650a5b481b5de",
    "testharness"
@@ -619777,6 +619905,10 @@
    "5eb89cb4f68a098154cf3605f53318af2f5e56f1",
    "support"
   ],
+  "fetch/sec-metadata/resources/unload-with-beacon.html": [
+   "b00c9a5776a45ac09a1c8e85b763c6be572fa99f",
+   "support"
+  ],
   "fetch/sec-metadata/resources/xslt-test.sub.xml": [
    "2d4dff5fc3efff235827cc8024a87710c1377972",
    "support"
@@ -619807,6 +619939,10 @@
   ],
   "fetch/sec-metadata/trailing-dot.tentative.https.sub.html": [
    "ff0e842d5118cba40b73f09e29cf98be0bcabb12",
+   "testharness"
+  ],
+  "fetch/sec-metadata/unload.tentative.https.sub.html": [
+   "89ebc050328c03c47db866ca8d6858bc1909b3fa",
    "testharness"
   ],
   "fetch/sec-metadata/window-open.tentative.https.sub.html": [
@@ -641730,15 +641866,15 @@
    "support"
   ],
   "interfaces/accelerometer.idl": [
-   "3705d4ba0ec93e23254374bd9b8e60dfb2cf0a08",
+   "35b09b8d521640b9b4519d665247a3c48d649386",
    "support"
   ],
   "interfaces/ambient-light.idl": [
-   "4e44c082b0709989870e7ed52e14cc77bfb5d6f2",
+   "ce335161a2570fa9f2ab8051c75c0ab71aa2df76",
    "support"
   ],
   "interfaces/animation-worklet.idl": [
-   "615a21c76fd1f59910ba5867d4de097e6ecd917e",
+   "02deca73a3a3378c9906776d547a37b7c31e0fb5",
    "support"
   ],
   "interfaces/appmanifest.idl": [
@@ -641770,7 +641906,7 @@
    "support"
   ],
   "interfaces/console.idl": [
-   "53130711a1173f0517987f176bafa157a7a1f1c0",
+   "3cd3c06b54b022c61857a6a29e8e97bf4fa9b47b",
    "support"
   ],
   "interfaces/cookie-store.idl": [
@@ -641862,7 +641998,7 @@
    "support"
   ],
   "interfaces/dom.idl": [
-   "1788faae5207bb7a21b23771bf2b0e978ea49a69",
+   "9da68c4b7f82c5fc1cea6076884cfd00c4e36e6c",
    "support"
   ],
   "interfaces/element-timing.idl": [
@@ -641870,7 +642006,7 @@
    "support"
   ],
   "interfaces/encoding.idl": [
-   "b3086b8588cdfec129a4c038c074021cacff83c5",
+   "c89cad4f9a154c467224e3becbd8b12fcb8a1f23",
    "support"
   ],
   "interfaces/encrypted-media.idl": [
@@ -642202,11 +642338,11 @@
    "support"
   ],
   "interfaces/web-nfc.idl": [
-   "d5fe1c085a2e3a127211c48cca97feb2410349a9",
+   "769eb7dd2f514d8c3e26b355b851588740ee63ee",
    "support"
   ],
   "interfaces/web-share.idl": [
-   "ae1f3f8580c0ff038ebe798bd66437ca3eb3fefc",
+   "f433f2314becd82e7446cc00c96108d1f0efe681",
    "support"
   ],
   "interfaces/webaudio.idl": [
@@ -666517,6 +666653,10 @@
    "6c61a34a4ec2e75096db0eb9f7748b142f0db7bb",
    "support"
   ],
+  "resources/chromium/contacts_manager_mock.js": [
+   "618968ec18da930ad1d3180adb68f05064bb1807",
+   "support"
+  ],
   "resources/chromium/device.mojom.js": [
    "6488cbc69c29170d9441d2210da27a464f67d445",
    "support"
@@ -668443,6 +668583,10 @@
   ],
   "service-workers/service-worker/ServiceWorkerGlobalScope/extendable-message-event.https.html": [
    "89efd7a4a615c1a3ef35b045690fa40b67fb5393",
+   "testharness"
+  ],
+  "service-workers/service-worker/ServiceWorkerGlobalScope/fetch-on-the-right-interface.https.any.js": [
+   "9a9c8198057e3b98f5b278fcd4778a71a6211759",
    "testharness"
   ],
   "service-workers/service-worker/ServiceWorkerGlobalScope/isSecureContext.https.html": [
@@ -673056,6 +673200,14 @@
   "svg/extensibility/foreignObject/containing-block.html": [
    "da0728c96b5d0eb81435efad329bdcc3ee4dfb26",
    "testharness"
+  ],
+  "svg/extensibility/foreignObject/filter-repaint-ref.html": [
+   "07563a617aa00b6561309b4bff5104b4d4d398e6",
+   "support"
+  ],
+  "svg/extensibility/foreignObject/filter-repaint.html": [
+   "0388977841e9cef08d8784f2aaf463049245ea20",
+   "reftest"
   ],
   "svg/extensibility/foreignObject/foreign-object-circular-filter-reference-crash.html": [
    "162999402ac96dfc966702c554b33b11cf8a1054",
@@ -682118,7 +682270,7 @@
    "support"
   ],
   "tools/wptrunner/requirements_firefox.txt": [
-   "9d7520dd01f29936cc7e232c2e08b1d5d6f6467a",
+   "78e53e60d94e3267f7f91b0cf6f2f65b6a35fcdc",
    "support"
   ],
   "tools/wptrunner/requirements_ie.txt": [
@@ -682306,7 +682458,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/firefox.py": [
-   "13739e5103ea0452cc9b6bbda784ebc811027b53",
+   "290fcff5ab22bd5ca19cedb4d3f38f5b8197768f",
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/firefox_android.py": [
@@ -686130,7 +686282,7 @@
    "support"
   ],
   "web-share/META.yml": [
-   "e054ccc8ec34058cc749a04cb3f06c0a72368f76",
+   "d2eccca6f424e93cc463fafc5a3b16e5a7ecc565",
    "support"
   ],
   "web-share/canShare-files.https.html": [
@@ -686146,7 +686298,7 @@
    "testharness"
   ],
   "web-share/idlharness.https.window.js": [
-   "cbaf9d72c5c11d9b75cd4a36aa0cf45bc0db35aa",
+   "1520387caf133dc43c5f036bbf24a99ef73a7f3c",
    "testharness"
   ],
   "web-share/resources/manual-helper.js": [
@@ -688286,7 +688438,7 @@
    "support"
   ],
   "webdriver/tests/switch_to_window/alerts.py": [
-   "e3a3342449912dafafaac1bec7bf90f98b29c44c",
+   "8824138c2d25c07232847062c4853d73075eb94e",
    "wdspec"
   ],
   "webdriver/tests/switch_to_window/switch.py": [
@@ -694042,11 +694194,11 @@
    "testharness"
   ],
   "webxr/xrInputSource_gamepad_disconnect.https.html": [
-   "9ec349adeb979975569961382fe47f4c889837dc",
+   "66faf8699640fe3cef81a84d1f290988c35c3e14",
    "testharness"
   ],
   "webxr/xrInputSource_gamepad_input_registered.https.html": [
-   "9213657a367bb0dd8872ff10120d705b08c0f6e6",
+   "cb1ce7780b42eec33f6732efad8619755e899e06",
    "testharness"
   ],
   "webxr/xrInputSource_profiles.https.html": [
