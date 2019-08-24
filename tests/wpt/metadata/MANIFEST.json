@@ -204469,6 +204469,18 @@
      }
     ]
    ],
+   "infrastructure/reftest/reftest_fuzzy_chain_ini.html": [
+    [
+     "infrastructure/reftest/reftest_fuzzy_chain_ini.html",
+     [
+      [
+       "/infrastructure/reftest/fuzzy-ref-2.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "infrastructure/reftest/reftest_fuzzy_ini_full.html": [
     [
      "infrastructure/reftest/reftest_fuzzy_ini_full.html",
@@ -211724,6 +211736,18 @@
       [
        "/infrastructure/assumptions/ahem-notref.html",
        "!="
+      ]
+     ],
+     {}
+    ]
+   ],
+   "infrastructure/reftest/fuzzy-ref-2.html": [
+    [
+     "infrastructure/reftest/fuzzy-ref-2.html",
+     [
+      [
+       "/infrastructure/reftest/fuzzy-ref-2a.html",
+       "=="
       ]
      ],
      {}
@@ -275063,6 +275087,9 @@
    "infrastructure/metadata/infrastructure/reftest/reftest_cycle_fail.html.ini": [
     []
    ],
+   "infrastructure/metadata/infrastructure/reftest/reftest_fuzzy_chain_ini.html": [
+    []
+   ],
    "infrastructure/metadata/infrastructure/reftest/reftest_fuzzy_ini_full.html.ini": [
     []
    ],
@@ -275127,6 +275154,9 @@
     []
    ],
    "infrastructure/reftest/fuzzy-ref-1.html": [
+    []
+   ],
+   "infrastructure/reftest/fuzzy-ref-2a.html": [
     []
    ],
    "infrastructure/reftest/green.html": [
@@ -279621,6 +279651,9 @@
     []
    ],
    "resource-timing/resources/object-refresh.html": [
+    []
+   ],
+   "resource-timing/resources/preflight.py": [
     []
    ],
    "resource-timing/resources/resource_timing_test0.css": [
@@ -329123,6 +329156,18 @@
      {}
     ]
    ],
+   "css/css-values/minmax-length-percent-computed.html": [
+    [
+     "css/css-values/minmax-length-percent-computed.html",
+     {}
+    ]
+   ],
+   "css/css-values/minmax-length-percent-invalid.html": [
+    [
+     "css/css-values/minmax-length-percent-invalid.html",
+     {}
+    ]
+   ],
    "css/css-values/minmax-number-computed.html": [
     [
      "css/css-values/minmax-number-computed.html",
@@ -331662,6 +331707,12 @@
    "css/motion/animation/offset-distance-interpolation.html": [
     [
      "css/motion/animation/offset-distance-interpolation.html",
+     {}
+    ]
+   ],
+   "css/motion/animation/offset-interpolation.html": [
+    [
+     "css/motion/animation/offset-interpolation.html",
      {}
     ]
    ],
@@ -393995,6 +394046,38 @@
     [
      "resource-timing/clear_resource_timing_functionality.html",
      {}
+    ]
+   ],
+   "resource-timing/cors-preflight.any.js": [
+    [
+     "resource-timing/cors-preflight.any.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "/common/utils.js"
+       ],
+       [
+        "script",
+        "/common/get-host-info.sub.js"
+       ]
+      ]
+     }
+    ],
+    [
+     "resource-timing/cors-preflight.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "/common/utils.js"
+       ],
+       [
+        "script",
+        "/common/get-host-info.sub.js"
+       ]
+      ]
+     }
     ]
    ],
    "resource-timing/crossorigin-sandwich-TAO.sub.html": [
@@ -552546,7 +552629,7 @@
    "testharness"
   ],
   "css/css-fonts/animations/font-variation-settings-interpolation.html": [
-   "e11079cfc012ce8937b504662e1f0f6f92351fe2",
+   "cb99d7b255e9ac8743b7afadc79c7276ff5f74ed",
    "testharness"
   ],
   "css/css-fonts/calc-in-font-variation-settings.html": [
@@ -594725,6 +594808,14 @@
    "1405c3198128530939d9778642aaab2920bb6e60",
    "testharness"
   ],
+  "css/css-values/minmax-length-percent-computed.html": [
+   "881905ddd565960d47839f1b5a64770ad7627ba5",
+   "testharness"
+  ],
+  "css/css-values/minmax-length-percent-invalid.html": [
+   "ee086ef269d07bf6b0db5d1306a0f24af0ad8fab",
+   "testharness"
+  ],
   "css/css-values/minmax-number-computed.html": [
    "c72c276625466a193bf8829e3ddbb87d7a565dc0",
    "testharness"
@@ -605246,11 +605337,15 @@
    "support"
   ],
   "css/motion/animation/offset-anchor-interpolation.html": [
-   "75f855a2c8aff046c2817201197b3eb345327a4a",
+   "9c69c0f0bed2b14c02091ccf63f50ace61f2eb2a",
    "testharness"
   ],
   "css/motion/animation/offset-distance-interpolation.html": [
-   "4912b9cf2510b45915756b320f5872dad2cae5d8",
+   "bc0c094a8e5305c970f0a4d44ee8a3726d2965a1",
+   "testharness"
+  ],
+  "css/motion/animation/offset-interpolation.html": [
+   "0d1ba1c8875ca1d76e52a01a655037cad6f8eff9",
    "testharness"
   ],
   "css/motion/animation/offset-path-interpolation-001.html": [
@@ -605270,15 +605365,15 @@
    "testharness"
   ],
   "css/motion/animation/offset-path-interpolation-005.html": [
-   "afe4bf5774357f0387f1ab63642ab6d02a8e9c6a",
+   "9924106f4b75ede89e5270a76fe217f85ef20050",
    "testharness"
   ],
   "css/motion/animation/offset-position-interpolation.html": [
-   "5ccca37dc304fbdabf73f0bc074b54d2682c6336",
+   "9faaf9487afb20059046e95a8cd5b3a796e8fd42",
    "testharness"
   ],
   "css/motion/animation/offset-rotate-interpolation.html": [
-   "a55a005747f6d0a45a950b8b2315c8a71970043c",
+   "55845108ebf5f3c42a8b0532121199136160d695",
    "testharness"
   ],
   "css/motion/animation/reftests/offset-distance-interpolation-001.html": [
@@ -607538,7 +607633,7 @@
    "support"
   ],
   "css/support/interpolation-testcommon.js": [
-   "62f40790dbdf25720a127e21ed14d7fedafdef0f",
+   "e7ee011cdb470ee228a8a32442d6a717ef6ffd0a",
    "support"
   ],
   "css/support/parsing-testcommon.js": [
@@ -647029,6 +647124,10 @@
    "472b33f7764bde6e2aea7bc2ccd8bf3739babad2",
    "support"
   ],
+  "infrastructure/metadata/infrastructure/reftest/reftest_fuzzy_chain_ini.html": [
+   "69dc018f38990001626df54f1d067efd3421fdd0",
+   "support"
+  ],
   "infrastructure/metadata/infrastructure/reftest/reftest_fuzzy_ini_full.html.ini": [
    "0ebde2f4a62f4df54dd5639904df0478b457e56b",
    "support"
@@ -647121,6 +647220,14 @@
    "e50fc11ef6ea80754e702becfbf675feebe3dbb9",
    "support"
   ],
+  "infrastructure/reftest/fuzzy-ref-2.html": [
+   "cdaf6446ed40dd5c251a7f7031aeaba91bf79541",
+   "reftest_node"
+  ],
+  "infrastructure/reftest/fuzzy-ref-2a.html": [
+   "99da3203afba94574df823bb79d39a735b282b44",
+   "support"
+  ],
   "infrastructure/reftest/green-ref.html": [
    "0e145d60b55b3502639d15f10d4d63a6b0f79b7d",
    "reftest"
@@ -647179,6 +647286,10 @@
   ],
   "infrastructure/reftest/reftest_fuzzy_1.html": [
    "1930fe0ae8fb1aee30e91e691fe6a73ccfc87d0e",
+   "reftest"
+  ],
+  "infrastructure/reftest/reftest_fuzzy_chain_ini.html": [
+   "4353379ddb443355a978a7fc100ef470488035fd",
    "reftest"
   ],
   "infrastructure/reftest/reftest_fuzzy_ini_full.html": [
@@ -647566,7 +647677,7 @@
    "support"
   ],
   "interfaces/element-timing.idl": [
-   "cf56426fb6ea9ed133c76d1b36327ca95fe348b9",
+   "6a54bbd2af6952ff51b37907f866e7bdd770257a",
    "support"
   ],
   "interfaces/encoding.idl": [
@@ -647662,15 +647773,15 @@
    "support"
   ],
   "interfaces/largest-contentful-paint.idl": [
-   "d2c69c4757553fd4b6d7133067859fa39fe013b5",
+   "d3cfd56bafd171fb5820ace2c99eaa4e1a09b45a",
    "support"
   ],
   "interfaces/layout-instability.idl": [
-   "c46151a923dd32f1eb186b18e6d6d26bfb800451",
+   "0cd2262a9f32d4a4d6f81aae165c3a411868cfc4",
    "support"
   ],
   "interfaces/longtasks.idl": [
-   "333b842f86e5d41f6f1aab8827cf086356c5a782",
+   "ef3f660038bed8cf7064d51f7e261af11532df9c",
    "support"
   ],
   "interfaces/magnetometer.idl": [
@@ -647682,7 +647793,7 @@
    "support"
   ],
   "interfaces/media-playback-quality.idl": [
-   "12b2c74e6183af66ec5bfae1897b7c46f276bdac",
+   "5a93de9f06c654c5e4f2a015674ae93dd21cbfc4",
    "support"
   ],
   "interfaces/media-source.idl": [
@@ -647814,7 +647925,7 @@
    "support"
   ],
   "interfaces/screen-capture.idl": [
-   "f22f7a9a810e0d1330ee43b425fb778e7c4da911",
+   "b5b0067650d3e6de5fa78991409a3744a1995066",
    "support"
   ],
   "interfaces/screen-orientation.idl": [
@@ -647822,7 +647933,7 @@
    "support"
   ],
   "interfaces/scroll-animations.idl": [
-   "21013919a5d9d8cc0181e9f9b7637d0212409681",
+   "f2560d9ffc88eaadf961b055480ed605610f72bf",
    "support"
   ],
   "interfaces/secure-contexts.idl": [
@@ -647854,7 +647965,7 @@
    "support"
   ],
   "interfaces/touch-events.idl": [
-   "17be1b46b379fe1aefef076ef8066e0a4570bad0",
+   "1a8c9d7d24ece0ea221b6863ce8ea3595bcbb697",
    "support"
   ],
   "interfaces/trusted-types.tentative.idl": [
@@ -647894,7 +648005,7 @@
    "support"
   ],
   "interfaces/web-animations.idl": [
-   "0fc5b47a976dd55a3d9701dd4cbc8e4ad8ada9b0",
+   "72ac87f3e33633864b779632c85cb2fbb473ef4c",
    "support"
   ],
   "interfaces/web-bluetooth.idl": [
@@ -647930,7 +648041,7 @@
    "support"
   ],
   "interfaces/webmidi.idl": [
-   "58d6357f7365765c7e9142024caddba51c373927",
+   "0dfcb7771a871ff9a3568afc99a564c1e06b71a2",
    "support"
   ],
   "interfaces/webrtc-dscp.idl": [
@@ -671965,6 +672076,10 @@
    "eaf21b483ccd6ec63bcb8dc87c9e19a4305bf43d",
    "testharness"
   ],
+  "resource-timing/cors-preflight.any.js": [
+   "5bbf3d2a2345ed4a5202d64b241468614352b0a8",
+   "testharness"
+  ],
   "resource-timing/crossorigin-sandwich-TAO.sub.html": [
    "c3085950bd68ac72e1079a04d52ac3e1e1c603fb",
    "testharness"
@@ -672347,6 +672462,10 @@
   ],
   "resource-timing/resources/object-refresh.html": [
    "9e43e19de19fc7c364e68e0b2415963f55e9ddb2",
+   "support"
+  ],
+  "resource-timing/resources/preflight.py": [
+   "4fca99d0717488b67c7c389d400b2ee57ec88fa2",
    "support"
   ],
   "resource-timing/resources/resource_timing_test0.css": [
@@ -683438,7 +683557,7 @@
    "support"
   ],
   "tools/ci/run_tc.py": [
-   "1cfb41fcaaba55d9e1ee7d4722bb6c56aabeb459",
+   "240517a1ff68ba072cc48f31bf42ed8c9d888048",
    "support"
   ],
   "tools/ci/taskcluster-run.py": [
@@ -689198,7 +689317,7 @@
    "support"
   ],
   "tools/wptserve/tests/functional/test_pipes.py": [
-   "bad4d624c9f0a29bc8e4b3a740c0ffe834dc88f3",
+   "a6a703e304902dafaf43975ab1ac0580e160fdc3",
    "support"
   ],
   "tools/wptserve/tests/functional/test_request.py": [
@@ -689242,7 +689361,7 @@
    "support"
   ],
   "tools/wptserve/wptserve/handlers.py": [
-   "e846ff807a6163688473d80e9cdbaca8d13f45ff",
+   "ca5118009cfc9c4763f99e2a6296d784a6539216",
    "support"
   ],
   "tools/wptserve/wptserve/logger.py": [
@@ -694450,7 +694569,7 @@
    "support"
   ],
   "webdriver/tests/support/fixtures.py": [
-   "9f8c983d49816e21c07541daa54cecddca7d206e",
+   "ab2aaf4e75d96492d9c6419ab11d567205652b8f",
    "support"
   ],
   "webdriver/tests/support/helpers.py": [
@@ -694482,7 +694601,7 @@
    "support"
   ],
   "webdriver/tests/switch_to_frame/cross_origin.py": [
-   "3e5bab191a8eaa0976065d94f657b207e83d8ef9",
+   "4425a3ab901fef0effb2fc94ca3611e57f2ba51c",
    "wdspec"
   ],
   "webdriver/tests/switch_to_frame/switch.py": [
@@ -695410,7 +695529,7 @@
    "testharness"
   ],
   "webrtc/RTCIceTransport.html": [
-   "6a00e1c59e7183fd84712862b6c6b044d4be340d",
+   "94dc1c461fb5b2074b4975612251a7814af045e5",
    "testharness"
   ],
   "webrtc/RTCPeerConnection-add-track-no-deadlock.https.html": [
@@ -695478,7 +695597,7 @@
    "testharness"
   ],
   "webrtc/RTCPeerConnection-iceConnectionState.https.html": [
-   "282771153c4645994a661048d2829859c73d705f",
+   "c0ce25eb76bfe3464863ec42b31842cfbb88b8de",
    "testharness"
   ],
   "webrtc/RTCPeerConnection-iceGatheringState.html": [
@@ -700418,11 +700537,11 @@
    "testharness"
   ],
   "webxr/xrDevice_requestSession_optionalFeatures.https.html": [
-   "c274f4ff7138df2bdc98fbc173db73d29321afc2",
+   "0071b81e828603c3765edc1fea3ff659b3e39452",
    "testharness"
   ],
   "webxr/xrDevice_requestSession_requiredFeatures_unknown.https.html": [
-   "02b26c05cb5dc0e5b721e472632fae3aa83b6275",
+   "9fa8c31d63aab6f74886b55596ff63911018f51e",
    "testharness"
   ],
   "webxr/xrDevice_supportsSession_immersive.https.html": [
