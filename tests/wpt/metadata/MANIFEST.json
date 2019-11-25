@@ -273357,6 +273357,12 @@
    "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/serviceworker-failure.js.headers": [
     []
    ],
+   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/serviceworker-success.js": [
+    []
+   ],
+   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/serviceworker-success.js.headers": [
+    []
+   ],
    "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/sharedworker-failure.js": [
     []
    ],
@@ -273385,6 +273391,9 @@
     []
    ],
    "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-failure.https.html.headers": [
+    []
+   ],
+   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-success.https.html.headers": [
     []
    ],
    "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-sharedworker-failure.https.html.headers": [
@@ -289630,6 +289639,9 @@
     []
    ],
    "wasm/serialization/module/resources/serviceworker-failure.js": [
+    []
+   ],
+   "wasm/serialization/module/resources/serviceworker-success.js": [
     []
    ],
    "wasm/serialization/module/resources/sharedworker-failure.js": [
@@ -312657,6 +312669,16 @@
      }
     ]
    ],
+   "compression/decompression-corrupt-input.any.js": [
+    [
+     "compression/decompression-corrupt-input.any.html",
+     {}
+    ],
+    [
+     "compression/decompression-corrupt-input.any.worker.html",
+     {}
+    ]
+   ],
    "compression/decompression-empty-input.tentative.any.js": [
     [
      "compression/decompression-empty-input.tentative.any.html",
@@ -323183,6 +323205,18 @@
      {}
     ]
    ],
+   "css/css-grid/parsing/grid-shorthand-invalid.html": [
+    [
+     "css/css-grid/parsing/grid-shorthand-invalid.html",
+     {}
+    ]
+   ],
+   "css/css-grid/parsing/grid-shorthand-valid.html": [
+    [
+     "css/css-grid/parsing/grid-shorthand-valid.html",
+     {}
+    ]
+   ],
    "css/css-grid/parsing/grid-shorthand.html": [
     [
      "css/css-grid/parsing/grid-shorthand.html",
@@ -323264,6 +323298,18 @@
    "css/css-grid/parsing/grid-template-rows-valid.html": [
     [
      "css/css-grid/parsing/grid-template-rows-valid.html",
+     {}
+    ]
+   ],
+   "css/css-grid/parsing/grid-template-shorthand-invalid.html": [
+    [
+     "css/css-grid/parsing/grid-template-shorthand-invalid.html",
+     {}
+    ]
+   ],
+   "css/css-grid/parsing/grid-template-shorthand-valid.html": [
+    [
+     "css/css-grid/parsing/grid-template-shorthand-valid.html",
      {}
     ]
    ],
@@ -358127,6 +358173,12 @@
    "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-failure.https.html": [
     [
      "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-failure.https.html",
+     {}
+    ]
+   ],
+   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-success.https.html": [
+    [
+     "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-success.https.html",
      {}
     ]
    ],
@@ -416726,9 +416778,9 @@
      {}
     ]
    ],
-   "trusted-types/idlharness.window.js": [
+   "trusted-types/idlharness.tentative.window.js": [
     [
-     "trusted-types/idlharness.window.html",
+     "trusted-types/idlharness.tentative.window.html",
      {
       "script_metadata": [
        [
@@ -423348,6 +423400,12 @@
    "wasm/serialization/module/window-serviceworker-failure.https.html": [
     [
      "wasm/serialization/module/window-serviceworker-failure.https.html",
+     {}
+    ]
+   ],
+   "wasm/serialization/module/window-serviceworker-success.https.html": [
+    [
+     "wasm/serialization/module/window-serviceworker-success.https.html",
      {}
     ]
    ],
@@ -471169,7 +471227,7 @@
    "support"
   ],
   "common/security-features/resources/common.sub.js": [
-   "b43417b417c189d1e1b3444baa286456df979bb5",
+   "cdd20a9d8daecefec26c1fe3ef5d7f2a4ed48008",
    "support"
   ],
   "common/security-features/resources/common.sub.js.headers": [
@@ -471546,6 +471604,10 @@
   ],
   "compression/decompression-correct-input.tentative.any.js": [
    "11d8736cb225d6ce575677dcdb70b0a19dd4f65f",
+   "testharness"
+  ],
+  "compression/decompression-corrupt-input.any.js": [
+   "95e91b662ee47f545167cd05dc4d06b85cb74b00",
    "testharness"
   ],
   "compression/decompression-empty-input.tentative.any.js": [
@@ -579089,7 +579151,7 @@
    "testharness"
   ],
   "css/css-grid/parsing/grid-area-valid.html": [
-   "8e7d0d43d1cfac44935593892b67fdb40b179791",
+   "9f93e6325b1b3cb2fff53f1c9e8b4963ac875e09",
    "testharness"
   ],
   "css/css-grid/parsing/grid-auto-columns-computed.html": [
@@ -579126,6 +579188,14 @@
   ],
   "css/css-grid/parsing/grid-auto-rows-valid.html": [
    "d4dcdb12b177cf97c3aa030cbb19c2ce2ae6d25d",
+   "testharness"
+  ],
+  "css/css-grid/parsing/grid-shorthand-invalid.html": [
+   "642a4abab3b8177982c4006e4a5c0477d035305a",
+   "testharness"
+  ],
+  "css/css-grid/parsing/grid-shorthand-valid.html": [
+   "435959af25e0f03b8f53844f907430daa3d36d97",
    "testharness"
   ],
   "css/css-grid/parsing/grid-shorthand.html": [
@@ -579182,6 +579252,14 @@
   ],
   "css/css-grid/parsing/grid-template-rows-valid.html": [
    "2d3a1ed8045c3eef9982cffc3f95415518f560cb",
+   "testharness"
+  ],
+  "css/css-grid/parsing/grid-template-shorthand-invalid.html": [
+   "366cdf4d887aa937875cd5e5a49631d1b3e283b1",
+   "testharness"
+  ],
+  "css/css-grid/parsing/grid-template-shorthand-valid.html": [
+   "042268f334816172b077edf341b1c091196f5197",
    "testharness"
   ],
   "css/css-grid/parsing/grid-template-shorthand.html": [
@@ -652148,6 +652226,14 @@
    "6604450991a122e3e241e40b1b9e0516c525389d",
    "support"
   ],
+  "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/serviceworker-success.js": [
+   "34add843ecaaff85b5d50b6eab31a616226f9234",
+   "support"
+  ],
+  "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/serviceworker-success.js.headers": [
+   "20319c1b02dda1ca0d40a0cae6bf6b460f5562f1",
+   "support"
+  ],
   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/resources/sharedworker-failure.js": [
    "8472318abd53207ec56b3f5988fb0a49d0c006a4",
    "support"
@@ -652218,6 +652304,14 @@
   ],
   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-failure.https.html.headers": [
    "63b60e490f47f4db77d33d7a4ca2f5b9a4181de8",
+   "support"
+  ],
+  "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-success.https.html": [
+   "3d5ced9760625793950bf27934c182f48420a487",
+   "testharness"
+  ],
+  "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-serviceworker-success.https.html.headers": [
+   "4fff9d9fba4c81f953826ffea010a75be626b95d",
    "support"
   ],
   "html/infrastructure/safe-passing-of-structured-data/shared-array-buffers/window-sharedworker-failure.https.html": [
@@ -666261,7 +666355,7 @@
    "testharness"
   ],
   "lint.whitelist": [
-   "be6ae4f0314942a35632a1b0dc8b10dd9dd34657",
+   "48d7e9d6a747b973333912b6e940055449f2f5ce",
    "support"
   ],
   "loading/lazyload/common.js": [
@@ -711280,8 +711374,8 @@
    "074fe79dc93fee6563bcb9ce2db3fa708bf4ad4f",
    "testharness"
   ],
-  "trusted-types/idlharness.window.js": [
-   "7be9615ce67ca1582c3b82ed849d7019a61e4cdd",
+  "trusted-types/idlharness.tentative.window.js": [
+   "5a854a12b78026a3318dad70ffa0d6a690e39f55",
    "testharness"
   ],
   "trusted-types/support/WorkerGlobalScope-importScripts.https.js": [
@@ -716412,6 +716506,10 @@
    "39796f9d94a39d2a13ed832544ce781373a20655",
    "support"
   ],
+  "wasm/serialization/module/resources/serviceworker-success.js": [
+   "89dd8a3831b138cb6c4eb2a5578b95bb711cd189",
+   "support"
+  ],
   "wasm/serialization/module/resources/sharedworker-failure.js": [
    "854c70b9e84e6e6fb1c59f64a06a79646a122576",
    "support"
@@ -716442,6 +716540,10 @@
   ],
   "wasm/serialization/module/window-serviceworker-failure.https.html": [
    "97c5a1decdb85317930508ece8f306fb80880ca2",
+   "testharness"
+  ],
+  "wasm/serialization/module/window-serviceworker-success.https.html": [
+   "a479b37e5e227e4961f59e09554c137041528124",
    "testharness"
   ],
   "wasm/serialization/module/window-sharedworker-failure.html": [
