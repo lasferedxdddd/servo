@@ -20343,6 +20343,18 @@
      {}
     ]
    ],
+   "content-dpr/tiled-background-svg-image-with-content-dpr.html": [
+    [
+     "content-dpr/tiled-background-svg-image-with-content-dpr.html",
+     [
+      [
+       "/content-dpr/tiled-background-image-with-content-dpr-ref.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "css/CSS2/abspos/abspos-containing-block-initial-001.xht": [
     [
      "css/CSS2/abspos/abspos-containing-block-initial-001.xht",
@@ -229485,6 +229497,9 @@
    "content-dpr/resources/background.png": [
     []
    ],
+   "content-dpr/resources/background.svg": [
+    []
+   ],
    "content-dpr/resources/dpr.py": [
     []
    ],
@@ -229492,6 +229507,9 @@
     []
    ],
    "content-dpr/tiled-background-image-with-content-dpr-ref.html": [
+    []
+   ],
+   "content-dpr/tiled-background-svg-image-with-content-dpr-ref.html": [
     []
    ],
    "content-security-policy/META.yml": [
@@ -268888,6 +268906,9 @@
     []
    ],
    "fetch/http-cache/resources/split-origin-popup.html": [
+    []
+   ],
+   "fetch/metadata/META.yml": [
     []
    ],
    "fetch/metadata/README.md": [
@@ -362860,6 +362881,12 @@
      {}
     ]
    ],
+   "html/semantics/embedded-content/the-iframe-element/iframe_navigate_ancestor-1.sub.html": [
+    [
+     "html/semantics/embedded-content/the-iframe-element/iframe_navigate_ancestor-1.sub.html",
+     {}
+    ]
+   ],
    "html/semantics/embedded-content/the-iframe-element/iframe_remove_src.html": [
     [
      "html/semantics/embedded-content/the-iframe-element/iframe_remove_src.html",
@@ -372564,9 +372591,9 @@
      {}
     ]
    ],
-   "longtask-timing/buffered-flag-unsupported.window.js": [
+   "longtask-timing/buffered-flag.window.js": [
     [
-     "longtask-timing/buffered-flag-unsupported.window.html",
+     "longtask-timing/buffered-flag.window.html",
      {}
     ]
    ],
@@ -415371,6 +415398,12 @@
      {}
     ]
    ],
+   "svg/animations/begin-attribute-mutation.html": [
+    [
+     "svg/animations/begin-attribute-mutation.html",
+     {}
+    ]
+   ],
    "svg/animations/beginelement-instance-time-1.html": [
     [
      "svg/animations/beginelement-instance-time-1.html",
@@ -415404,6 +415437,12 @@
    "svg/animations/correct-events-for-short-animations-with-syncbases.html": [
     [
      "svg/animations/correct-events-for-short-animations-with-syncbases.html",
+     {}
+    ]
+   ],
+   "svg/animations/cyclic-syncbase-2.html": [
+    [
+     "svg/animations/cyclic-syncbase-2.html",
      {}
     ]
    ],
@@ -460837,7 +460876,7 @@
    "support"
   ],
   ".taskcluster.yml": [
-   "cc07b1d67117e98ca098dc9fc5a33497cd9faaf6",
+   "8bdbabb9e2a6ddbc367f54c205ee25139a002cfe",
    "support"
   ],
   ".well-known/README.md": [
@@ -490132,6 +490171,10 @@
    "6db6c6b1b9d851c7a85b93ddc9e5ddf368ac0a7e",
    "support"
   ],
+  "content-dpr/resources/background.svg": [
+   "b2c544ed2d0ebf8a90bc2311e45ac4a69ffea08c",
+   "support"
+  ],
   "content-dpr/resources/dpr.py": [
    "14d7d550fe28d49a63105ea966d3cf7cf59901b1",
    "support"
@@ -490146,6 +490189,14 @@
   ],
   "content-dpr/tiled-background-image-with-content-dpr.html": [
    "94f2f72d40196749faf6092d178f67dfc7067dcb",
+   "reftest"
+  ],
+  "content-dpr/tiled-background-svg-image-with-content-dpr-ref.html": [
+   "cd8c7d3ea985655040ec62bb426080bbfac2359f",
+   "support"
+  ],
+  "content-dpr/tiled-background-svg-image-with-content-dpr.html": [
+   "56948ea286b8c9869863e139147348056727fa20",
    "reftest"
   ],
   "content-security-policy/META.yml": [
@@ -603881,7 +603932,7 @@
    "testharness"
   ],
   "css/css-transforms/parsing/translate-parsing-valid.html": [
-   "f15fdf0c4fb4ad004db749f622747a0035dcc909",
+   "04440d552c0668c72c7b028ad22eee892cf4ea61",
    "testharness"
   ],
   "css/css-transforms/patternTransform/reference/svg-patternTransform-combination-ref.html": [
@@ -643020,6 +643071,10 @@
    "32a387288af1db934458bcc77512c388ec2ab168",
    "testharness"
   ],
+  "fetch/metadata/META.yml": [
+   "96d1392b3b71ae36876347799a3e4f217c59a020",
+   "support"
+  ],
   "fetch/metadata/README.md": [
    "34864d4a4b6bd911f496026ada7bdc41ba3a6905",
    "support"
@@ -657840,6 +657895,10 @@
    "fd65f932982907bf62ab6455c9ab94612b0dca7a",
    "testharness"
   ],
+  "html/semantics/embedded-content/the-iframe-element/iframe_navigate_ancestor-1.sub.html": [
+   "5e3b7682cc8dd45a22bb74b5f7b11a6a4a728d72",
+   "testharness"
+  ],
   "html/semantics/embedded-content/the-iframe-element/iframe_remove_src.html": [
    "f0ff9ff5082d849d6b987a8ee4b46d5d0d1794e5",
    "testharness"
@@ -665877,11 +665936,11 @@
    "support"
   ],
   "infrastructure/metadata/infrastructure/testdriver/actions/multiTouchPoints.html.ini": [
-   "1d63261c554f96705801a92871a6159b1f0d5ea0",
+   "358c6f0902e88fc61d24368b0d0874d318ae92d3",
    "support"
   ],
   "infrastructure/metadata/infrastructure/testdriver/actions/multiTouchPointsWithPause.html.ini": [
-   "4f1939a431ae272024f62a4169bf8431efc2c5bb",
+   "83ade1dddf02b0e9d9df5721338bd68c0d0acac3",
    "support"
   ],
   "infrastructure/metadata/infrastructure/testdriver/actions/pause.html.ini": [
@@ -667640,8 +667699,8 @@
    "91c07f9fd3f3097367f2ad87a2ebb0d98b11d4e2",
    "support"
   ],
-  "longtask-timing/buffered-flag-unsupported.window.js": [
-   "ea17b824c355ace2b67ccefc1ddbf25e03a299d0",
+  "longtask-timing/buffered-flag.window.js": [
+   "dafce7ea3bb2f3d7f4691bc6ca8bde439246abe2",
    "testharness"
   ],
   "longtask-timing/idlharness.window.js": [
@@ -695433,7 +695492,7 @@
    "support"
   ],
   "resources/chromium/nfc-mock.js": [
-   "b1de419ca20d67bc2e69d6a54a6fbff7d400912b",
+   "224a6078c1e0d95299d1e3a2e79c6bf3f7614b5f",
    "support"
   ],
   "resources/chromium/sensor.mojom.js": [
@@ -701700,6 +701759,10 @@
    "7a9ad43dd98e00f7e2af4957365441a29aedf8e6",
    "testharness"
   ],
+  "svg/animations/begin-attribute-mutation.html": [
+   "f28c8e9ad1ab06ae10cb9a6e883bd80ff58a8974",
+   "testharness"
+  ],
   "svg/animations/beginelement-instance-time-1.html": [
    "aa1cb8c983d482439fccc6d91b50e69585f4d404",
    "testharness"
@@ -701722,6 +701785,10 @@
   ],
   "svg/animations/correct-events-for-short-animations-with-syncbases.html": [
    "19e7eef8c1ce470d67c2eaecf2f07a9d2907f2c1",
+   "testharness"
+  ],
+  "svg/animations/cyclic-syncbase-2.html": [
+   "f48bbffa8599ae0f83f7977707027b75396cd3ce",
    "testharness"
   ],
   "svg/animations/cyclic-syncbase.html": [
@@ -706501,7 +706568,7 @@
    "support"
   ],
   "tools/ci/tc/decision.py": [
-   "a3c47aa404990253f556a9cf59bd7c6237ffece3",
+   "92a27ef79ab3fb49aff79197ca503b7a766c8c03",
    "support"
   ],
   "tools/ci/tc/download.py": [
@@ -707265,7 +707332,7 @@
    "support"
   ],
   "tools/requirements_mypy.txt": [
-   "31545c2f0747a9c20d77b50d27096a4ecafd4351",
+   "194f4284b26903b1faf969b6ab5d30f5c48eb562",
    "support"
   ],
   "tools/runner/css/bootstrap-theme.min.css": [
@@ -718425,7 +718492,7 @@
    "testharness"
   ],
   "web-nfc/NDEFRecord_constructor.https.html": [
-   "ea7b5e4950866ff7eeed5fd4ed127460b5ef6c33",
+   "1b2dda9bfc87da146c3b3562dff64568fb68f9b1",
    "testharness"
   ],
   "web-nfc/NDEFWriter-document-hidden-manual.https.html": [
@@ -718433,7 +718500,7 @@
    "manual"
   ],
   "web-nfc/NDEFWriter_push.https.html": [
-   "6c7aca9fe938184bbc7090339be86a790454c7b6",
+   "a33b1fab3034af2058a133e8182086dc2cb2dfbe",
    "testharness"
   ],
   "web-nfc/README.md": [
@@ -718449,7 +718516,7 @@
    "testharness"
   ],
   "web-nfc/resources/nfc-helpers.js": [
-   "0fe6fe80cb1cec7ef582bae5d7974bce9d1d8596",
+   "3ce725a7c475b28d96f15dfd12736ed8a54f0006",
    "support"
   ],
   "web-nfc/resources/support-iframe.html": [
