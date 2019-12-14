@@ -271164,6 +271164,9 @@
    "html/cross-origin-embedder-policy/require-corp-about-srcdoc.html.headers": [
     []
    ],
+   "html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html.headers": [
+    []
+   ],
    "html/cross-origin-embedder-policy/require-corp-sw-from-require-corp.https.html.headers": [
     []
    ],
@@ -271198,6 +271201,9 @@
     []
    ],
    "html/cross-origin-embedder-policy/resources/script-factory.js": [
+    []
+   ],
+   "html/cross-origin-embedder-policy/resources/sw-store-to-cache-storage.js": [
     []
    ],
    "html/cross-origin-embedder-policy/resources/sw.js": [
@@ -275292,6 +275298,9 @@
    "html/semantics/embedded-content/the-iframe-element/support/blank.htm": [
     []
    ],
+   "html/semantics/embedded-content/the-iframe-element/support/document-with-embedded-svg.html": [
+    []
+   ],
    "html/semantics/embedded-content/the-iframe-element/support/download_stash.py": [
     []
    ],
@@ -275422,6 +275431,9 @@
     []
    ],
    "html/semantics/embedded-content/the-iframe-element/support/standalone-pass.htm": [
+    []
+   ],
+   "html/semantics/embedded-content/the-iframe-element/support/svg.svg": [
     []
    ],
    "html/semantics/embedded-content/the-img-element/3.jpg": [
@@ -275710,6 +275722,33 @@
     []
    ],
    "html/semantics/scripting-1/the-script-element/cacheable-script-throw.py": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/bad-import.css": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/basic.css": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/css-module-at-import-iframe.html": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/css-module-basic-iframe.html": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/malformed-iframe.html": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/malformed.css": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/utf8.css": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/worker-dynamic-import.js": [
+    []
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/resources/worker.js": [
     []
    ],
    "html/semantics/scripting-1/the-script-element/defer.js": [
@@ -313138,6 +313177,12 @@
    "clipboard-apis/async-navigator-clipboard-basics.https.html": [
     [
      "clipboard-apis/async-navigator-clipboard-basics.https.html",
+     {}
+    ]
+   ],
+   "clipboard-apis/async-raw-write-read.tentative.https.html": [
+    [
+     "clipboard-apis/async-raw-write-read.tentative.https.html",
      {}
     ]
    ],
@@ -358373,6 +358418,12 @@
      {}
     ]
    ],
+   "html/cross-origin-embedder-policy/none-load-from-cache-storage.https.html": [
+    [
+     "html/cross-origin-embedder-policy/none-load-from-cache-storage.https.html",
+     {}
+    ]
+   ],
    "html/cross-origin-embedder-policy/none-sw-from-none.https.html": [
     [
      "html/cross-origin-embedder-policy/none-sw-from-none.https.html",
@@ -358402,6 +358453,12 @@
    "html/cross-origin-embedder-policy/require-corp-about-srcdoc.html": [
     [
      "html/cross-origin-embedder-policy/require-corp-about-srcdoc.html",
+     {}
+    ]
+   ],
+   "html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html": [
+    [
+     "html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html",
      {}
     ]
    ],
@@ -363332,6 +363389,18 @@
      {}
     ]
    ],
+   "html/semantics/embedded-content/the-iframe-element/cross-origin-to-whom-part-2.window.js": [
+    [
+     "html/semantics/embedded-content/the-iframe-element/cross-origin-to-whom-part-2.window.html",
+     {}
+    ]
+   ],
+   "html/semantics/embedded-content/the-iframe-element/cross-origin-to-whom.window.js": [
+    [
+     "html/semantics/embedded-content/the-iframe-element/cross-origin-to-whom.window.html",
+     {}
+    ]
+   ],
    "html/semantics/embedded-content/the-iframe-element/cross_origin_parentage.sub.html": [
     [
      "html/semantics/embedded-content/the-iframe-element/cross_origin_parentage.sub.html",
@@ -365681,6 +365750,24 @@
    "html/semantics/scripting-1/the-script-element/async_011.htm": [
     [
      "html/semantics/scripting-1/the-script-element/async_011.htm",
+     {}
+    ]
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/css-module-worker-test.html": [
+    [
+     "html/semantics/scripting-1/the-script-element/css-module/css-module-worker-test.html",
+     {}
+    ]
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/import-css-module-basic.html": [
+    [
+     "html/semantics/scripting-1/the-script-element/css-module/import-css-module-basic.html",
+     {}
+    ]
+   ],
+   "html/semantics/scripting-1/the-script-element/css-module/utf8.tentative.html": [
+    [
+     "html/semantics/scripting-1/the-script-element/css-module/utf8.tentative.html",
      {}
     ]
    ],
@@ -461350,19 +461437,19 @@
    "support"
   ],
   ".github/workflows/detect_pull_request_preview.yml": [
-   "d35105d9e3e8841e135bd56e9c387fcba0d86a9a",
+   "02870d8c7d223a371c09a97b5906610af191a5e4",
    "support"
   ],
   ".github/workflows/documentation.yml": [
-   "9352fb81e2c5fbdc64f20c202b386c66795a6083",
+   "b8bf7972b0f7666f8a01a81b05e8dec432732225",
    "support"
   ],
   ".github/workflows/epochs.yml": [
-   "a93a1e8defb4fdeeb9f7740db1cc5c520aa07e5e",
+   "a605a818c5f390212b5962c270ae0e9e33663b96",
    "support"
   ],
   ".github/workflows/manifest.yml": [
-   "e4708873c0d5e415a171ed2598a0b94f22c272b6",
+   "84983a57e077b7e9e7f34515e4bca01a9cc214a7",
    "support"
   ],
   ".gitignore": [
@@ -472509,6 +472596,10 @@
    "706093af61314dc0de57ff8fa5415011c13089ee",
    "testharness"
   ],
+  "clipboard-apis/async-raw-write-read.tentative.https.html": [
+   "6cfa2dbcca79f57db3fa57aeaff33c688423ff87",
+   "testharness"
+  ],
   "clipboard-apis/async-write-blobs-read-blobs-manual.https.html": [
    "b5f0f3d9dc13d2b67264b3a61b9f0f8be0cd6ecd",
    "manual"
@@ -472522,7 +472613,7 @@
    "testharness"
   ],
   "clipboard-apis/clipboard-item.https.html": [
-   "9218ee299e2b66a3bd7e70b6ac58c6cb26fdfaac",
+   "fe5e76ccbb4379ed3a29bdea43d56d882b5d041b",
    "testharness"
   ],
   "clipboard-apis/events/copy-event-manual.html": [
@@ -561498,15 +561589,15 @@
    "testharness"
   ],
   "css/css-color-adjust/parsing/color-scheme-computed.html": [
-   "80b9803981f7123d22c637ee9056c04ba3108818",
+   "a5ad4d534056973883f47c615d50f8dff854ece8",
    "testharness"
   ],
   "css/css-color-adjust/parsing/color-scheme-invalid.html": [
-   "48fa4d1d1f3a1f6d172f650e2452bf29921314c7",
+   "6c7075c3b465d54f4b8fec2fa9160ce8b6c7e323",
    "testharness"
   ],
   "css/css-color-adjust/parsing/color-scheme-valid.html": [
-   "2ba01da394ebc63c9b6b87ea53714d1567032f9b",
+   "5fb481783f0134b3b233ceb17ea4a0897eeee403",
    "testharness"
   ],
   "css/css-color/LICENSE": [
@@ -648461,6 +648552,10 @@
    "6604450991a122e3e241e40b1b9e0516c525389d",
    "support"
   ],
+  "html/cross-origin-embedder-policy/none-load-from-cache-storage.https.html": [
+   "e0b84568bd3e4e854bf2890c8de27bed0675b406",
+   "testharness"
+  ],
   "html/cross-origin-embedder-policy/none-sw-from-none.https.html": [
    "5298347fd9d3f36220c03149d49d9f7ea63615cb",
    "testharness"
@@ -648497,6 +648592,14 @@
    "8df98474b589d070992677cb0134bd47bd0509c4",
    "support"
   ],
+  "html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html": [
+   "b10b2f0b73cca9ef3f6bea4df03bf60aa2fe4409",
+   "testharness"
+  ],
+  "html/cross-origin-embedder-policy/require-corp-load-from-cache-storage.https.html.headers": [
+   "8df98474b589d070992677cb0134bd47bd0509c4",
+   "support"
+  ],
   "html/cross-origin-embedder-policy/require-corp-sw-from-none.https.html": [
    "896ea46ff08000dae262187268b7d8f57ccd1573",
    "testharness"
@@ -648510,7 +648613,7 @@
    "support"
   ],
   "html/cross-origin-embedder-policy/require-corp.https.html": [
-   "5f01022338c248b7a053f3b4918a0c3a564008a0",
+   "446003723a19a1db88569bb3b0bf07540dfb98c8",
    "testharness"
   ],
   "html/cross-origin-embedder-policy/require-corp.https.html.headers": [
@@ -648555,6 +648658,10 @@
   ],
   "html/cross-origin-embedder-policy/resources/script-factory.js": [
    "9db755226020479fd87e87f42ea622c999b38f7d",
+   "support"
+  ],
+  "html/cross-origin-embedder-policy/resources/sw-store-to-cache-storage.js": [
+   "00b9e9395a7ec2171b3fee9d75f6ccb1d46ee60f",
    "support"
   ],
   "html/cross-origin-embedder-policy/resources/sw.js": [
@@ -658477,6 +658584,14 @@
    "b657f26158a9c6526e3c734afb9ce2731e1b3dd4",
    "testharness"
   ],
+  "html/semantics/embedded-content/the-iframe-element/cross-origin-to-whom-part-2.window.js": [
+   "c88158d267f373d35a683b6777241c7c1da66816",
+   "testharness"
+  ],
+  "html/semantics/embedded-content/the-iframe-element/cross-origin-to-whom.window.js": [
+   "a1e592d8f8951c9d6e820238d55c9e76a1a283ff",
+   "testharness"
+  ],
   "html/semantics/embedded-content/the-iframe-element/cross_origin_child.html": [
    "8b44fe805fb6d2408dab8f53c14ea70531104607",
    "support"
@@ -658849,6 +658964,10 @@
    "18ecdcb795c33d6ab7bbb43f647947defca5634d",
    "support"
   ],
+  "html/semantics/embedded-content/the-iframe-element/support/document-with-embedded-svg.html": [
+   "a81d13d9a8b6386d4584f12648f3a1d42ce74b81",
+   "support"
+  ],
   "html/semantics/embedded-content/the-iframe-element/support/download_stash.py": [
    "24e1dfd58f760e1fa99846e0fac063a32a258e58",
    "support"
@@ -659023,6 +659142,10 @@
   ],
   "html/semantics/embedded-content/the-iframe-element/support/standalone-pass.htm": [
    "9d1b2530fe68308a050b8b92b804176fb72057d6",
+   "support"
+  ],
+  "html/semantics/embedded-content/the-iframe-element/support/svg.svg": [
+   "1570afcadc238042614d35b7f2f4a49e580f5a68",
    "support"
   ],
   "html/semantics/embedded-content/the-img-element/3.jpg": [
@@ -661116,6 +661239,54 @@
   "html/semantics/scripting-1/the-script-element/cacheable-script-throw.py": [
    "5df883c07be307fb2f6ff6b14354a5bc816ce662",
    "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/css-module-worker-test.html": [
+   "1618f40eb6119c6b9c20047d0463daa2ef27d0f0",
+   "testharness"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/import-css-module-basic.html": [
+   "902430d0779e3b9e34f95db1da4d4b96c2b24bbb",
+   "testharness"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/bad-import.css": [
+   "796446b525ca03bf287e2abbdbbdae593b658bac",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/basic.css": [
+   "3ea2ef45339c41dc5a39b1f8494fe2d2d4eae0d1",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/css-module-at-import-iframe.html": [
+   "86e7af7d51db98fd7e22c01954ced16683c4f0e7",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/css-module-basic-iframe.html": [
+   "3a555c392716c0ee915f1aa65cd5a1dae42f0c52",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/malformed-iframe.html": [
+   "471edd680cf656661bcc713656aaa23e49386ba7",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/malformed.css": [
+   "fb20336584e7745c495676c05e605e8d216037a0",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/utf8.css": [
+   "35d16cd1c5b0d6972ddfa888a2f81cc9a042eb9d",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/worker-dynamic-import.js": [
+   "9a3b0bb105b3ddc9d4e416ecfc3606c2442ba6ab",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/resources/worker.js": [
+   "397a12c3b53c60634417a67bef839af9aef07e6e",
+   "support"
+  ],
+  "html/semantics/scripting-1/the-script-element/css-module/utf8.tentative.html": [
+   "f71339b4d591853e5abb19b694b880395bfc9f81",
+   "testharness"
   ],
   "html/semantics/scripting-1/the-script-element/data-url.html": [
    "6fad50527177e756db35842e054bf19d6e4dfbe4",
@@ -666638,11 +666809,11 @@
    "support"
   ],
   "infrastructure/metadata/infrastructure/testdriver/actions/multiTouchPointsReleaseFirstPoint.html.ini": [
-   "b41ec996e2f3097bf6fe89bf351d50764d406447",
+   "68ccafcec2a1dd55184d234071c809ce1fcc73d8",
    "support"
   ],
   "infrastructure/metadata/infrastructure/testdriver/actions/multiTouchPointsReleaseSecondPoint.html.ini": [
-   "ad46c7be498ab7db2e3c65b147ce708d15157843",
+   "5d714dd77733edd0199535f0f1cb20a46237d6dd",
    "support"
   ],
   "infrastructure/metadata/infrastructure/testdriver/actions/multiTouchPointsTwoTouchStarts.html.ini": [
@@ -667022,7 +667193,7 @@
    "support"
   ],
   "interfaces/IndexedDB.idl": [
-   "2af9eb2a3245d2229dc5b7505713795405ff0ba9",
+   "33925d614238d6850c196381df0f60ac14bd4e4f",
    "support"
   ],
   "interfaces/InputDeviceCapabilities.idl": [
@@ -668346,7 +668517,7 @@
    "testharness"
   ],
   "lint.whitelist": [
-   "a1b3f63650cb91393439224b3def6daf4c3775aa",
+   "d06f4c59bca28d01632cf693062a7d30ecbd5cc8",
    "support"
   ],
   "loading/lazyload/common.js": [
@@ -670094,7 +670265,7 @@
    "testharness"
   ],
   "media-source/mediasource-getvideoplaybackquality.html": [
-   "bce01733391fedb2644be203b83fd2dfd79480ad",
+   "54b2a5579956f43288a2aba0485037751fdccadf",
    "testharness"
   ],
   "media-source/mediasource-invalid-codec.html": [
@@ -707358,7 +707529,7 @@
    "support"
   ],
   "tools/ci/run_tc.py": [
-   "482de1ad336a1824d2335c9e6d7996063f71a78e",
+   "f9086a31bd93baf72819fc450f90a290d65674fd",
    "support"
   ],
   "tools/ci/taskcluster-run.py": [
@@ -707386,7 +707557,7 @@
    "support"
   ],
   "tools/ci/tc/tasks/test.yml": [
-   "101d0aa1c16b6ef99ca2ea25790723a1ae9d9cd6",
+   "e80e794203edca3c8d5f19ea9833a4f79e979f08",
    "support"
   ],
   "tools/ci/tc/testdata/epochs_daily_push_event.json": [
@@ -707414,7 +707585,7 @@
    "support"
   ],
   "tools/ci/tc/tests/test_valid.py": [
-   "05477ed0bd42d7c2ce8aa5fdd6629da0e3e03aa1",
+   "b170928b290a27f75eada66162ea404a1dbae9f9",
    "support"
   ],
   "tools/ci/tests/test_jobs.py": [
@@ -707502,11 +707673,11 @@
    "support"
   ],
   "tools/lint/lint.py": [
-   "17fb988834a01a1b1cd22394df19b8d335704813",
+   "a050cfa8a8e4e2699db44ce9e52f8f230a34a869",
    "support"
   ],
   "tools/lint/rules.py": [
-   "b3d125f8dd63c04df149cea07681a45e1cc2044a",
+   "faa285fd7cdbcc406f8c02ab03ed6beb36eb0bef",
    "support"
   ],
   "tools/lint/tests/__init__.py": [
@@ -707690,7 +707861,7 @@
    "support"
   ],
   "tools/manifest/manifest.py": [
-   "a8f571967ab5afbc65fed7a53baee2724d8b375e",
+   "2ad7fccf48675bdcc7b544747e1d1824a598542f",
    "support"
   ],
   "tools/manifest/sourcefile.py": [
@@ -707714,7 +707885,7 @@
    "support"
   ],
   "tools/manifest/tests/test_manifest.py": [
-   "8e008be091181dda3a08673a38e4faaebfb119c1",
+   "733cafdcbe9dc9ce07cb3e843bd956d02c6fd2fe",
    "support"
   ],
   "tools/manifest/tests/test_sourcefile.py": [
@@ -712562,7 +712733,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/servo.py": [
-   "bb1f172cd5e69ff17e649f0f12a796919191fb9b",
+   "5b657993f1900cd34a1460c5bc3a9093fcc7f13c",
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/servodriver.py": [
@@ -712626,7 +712797,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/executors/executorservo.py": [
-   "365a1a08653b0175fc4df4050eb9d9aaf8b1d34c",
+   "9cef1fb2d7f78e8729e51ff400b3df2402a2e94e",
    "support"
   ],
   "tools/wptrunner/wptrunner/executors/executorservodriver.py": [
@@ -712814,7 +712985,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_wpttest.py": [
-   "69f22ebcb68b62b6c54f7874f55146b46f94d838",
+   "9bb3e1fd34e37c4430f752b87e4bb4e3bfa7f959",
    "support"
   ],
   "tools/wptrunner/wptrunner/update/__init__.py": [
@@ -719458,7 +719629,7 @@
    "support"
   ],
   "webaudio/js/worklet-recorder.js": [
-   "3bf3bc23b20764ba54d5ff125699df91fffe741a",
+   "913ab742aa1bfd77ca3d4ba6c3421ad198be2b17",
    "support"
   ],
   "webaudio/resources/4ch-440.wav": [
@@ -719486,7 +719657,7 @@
    "support"
   ],
   "webaudio/resources/audit.js": [
-   "2aac1fffb492ea46e737257df08a09e65f6d3415",
+   "fe6fc45b1400ac7526e37a53a54ec3ac52fde528",
    "support"
   ],
   "webaudio/resources/biquad-filters.js": [
@@ -719966,7 +720137,7 @@
    "testharness"
   ],
   "webaudio/the-audio-api/the-audioworklet-interface/audioworkletnode-output-channel-count.https.html": [
-   "a8a7f5ed1de78b90432641d617e60a1b58dd893f",
+   "8dafa2f8111a8b522be5540a2fbf4f9a3ee5cd6e",
    "testharness"
   ],
   "webaudio/the-audio-api/the-audioworklet-interface/audioworkletprocessor-options.https.html": [
@@ -727906,7 +728077,7 @@
    "testharness"
   ],
   "webxr/xrSession_requestReferenceSpace.https.html": [
-   "51aa8885f5e853ca4bf225134dee120b71d28011",
+   "be97396041e17b6d3aa1ae746ea35c3f7b50eb5b",
    "testharness"
   ],
   "webxr/xrSession_requestReferenceSpace_features.https.html": [
@@ -731751,5 +731922,5 @@
   ]
  },
  "url_base": "/",
- "version": 6
+ "version": 7
 }
