@@ -280382,6 +280382,15 @@
    "native-file-system/script-tests/FileSystemFileHandle-getFile.js": [
     []
    ],
+   "native-file-system/script-tests/FileSystemWritableFileStream-piped.js": [
+    []
+   ],
+   "native-file-system/script-tests/FileSystemWritableFileStream-write.js": [
+    []
+   ],
+   "native-file-system/script-tests/FileSystemWritableFileStream.js": [
+    []
+   ],
    "native-file-system/script-tests/FileSystemWriter.js": [
     []
    ],
@@ -374719,6 +374728,12 @@
      {}
     ]
    ],
+   "loading/lazyload/move-element-and-scroll.tentative.html": [
+    [
+     "loading/lazyload/move-element-and-scroll.tentative.html",
+     {}
+    ]
+   ],
    "loading/lazyload/not-rendered-below-viewport-image-loading-lazy.tentative.html": [
     [
      "loading/lazyload/not-rendered-below-viewport-image-loading-lazy.tentative.html",
@@ -374764,6 +374779,12 @@
    "loading/lazyload/picture-loading-lazy.tentative.html": [
     [
      "loading/lazyload/picture-loading-lazy.tentative.html",
+     {}
+    ]
+   ],
+   "loading/lazyload/remove-element-and-scroll.tentative.html": [
+    [
+     "loading/lazyload/remove-element-and-scroll.tentative.html",
      {}
     ]
    ],
@@ -379592,6 +379613,81 @@
      }
     ]
    ],
+   "native-file-system/native_FileSystemWritableFileStream-piped.tentative.https.manual.window.js": [
+    [
+     "native-file-system/native_FileSystemWritableFileStream-piped.tentative.https.manual.window.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "/resources/testdriver.js"
+       ],
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/native-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream-piped.js"
+       ]
+      ]
+     }
+    ]
+   ],
+   "native-file-system/native_FileSystemWritableFileStream-write.tentative.https.manual.window.js": [
+    [
+     "native-file-system/native_FileSystemWritableFileStream-write.tentative.https.manual.window.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "/resources/testdriver.js"
+       ],
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/native-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream-write.js"
+       ]
+      ]
+     }
+    ]
+   ],
+   "native-file-system/native_FileSystemWritableFileStream.tentative.https.manual.window.js": [
+    [
+     "native-file-system/native_FileSystemWritableFileStream.tentative.https.manual.window.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "/resources/testdriver.js"
+       ],
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/native-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream.js"
+       ]
+      ]
+     }
+    ]
+   ],
    "native-file-system/native_FileSystemWriter.tentative.https.manual.window.js": [
     [
      "native-file-system/native_FileSystemWriter.tentative.https.manual.window.html",
@@ -379966,6 +380062,134 @@
        [
         "script",
         "script-tests/FileSystemFileHandle-getFile.js"
+       ]
+      ]
+     }
+    ]
+   ],
+   "native-file-system/sandboxed_FileSystemWritableFileStream-piped.tentative.https.any.js": [
+    [
+     "native-file-system/sandboxed_FileSystemWritableFileStream-piped.tentative.https.any.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/sandboxed-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "../streams/resources/recording-streams.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream-piped.js"
+       ]
+      ]
+     }
+    ],
+    [
+     "native-file-system/sandboxed_FileSystemWritableFileStream-piped.tentative.https.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/sandboxed-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "../streams/resources/recording-streams.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream-piped.js"
+       ]
+      ]
+     }
+    ]
+   ],
+   "native-file-system/sandboxed_FileSystemWritableFileStream-write.tentative.https.any.js": [
+    [
+     "native-file-system/sandboxed_FileSystemWritableFileStream-write.tentative.https.any.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/sandboxed-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream-write.js"
+       ]
+      ]
+     }
+    ],
+    [
+     "native-file-system/sandboxed_FileSystemWritableFileStream-write.tentative.https.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/sandboxed-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream-write.js"
+       ]
+      ]
+     }
+    ]
+   ],
+   "native-file-system/sandboxed_FileSystemWritableFileStream.tentative.https.any.js": [
+    [
+     "native-file-system/sandboxed_FileSystemWritableFileStream.tentative.https.any.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/sandboxed-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream.js"
+       ]
+      ]
+     }
+    ],
+    [
+     "native-file-system/sandboxed_FileSystemWritableFileStream.tentative.https.any.worker.html",
+     {
+      "script_metadata": [
+       [
+        "script",
+        "resources/test-helpers.js"
+       ],
+       [
+        "script",
+        "resources/sandboxed-fs-test-helpers.js"
+       ],
+       [
+        "script",
+        "script-tests/FileSystemWritableFileStream.js"
        ]
       ]
      }
@@ -671141,6 +671365,10 @@
    "f7d887b18a228e648a5de45b890bfce371963cec",
    "testharness"
   ],
+  "loading/lazyload/move-element-and-scroll.tentative.html": [
+   "f9d89807b8c5575982e4d28f156cb604ae0bbd8b",
+   "testharness"
+  ],
   "loading/lazyload/not-rendered-below-viewport-image-loading-lazy.tentative.html": [
    "0c40d7dbcd832b379a3d8427f9390fca842439cd",
    "testharness"
@@ -671171,6 +671399,10 @@
   ],
   "loading/lazyload/picture-loading-lazy.tentative.html": [
    "58f8c3a4d5a1e21ce2afd9def3ab9b5870cc272f",
+   "testharness"
+  ],
+  "loading/lazyload/remove-element-and-scroll.tentative.html": [
+   "53708ceac75fa3421c4ecc1a8b91034c5a91c396",
    "testharness"
   ],
   "loading/lazyload/resources/image.png": [
@@ -676393,6 +676625,18 @@
    "16c68c59b273663fb16847f121f38e03bb94cf19",
    "testharness"
   ],
+  "native-file-system/native_FileSystemWritableFileStream-piped.tentative.https.manual.window.js": [
+   "2c0299df12e9577261cce2f68d12a1bf744158c2",
+   "testharness"
+  ],
+  "native-file-system/native_FileSystemWritableFileStream-write.tentative.https.manual.window.js": [
+   "0efacf9e607d990bccf185b7d84d5f45220338d8",
+   "testharness"
+  ],
+  "native-file-system/native_FileSystemWritableFileStream.tentative.https.manual.window.js": [
+   "caf6fbd1c52a3cef603896f8ee98d9618e4dc92e",
+   "testharness"
+  ],
   "native-file-system/native_FileSystemWriter.tentative.https.manual.window.js": [
    "25d8ee995857fa67be2c41f048e882ec473f739d",
    "testharness"
@@ -676485,6 +676729,18 @@
    "fb93858fe7934b27244fa0ff828eac75c34b6629",
    "testharness"
   ],
+  "native-file-system/sandboxed_FileSystemWritableFileStream-piped.tentative.https.any.js": [
+   "eed6a561dc40e658b6b6c8d51766cdacc42a024c",
+   "testharness"
+  ],
+  "native-file-system/sandboxed_FileSystemWritableFileStream-write.tentative.https.any.js": [
+   "7ef0ea0ef82626eae74f152b94f898859aca6832",
+   "testharness"
+  ],
+  "native-file-system/sandboxed_FileSystemWritableFileStream.tentative.https.any.js": [
+   "16dbbe6a808a603c9b81482f733dcf09e84670ff",
+   "testharness"
+  ],
   "native-file-system/sandboxed_FileSystemWriter.tentative.https.any.js": [
    "8352e2487fe0823a2d353372757d833d85e98c4b",
    "testharness"
@@ -676523,6 +676779,18 @@
   ],
   "native-file-system/script-tests/FileSystemFileHandle-getFile.js": [
    "6b7d9f9a3171c96aaa2e1312451b3a9cac6c2e9b",
+   "support"
+  ],
+  "native-file-system/script-tests/FileSystemWritableFileStream-piped.js": [
+   "59fc1e3d1362b3ec90e3ef7a4f0981bdd4a21340",
+   "support"
+  ],
+  "native-file-system/script-tests/FileSystemWritableFileStream-write.js": [
+   "f14d79fd040a0e7fc7f19216fec1aec0ca23dec8",
+   "support"
+  ],
+  "native-file-system/script-tests/FileSystemWritableFileStream.js": [
+   "5acf93aec8cee8ef3a8389979e2a402acf5cbc7f",
    "support"
   ],
   "native-file-system/script-tests/FileSystemWriter.js": [
@@ -710978,7 +711246,7 @@
    "support"
   ],
   "tools/requirements_mypy.txt": [
-   "50afed2bb2dec184caee69a1074e428d115c5b40",
+   "f3a56a6dd715ac6d6b01057a609a3e470ba8e303",
    "support"
   ],
   "tools/runner/css/bootstrap-theme.min.css": [
@@ -715338,7 +715606,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/base.py": [
-   "655344581973c15b657729feb736dd2073d79a30",
+   "fef052dd5ab495dad4342e086491723c761edcfd",
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/chrome.py": [
@@ -715366,7 +715634,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/epiphany.py": [
-   "8a0e5f578b2feb871ddd50ab08168c6b9d45e4b0",
+   "f6c4c602a38c043637cf9dbc8bbb5350ec94527e",
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/firefox.py": [
@@ -715410,11 +715678,11 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/webkit.py": [
-   "aa2862139450f682e6051c5f617ab8caf1960784",
+   "1be683ed26e43a9e10a1f82520811c33e90dad05",
    "support"
   ],
   "tools/wptrunner/wptrunner/browsers/webkitgtk_minibrowser.py": [
-   "d735f3c0792a6356c6270143205c55b7c02eef47",
+   "d8b9744bd743e39ce19f008e7f40cbc80e80107c",
    "support"
   ],
   "tools/wptrunner/wptrunner/config.py": [
@@ -715422,7 +715690,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/environment.py": [
-   "e79ae3750647f88bba44703181c208229800f658",
+   "7dcea4aeafabb9c481dccdc1aaf9bd153572bb7d",
    "support"
   ],
   "tools/wptrunner/wptrunner/executors/__init__.py": [
@@ -715466,7 +715734,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/executors/executorservo.py": [
-   "9cef1fb2d7f78e8729e51ff400b3df2402a2e94e",
+   "9eebfa59febf991bd41db25f2b02ea4c8c00195e",
    "support"
   ],
   "tools/wptrunner/wptrunner/executors/executorservodriver.py": [
@@ -715522,7 +715790,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/expectedtree.py": [
-   "4d505086bd8d991c953c34d38d8e1fa0cb920f99",
+   "7521f25b1344f5c50b8182a2b7a68278858f9b47",
    "support"
   ],
   "tools/wptrunner/wptrunner/font.py": [
@@ -715550,23 +715818,23 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/manifestexpected.py": [
-   "eae85b1f6661a67dff59ef78a9ed627e3e3603d8",
+   "65b53f0ab97b581b2b71277bd8f260f79a1afb12",
    "support"
   ],
   "tools/wptrunner/wptrunner/manifestinclude.py": [
-   "d302831a57abbaadd75fe49e094482dc14223ea3",
+   "b3ab2c0776571ffe4ca49e599e0a898c4a7c79a3",
    "support"
   ],
   "tools/wptrunner/wptrunner/manifestupdate.py": [
-   "2f2a8d543352d4c2128afd0314e8261668964d01",
+   "3cb1b5107924c4d897efccaf8f5de93df2311609",
    "support"
   ],
   "tools/wptrunner/wptrunner/metadata.py": [
-   "bf4d7a558abb7da117c95f896c1c8c3babd77219",
+   "aafc7d52250f62fdcd7025858f2273290c77d49e",
    "support"
   ],
   "tools/wptrunner/wptrunner/products.py": [
-   "e3117042709f99f4e0443dc0dfaf561ad0b548b0",
+   "abd84094bb33dbd13b3594a7acbe8467512a99ce",
    "support"
   ],
   "tools/wptrunner/wptrunner/stability.py": [
@@ -715598,7 +715866,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/testloader.py": [
-   "fa54ca361576318cb35ec716a1a159bdb532e6c8",
+   "f16cc14ceada70f781a2aaabb1c2f547cb9d61d1",
    "support"
   ],
   "tools/wptrunner/wptrunner/testrunner.py": [
@@ -715626,7 +715894,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_expectedtree.py": [
-   "2308be9590e9004f41a492682d187a7b4fc57231",
+   "d71237a42dad58c69b686e6040b65f40064c9437",
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_formatters.py": [
@@ -715634,7 +715902,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_manifestexpected.py": [
-   "525915d1832ac8af1957a799615969e058eefca5",
+   "f3e4ce796a45c472a88fe022277e0347b4e98948",
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_products.py": [
@@ -715646,15 +715914,15 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_testloader.py": [
-   "e857cd43db6d281f95414230f52c984aad915118",
+   "836003d106038ab4303035eecca31774c9a26ce1",
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_update.py": [
-   "5ed366788067c94245a8f7e1dadccb93da0493ab",
+   "a24e4a733dae576bf82f5b6e17a7bbe3f6d351ef",
    "support"
   ],
   "tools/wptrunner/wptrunner/tests/test_wpttest.py": [
-   "9bb3e1fd34e37c4430f752b87e4bb4e3bfa7f959",
+   "1a94a2f3303a7b5a1d5b2c553af6bbd1d8b45bc7",
    "support"
   ],
   "tools/wptrunner/wptrunner/update/__init__.py": [
@@ -715670,7 +715938,7 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/update/state.py": [
-   "64dbf1180604cd8df7a468e036447f95b80371b0",
+   "f8a83525cbd4706bdfbc99a518d2bac123d34e96",
    "support"
   ],
   "tools/wptrunner/wptrunner/update/sync.py": [
@@ -715694,11 +715962,11 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/wptcommandline.py": [
-   "923bdaa55857e793e8d6e8c587167360aed4ae94",
+   "91f1161b01b99f31ef1d3dde05333627bf4365b2",
    "support"
   ],
   "tools/wptrunner/wptrunner/wptlogging.py": [
-   "69cee744879eb6780cb99ec93123922e166d9e16",
+   "444d1d962d25873109977b937d96c86cb293cd8f",
    "support"
   ],
   "tools/wptrunner/wptrunner/wptmanifest/__init__.py": [
@@ -715758,11 +716026,11 @@
    "support"
   ],
   "tools/wptrunner/wptrunner/wptrunner.py": [
-   "cac172a5940ec696e3a3b279170f9712aaf4668d",
+   "7409dc26560af0be3a397bb73184137d8715811f",
    "support"
   ],
   "tools/wptrunner/wptrunner/wpttest.py": [
-   "67b57583424d08779114dc2fa030390e584d716f",
+   "4cbaedcdb0163776dfcf55d13afca4cdba05dc92",
    "support"
   ],
   "tools/wptserve/.gitignore": [
@@ -721278,7 +721546,7 @@
    "testharness"
   ],
   "wasm/jsapi/constructor/multi-value.any.js": [
-   "7fbac5b24f1a50568170e257552bdc7a7783ae25",
+   "2c53e3611e044c8ba44a5c0436d4409bc9f1af42",
    "testharness"
   ],
   "wasm/jsapi/constructor/validate.any.js": [
@@ -721326,7 +721594,7 @@
    "testharness"
   ],
   "wasm/jsapi/instanceTestFactory.js": [
-   "7ccf06c234a7ce5c17353f3bd74565b66c289952",
+   "c81672f208b1505430dd1ee909afaf12d9b2db20",
    "support"
   ],
   "wasm/jsapi/interface.any.js": [
@@ -721354,7 +721622,7 @@
    "testharness"
   ],
   "wasm/jsapi/module/customSections.any.js": [
-   "8e9732e5512d3295c445c110e949905cec0efbe6",
+   "09355979d84ade5385e7b3a5ac265eaa0da500cf",
    "testharness"
   ],
   "wasm/jsapi/module/exports.any.js": [
@@ -721394,7 +721662,7 @@
    "testharness"
   ],
   "wasm/jsapi/wasm-module-builder.js": [
-   "09ff891f52e2b4e9dd80fbc88586129cd0a910b6",
+   "82c6e04135f1b86df1a1d8e72c5f829c3297bb10",
    "support"
   ],
   "wasm/resources/load_wasm.js": [
