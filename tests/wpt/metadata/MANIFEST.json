@@ -141128,7 +141128,11 @@
      "css/css-pseudo/marker-content-010.html",
      [
       [
-       "/css/css-pseudo/marker-content-010-ref.html",
+       "/css/css-pseudo/marker-content-010-ref-001.html",
+       "=="
+      ],
+      [
+       "/css/css-pseudo/marker-content-010-ref-002.html",
        "=="
       ]
      ],
@@ -204377,6 +204381,18 @@
      {}
     ]
    ],
+   "forced-colors-mode/forced-colors-mode-25.html": [
+    [
+     "forced-colors-mode/forced-colors-mode-25.html",
+     [
+      [
+       "/forced-colors-mode/forced-colors-mode-25-ref.html",
+       "=="
+      ]
+     ],
+     {}
+    ]
+   ],
    "html/browsers/sandboxing/sandbox-parse-noscript.html": [
     [
      "html/browsers/sandboxing/sandbox-parse-noscript.html",
@@ -257768,7 +257784,10 @@
    "css/css-pseudo/marker-content-009-ref.html": [
     []
    ],
-   "css/css-pseudo/marker-content-010-ref.html": [
+   "css/css-pseudo/marker-content-010-ref-001.html": [
+    []
+   ],
+   "css/css-pseudo/marker-content-010-ref-002.html": [
     []
    ],
    "css/css-pseudo/marker-content-011-ref.html": [
@@ -272640,6 +272659,9 @@
     []
    ],
    "forced-colors-mode/forced-colors-mode-23-ref.html": [
+    []
+   ],
+   "forced-colors-mode/forced-colors-mode-25-ref.html": [
     []
    ],
    "forced-colors-mode/resources/float-image.jpg": [
@@ -294101,6 +294123,12 @@
    "webgl/common.js": [
     []
    ],
+   "webgpu/LICENSE.txt": [
+    []
+   ],
+   "webgpu/constants.js": [
+    []
+   ],
    "webgpu/framework/allowed_characters.js": [
     []
    ],
@@ -294108,6 +294136,9 @@
     []
    ],
    "webgpu/framework/fixture.js": [
+    []
+   ],
+   "webgpu/framework/generate_minimal_query_list.js": [
     []
    ],
    "webgpu/framework/gpu/implementation.js": [
@@ -294183,6 +294214,9 @@
     []
    ],
    "webgpu/runtime/helper/options.js": [
+    []
+   ],
+   "webgpu/runtime/helper/test_worker-worker.js": [
     []
    ],
    "webgpu/runtime/helper/test_worker.js": [
@@ -317230,7 +317264,9 @@
    "content-security-policy/embedded-enforcement/required_csp-header.html": [
     [
      "content-security-policy/embedded-enforcement/required_csp-header.html",
-     {}
+     {
+      "timeout": "long"
+     }
     ]
    ],
    "content-security-policy/embedded-enforcement/subsumption_algorithm-general.html": [
@@ -320496,6 +320532,46 @@
        [
         "global",
         "!default,serviceworker,window"
+       ]
+      ]
+     }
+    ]
+   ],
+   "cookie-store/cookieStore_subscribe_arguments.tentative.https.any.js": [
+    [
+     "cookie-store/cookieStore_subscribe_arguments.tentative.https.any.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "Cookie Store API: cookieStore.subscribe() arguments"
+       ],
+       [
+        "global",
+        "!default,serviceworker,window"
+       ],
+       [
+        "script",
+        "/service-workers/service-worker/resources/test-helpers.sub.js"
+       ]
+      ]
+     }
+    ],
+    [
+     "cookie-store/cookieStore_subscribe_arguments.tentative.https.any.serviceworker.html",
+     {
+      "script_metadata": [
+       [
+        "title",
+        "Cookie Store API: cookieStore.subscribe() arguments"
+       ],
+       [
+        "global",
+        "!default,serviceworker,window"
+       ],
+       [
+        "script",
+        "/service-workers/service-worker/resources/test-helpers.sub.js"
        ]
       ]
      }
@@ -325983,6 +326059,18 @@
      {}
     ]
    ],
+   "css/css-grid/alignment/grid-align-content-vertical-lr.html": [
+    [
+     "css/css-grid/alignment/grid-align-content-vertical-lr.html",
+     {}
+    ]
+   ],
+   "css/css-grid/alignment/grid-align-content-vertical-rl.html": [
+    [
+     "css/css-grid/alignment/grid-align-content-vertical-rl.html",
+     {}
+    ]
+   ],
    "css/css-grid/alignment/grid-align-content.html": [
     [
      "css/css-grid/alignment/grid-align-content.html",
@@ -329736,6 +329824,12 @@
    "css/css-position/position-absolute-replaced-minmax.html": [
     [
      "css/css-position/position-absolute-replaced-minmax.html",
+     {}
+    ]
+   ],
+   "css/css-position/position-absolute-table-001.html": [
+    [
+     "css/css-position/position-absolute-table-001.html",
      {}
     ]
    ],
@@ -432979,141 +433073,135 @@
    ],
    "webgpu/cts.html": [
     [
-     "webgpu/cts.html?q=cts:buffers/create_mapped:",
+     "webgpu/cts.html?q=cts:buffers/create_mapped",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:buffers/map:",
+     "webgpu/cts.html?q=cts:buffers/map",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:buffers/map_detach:",
+     "webgpu/cts.html?q=cts:buffers/map_detach",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:buffers/map_oom:",
+     "webgpu/cts.html?q=cts:buffers/map_oom",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:canvas/context_creation:",
+     "webgpu/cts.html?q=cts:canvas/context_creation",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:command_buffer/basic:",
+     "webgpu/cts.html?q=cts:command_buffer/basic",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:command_buffer/compute/basic:",
+     "webgpu/cts.html?q=cts:command_buffer/compute/basic",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:command_buffer/copies:",
+     "webgpu/cts.html?q=cts:command_buffer/copies",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:command_buffer/render/basic:",
+     "webgpu/cts.html?q=cts:command_buffer/render/basic",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:command_buffer/render/rendering:",
+     "webgpu/cts.html?q=cts:command_buffer/render/rendering",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:command_buffer/render/storeop:",
+     "webgpu/cts.html?q=cts:command_buffer/render/storeop",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:copyImageBitmapToTexture:",
+     "webgpu/cts.html?q=cts:copyImageBitmapToTexture",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:examples:",
+     "webgpu/cts.html?q=cts:examples",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:fences:",
+     "webgpu/cts.html?q=cts:fences",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:resource_init/sampled_texture_clear:",
+     "webgpu/cts.html?q=cts:resource_init/sampled_texture_clear",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/createBindGroup:",
+     "webgpu/cts.html?q=cts:validation/createBindGroup",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/createBindGroupLayout:",
+     "webgpu/cts.html?q=cts:validation/createBindGroupLayout",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/createPipelineLayout:",
+     "webgpu/cts.html?q=cts:validation/createPipelineLayout",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/createRenderPipeline:",
+     "webgpu/cts.html?q=cts:validation/createRenderPipeline",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/createTexture:",
+     "webgpu/cts.html?q=cts:validation/createTexture",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/createView:",
+     "webgpu/cts.html?q=cts:validation/createView",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/error_scope:",
+     "webgpu/cts.html?q=cts:validation/error_scope",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/fences:",
+     "webgpu/cts.html?q=cts:validation/fences",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/queue_submit:",
+     "webgpu/cts.html?q=cts:validation/queue_submit",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/render_pass:",
+     "webgpu/cts.html?q=cts:validation/render_pass",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/render_pass_descriptor:",
+     "webgpu/cts.html?q=cts:validation/render_pass_descriptor",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/setBindGroup:",
+     "webgpu/cts.html?q=cts:validation/setBindGroup",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/setBlendColor:",
+     "webgpu/cts.html?q=cts:validation/setBlendColor",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/setScissorRect:",
+     "webgpu/cts.html?q=cts:validation/setScissorRect",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/setStencilReference:",
+     "webgpu/cts.html?q=cts:validation/setStencilReference",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/setVertexBuffer:",
+     "webgpu/cts.html?q=cts:validation/setVertexBuffer",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/setViewport:",
+     "webgpu/cts.html?q=cts:validation/setViewport",
      {}
     ],
     [
-     "webgpu/cts.html?q=cts:validation/vertex_state:",
-     {}
-    ]
-   ],
-   "webgpu/runtime/helper/test_worker.worker.js": [
-    [
-     "webgpu/runtime/helper/test_worker.worker.html",
+     "webgpu/cts.html?q=cts:validation/vertex_state",
      {}
     ]
    ],
@@ -439957,6 +440045,12 @@
    "webxr/xrFrame_getPose.https.html": [
     [
      "webxr/xrFrame_getPose.https.html",
+     {}
+    ]
+   ],
+   "webxr/xrFrame_getViewerPose_getPose.https.html": [
+    [
+     "webxr/xrFrame_getViewerPose_getPose.https.html",
      {}
     ]
    ],
@@ -470788,7 +470882,7 @@
    "testharness"
   ],
   "IndexedDB/idb-explicit-commit.any.js": [
-   "2acd904ea6ab5f887cfda7e7dece0ed506c27ae4",
+   "ec72e1ae9583eb227652a193ff589212fd10cd82",
    "testharness"
   ],
   "IndexedDB/idb_binary_key_conversion.htm": [
@@ -495548,7 +495642,7 @@
    "testharness"
   ],
   "content-security-policy/embedded-enforcement/required_csp-header.html": [
-   "510c25b0b0045546b6e0c0b2981d8b78555c8ef5",
+   "fbaa42d56ee4da3ee45fd8b25dadadf6db909d23",
    "testharness"
   ],
   "content-security-policy/embedded-enforcement/subsumption_algorithm-general.html": [
@@ -496632,7 +496726,7 @@
    "testharness"
   ],
   "content-security-policy/object-src/object-src-url-allowed.html": [
-   "7ab85bd6bcea33969288b948042914ebdd4e4175",
+   "89d431c0b50d452c3883bf73a760f3586ef62e13",
    "testharness"
   ],
   "content-security-policy/object-src/object-src-url-allowed.html.sub.headers": [
@@ -496644,7 +496738,7 @@
    "testharness"
   ],
   "content-security-policy/object-src/object-src-url-embed-allowed.html": [
-   "edb01b3839f2d8a165de572bb43d88d8371bb77c",
+   "cc64dff27a7db281bfdeec1e21eea6700f4dfb29",
    "testharness"
   ],
   "content-security-policy/object-src/object-src-url-embed-allowed.html.sub.headers": [
@@ -498292,7 +498386,7 @@
    "testharness"
   ],
   "cookie-store/cookieStore_getAll_arguments.tentative.https.any.js": [
-   "6073fca3deb0e9ebdaf522ca895829eb869371eb",
+   "93f9fd84daece913b24d5ff18747d1dacd5cd646",
    "testharness"
   ],
   "cookie-store/cookieStore_getAll_multiple.tentative.https.any.js": [
@@ -498304,7 +498398,7 @@
    "testharness"
   ],
   "cookie-store/cookieStore_get_arguments.tentative.https.any.js": [
-   "73932c9bd5ddc0352b0a7cc19b9f13dbe3b30bad",
+   "e88fdcbcef7fe6fd3c5d5a7db41a947bf53a4da8",
    "testharness"
   ],
   "cookie-store/cookieStore_get_delete_basic.tentative.https.any.js": [
@@ -498337,6 +498431,10 @@
   ],
   "cookie-store/cookieStore_special_names.tentative.https.any.js": [
    "a4b31178ab0977e96e86e45b550712b862c6d2c7",
+   "testharness"
+  ],
+  "cookie-store/cookieStore_subscribe_arguments.tentative.https.any.js": [
+   "5c49cefb82ef03e2a78ddd4243b9262f47ccb71d",
    "testharness"
   ],
   "cookie-store/cookieStore_subscriptions_empty.tentative.https.window.js": [
@@ -525136,7 +525234,7 @@
    "reftest"
   ],
   "css/CSS2/linebox/inline-negative-margin-001.html": [
-   "226a3a19ad17b8fb773e00174b1dcd1593e6be61",
+   "b1ce232e6e9770a0019c5570f9e6ea57eb87f121",
    "testharness"
   ],
   "css/CSS2/linebox/inline-negative-margin-minmax-crash-001.html": [
@@ -583355,6 +583453,14 @@
    "488fc05aad441bd2a648ad1a95c339ae82504ee1",
    "testharness"
   ],
+  "css/css-grid/alignment/grid-align-content-vertical-lr.html": [
+   "dbd27574e9b5f37af2a1f546c14eeb10d8d533f9",
+   "testharness"
+  ],
+  "css/css-grid/alignment/grid-align-content-vertical-rl.html": [
+   "440cf9406786b09d976e9d5a5d3ab9960ff42492",
+   "testharness"
+  ],
   "css/css-grid/alignment/grid-align-content.html": [
    "fb3f7007ee19189a09de9c1f786176c317b7ee14",
    "testharness"
@@ -593171,6 +593277,10 @@
    "5a76277092bf9e84605fbb8e1fd64e17259e3f44",
    "testharness"
   ],
+  "css/css-position/position-absolute-table-001.html": [
+   "c467ac480069caad4da5d65480b0d7b8a32dccfe",
+   "testharness"
+  ],
   "css/css-position/position-fixed-at-bottom-right-on-viewport.html": [
    "9184db028e864915813a4dcf76822f9a07d03b29",
    "testharness"
@@ -594063,12 +594173,16 @@
    "b3627cca7554076f85d59869eec7bc80e39b82be",
    "reftest"
   ],
-  "css/css-pseudo/marker-content-010-ref.html": [
-   "5bee9bb17943d7efd06a82656bd6881204cbf24a",
+  "css/css-pseudo/marker-content-010-ref-001.html": [
+   "9135f90241682949788b1faa565cc40ba03322c0",
+   "support"
+  ],
+  "css/css-pseudo/marker-content-010-ref-002.html": [
+   "b85ccfbaebb59e0002458a6881aa2d9ed44bf883",
    "support"
   ],
   "css/css-pseudo/marker-content-010.html": [
-   "ccd377d523d55a1eac4f0f05ab7d378357488838",
+   "dcd27df148ae4f865402f1e85b7df4cdd195be5b",
    "reftest"
   ],
   "css/css-pseudo/marker-content-011-ref.html": [
@@ -597632,7 +597746,7 @@
    "testharness"
   ],
   "css/css-scroll-snap/snap-after-relayout/move-current-target.html": [
-   "83c2c478bf5921cedd9cb4d48b5de14533f4bbcd",
+   "ccadc884c5ba23f90b4b7d273e5aaf355cf648d1",
    "testharness"
   ],
   "css/css-scroll-snap/snap-after-relayout/remove-current-target.html": [
@@ -651403,6 +651517,14 @@
    "20519ea181e82a64865b95f32f3486e52300eb06",
    "reftest"
   ],
+  "forced-colors-mode/forced-colors-mode-25-ref.html": [
+   "9c626ae768676c155459e90a75e2bd4fdda02867",
+   "support"
+  ],
+  "forced-colors-mode/forced-colors-mode-25.html": [
+   "ea1f973f04aa66c9e00a63cedacf929d62c70524",
+   "reftest"
+  ],
   "forced-colors-mode/resources/float-image.jpg": [
    "ab06d5f94d16e22bb08fad79d6fef662b2a7de5a",
    "support"
@@ -689452,7 +689574,7 @@
    "testharness"
   ],
   "portals/portals-focus.sub.html": [
-   "1427dae2e4d13cd849fdc4f92dbcd9d4b2cad280",
+   "1779590779af1f7306925add9dfdd84a6abfa323",
    "testharness"
   ],
   "portals/portals-host-exposure.sub.html": [
@@ -689532,7 +689654,7 @@
    "support"
   ],
   "portals/resources/focus-page-with-button.html": [
-   "2b6f0ff75604a5750ba96f6c19c9cc6508495676",
+   "2bf0ddb93933a492b209b28d8767e3885350496f",
    "support"
   ],
   "portals/resources/focus-page-with-x-origin-iframe.sub.html": [
@@ -703460,7 +703582,7 @@
    "support"
   ],
   "resources/chromium/webxr-test-math-helper.js": [
-   "0147f50f3712af39734ddd7db3bee073a1d8c923",
+   "5eff666b70678e3d04a4b316616e8713a3cc58ea",
    "support"
   ],
   "resources/chromium/webxr-test-math-helper.js.headers": [
@@ -703468,7 +703590,7 @@
    "support"
   ],
   "resources/chromium/webxr-test.js": [
-   "16191695e894f91e9a09aea1cfb7d9deb0307de9",
+   "695b265db60067f5872099a7eda6ed579b3d73ca",
    "support"
   ],
   "resources/chromium/webxr-test.js.headers": [
@@ -704016,7 +704138,7 @@
    "support"
   ],
   "scroll-animations/scroll-animation.html": [
-   "d565788e1089af140fb3579fca67d4ca9b60bdf3",
+   "bee9e360c5913b2f54a16a68f4625d13c42bb15b",
    "testharness"
   ],
   "scroll-animations/setting-current-time.html": [
@@ -728835,8 +728957,16 @@
    "f75cbcb99724219224c63d0dc595b1c001298500",
    "testharness"
   ],
+  "webgpu/LICENSE.txt": [
+   "c7a75d7d221561df02c42470ad5e751324de645d",
+   "support"
+  ],
+  "webgpu/constants.js": [
+   "28771fb0e3e96d273436446e8c254a28c92aebeb",
+   "support"
+  ],
   "webgpu/cts.html": [
-   "5c529e90401ce3523ab210739da616047c93c8eb",
+   "058d3b3c4ad6bf098529234bcae42d34c2969dac",
    "testharness"
   ],
   "webgpu/framework/allowed_characters.js": [
@@ -728848,19 +728978,23 @@
    "support"
   ],
   "webgpu/framework/fixture.js": [
-   "d976fa46880a30cbb1837fce30a96023875e0f87",
+   "11b5f405456b4d5e635571b00247cce4e1fc5942",
+   "support"
+  ],
+  "webgpu/framework/generate_minimal_query_list.js": [
+   "12311acac0516009516147e2914910176613dd81",
    "support"
   ],
   "webgpu/framework/gpu/implementation.js": [
-   "726eeab4eed644d4b5c4e0693e2462dbf1a08c5d",
+   "653b60ab433c04ae08af73971950d125e209f447",
    "support"
   ],
   "webgpu/framework/id.js": [
-   "8e5db2c7d7fbde102865f7da04fcccaea53960b6",
+   "cb21a667d6035cbbf1e0a83b01f1460d2c51d927",
    "support"
   ],
   "webgpu/framework/index.js": [
-   "93ee20963990d21039a60902b4e52ee0c5cb8b72",
+   "c85a681688881226ebfcb5ae431196fe3ecde439",
    "support"
   ],
   "webgpu/framework/listing.js": [
@@ -728872,11 +729006,11 @@
    "support"
   ],
   "webgpu/framework/logger.js": [
-   "5536e736f069a3a013eb88233eb0d3a8c413f919",
+   "b3ddbb6155588bd4d15e081c06f8445313c9ef96",
    "support"
   ],
   "webgpu/framework/params/combine.js": [
-   "181877cf1650ef59c6d1f19a2ebff8cd84c5b790",
+   "20b2be113525b20d36036fbb5de8dbabefcad6d9",
    "support"
   ],
   "webgpu/framework/params/exclude.js": [
@@ -728888,7 +729022,7 @@
    "support"
   ],
   "webgpu/framework/params/index.js": [
-   "bb21202f92de8395873d807aa02e283067e84bf7",
+   "de922526696d7921d2ed8139964b85996d811dc1",
    "support"
   ],
   "webgpu/framework/params/options.js": [
@@ -728896,15 +729030,15 @@
    "support"
   ],
   "webgpu/framework/test_filter/filter_by_group.js": [
-   "e7cc5f78ba52a49eb021bf7cc9247448f2620f53",
+   "b43749f9c5d700d1085b6402a086e38dcc4f2e24",
    "support"
   ],
   "webgpu/framework/test_filter/filter_one_file.js": [
-   "7616bee6afeaec3fb6836f21fd318a4185d78c5a",
+   "6c634888810bdb817c2228312290fb2394a77f59",
    "support"
   ],
   "webgpu/framework/test_filter/index.js": [
-   "1a9dbcad4875d6e5160965f08f37c3fcd1e4c54d",
+   "743975e13d687848ba8277cdc0adac4352ad5b9e",
    "support"
   ],
   "webgpu/framework/test_filter/internal.js": [
@@ -728912,19 +729046,19 @@
    "support"
   ],
   "webgpu/framework/test_filter/load_filter.js": [
-   "03d475eb4b8aa756b5ebb46c5fa764876d6e6fc7",
+   "787747ead06027cb07f42b3485d25e569aa37a47",
    "support"
   ],
   "webgpu/framework/test_group.js": [
-   "68527a5b2cf55426ae779739fba788cfde94b244",
+   "643e9f60b3150dd870644888d6898a4d5451b5cc",
    "support"
   ],
   "webgpu/framework/tree.js": [
-   "a0690519dbbe9e6ddc4c036acbca60dd409e0dc0",
+   "fd7e6704c7602a28b3d28b366a614ac60ce13226",
    "support"
   ],
   "webgpu/framework/url_query.js": [
-   "3712432888f6d2ac46aa410bb098ce7971ef0f93",
+   "1446bc7f7f74b00b74bba7b22a29c553262b3941",
    "support"
   ],
   "webgpu/framework/util/async_mutex.js": [
@@ -728932,11 +729066,11 @@
    "support"
   ],
   "webgpu/framework/util/index.js": [
-   "01d10e375b6cbbafdb8ce34a8cb77e3e9b94952e",
+   "2cba5f33998f3573db78fcef03c1e3fd535791ef",
    "support"
   ],
   "webgpu/framework/util/stack.js": [
-   "bd51d54509483954bb84ea9757b873ca42233cab",
+   "92b9c0e6bbc7e612fdb3742ab4502a1cd28b7f98",
    "support"
   ],
   "webgpu/framework/util/timeout.js": [
@@ -728944,20 +729078,20 @@
    "support"
   ],
   "webgpu/framework/version.js": [
-   "8dd830276b92cd74c0a911ff5e328cbfb50e4463",
+   "f8067d48eeb9a9942cd2797c57fbaa471044671f",
    "support"
   ],
   "webgpu/runtime/helper/options.js": [
    "1a90beadf1ee459911b2b549fc9359b44fe37bbd",
    "support"
   ],
-  "webgpu/runtime/helper/test_worker.js": [
-   "8a8c232f3b11b4a326a4f11ef60319d2b157710e",
+  "webgpu/runtime/helper/test_worker-worker.js": [
+   "d382f1e80e4dda805aca7e41cb90273cf84147c2",
    "support"
   ],
-  "webgpu/runtime/helper/test_worker.worker.js": [
-   "513874144f714e50a289cd22cc88087cd73235e3",
-   "testharness"
+  "webgpu/runtime/helper/test_worker.js": [
+   "a67030056f5b8d5ed7665f9e06f9735d0e26b287",
+   "support"
   ],
   "webgpu/runtime/wpt.js": [
    "fd02f09471bc656a900714dd586101d6acb28c46",
@@ -728992,7 +729126,7 @@
    "support"
   ],
   "webgpu/suites/cts/command_buffer/compute/basic.spec.js": [
-   "7abb291ca43e401b80019f29fa3cdc21175300fc",
+   "598edea66ab3946b45548ca3cea1d8becd8aec55",
    "support"
   ],
   "webgpu/suites/cts/command_buffer/copies.spec.js": [
@@ -729004,15 +729138,15 @@
    "support"
   ],
   "webgpu/suites/cts/command_buffer/render/rendering.spec.js": [
-   "a5d7568dae594357bf94c26c5a07b020671442f1",
+   "7bb7c546b5842aa585dec89ec456ad78a4ccfc18",
    "support"
   ],
   "webgpu/suites/cts/command_buffer/render/storeop.spec.js": [
-   "ae92995aa6b73eadd52b3342ff6737b91b413431",
+   "5bf6bd0116c80eea3082fab2f84522027755672b",
    "support"
   ],
   "webgpu/suites/cts/copyImageBitmapToTexture.spec.js": [
-   "c9b07e83a81bad7b809c8b80f754ba3dbbe1f0e1",
+   "b201bb49750c4f368fe6c39aa1462f1b026a3f69",
    "support"
   ],
   "webgpu/suites/cts/examples.spec.js": [
@@ -729024,11 +729158,11 @@
    "support"
   ],
   "webgpu/suites/cts/format_info.js": [
-   "d1b5b85530bdbd1af762083ad44314ecc7d36fc4",
+   "5d54bbb8c51ecd39ddb4869ce29e46571726a0cc",
    "support"
   ],
   "webgpu/suites/cts/gpu_test.js": [
-   "cf52a6cacf82581d3d04aa28f01d057c8118957d",
+   "236e9eaeb9d10923d840ff9cbe885a9d534e9230",
    "support"
   ],
   "webgpu/suites/cts/index.js": [
@@ -729036,27 +729170,27 @@
    "support"
   ],
   "webgpu/suites/cts/resource_init/sampled_texture_clear.spec.js": [
-   "b7dfbe3583f1b18c0774580861f382b3e969b535",
+   "66cee08addd60931f1192a6bf7bc97227b5b4130",
    "support"
   ],
   "webgpu/suites/cts/validation/createBindGroup.spec.js": [
-   "4bc1d0877bab8087b3fa2bd25431b1b681ddef44",
+   "22472f8dff2cf6b4d4206d7e29bc652a56466c4d",
    "support"
   ],
   "webgpu/suites/cts/validation/createBindGroupLayout.spec.js": [
-   "9ac11b49ba621ff076c0e0b94a868ec0b37e6d2e",
+   "22fa8f5d606e01841485d2567849db8dcd211168",
    "support"
   ],
   "webgpu/suites/cts/validation/createPipelineLayout.spec.js": [
-   "b82229db3d9296f6dcadf70218d2143fccb8c8f6",
+   "9d5394f925b6bec87b1ec7a01f9bd66aa994929e",
    "support"
   ],
   "webgpu/suites/cts/validation/createRenderPipeline.spec.js": [
-   "b66dabf285a2c007e01356ed9c42a9cfe7eddc43",
+   "f6a555526559969c659c74a49d3035573fc013db",
    "support"
   ],
   "webgpu/suites/cts/validation/createTexture.spec.js": [
-   "77f1c9709b6cddda912bacd988408671cb20e8bb",
+   "08c6d1b50b596e32b780f08a7be6d370d0951a75",
    "support"
   ],
   "webgpu/suites/cts/validation/createView.spec.js": [
@@ -729076,7 +729210,7 @@
    "support"
   ],
   "webgpu/suites/cts/validation/render_pass.spec.js": [
-   "3e08dcc17368ecb7a74d386c64e2166fb6baff66",
+   "f788fb63d8d0cd0270516a9e51640cb95fdf4118",
    "support"
   ],
   "webgpu/suites/cts/validation/render_pass_descriptor.spec.js": [
@@ -729108,11 +729242,11 @@
    "support"
   ],
   "webgpu/suites/cts/validation/validation_test.js": [
-   "dc5488e769883b99a9157567d3aaa71eafd2dd42",
+   "c275f94a80e5b8477838f4b66e4a1c123de9dbd6",
    "support"
   ],
   "webgpu/suites/cts/validation/vertex_state.spec.js": [
-   "da619181192b907f0485d71cf364616568d77f66",
+   "cc33cde1decd5f42f006007e0e9381d50067babd",
    "support"
   ],
   "webmessaging/Channel_postMessage_Blob.htm": [
@@ -729920,7 +730054,7 @@
    "testharness"
   ],
   "webrtc/RTCPeerConnection-onicecandidateerror.https.html": [
-   "1bbb30bd575794ea5bb12bc192262a4127a6c308",
+   "096cc9dd1a15b0e35cfae50c7bb872b876672adc",
    "testharness"
   ],
   "webrtc/RTCPeerConnection-onnegotiationneeded.html": [
@@ -730172,7 +730306,7 @@
    "testharness"
   ],
   "webrtc/idlharness.https.window.js": [
-   "85fc7a68b9dff83ce4470b6caa2986932af43b75",
+   "93341278ac628f7ecc514283f01ad6d9ad90bc28",
    "testharness"
   ],
   "webrtc/legacy/README.txt": [
@@ -735093,6 +735227,10 @@
   ],
   "webxr/xrFrame_getPose.https.html": [
    "1f3e3765df4e0a4319ea94842f2368e673948c4c",
+   "testharness"
+  ],
+  "webxr/xrFrame_getViewerPose_getPose.https.html": [
+   "7d26983fc963c3ef4b00726d055f6b1a85d2d5f9",
    "testharness"
   ],
   "webxr/xrFrame_lifetime.https.html": [
