@@ -20,10 +20,12 @@
   }
 
   var t = async_test("submit element directionality");
-  document.querySelector("input").value="foobar";
-  document.querySelector("button").click();
+  setTimeout(function() {
+    document.querySelector("input").value="foobar";
+    document.querySelector("button").click();
 
-  document.querySelector("iframe").onload = t.step_func_done(function() {
-    assert_equals(getParameterByName("comment.dir"), "ltr");
-  });
+    document.querySelector("iframe").onload = t.step_func_done(function() {
+      assert_equals(getParameterByName("comment.dir"), "ltr");
+    });
+  }, 3000);
 </script>
