@@ -41,6 +41,12 @@ impl GPUShaderModule {
     }
 }
 
+impl GPUShaderModule {
+    pub fn id(&self) -> WebGPUShaderModule {
+        self.shader_module
+    }
+}
+
 impl GPUShaderModuleMethods for GPUShaderModule {
     /// https://gpuweb.github.io/gpuweb/#dom-gpuobjectbase-label
     fn GetLabel(&self) -> Option<DOMString> {
