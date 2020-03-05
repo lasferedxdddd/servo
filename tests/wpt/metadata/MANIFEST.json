@@ -237342,7 +237342,7 @@
      []
     ],
     "support.js": [
-     "d3b2bb7d1212dd6de0379bf2dce0b23e45f7c7cb",
+     "8dbfa6f1e37d7631bf5f69b9da9b906876c5d2cf",
      []
     ]
    },
@@ -279916,7 +279916,7 @@
        []
       ],
       "testcommon.js": [
-       "b4fde4b967de2eb67cb3e0819c3a896375e861f9",
+       "7d63d2c49bce5152d765ac62728f749f622bde2a",
        []
       ]
      }
@@ -305255,7 +305255,7 @@
       []
      ],
      "numeric-testcommon.js": [
-      "56022d06399df48b48d72ef71169578034a5f86c",
+      "996250d359dc676e001bb1aebfacae98c263e41a",
       []
      ],
      "parsing-testcommon.js": [
@@ -315475,10 +315475,6 @@
        "6604450991a122e3e241e40b1b9e0516c525389d",
        []
       ],
-      "dedicated-worker.js": [
-       "5d46edcde24c1854c19069d967038c493d7e24f0",
-       []
-      ],
       "iframe.html": [
        "a6b74ad924aa108e15603544f7b0a80a3e18940b",
        []
@@ -315537,6 +315533,10 @@
       ],
       "sw.js": [
        "57f0b41ba5b5ff6318e1e4913dfd13bdb1f237a4",
+       []
+      ],
+      "universal-worker.js": [
+       "5d46edcde24c1854c19069d967038c493d7e24f0",
        []
       ]
      },
@@ -324888,7 +324888,7 @@
      []
     ],
     "construct-stylesheets.idl": [
-     "fca2a3e2887a192f737b4ce05edc52810b2cd7a9",
+     "35121866f66eaa8b6663480d1a4cb72c1cf8fd1e",
      []
     ],
     "cookie-store.idl": [
@@ -328375,7 +328375,7 @@
     },
     "script-tests": {
      "FileSystemBaseHandle-IndexedDB.js": [
-      "d7403ff5ea6d649d2b36870a5add0730f528a1ea",
+      "855e52f04ddf2f4f8641524010216c6e8c7cdda7",
       []
      ],
      "FileSystemBaseHandle-postMessage-BroadcastChannel.js": [
@@ -337717,7 +337717,7 @@
       []
      ],
      "nfc-mock.js": [
-      "7832a8231efb01f277960afc91adf01cfe3e3ac6",
+      "14bb8fdada399999efb67576481efa8881af48f3",
       []
      ],
      "sensor.mojom.js": [
@@ -347603,7 +347603,7 @@
       []
      ],
      "revlist.py": [
-      "c4cbc2943b7ce02ef2a58f65d34ab717bfb0c981",
+      "1893fdefa8346e8f969e41789df6e3ddd8540629",
       []
      ],
      "run.py": [
@@ -349915,7 +349915,7 @@
     ],
     "resources": {
      "nfc-helpers.js": [
-      "5bec071dfa7ad65fe4181a897ebe91912ee94476",
+      "b1753ddd1b3c5fb70b5ee4d99500623e3fdbdbfd",
       []
      ],
      "support-iframe.html": [
@@ -365657,6 +365657,181 @@
       {}
      ]
     ],
+    "transaction-scheduling-across-connections.any.js": [
+     "92d098d29c937c84b7bc9dd1219f126db0b7e585",
+     [
+      "IndexedDB/transaction-scheduling-across-connections.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-across-connections.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "transaction-scheduling-across-databases.any.js": [
+     "064444175867ca528d0d90ea0be40d573561ca88",
+     [
+      "IndexedDB/transaction-scheduling-across-databases.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-across-databases.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "transaction-scheduling-mixed-scopes.any.js": [
+     "5f04a6a288d23c29a7663ccfcdb32c932d573831",
+     [
+      "IndexedDB/transaction-scheduling-mixed-scopes.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-mixed-scopes.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "transaction-scheduling-ordering.any.js": [
+     "9f47e5c58ca3961d83263c7d90da597b83e06ceb",
+     [
+      "IndexedDB/transaction-scheduling-ordering.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-ordering.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "transaction-scheduling-ro-waits-for-rw.any.js": [
+     "dca08b820888f13c00cdb5a8a61badac884fac21",
+     [
+      "IndexedDB/transaction-scheduling-ro-waits-for-rw.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-ro-waits-for-rw.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "transaction-scheduling-rw-scopes.any.js": [
+     "7c6f61614b0689d3090222872379c1269559ec4c",
+     [
+      "IndexedDB/transaction-scheduling-rw-scopes.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-rw-scopes.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "transaction-scheduling-within-database.any.js": [
+     "10dd8b6d7ac5ed9dd4399a04dada2f5e88b827d8",
+     [
+      "IndexedDB/transaction-scheduling-within-database.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/transaction-scheduling-within-database.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "support.js"
+        ]
+       ]
+      }
+     ]
+    ],
     "transaction_bubble-and-capture.htm": [
      "bffa9307ccf3c7738639eb243cbf2d3ae984cb5d",
      [
@@ -379148,7 +379323,7 @@
     },
     "nonce-hiding": {
      "nonces.html": [
-      "b023d060323d9d9f366ffdb53159a6f25ab24065",
+      "7ee10a7b29e5a54918a75037ded0e5bd087f601a",
       [
        null,
        {}
@@ -383914,6 +384089,13 @@
        {}
       ]
      ],
+     "AnimationEffect-updateTiming.tentative.html": [
+      "de6953c761facd400a37572419e3c97f42b4cfed",
+      [
+       null,
+       {}
+      ]
+     ],
      "CSSAnimation-animationName.tentative.html": [
       "370d5ef85e27c2e83deb54522a31da9deb8b556c",
       [
@@ -383936,7 +384118,7 @@
       ]
      ],
      "CSSAnimation-effect.tentative.html": [
-      "bbf35d5113a9c3d1e4dba7318f649494c88feb4c",
+      "95a904187204286a49a17377d3201f4918128566",
       [
        null,
        {
@@ -383966,7 +384148,7 @@
       ]
      ],
      "CSSAnimation-pausing.tentative.html": [
-      "2b6e6853b4178f90e820a16a74a5d63524123d32",
+      "156a1afa964de12e4a983c032f9b526b5cdf625d",
       [
        null,
        {}
@@ -384015,7 +384197,14 @@
       ]
      ],
      "KeyframeEffect-getKeyframes.tentative.html": [
-      "591cc15a7eda8279ec5e9af529f8e6a06b7caa6c",
+      "f7d767dea8ca15589a53fae7952bb15e383ccd22",
+      [
+       null,
+       {}
+      ]
+     ],
+     "KeyframeEffect-setKeyframes.tentative.html": [
+      "7d8f845413a38daae9bcc9d6ce251e44cda582cb",
       [
        null,
        {}
@@ -402871,7 +403060,7 @@
       ]
      ],
      "round-function.html": [
-      "236b9a9a8a32e691c5b5b0ea6df66995ec1e4a10",
+      "b1e950efe7238fcc08b9423dca88e51383f8f7d3",
       [
        null,
        {}
@@ -431087,7 +431276,7 @@
       ]
      ],
      "dedicated-worker-cache-storage.https.html": [
-      "2559de839a304dce0c2700dc4f8ee0002de04332",
+      "dced705206fd02ede82ef4c3ed29bbd8f5f1ea2c",
       [
        null,
        {}
@@ -431197,6 +431386,13 @@
      ],
      "sandbox.https.html": [
       "1e3f80a9186107350c307a3ff16fd5ad84e11ead",
+      [
+       null,
+       {}
+      ]
+     ],
+     "service-worker-cache-storage.https.html": [
+      "873f06ce4ffbf83bca2ac4dbdc04e5b5bf92abb6",
       [
        null,
        {}
@@ -549877,6 +550073,13 @@
         null,
         {}
        ]
+      ],
+      "suspended-context-messageport.https.html": [
+       "5f5b10a251f41fd29f694564a717587f8a5a0bad",
+       [
+        null,
+        {}
+       ]
       ]
      },
      "the-biquadfilternode-interface": {
@@ -550616,7 +550819,7 @@
      ]
     ],
     "createcredential-badargs-authnrselection.https.html": [
-     "5da0745734ffbfbcd0d1658e4f4c1914d9940611",
+     "9497a001f0f4726ac628178983e8ce2625b25e88",
      [
       null,
       {
@@ -550636,7 +550839,7 @@
      ]
     ],
     "createcredential-badargs-rp.https.html": [
-     "cbd86b8f083e3d1d3b28842b9fa5759047cfac1e",
+     "8886cc15c92e0ae98f0c65d6d1daa92cb93acfb7",
      [
       null,
       {
@@ -550656,7 +550859,7 @@
      ]
     ],
     "createcredential-excludecredentials.https.html": [
-     "3a5af481fcac6cd1f9f0e1e95caab7ba7a7facb4",
+     "2b1eec19b7b3a806150d13c77d8cfd1ea01973a6",
      [
       null,
       {
@@ -550666,7 +550869,7 @@
      ]
     ],
     "createcredential-extensions.https.html": [
-     "036200dbbf949e7d0b274e44cc88e7aef1366cb8",
+     "46cab3051b4924a2cb9cf1d7a2df46046b7b2f23",
      [
       null,
       {
@@ -550686,7 +550889,7 @@
      ]
     ],
     "createcredential-pubkeycredparams.https.html": [
-     "c845a90687576a2d33b7f459c293aa74a15c1fb9",
+     "d1df7952d6766744280b460a18d2e561a5527e5d",
      [
       null,
       {
