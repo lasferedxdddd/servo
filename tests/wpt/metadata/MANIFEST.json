@@ -14259,14 +14259,7 @@
       ]
      ],
      "element-ready-check-containing-iframe-manual.html": [
-      "0649549265682b7eb8c0f851603d816e89e1cf47",
-      [
-       null,
-       {}
-      ]
-     ],
-     "element-ready-check-containing-iframe-manual.tentative.html": [
-      "08c420ec0243d67c831124f825e39be492513129",
+      "8cadbf72cf7907d453a000c3604a4d10e09fe51a",
       [
        null,
        {}
@@ -240497,7 +240490,7 @@
      ],
      "resources": {
       "common.sub.js": [
-       "83b034205a6e7aaabbdd7e8a2da5d3d605a81d85",
+       "aa6b5ddf23a3ea786ea938744a5da87b313434e0",
        []
       ],
       "common.sub.js.headers": [
@@ -240525,7 +240518,7 @@
        []
       ],
       "worker.py": [
-       "bdad52c6a84a054f1e313fdc905af80a9120a44e",
+       "716bcb8efffb84384dfc5620c1a8f6a0d193a878",
        []
       ]
      },
@@ -240631,7 +240624,7 @@
        []
       ],
       "spec.src.json": [
-       "7cf6a06c0f53492b7cb0f54b6db90688b649c1fc",
+       "0b5d6b7f7a7f8fb06dc512c6459d6b275a7e4aa1",
        []
       ],
       "spec_validator.py": [
@@ -240657,7 +240650,7 @@
        ]
       },
       "util.py": [
-       "cb89c96e34095528784fbee3de9353e3f624a2c0",
+       "88868476e8d3fb95dd1b74644bc14ae9154ba93b",
        []
       ]
      },
@@ -314215,7 +314208,7 @@
      []
     ],
     "generic-sensor-feature-policy-test.sub.js": [
-     "2a1fba9f83c39f60beeba12d5e6c086d550dc4da",
+     "20436be80076abe3cedd22214bd176564af8ee87",
      []
     ],
     "generic-sensor-iframe-tests.sub.js": [
@@ -315742,6 +315735,10 @@
       ],
       "coep-frame.html.headers": [
        "6604450991a122e3e241e40b1b9e0516c525389d",
+       []
+      ],
+      "fetch-in-dedicated-worker.js": [
+       "bd60d07952ccbf2f4c6954ce65083ce0eada13f4",
        []
       ],
       "iframe.html": [
@@ -326478,15 +326475,19 @@
     ],
     "resources": {
      "child.sub.html": [
-      "f52b5eefbc5d0cf0dd88ee9103f851d632268f5d",
+      "a0d10e13554b6b0928220ba400e53bcbe0e26d57",
       []
      ],
      "common.js": [
-      "f7332a862277d44a70455f6b4edd57be8f10d98f",
+      "1347c5bdb73cc3280a1270167bfbbac3bc3098ea",
       []
      ],
      "grandchild.sub.html": [
-      "98522e0649e505d66766b9d8c62946a5513aa5a1",
+      "0f11bce0e025a11aac9b8b6f8df480246a5ab4df",
+      []
+     ],
+     "redirecting-child.sub.html": [
+      "732c54109660fc09f7c04578ce8965b1c5307f9c",
       []
      ]
     }
@@ -328271,6 +328272,144 @@
        }
       }
      },
+     "worker-classic-inherit.http-rp": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-ws.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-wss.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "worker-classic": {
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "worker-module": {
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       }
+      }
+     },
      "worker-module-data.http-rp": {
       "opt-in": {
        "fetch": {
@@ -328372,6 +328511,144 @@
         ]
        }
       }
+     },
+     "worker-module-inherit.http-rp": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-ws.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-wss.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "worker-classic": {
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "worker-module": {
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "cross-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-http.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.keep-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.no-redirect.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ],
+        "same-https.swap-scheme.https.html.headers": [
+         "46e2255e388e9e08377d625b55653a007d59c14e",
+         []
+        ]
+       }
+      }
      }
     },
     "generic": {
@@ -328380,7 +328657,7 @@
       []
      ],
      "spec_json.js": [
-      "c36a535f45363654bfd7c8b86f3710995f769f63",
+      "79bd6664b4e10e2018158a3f40f302988d47978c",
       []
      ],
      "test-case.sub.js": [
@@ -328389,7 +328666,7 @@
      ]
     },
     "spec.src.json": [
-     "16843700da8f314638aafaa517797152cab6f02f",
+     "5d92d77b218dd4477aab4a32c9fd0ad670c6aa85",
      []
     ]
    },
@@ -337379,7 +337656,7 @@
      ]
     },
     "spec.src.json": [
-     "9063428647a33acfefb5bd35a74f0f080de09510",
+     "47055ab7c1c448c25aef6046570ee4be1e13386f",
      []
     ]
    },
@@ -337397,7 +337674,25 @@
     "META.yml": [
      "70f3136dd3c022599f81291f348e11c4c7787f44",
      []
-    ]
+    ],
+    "path-absolute-endpoint.https.sub.html.sub.headers": [
+     "ec25b28944956813654c2a5ccaa63a6969c63a5d",
+     []
+    ],
+    "resources": {
+     "fail.png": [
+      "b5933803338f770bdb1e6a7d433aeb640be85b08",
+      []
+     ],
+     "report-helper.js": [
+      "a20a9cd3811599540f5dc0a45eff450d17c751ec",
+      []
+     ],
+     "report.py": [
+      "d31b47429eca2d00f19239aecd6beeac3acb8032",
+      []
+     ]
+    }
    },
    "requestidlecallback": {
     "META.yml": [
@@ -337898,7 +338193,7 @@
       []
      ],
      "webxr-test-math-helper.js": [
-      "5eff666b70678e3d04a4b316616e8713a3cc58ea",
+      "9f10a9d4b7f76dd903034960770c3e9ecfcd5cac",
       []
      ],
      "webxr-test-math-helper.js.headers": [
@@ -337906,7 +338201,7 @@
       []
      ],
      "webxr-test.js": [
-      "dee05d08ff8a87e25e30be8ca53105fcc8667db1",
+      "ddbfd4c83aa00e8cfadd60b9cbe265bab6939b4a",
       []
      ],
      "webxr-test.js.headers": [
@@ -347850,7 +348145,7 @@
       []
      ],
      "requirements_firefox.txt": [
-      "d541a49f3c0992c4a456ce4ebb717908683a464e",
+      "c59351ba1a28c84d3db1b95b560988d119393ad3",
       []
      ],
      "requirements_ie.txt": [
@@ -348038,7 +348333,7 @@
         []
        ],
        "base.py": [
-        "fef052dd5ab495dad4342e086491723c761edcfd",
+        "a027cf32610a49e61f4141bfb5fce5d051385b3e",
         []
        ],
        "chrome.py": [
@@ -348070,11 +348365,11 @@
         []
        ],
        "firefox.py": [
-        "62790181d51e84762cbfdf55c3ecae2255a473b9",
+        "e195fc0cff4aed40fa298e4f01e19a0caa5ce1ac",
         []
        ],
        "firefox_android.py": [
-        "0b4832f858ccaf91938ba23c52f618ce8cad8ef4",
+        "50f8504f8e022afbbf91c44399441283cdf8ec3f",
         []
        ],
        "ie.py": [
@@ -348419,7 +348714,7 @@
        []
       ],
       "wptcommandline.py": [
-       "59a8c55b4ef9847f08a0ccf4b09f268e9f087aae",
+       "8125700b4bf568fef7065d50b834aa763e22b0ad",
        []
       ],
       "wptlogging.py": [
@@ -348898,6 +349193,10 @@
     ],
     "no-require-trusted-types-for-report-only.tentative.https.html.headers": [
      "aa00fcc15a30ef1f8968be44abc1a9e934a31979",
+     []
+    ],
+    "nonsecure-require-trusted-types-for.tentative.html.headers": [
+     "af6596b29a8080e5cd8d688d0d6933caf49a2090",
      []
     ],
     "require-trusted-types-for-report-only.tentative.https.html.headers": [
@@ -349486,11 +349785,199 @@
         ]
        }
       }
+     },
+     "worker-classic-inherit.http-rp": {
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-ws-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       }
+      }
+     },
+     "worker-module-inherit.http-rp": {
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-ws-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "cross-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-http-downgrade.no-redirect.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ],
+        "same-https.downgrade.https.html.headers": [
+         "602d9dc38d0a5975e8d40c26daae9329de69840c",
+         []
+        ]
+       }
+      }
      }
     },
     "generic": {
      "spec_json.js": [
-      "c0ef97148952f32e7c510b8a485f6d2da0e4a177",
+      "fa9ace46dcbdab0256e41a98b98a86eebf11d0c9",
       []
      ],
      "test-case.sub.js": [
@@ -349583,7 +350070,7 @@
      }
     },
     "spec.src.json": [
-     "d64315903aa66dd5c9ffd19bf862e96ac26b3a64",
+     "f5198c3189727f77ff4a07a6fd9f32c740f095ae",
      []
     ],
     "support": {
@@ -379726,7 +380213,7 @@
        {}
       ]
      ],
-     "report-clips-sample.html": [
+     "report-clips-sample.https.html": [
       "29f6aa409cc5284411bbdb4b5ab88c9a0d806a52",
       [
        null,
@@ -431519,7 +432006,7 @@
       ]
      ],
      "cache-storage-reporting.https.html": [
-      "d9a23bed3effa4f3492a31eeb255224df106030e",
+      "4ef9eb21d69b35429b7a542b1f9c37a2b5042b18",
       [
        null,
        {
@@ -431609,7 +432096,7 @@
       ]
      ],
      "reporting.https.html": [
-      "95fe047ea9fc6c7fe0bf33170d67df3e33a04544",
+      "f8d8af7a4690d450f3aa098b12bfccde1e928dc6",
       [
        null,
        {
@@ -451157,7 +451644,7 @@
    },
    "measure-memory": {
     "measure-memory-cross-origin-iframe.tentative.window.js": [
-     "c8dcbb77edd33fd8c29678eeaedd3792dea172bc",
+     "c65173fe8a0e55143fcb5745f0c456e2aa60da46",
      [
       "measure-memory/measure-memory-cross-origin-iframe.tentative.window.html",
       {
@@ -451179,8 +451666,31 @@
       }
      ]
     ],
+    "measure-memory-cross-origin-redirecting-iframe.tentative.window.js": [
+     "435477d7f4d758b7d78486f2f001f7ee81767147",
+     [
+      "measure-memory/measure-memory-cross-origin-redirecting-iframe.tentative.window.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/get-host-info.sub.js"
+        ],
+        [
+         "script",
+         "./resources/common.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ]
+    ],
     "measure-memory-same-origin-iframe.tentative.window.js": [
-     "24700e51c2439671ae10e6fc5a6e2d725906ca59",
+     "05a55c7b3136d2c7099c3b13faf039590d9f77c5",
      [
       "measure-memory/measure-memory-same-origin-iframe.tentative.window.html",
       {
@@ -452955,6 +453465,177 @@
        }
       }
      },
+     "sharedworker-classic.http-rp": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html": [
+         "3241aead34c39ac11a152aab9533a9498a813383",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "22bc15d57a51ff5f14017e986977841b8bca2d11",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "b0ba399717be392c0bafe4dfa259e46791878657",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "65f6ddbadf3851a1f751045ec18b914e319a882c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "f9f1aa62b6037edb43c499fe61d2643e4c601e23",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "b3b51be3ccdf9d1fb826cac531420c964a41955e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "da19d07b08656862809b7e1099e38e0699511bf8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "f0d5f1a9b0e539661f4c70b31c5d1473b2deff07",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "b976e9caa6299200bf921e27e6c4270141532da6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "7710e60bd7ad2878c8cba938f433da23cad402a9",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "76adf429684906b8e2546b0ae1c2d5412b08038f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "37e9bb911723599e534d1d85f3a2efd2c82bc991",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "2d42204648899c480bd9ccd89b2641fcb1fe28fc",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html": [
+         "9d89753d533c230e130fa934dbfd368373438eff",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "5db7dcd879cd2fdb0ad4c0bc6f665b28d8c95ecc",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "9adbb92cbf5ef91bb2c4a5e1d5f95afa6b387640",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "7fda4cbc4ab6f5f21361ec705836ffb6280fea07",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "dc9b7e428de7c38e7cc3ec87ca24bee490787a3b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "84dd3a173a6782217a2ef79bdf3a0fcb655f4c34",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "8b00bc6aeb7d75d2bec3d516f4fadebdd5ed1956",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "62b0927077873c6a7ef8e3bd2623231e9e08e906",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "9a4eef44a1289c754c9ad0c30aabf9c5d39e44f0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "a1ef6b69932fb2c5b5304d0e412f5f002f2a5bde",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
      "sharedworker-module-data.http-rp": {
       "opt-in": {
        "fetch": {
@@ -453332,6 +454013,177 @@
         ],
         "same-https.no-redirect.https.html": [
          "0e339c6aa429f96872962d3ee74c2f0f08dab674",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "sharedworker-module.http-rp": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html": [
+         "a6e2e97bccdf2b680561874fd9c67ed9482bf77a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "c68737ee235d401bbf4c830090703d480830a228",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "cd0457e0071e3dbd48ffabec2f5203a3dd0c26a9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "c9ff17534ba86f33c450ee057ff747b23a0c740c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "bf410443d3a58723de1844be2b2cad6d1afbcd28",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "d2595868872edc2a51de04a5f6eed5e967bf03e2",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "fb5a3c559ac02701f6eb393fb156f6f038be1a67",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "b5b4d5cf7a25175423385cba78c3181c0722f3eb",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "31a4813a2e957dcd90de442e26030606ffaf69f5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "f6a6a888951660a95ecaa8e213b726687f2c00b4",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "44b9ada9c1a21aa3f946e132be87d9031ec8454c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "cb2000264f8a1b4e232179899b55d362a8d12bc9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "3ae337f1024dd50efefb7b68997dbd41f358f2c9",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html": [
+         "d95d066741a7e7cecb572bb59bb8a5dce37a2988",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "20b04dcaa64ec5093c7c0274e00a277a6cdc9c24",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "bc7bb444e40e99535b65c9077a2117e02c455431",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "6b0a8edb16353e2ec37118dc94369e740944437a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "25bcd55294b04bf2c1b3daa7d5a06854484a9622",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "3742c6e9070e9f6bc94f919098d5be7767866c9d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "890ce32e626dd3e9e0b5428e56888f438e2e8f1e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "e9f45431c679be78b663efb52112abd6e03064a4",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "3e4dc50f752297141b68848a2713fb3b96a9020c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "b62ddcc94a0637c036a888a85d898dfd80aa8729",
          [
           null,
           {}
@@ -457321,6 +458173,543 @@
        }
       }
      },
+     "worker-classic-inherit.http-rp": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html": [
+         "167671afeac9199ee2bb7c7a728ffc13d9698f9e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "07d0a90e2427a6d56f90fc2bfd9057adbac87e43",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "f02532f28e4c1047c048401904062623044aa3a4",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "758053974f98113658ef45539b7bed83ccd7fac8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "6138b297ef28a7c270c2376a54a1581387fd1aed",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "c819c77a4f3281c877eaa73751a12ce71e77fa2b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "aee998f931a74476d929c1e7a8954d4c75e80935",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "b49db878eac472c65cd572ff9a45d8148b5e49a0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "4efd03465c9b5fe46ea2a51f4d1f827f5493dd0d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "354bfcde1238ca2749e5ea0214a86a4e9797aa7e",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "76ceb7e0c121f81a1170b33e3056824b3b6af1a9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "f4c63eb5e56ab92d2b088fe2a05db42910ab97e8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "a55efd4897df9cacf564dd28088bc21e6101e3c0",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http.keep-scheme.https.html": [
+         "62c37525fd39efd010009eaf08ef0307d587ec08",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "a899122ce93dc0fdd848b7ddd6882f43c0b641f2",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "1c12bcc6c261f8d3d3c446049c3cf26e07495af9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "f8b2261c2a3e9c2a99d05085a8c8e6b3862fced8",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http.keep-scheme.https.html": [
+         "999ce2075da9c7ccd18fbf5e507eeb70d8db31c9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "147e1661cede93099db7d4a2736536d10d780812",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "0b03466240af7269234d4f8465ba2b4cb3f5f56b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "516ddea4f84e694014d28ad9cca9865ca7247bc8",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html": [
+         "26646cc32e2dd17ec2e8cf38541ef37e6dbbf848",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "6aebcd83f871a7d89f89913a6a1955fe25125f50",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "50f17e4df96a1aa8b5993f656374b994f8805f00",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "2e9259fc3e55ddc1f234886efb94f5706dab23e0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "5784f627a0f8508dd10f6f3707ba51ba41580d62",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "a90e61b8b474cf1d080f67cc7f93014ee5a348fc",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "894ff3f081a93351b3aa03ccd0e8234b9968d879",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "e2c4c3ab9c0a000c65768ad260638e47a6305ca9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "7685f256994c19a0e819f57f20b5f21db1dc067e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "4c3d7d18d631f37caa7fadcf013276300b505b28",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "worker-classic-inherit.meta": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.no-redirect.https.html": [
+         "35cbe860ee8627718b961aef1a245fc26aaa7756",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "88b8a7be6da5eb147a100d691e886c78ce9e094c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "2d278da082630d5d8bee9420bae323044fa571cb",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "d54e737804819a43b320cf8a4815df1fbe1bcc1b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "6c2d581f18d353687a51921e6a51c52c5f924443",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "370d4af762d5e1ac38b4bf4f9eab2f36969cf7c9",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http.no-redirect.https.html": [
+         "a76175a1d83e30e7c6d1a4334651a734122ca2c4",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "65d6185970c7e78d65309afa86a40ed0f24802b0",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http.no-redirect.https.html": [
+         "84b7a60fd3e9b32eeb1c4b57806c26ed6c62653e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "b72ca111ad8f02a9a5015706821b319c23374173",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.no-redirect.https.html": [
+         "35f1a04b66b8f442ccdbc5be73bc5c9b679d9b33",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "ebe959719e99bfb17f456654e0579a782467caa9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "80841a9c4e505a51cada81497d87dddeddf3adab",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      },
+      "unset": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html": [
+         "2a0139ab31dc9543c0fe618d93045f6bc71f7442",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "c8f33e537b7f11310d05ef86827812e89b8b049f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "a6e51b1f64bbcfd65ecd649d2ff20e77de6622dc",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "41447cee9d8080dabd5b39777de645fe76021ded",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "a7d17f257fbf97db2702700ed9c31a258340c065",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "1fc527f29c77f278bc36b53f13fccec7b56f3280",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "8c137b284c1fb00343b6d72bed0139b271e5cee3",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "6ea5b0434b051c635629360d8d49a4684eccd6a7",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "cd89e3874ec587fc287c6720f55e3ea4f0d9476c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "bc425d9e508d0d23125cb70fe578f62cb4da88d5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "c7208db5f55936edadc93a3e1566a4e2e9777f2e",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http.keep-scheme.https.html": [
+         "9f3f5ae67dcdbbab1c95391cf33e48dbb3ef2825",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "71834a370cf1877458778ace7c73f8bdd10acbd3",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "f883209bb0bc6bb2753dcd76a74ee5cf13dbc21c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "d6b0d5676c99db4ec08c9e55953933b770d327a7",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http.keep-scheme.https.html": [
+         "5a3fe3408c5fab5957d0670acf9cbe975014d183",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "43f355c028b7318c397784b0df2efe8870b4d6a8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "1710a7239179ad0d6c2f3a3b87530413e82a81fc",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "bc9af1419b421e94c8a7c7d6e0d086687145bc53",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html": [
+         "595dea35e28fc0e03b12f9b6fba59f057e7e0d9d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "86bc76d06f6e6972be824a04fc4f075fc43367ab",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "58ec420d2bf420318602e80a53b20f1aae93fa67",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "04e6f11092507e160da4b53ed2a69e7ff9b80c59",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "013fc26c11793828c2d22e39f8ca8383d7e105a5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "37e2a3a9c0b748fba327d5708c2198b4c989a5cd",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "6fdf8df7f5132c33b804dac1174a5b27254c3ef8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "0db3796d49de363418c3c30be70ab10a8fd7a300",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
      "worker-module-data.http-rp": {
       "opt-in": {
        "fetch": {
@@ -457698,6 +459087,543 @@
         ],
         "same-https.no-redirect.https.html": [
          "ab76f16a0d18d790966dfc446c3939049b9cf748",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "worker-module-inherit.http-rp": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html": [
+         "ee7f92df5fb617a5d78de280ccac3b058b08631f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "11cf0b3139e1f84e81a9f9b836d7f45644d9f2c9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "5d4e1f9e8e9949484776df1bdbd09a511097c360",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "716b3e4563b9f35088df270470d8040f5f71e86f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "2a89687166133c2102b5e10570461c9f58560c36",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "1c32d7b72617ec89feff310c21dcc5d7e791b0ee",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "7c30ff0069850fc2efa7e578bec3d5d0fdb28020",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "cc767423ad485209c52a9dac425d30379e062842",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "b4ce4f5cbcc15c5f85aa639b204a4813550122e7",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "44c0c28468b5fafee50936b0408e43d4cb3f8336",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "f74621467498af2f7ada20b274beacf3830988fd",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "a94710476d11216adaab0370019ebae3a47b9d1e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "4fa2886472c94fc6291e550eb2029e4848e79305",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http.keep-scheme.https.html": [
+         "c4301ea0f9a08062ebfc0644f12cbf69a98069f0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "842b0a6b42417d7f97b88f162b9c222d86347309",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "449ab3ea9bff5aace0be4c18c36cf7d9ba90a43e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "f8a3b43e5c04881e91977785f34fa54d898af164",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http.keep-scheme.https.html": [
+         "0dd696e36466d1a880842bf8f4de4fe6fa29ffd7",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "09338d42d480af4c36c5091829ef859364a24865",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "24c3462b9b52b148763baf848da7e5ab5cf64ceb",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "41849c90768d90e84dcdafa35f32173809a1d8bc",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html": [
+         "0e633f7cc36605802efc11392a6bae614b329ef7",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "5d46b0ac30965203605b3c513012bbd82c288f17",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "59bca8b2496fa71347e6f45730450fe14ee3829e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.swap-scheme.https.html": [
+         "06e4eacfb79f610bce5761de81ffa98603cf20a1",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "15dccaccefe8945790357564018fbb6b1289333f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "6d915751b87dd3174b7b2cd52709ca472cd4c449",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "5bff5900c6ee2400cf0027b3ed391c6a51c4f1ae",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "2fbcdfcf4b552b48fec7a4f5a01dcb650a3ebfa9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "86230051116420dc2d6c1330a5659a1c1384df13",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.swap-scheme.https.html": [
+         "e739804a7e26974c7a9e122f28ab2e586f924978",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "worker-module-inherit.meta": {
+      "opt-in": {
+       "fetch": {
+        "cross-http.no-redirect.https.html": [
+         "a1e27a629fea0148f57826cfe9f44d3cd1a7ee16",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "ecedfa2cf2f90c0f377177d315c6ce3f505c807c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "cd4f95c16b224f6737b348364026038b53049bc1",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "1dc7867c2a322b1eb68058de928e38bc1283cfec",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "cf290a4288a1135d022dce6a581c1c130c313073",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "d04ffa938561c66f51d2a9db711fbb107a95e55e",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http.no-redirect.https.html": [
+         "ca6681410a775e98ed1a47ff171ea616ca01b5cf",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "a0d81cd30a78ecd642aa67af4b8bc642be14486e",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http.no-redirect.https.html": [
+         "9e5e2fc41c604116392f91c2a07970fe56080076",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "35d9495fc8779f5cfff34467695212ce6170bcc4",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.no-redirect.https.html": [
+         "1bda93c9bdbe7612e2aa63aaf557c6b233fc4cf6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "e6f04aa1cf41cad944ab3d2ef1207df4058d753b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "a4ac04256935c922d68ecf79db49172ee8e97263",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      },
+      "unset": {
+       "fetch": {
+        "cross-http.keep-scheme.https.html": [
+         "6b09b996faac14618fd7da4768595eadeba3f89a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "70b4dac51d2ebb9f4bdb2035d1bd001dcf633710",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "06120d2f8363c77a520f9a04f29b17e69b757156",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "27d657f27bb686d07161a346f53f7095fe2d7443",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "6dbfdd50ecef8710f82da3215a1d490a41de5c2a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "7e20764c45292d5b8bff1d9faceeafd5579af3ad",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "86c2680c919a1979cc62464cf18bc274df3a1993",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "3fae4c64b7bf89bd767cdd46bcb52b6a036e8506",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws.no-redirect.https.html": [
+         "899891567985548bcac87151c165f1ea27cde1df",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws.no-redirect.https.html": [
+         "8e909d4214f41fe3c13bdf1d3b02c814f8087783",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-wss.no-redirect.https.html": [
+         "3fc935113b1b16a1a707775a87ea45b146dbcefb",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http.keep-scheme.https.html": [
+         "9e7d811a817643ccbdb14b54dab2f1fc1b826626",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "4e784ea2e3789912407de70e316e505bf7633ce4",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "e1e1e8fa141ecd0ca0ea0ca44b8a9aeaf022320d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "b82125ea6bb746f58971a0466cf887127b99d51f",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http.keep-scheme.https.html": [
+         "3d647f7f0ba094b7119b34cd25d5ac3a03d3fe93",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "731c42554f30680a8fe282b9821bada01da91530",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "4cec52a276afce0e06fecc647eb564920828a857",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "6656c26b62fc86c041c773a7d23df17c67040386",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http.keep-scheme.https.html": [
+         "ecb166c9c456d8b3bb29321c61efa202e2c8a12f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.no-redirect.https.html": [
+         "4c6dbb0d56eddc7e536875b5592d491706336b1a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http.swap-scheme.https.html": [
+         "caa9aa15c73043e453c82ebceb811bca22d3d54d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.keep-scheme.https.html": [
+         "adb8c9e445a098dfec513e05e13c17277b7159e5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.no-redirect.https.html": [
+         "8f1ebcccc06885d6e4495e9b34d7fb969361b586",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http.swap-scheme.https.html": [
+         "8f7caedf15877b3573a0e175d33abe88cb91835c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.keep-scheme.https.html": [
+         "d7462ed70048840d83d48436fd2da70a464bfef5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.no-redirect.https.html": [
+         "1b2234af460b2e647000a41b9b9eb40f7a6f20f6",
          [
           null,
           {}
@@ -524180,6 +526106,13 @@
        "testdriver": true
       }
      ]
+    ],
+    "path-absolute-endpoint.https.sub.html": [
+     "ec06a368e97bdbad1e1df00a9aff55e807d9dd4d",
+     [
+      null,
+      {}
+     ]
     ]
    },
    "requestidlecallback": {
@@ -538360,14 +540293,21 @@
      ]
     ],
     "no-require-trusted-types-for-report-only.tentative.https.html": [
-     "56f6295221355dd0c0900f9932222c461c11eda8",
+     "651bf0a7199beab43e4f00d3c72462ffda1905f2",
      [
       null,
       {}
      ]
     ],
     "no-require-trusted-types-for.tentative.https.html": [
-     "3630962ada9dbc230c2d6f9375b8273a6358778b",
+     "651bf0a7199beab43e4f00d3c72462ffda1905f2",
+     [
+      null,
+      {}
+     ]
+    ],
+    "nonsecure-require-trusted-types-for.tentative.html": [
+     "46dae7a966142f4946767ac8ea8784c81f97ce15",
      [
       null,
       {}
@@ -540086,6 +542026,222 @@
         ],
         "same-https.downgrade.https.html": [
          "ca46e296a44dec79c655635e9d921ac034afbc88",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "sharedworker-classic.http-rp": {
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "61b877179b549a79d7c7346c0e580d8e76635253",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "cf33de98270eb2a9cec143b971aec204dcef313d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "d8cb3879821179c54edbfb9bb56758217b46ccf3",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "f6f20b961c97d094376dbf1e5ce6fb2c1ed037ee",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "ed733b37443e8597614c96e8b44a095886d9e2e3",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "123082b69d02cc439da25662605e12800c21b5e5",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "72bd9333c18d05424677ef3d354f470d6a11d634",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "dcbf07f7ce1ae1de01c280cc5fa5e5bc971481d5",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "bdc7fb2c4593a5aacb30c57741d0b8002b544da6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "8f18e37f154fafd8cc28ef02538895b7a4078472",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "a43a3168398c8f6dd125bb38186ef924bbd5b4ed",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "c060ae2f6d3121cc2d3c78cf9802221264126587",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "30bea818628c58c4283a0ee3ad5461b6c9797527",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "a6d639790b4af3f22851930b7cf553a3a56fee7c",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "sharedworker-module.http-rp": {
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "1369927f37e1642f3cdd444e98c25b8acadd9e31",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "f33ac5c4577df81ade238b6e7ce9fabd7b072ec5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "305446297d5c38c70723a9c3106076d6cd8b8d75",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "c2db82d541c9cb46f7ba78e5d767a4a97d6ff9f1",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "683d3683aeddd07870a1fdd0aca7582acc08f6cb",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "9f7061ed66c38e512f1bc72b4bf4a994822822c3",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "845eea6de9f8f9d64a8e14849eb02d7875217e9a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "c982b10aa5e82aabeea7bbd6d079213dfdfaadfa",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "24dc6fcd00c3692941e2c2090cf89f1a0e55f28a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "1eaa99de10ace990ca71292513c164fe738458ea",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "dd536795ab60b003d5eae2e1a24bafab6ccbba05",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "1d24f759d316f8301d5331c8923a7b9426375b2e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "0433b4e6f776a43f6dd81fbe16fe2deca94196c1",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "854197395dfd1a6039a5bf0d8cf90379616bbe1a",
          [
           null,
           {}
@@ -543943,6 +546099,926 @@
         ]
        }
       }
+     },
+     "worker-classic-inherit.http-rp": {
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "6343f36cb31efcce823d24f4951376517037c301",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "577b857caf53e92ae5626948264ed7627c0247d5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "e05cc38d22fac4e9388ab92319e6938c7fdc6b76",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "5353e644b5e7e2c06354cf453a5750c00ae2442b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "eddd8cb2d39299c139c2b504cfdf1cbad83f6d88",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "0f1e15c0900c38781a39b76f9553df149fda6a44",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "2aba803e47e792986ce16f1885e35629f66c6ef0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "f60d181f433f8f311848d519d9fdf555506f7b47",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html": [
+         "42ed603827e1affc61aa71f279a090dccfe8f006",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "7a20a8e3fd26951b8f58373ea613a47eecd428a6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "5a958a08cb6bda70fae8e1b32548cb7aecb7dfc6",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html": [
+         "2c1fb202a49dceac20947136e1290b585d0b4a32",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "9f82d377780cde0856326d7affd670e5d26f9d63",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "72efc132acd141aeb51816858b0a5068a9df5aa3",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "ff1bcf3810bfaaf4cfe2f03be05d48b72ddcfad6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "41ef5301d9dcbe26cbb36ef0ecb64a295cacd5f3",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "88ae7c1ba97cf3a9e6e0e8c090d7ee0282cfed87",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "4846c1b74bdb6f01cabc41ddf015a0f619436f2d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "5ac1a65b1631a2b67798c5dce76b29a73058d039",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "72c31fad4bac19e65bd87a7e4ed3ab4b7e43e6fc",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "worker-classic-inherit.meta": {
+      "unset": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "d9755caa89306fcc77e8331a0fee7183599fe516",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "6b817746c5ef7182e6544c4135f4f0807a244e7a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "cb5ceb285c07f1f72f0f203b42130785e1f3cefe",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "a4f8fa016d4b8c0bcdbdb7967f7b6b9f76904a27",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "c7bd3df7c33524db169fd6dd253b70c932c73bc5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "e75a0162cdce1bc9e665efee61ef62120a0d3eb8",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "3a65178ee2f0264a9b895834a4681471f6b74da0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "bd36ad5e61db0ce4734964fcedb956e73603ed64",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html": [
+         "68248b66d281c4bca1bf70a328cb1f0a3d7fcd72",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "151e39684079a4401bade2199dac96574af2e203",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "6fdc1411389607c443ae54815123014af466a390",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html": [
+         "f168e1ea28b9ec4cbe6d663ba3973724ad5291d8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "3e42f056f580a10c2e2b8b117005fec0cfcd59fb",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "02723eae64b265e22ac4f03ea9d0d89f10bb1998",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "8a7fe50d9535789c10231b24cec789af8fb38936",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "36b2828c4ad23749e02edac2775cab408c9a52cf",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "b89fdb905665f1382da40f1cf4c094baa636efd6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "f90e276e3386bfa8114577b2fdc230faeca1870f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "7cd85dcb51f861d58fc86cd07ed1d53480a6eecc",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "9549a31e854e3487d87b6ef32273c57ea692874e",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      },
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "3a45df5b10b0594db3dbd17d3001f83e2e5ba811",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "b7817aab76c10708e210781983ba9e069f7b6a99",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "bbe8f0556d9d1ae412bfc23b543259b9bbdad7b5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "322d17cffc24b950af5e18a3e2d9a749914c53a9",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "06149273ccd8659de1fd0a943cad69f965557a6b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "268ceb2a1c3732e424205e5de95411dd2ccf14a4",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "43180322e4fda1aa3d44fff3e9756f6bff6a3664",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "22a41d207319cdf316aea7e3d4fbf43f8ccfdde7",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html": [
+         "91efc3fe62eb0b8980560d4ec2dd102750781c9b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "e33fe74f66fcaebdaf9b5667c703c9a4cb0b13d2",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "33ce6b6ec998585faed07c21096d0744f49e17c9",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html": [
+         "33faa24d050bc4884d003804c47f7302aa95c0cc",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "cc4c777cebf9e76b29955bcf4f4a5a13c7a2db89",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "f955230b051d1ac60ef2789adb7ed2a6e3f7e444",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "ab564874fef2f9316089a85e7c0a08e5b21b1e31",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "71b5ca048aa77fcd99db64473e18de1edd61c078",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "e8a08fc0cd8dbd26f5e0d76cedbd2ccc4a39e17f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "6125ad0c8547c26e00437a0cf15472258b2d2b6c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "9cf1a16672de9d91da2538a57f1946135c773740",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "b3e64a982b60203b0cdc544baadfd214ab120733",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "worker-module-inherit.http-rp": {
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "da211f791b30dfd55fd5fa92984ec5a473fde7bd",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "5168cfed44b95e49e62e9fb2b48582c45f9d5f32",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "4323601eac1a78de91c14ef785825afc698fbfe2",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "f29fa9df3974ace7dd871e6603560db2ef304b12",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "9a7dce98896fc5a8b4c269dffbe7fbe4c0afbd85",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "75268315985dbd50331a54918178524f1e672fc6",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "be9a3489fa196bd042e0a61ad925baf4540d9b3d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "0f7e54ed5b8005d523159241ca2c995779494899",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html": [
+         "707fffa985ce014a47564cd4074510a654f9a02e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "f3e96e7eef8bf6d2f1b5397589946a55b3180d7e",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "3bd618a1318afd896fe2bb11fa064a6c4bda000e",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html": [
+         "3b13bd0ffb1641777796ec514d5f35d0dc0d08b8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "f5bd175493f64bbfb3cde44f7321937335e62316",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "1a410c337addd7c3f0cb1727f704f8a330953ddc",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "d4c5259281371587d2d9af5558121113ac5343ca",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "4378941e87b9521ac402a367ae0645296c1fd80d",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "b278d26aee134df9bb00da0ef519cdd8f5ee26ca",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "3220dbc607e707b86742ef0e3ea67f1ac6b2db23",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "5b345af1fb8a616e8ed330e4f0464b10beb630e6",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "0b0ed68401b4185f28448aadd818c33956330c5b",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
+     },
+     "worker-module-inherit.meta": {
+      "unset": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "112fae83b06b1e4439b31f9bd665e86dfb81bac0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "b3995f332850066805a04857f35e9411a7ee0be8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "643d7d22451b72712607a14eab14e583048fda8c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "5c7db8f999586f9bb69c49f27a876dd4a1652ffa",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "fc1f4c44f87c36435624df00294ca285076dda40",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "bfad8ce5824c449e96505037257c7b25e4cc2554",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "5b286c2c85d80a1e1b1813b9f2f320aed33d5308",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "b257b62b3776522effa335a8ac4693723eaa4b29",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html": [
+         "41edcee91343cf7331175718fbd3647405dc7ea0",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "c8f80ea5f8eb5bdebfffcd93835dbc539bf775b4",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "e62b99cfe0ccc9c1c89ccf712c5cd4e9e99cca6d",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html": [
+         "9ae603af9560f8262c1ee6a069b2f36a961a0bf1",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "fa6db2386ff0f26b56e90cc61540c48991d70d3b",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "67db42fbaf7a6deac6a289c84c1f05073b58bbbf",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "fd8f1d45ccdd7d753b9ef1b1fc98d253746da05f",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "79a1cc703c9d3a2ba778626e594d27a152171afa",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "9d851b1cbe61cdfe5a316890fc1e56c87d9f8e12",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "c5fd0128ae17e0658b04caa4747e2a9aa0dff011",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "f3d4243421419389bf22c684278990e0a1f9518a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "d220e187293e23cc3b533887ca90a96a41a3f614",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      },
+      "upgrade": {
+       "fetch": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "fe3315e93c54709439240f89cf829eff5bed96a1",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "2b116132a6968ba1ca7474d64f359c0e6b12ffef",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "218fe6ea34c3e68827aa408cfe95b9d389957146",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "940801d887cfb6cf05fa39939ef7453e17cc3a53",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "7cf5065260c218f7a9378f6c8eb89f961e89021a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "4074faa3ef27bea9495f273954c4bb3c5dcb13c4",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "websocket": {
+        "cross-ws-downgrade.no-redirect.https.html": [
+         "10244a37560df6e6c188b94d0f3eab55711035dd",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-ws-downgrade.no-redirect.https.html": [
+         "87fc5f47dfab31067e341440071cd8e4cd941127",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-classic": {
+        "same-http-downgrade.downgrade.https.html": [
+         "47530942a202111950bf21ff76ecf16ebdb9f9fa",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "b663ecb63ef8ad69c18abd84b903e2bf0d2fc3e8",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "c9a3b86de328a377db769a380669ffdeabcdb2c7",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "worker-module": {
+        "same-http-downgrade.downgrade.https.html": [
+         "f6845c744759c77c3b57842cc7e051255271fab5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "15b88d596aed5b241586549386239e1795504b51",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "ee73df98a2e62afc2023da9b138f9c2cb81ce7f6",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "xhr": {
+        "cross-http-downgrade.downgrade.https.html": [
+         "496e66122cf24771c9f8da1a8449cea4e1904b6a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-http-downgrade.no-redirect.https.html": [
+         "97f713070564743327fadc27d54d0006a322286c",
+         [
+          null,
+          {}
+         ]
+        ],
+        "cross-https.downgrade.https.html": [
+         "3b9fa3d655b7cb8955cfbee7763e1354aeb363a5",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.downgrade.https.html": [
+         "3e1d82ab6399664d4cc2d4ff5f39f0ba5d482a98",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-http-downgrade.no-redirect.https.html": [
+         "8990d9e95157cf3bbf8287ddcde2a2848a5b8c23",
+         [
+          null,
+          {}
+         ]
+        ],
+        "same-https.downgrade.https.html": [
+         "cb7f651df887e2f78eadfe81adeb8677db62cbb8",
+         [
+          null,
+          {}
+         ]
+        ]
+       }
+      }
      }
     },
     "link-upgrade.sub.https.html": [
@@ -547631,7 +550707,7 @@
        ]
       ],
       "animate.html": [
-       "bfe351250ffc28e9681cd2534024eefef33d2fc8",
+       "00e68b429621f65e68285bda2fa04ccb39f3f8e9",
        [
         null,
         {}
@@ -547890,7 +550966,7 @@
        ]
       ],
       "target.html": [
-       "6951682c4d8af29736e1ec655b65e4147aee9538",
+       "30b2ee6f0c8a3b5e371fd9996edfb2590c624d17",
        [
         null,
         {}
@@ -552318,13 +555394,6 @@
     ],
     "RTCPeerConnection-canTrickleIceCandidates.html": [
      "09ad67751a73a6482415a6ff6c2dac70e049c82c",
-     [
-      null,
-      {}
-     ]
-    ],
-    "RTCPeerConnection-close.html": [
-     "74f816bf3fc0c8970582216e82e9eedc3227def1",
      [
       null,
       {}
@@ -558702,8 +561771,15 @@
      ]
     ],
     "hit-test": {
+     "ar_hittest_subscription_inputSources.https.html": [
+      "b13d69a0d8442d63edd6657f4999b2b3c2a74c87",
+      [
+       null,
+       {}
+      ]
+     ],
      "ar_hittest_subscription_refSpaces.https.html": [
-      "d1ce3154e6ce967f0ed8822e4b82dab6aead7dd3",
+      "ecdfab479c7b1033c36eba6f22a3cf379063f174",
       [
        null,
        {}
