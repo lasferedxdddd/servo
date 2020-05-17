@@ -333045,6 +333045,10 @@
      "b7d9c33d596c3882e14ffa2fa1dee99e087ecedf",
      []
     ],
+    "device-memory.idl": [
+     "f664013ddefea7bc8950f7604c06f53c1c1aac48",
+     []
+    ],
     "dom.idl": [
      "102c23123819ba2e9b633755cfb453b1f2168961",
      []
@@ -333154,7 +333158,7 @@
      []
     ],
     "layout-instability.idl": [
-     "0cd2262a9f32d4a4d6f81aae165c3a411868cfc4",
+     "3ee0afa061028ecbf99f94e9479e412a169184c3",
      []
     ],
     "longtasks.idl": [
@@ -343141,10 +343145,6 @@
        "f495a0c554537f1161981e19c12c597ba41ef2b2",
        []
       ],
-      "com.apple.Safari.plist": [
-       "122080972c9f63410062ee8d33d0ed0286af8f11",
-       []
-      ],
       "fyi_hook.yml": [
        "f02f3cd8224e0b3eb4f478318f0437f5a475f4e5",
        []
@@ -343174,7 +343174,7 @@
        []
       ],
       "install_safari.yml": [
-       "a8641465ac8eae70086bd0ced4a80d3a2da35113",
+       "5cbad0d00b9b7d268c5fa969172b8910ac73a3dd",
        []
       ],
       "pip_install.yml": [
@@ -343182,7 +343182,7 @@
        []
       ],
       "safari-technology-preview.rb": [
-       "6afe1c188f9f290699605b66762eaaadd0020011",
+       "eae03474a49ff7bece32daf482390025c3ce9e2a",
        []
       ],
       "system_info.yml": [
@@ -405121,6 +405121,49 @@
       "device-memory/device-memory.https.any.worker.html",
       {}
      ]
+    ],
+    "idlharness.https.any.js": [
+     "71973394655bddfcfb5596e062992cb503877ebd",
+     [
+      "device-memory/idlharness.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/WebIDLParser.js"
+        ],
+        [
+         "script",
+         "/resources/idlharness.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "device-memory/idlharness.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/WebIDLParser.js"
+        ],
+        [
+         "script",
+         "/resources/idlharness.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ]
     ]
    },
    "document-policy": {
@@ -466354,21 +466397,12 @@
       {}
      ]
     ],
-    "idlharness.window.js": [
-     "7d97446a57808576722a823f604effa94bb95e76",
+    "idlharness.html": [
+     "a3b2d1e1c63726c6ef795954af08d2a9409835f1",
      [
-      "layout-instability/idlharness.window.html",
+      null,
       {
-       "script_metadata": [
-        [
-         "script",
-         "/resources/WebIDLParser.js"
-        ],
-        [
-         "script",
-         "/resources/idlharness.js"
-        ]
-       ]
+       "timeout": "long"
       }
      ]
     ],
