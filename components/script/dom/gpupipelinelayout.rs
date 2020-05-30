@@ -57,6 +57,10 @@ impl GPUPipelineLayout {
     pub fn id(&self) -> WebGPUPipelineLayout {
         self.pipeline_layout
     }
+
+    pub fn is_valid(&self) -> bool {
+        self.valid.get()
+    }
 }
 
 impl GPUPipelineLayoutMethods for GPUPipelineLayout {
