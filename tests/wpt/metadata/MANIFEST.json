@@ -24013,6 +24013,50 @@
        ],
        {}
       ]
+     ],
+     "reftest_mismatch-print.html": [
+      "5fd4a7f52a81cfedf6068809609aae6067f7e176",
+      [
+       null,
+       [
+        [
+         "/infrastructure/reftest/reftest_match-print-ref.html",
+         "!="
+        ]
+       ],
+       {
+        "page_ranges": {
+         "/infrastructure/reftest/reftest_match-print-ref.html": [
+          [
+           1,
+           2
+          ]
+         ]
+        }
+       }
+      ]
+     ],
+     "reftest_mismatch_fail-print.html": [
+      "afec2ef51f31eb37cda3ae58d20b96775094a5bb",
+      [
+       null,
+       [
+        [
+         "/infrastructure/reftest/reftest_match-print-ref.html",
+         "!="
+        ]
+       ],
+       {
+        "page_ranges": {
+         "/infrastructure/reftest/reftest_match-print-ref.html": [
+          [
+           1,
+           2
+          ]
+         ]
+        }
+       }
+      ]
      ]
     }
    }
@@ -122978,6 +123022,19 @@
        [
         [
          "/css/css-backgrounds/reference/box-shadow-outset-without-border-radius.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "box-shadow-table-border-collapse-001.html": [
+      "a4413ee97ffa0816294700a60f2f82e37d3762f0",
+      [
+       null,
+       [
+        [
+         "/css/css-backgrounds/reference/box-shadow-table-border-collapse-001-ref.html",
          "=="
         ]
        ],
@@ -289652,6 +289709,10 @@
        "2bca4c6961b88faaafb8d621ca222faee48256ef",
        []
       ],
+      "box-shadow-table-border-collapse-001-ref.html": [
+       "fb2734a7c1a21a76f262703c9b6e3078ff3eae1d",
+       []
+      ],
       "css-border-radius-ref-001.html": [
        "b89f2853263b3771fa12bafb04a91a243a15226f",
        []
@@ -320051,7 +320112,7 @@
      []
     ],
     "echo-policy.py": [
-     "52a2bf97124f0e6f3ff05fcc693c751f1cd0fca0",
+     "2ad326dac72925cb40cdf55c9773982a9387090a",
      []
     ],
     "experimental-features": {
@@ -320282,7 +320343,7 @@
       },
       "support": {
        "contenttype_setter.py": [
-        "02eff653ccf9c3923cc2e070d249050d77da3e87",
+        "c4b1f8df27c1ef03ecbe7b6e8d4e238d8997248b",
         []
        ]
       }
@@ -320357,7 +320418,7 @@
        []
       ],
       "generate.py": [
-       "811413dbe2dfdcfec2c07bc09bdd7763c71b755a",
+       "a0bca546c75fdba873b5a99d2e593acdda2e5499",
        []
       ],
       "mathml.html": [
@@ -320518,7 +320579,7 @@
       []
      ],
      "encoding.py": [
-      "5f889e8db2a55cdfd23b0083a45a147a9fb87ab2",
+      "281aa0bce49162465f4a011fa50b8bbe831e213b",
       []
      ],
      "getElementsByClassNameFrame.htm": [
@@ -326965,7 +327026,7 @@
        []
       ],
       "spec.yaml": [
-       "be86c7fb6e1cfb780579345b577b990e4076b47a",
+       "d4b1840a69f7f3406f77735350aabcd97fa836d3",
        []
       ],
       "specextract.py": [
@@ -327003,7 +327064,7 @@
          []
         ],
         "fill-and-stroke-styles.yaml": [
-         "1483cadd44229493d89fc5c44a0c0da6e4ad6eb0",
+         "d05ae0911bd8f97c90e16ef2376235f67de3f553",
          []
         ],
         "line-styles.yaml": [
@@ -336387,7 +336448,7 @@
      },
      "tools": {
       "format_json.py": [
-       "2808a37906e0f2191a246ccbf1396a92fc1dd442",
+       "1059ac793aaf2fb5ee875ed9d7e8a02c0040be9e",
        []
       ]
      }
@@ -336416,7 +336477,7 @@
       ]
      },
      "static-import.py": [
-      "8d0f5d9f4204384ec9612ddca3ec30cec017d14e",
+      "68583be13c42d88481dd0e9d058bae3ab7eb3995",
       []
      ]
     },
@@ -336635,6 +336696,10 @@
        ],
        "reftest_match_fail.html.ini": [
         "f3dc3362fac41bbe8ded44589e898ef589cb1a89",
+        []
+       ],
+       "reftest_mismatch_fail-print.html.ini": [
+        "4520f4cbb11e8f47b7d01bba004099dd735b7c0c",
         []
        ],
        "reftest_mismatch_fail.html.ini": [
@@ -347832,7 +347897,7 @@
       []
      ],
      "item.py": [
-      "5528e0995a8fd97914195d847662595470699058",
+      "e232925ed635c6984bcc8d0200229ffceaa2aa47",
       []
      ],
      "log.py": [
@@ -347844,7 +347909,7 @@
       []
      ],
      "sourcefile.py": [
-      "2a35400afe4d083bebfa181575acb3b503ad89bc",
+      "524eb0bddb255fbb8847aa4b064a105657418e85",
       []
      ],
      "testpaths.py": [
@@ -347869,7 +347934,7 @@
        []
       ],
       "test_sourcefile.py": [
-       "301c624b06d3b268bebba03909d482cad5734024",
+       "b4ba4638708cadf8a65c7a3decc964791a041dec",
        []
       ],
       "test_utils.py": [
@@ -354222,7 +354287,7 @@
         []
        ],
        "firefox.py": [
-        "f36b429897073785a02234c4fdefe76d537aecc5",
+        "8ffe82c662b8b1a2b28c32f967e933d23e9b053d",
         []
        ],
        "firefox_android.py": [
@@ -354290,11 +354355,11 @@
         []
        ],
        "base.py": [
-        "d803141b08d8789231242aeb929f30b02bdeb50c",
+        "82496fcad9c9d46dbf04b81fbf60b2e1dcdd1045",
         []
        ],
        "executorchrome.py": [
-        "9c3aad3f64a6cc16059cf65ab9e0d29a5221b8f1",
+        "3ae318795f0b62468a6a8a991fa07b2a78e2743b",
         []
        ],
        "executoredge.py": [
@@ -354310,7 +354375,7 @@
         []
        ],
        "executormarionette.py": [
-        "006c93fc06d0f7339a3bc1d1ef35f3e9e8fd748c",
+        "05223d374feb7bfeea1321d2ec8fbd99fa9fddb7",
         []
        ],
        "executoropera.py": [
@@ -354322,19 +354387,19 @@
         []
        ],
        "executorselenium.py": [
-        "b12299c1ff1914a1e5ef39779e5e1d95822bd158",
+        "ec7b8fcf189c9486e202b66007476e5dbd621f5c",
         []
        ],
        "executorservo.py": [
-        "54b366485efb0f7683683034a2b2c6dd18a150cd",
+        "efe93abc69c7009e22575fc59753917cadf1ce25",
         []
        ],
        "executorservodriver.py": [
-        "0680c4ed2299035146c2b1e478f4b3fa1c301101",
+        "071b506f9af90f7ea46e28ae8814a83996ed9f4a",
         []
        ],
        "executorwebdriver.py": [
-        "ea26fbcd20dda44f13bb500e10bb059c262bc4da",
+        "2b3d53d7445706ae3ab601c42e2f17496f6868db",
         []
        ],
        "executorwebkit.py": [
@@ -354512,7 +354577,7 @@
         ]
        },
        "test_executors.py": [
-        "a00554e478fdc6d4fd0bdc2a7b740e1e468164fb",
+        "3573683de39c974e59f2e81ae746af04b73a3324",
         []
        ],
        "test_expectedtree.py": [
@@ -354661,7 +354726,7 @@
        []
       ],
       "wpttest.py": [
-       "1078912a229bec1bbac0b2f781b9e8ef95b4ee1c",
+       "3750defa6a13de88d4e73f485b51b069db085c4b",
        []
       ]
      },
@@ -428638,7 +428703,7 @@
      ]
     ],
     "feature-policy-header-policy-disallowed-for-all.https.sub.html": [
-     "9a0f483ce44bc382fe12caaa6670838fa98d4209",
+     "971af0fa070d9ad40fd4f693500c38b8c85af0ef",
      [
       null,
       {}
@@ -439177,6 +439242,27 @@
        ],
        "2d.pattern.svgimage.zerowidth.html": [
         "2f93d7c342aa4320edeaf87ce9b3d1e4ea85f4a8",
+        [
+         null,
+         {}
+        ]
+       ],
+       "2d.pattern.transform.identity.html": [
+        "56a44df86bd3564da34c09e445b73ff290f03870",
+        [
+         null,
+         {}
+        ]
+       ],
+       "2d.pattern.transform.infinity.html": [
+        "d298d70c3505a7b09b7b4a1f802555d30ab4b7e5",
+        [
+         null,
+         {}
+        ]
+       ],
+       "2d.pattern.transform.invalid.html": [
+        "ebd2801241cee67eda8eacf9d2fa789e60821ec6",
         [
          null,
          {}
@@ -473100,7 +473186,7 @@
      ]
     ],
     "idlharness.html": [
-     "a3b2d1e1c63726c6ef795954af08d2a9409835f1",
+     "ea6efb27f8f41862830b9470b79bb85a331474b6",
      [
       null,
       {
@@ -517895,7 +517981,7 @@
        ]
       ],
       "no-dezippering.html": [
-       "3f8360417dd9818ffa77b4da286b5d32694b27d2",
+       "ccca103a3bc8583efb101048efb580fe21708ee3",
        [
         null,
         {}
