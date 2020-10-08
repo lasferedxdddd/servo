@@ -304,8 +304,15 @@
        {}
       ]
      ],
-     "overflow-clip-crash.html": [
+     "overflow-clip-001-crash.html": [
       "156343954deba47d0276ea482285048d773b74ab",
+      [
+       null,
+       {}
+      ]
+     ],
+     "overflow-clip-002-crash.html": [
+      "e60239655a07ca6ea3173356420c934ec10b2231",
       [
        null,
        {}
@@ -133132,7 +133139,7 @@
        ]
       ],
       "content-visibility-075.html": [
-       "cecbf9bf9c5489bb6b8eb96da42f57943ee254f0",
+       "8400dd3ddcd41aa9e95e2893239fd48ae701042c",
        [
         null,
         [
@@ -133145,7 +133152,7 @@
        ]
       ],
       "content-visibility-076.html": [
-       "8ba2bbe82e67cd65e5fe6b773eb71abfae63f4ad",
+       "93181c675bbfb33d1862e377612440a4cde335cd",
        [
         null,
         [
@@ -161402,6 +161409,19 @@
        {}
       ]
      ],
+     "multicol-span-all-015.html": [
+      "041c211b855e50ad70e65c98af73567848e3534e",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
      "multicol-span-all-block-sibling-003.xht": [
       "abaa45f0a85023f3f07a9db483629b74d2b09d71",
       [
@@ -163116,6 +163136,19 @@
        [
         [
          "/css/css-overflow/overflow-body-propagation-010-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "overflow-clip-cant-scroll.html": [
+      "529ef1fad94432769428aad25ebcb27e28124d85",
+      [
+       null,
+       [
+        [
+         "/css/css-overflow/overflow-clip-cant-scroll-ref.html",
          "=="
         ]
        ],
@@ -299423,11 +299456,11 @@
        []
       ],
       "content-visibility-075-ref.html": [
-       "05799e0ba1d3b40dabe2997cc9d2e849be35a149",
+       "1a7f152b61fd153637dbe84f5b062ad8efaf0377",
        []
       ],
       "content-visibility-076-ref.html": [
-       "6ea5fcf5aef7c5f9026016c57c390956238f3ff2",
+       "4b37070bd7e03bfcef0baaf9440d978859d1e780",
        []
       ],
       "inline-container-with-child-ref.html": [
@@ -311987,6 +312020,10 @@
      ],
      "overflow-body-propagation-010-ref.html": [
       "9e502e7e237de7ffb6dfc754450c70f5f03d297e",
+      []
+     ],
+     "overflow-clip-cant-scroll-ref.html": [
+      "d52fa0e9574cdbdb067106bccfd2014b9559b921",
       []
      ],
      "overflow-clip-content-visual-overflow-ref.html": [
@@ -347509,7 +347546,7 @@
      []
     ],
     "remote-playback.idl": [
-     "724f3dfa8d2159aaa90546c5e6787f54daa3b0ef",
+     "252241086755aee14d9b938181c025fbfced363f",
      []
     ],
     "reporting.idl": [
@@ -347529,7 +347566,7 @@
      []
     ],
     "sanitizer-api.tentative.idl": [
-     "6778c51bdfd70d13d9e8bdb05a7b87797ec07aa5",
+     "27e4ecf26c302610ef69ab4be8843cb59f9978d2",
      []
     ],
     "savedata.idl": [
@@ -347542,6 +347579,10 @@
     ],
     "screen-orientation.idl": [
      "9e9dbc67ba73753851f158340803a62e0178e893",
+     []
+    ],
+    "screen-wake-lock.idl": [
+     "56bc8f43e4d08ad81f48eff802f46f7951cbe0a9",
      []
     ],
     "scroll-animations.idl": [
@@ -347630,10 +347671,6 @@
     ],
     "wai-aria.idl": [
      "f077afe8f6aae64415d0cdaaafef4ce8de827647",
-     []
-    ],
-    "wake-lock.idl": [
-     "56bc8f43e4d08ad81f48eff802f46f7951cbe0a9",
      []
     ],
     "wasm-js-api.idl": [
@@ -353624,7 +353661,7 @@
     ],
     "support": {
      "testcases.sub.js": [
-      "a3cc6d38c8cd3d98a93a082fa4216a83de00d471",
+      "029d30bcf54779dae702e85ee36fe5ef3cdb5a06",
       []
      ]
     }
@@ -356719,6 +356756,42 @@
       "deserialize-error-frame.html": [
        "5ec2fcda2cdd8dba66ed97240cb836d45596c905",
        []
+      ],
+      "echo-iframe.html": [
+       "68f68503439fdbcddad14a6960adb451cdddf8f7",
+       []
+      ],
+      "echo-worker.js": [
+       "806c23710833997ef913ec46d64c2d5e2c438e01",
+       []
+      ],
+      "helpers.js": [
+       "05d481f277a38719b7a691ff50c8569076625424",
+       []
+      ],
+      "receiving-shared-worker.js": [
+       "84f779c3db6e135f172855e8e35684a2668fa87a",
+       []
+      ],
+      "receiving-worker.js": [
+       "4ebb9c5f8fcec29cee822ac24187912fb913af09",
+       []
+      ],
+      "sending-shared-worker.js": [
+       "e579077894d5b945b34954e9bb367e118b01270c",
+       []
+      ],
+      "sending-worker.js": [
+       "0b79733f74d97baf6337f49a41a85b0a567cca07",
+       []
+      ],
+      "service-worker-iframe.html": [
+       "348d067c926f58356d058f1571a47aacb0f13666",
+       []
+      ],
+      "service-worker.js": [
+       "af76b6c11b4ed103b8fdfe5ca206f22fe686a78f",
+       []
       ]
      }
     }
@@ -358158,7 +358231,7 @@
       []
      ],
      "lint.py": [
-      "5027da705774f8d306e4d491608e562daa378d0f",
+      "38225ec958862ec793656013226cc03d469b853d",
       []
      ],
      "rules.py": [
@@ -358363,7 +358436,7 @@
        []
       ],
       "test_lint.py": [
-       "e9925180f20a84f9653c67daad5fd366738f754a",
+       "55dbbe92dfc3f4df88c594ca16116eb2714edf7f",
        []
       ],
       "test_path_lints.py": [
@@ -358620,7 +358693,7 @@
       []
      ],
      "serve.py": [
-      "8243acc5eb8ec21e2d1d322ec4d93dc536976e08",
+      "b1b9e931317f4e99c7110b2096a0318a8f9edf4e",
       []
      ],
      "test_functional.py": [
@@ -365324,7 +365397,7 @@
         []
        ],
        "base.py": [
-        "8b34eb7cd0cdfb0a4a3a9356549e7d1c8f06851b",
+        "d3ffff6176260115a464fce7d36fe1923f42fcd9",
         []
        ],
        "docroot": {
@@ -365484,7 +365557,7 @@
         []
        ],
        "test_handlers.py": [
-        "965a214f166cfcb31baaeada3ca2bb747b86342a",
+        "7866e641e6aa2d5d98c9d674d79838235e71929d",
         []
        ],
        "test_input_file.py": [
@@ -365547,7 +365620,7 @@
        []
       ],
       "handlers.py": [
-       "6677ab394b7a31d4fe0253e8fbfbb54995a7e006",
+       "d1e9614c031279f990cff1c1787088449e59cc43",
        []
       ],
       "logger.py": [
@@ -367928,20 +368001,6 @@
       []
      ]
     }
-   },
-   "webrtc-quic": {
-    "META.yml": [
-     "740c8d2fe84beafbcb7f98cef29aff2378721132",
-     []
-    ],
-    "RTCQuicStream-helper.js": [
-     "5e1f6030bd8b138fd881264a494d6e35c23c7667",
-     []
-    ],
-    "RTCQuicTransport-helper.js": [
-     "b8d9eaed5aad3a18a583200bc958fc375f2b24da",
-     []
-    ]
    },
    "webrtc-stats": {
     "META.yml": [
@@ -486185,14 +486244,21 @@
      ]
     ],
     "child-shift-with-parent-overflow-hidden.html": [
-     "d69e55a51b8088ca0a94f3975155646d21792d88",
+     "ba67f7ed50a54434ce8c39e3b937ec4a0159d3e6",
+     [
+      null,
+      {}
+     ]
+    ],
+    "child-shift-with-parent-overflow-x-clip.html": [
+     "381727c9501217d02dda41a42bcebdff5e9c8e2f",
      [
       null,
       {}
      ]
     ],
     "child-shift-with-parent.html": [
-     "7271af6d4a04fbbafebe2b20b372f6f41b31b3a9",
+     "e23bfd0c94a8bea0aef47bf10c279c26b2e868ca",
      [
       null,
       {}
@@ -488885,7 +488951,7 @@
      ]
     ],
     "MediaRecorder-error.html": [
-     "4daf2d9cd1a6de82165152facf88c4742eb00536",
+     "1c93ed3e3a6ab82504e926486e4edb741cc2e4b6",
      [
       null,
       {}
@@ -488929,7 +488995,7 @@
      ]
     ],
     "MediaRecorder-stop.html": [
-     "bb39b027f0fcac0a4aa63918d56d62296607b5e9",
+     "ad6fa8809f6ad3af26969bbcb6a761280e5d705c",
      [
       null,
       {}
@@ -509799,21 +509865,21 @@
      ]
     ],
     "sanitizer-config.tentative.html": [
-     "5c115a467cb64e1e93e9293692d122271d64df8a",
+     "e4dc40a8c632098a7f47b72a3b5a783dffa02119",
      [
       null,
       {}
      ]
     ],
     "sanitizer-sanitize.tentative.html": [
-     "44961e02f4e8dcd876b250f2826cea4c7fe487ae",
+     "32b7424a22507c341454807e7b7f96e64e809775",
      [
       null,
       {}
      ]
     ],
     "sanitizer-sanitizeToString.tentative.html": [
-     "7efbc3ca7bd7d8c84595744d622dc4c92c87e347",
+     "bb805a4c919209e404261cd94062b505975f0b52",
      [
       null,
       {}
@@ -509998,7 +510064,7 @@
    },
    "screen-wake-lock": {
     "idlharness.https.window.js": [
-     "b5eaa14efe2bcd6f686467e86d7832e4804f8710",
+     "11b83c29bd0dae7207fd633860772d44bdac6d97",
      [
       "screen-wake-lock/idlharness.https.window.html",
       {
@@ -518202,6 +518268,62 @@
         ],
         "timeout": "long"
        }
+      ]
+     ],
+     "readable-stream.html": [
+      "59b57ce6723c10be746e2b3b478dcf81df105db1",
+      [
+       null,
+       {}
+      ]
+     ],
+     "reason.html": [
+      "4251aa85b816bb24a00143b642cf8410a4132366",
+      [
+       null,
+       {}
+      ]
+     ],
+     "service-worker.https.html": [
+      "2ca7f19c910f767a9482ff15ff88bda11971a9fe",
+      [
+       null,
+       {}
+      ]
+     ],
+     "shared-worker.html": [
+      "cd0415402d5018e2f76f4996edd4e7827adc8ab1",
+      [
+       null,
+       {}
+      ]
+     ],
+     "transform-stream.html": [
+      "fbfbfe8fc1347ab9211845f439a9a7e105a33539",
+      [
+       null,
+       {}
+      ]
+     ],
+     "window.html": [
+      "beaf548fe641c51408fd3e1083ea1c005c9c2500",
+      [
+       null,
+       {}
+      ]
+     ],
+     "worker.html": [
+      "c5dc9fc62f8cf24c9b45289651724fe3774f305d",
+      [
+       null,
+       {}
+      ]
+     ],
+     "writable-stream.html": [
+      "adc6f457c27e87569be2fd32bfe723d29aef7135",
+      [
+       null,
+       {}
       ]
      ]
     },
@@ -532984,6 +533106,13 @@
         null,
         {}
        ]
+      ],
+      "transferred-buffer-output.html": [
+       "e37a98c3861b6c2f0139b870d745ad0977fff10b",
+       [
+        null,
+        {}
+       ]
       ]
      },
      "the-delaynode-interface": {
@@ -536005,22 +536134,6 @@
     ],
     "RTCRtpParameters-encodings.html": [
      "37c1b919b417fa03b2c9566839b529a3c0aae07c",
-     [
-      null,
-      {}
-     ]
-    ]
-   },
-   "webrtc-quic": {
-    "RTCQuicStream.https.html": [
-     "e99914ad40387316e82ed32ed4626888f1011e43",
-     [
-      null,
-      {}
-     ]
-    ],
-    "RTCQuicTransport.https.html": [
-     "cdccaac6c866c970d5620b8f70943b69412cb861",
      [
       null,
       {}
