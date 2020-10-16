@@ -413,6 +413,15 @@
      }
     },
     "css-sizing": {
+     "aspect-ratio": {
+      "small-aspect-ratio-crash.html": [
+       "07712542f179c5e83cc44f4f15130c48e030d8c0",
+       [
+        null,
+        {}
+       ]
+      ]
+     },
      "frameset-intrinsic-crash.html": [
       "ab9c43ee44d6c838597074152e1a7463644d29b1",
       [
@@ -18275,13 +18284,6 @@
     ],
     "shipping-address-changed-manual.https.html": [
      "78b7f17ceeb984bde8009093a56969261e44dd7c",
-     [
-      null,
-      {}
-     ]
-    ],
-    "show-method-optional-promise-rejects-manual.https.html": [
-     "1a322452eb6114630b2f0d1d2a9762092ad5ebb9",
      [
       null,
       {}
@@ -150544,6 +150546,19 @@
         {}
        ]
       ],
+      "percentage-size-subitems-002.html": [
+       "17f57bf39d1910bdc02fd9fd4f1c9865c63cc109",
+       [
+        null,
+        [
+         [
+          "/css/reference/ref-filled-green-100px-square-only.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "remove-svg-grid-item-001.html": [
        "5e196c82c64bb52ee5b445b664eb5bc0dbd60573",
        [
@@ -152234,6 +152249,19 @@
        ]
       ]
      },
+     "relative-grandchild.html": [
+      "9c1b7d54e1f568e13e656a3bc57a840cdc93bcf2",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
      "subgrid": {
       "abs-pos-001.html": [
        "e524ec2d767c043516546733411d7e25e6eff05b",
@@ -157647,6 +157675,32 @@
         {}
        ]
       ],
+      "clip-path-path-interpolation-with-zoom.html": [
+       "4d54708da198d2c35bc5980857a8248b9159d3d4",
+       [
+        null,
+        [
+         [
+          "/css/css-masking/clip-path/reference/clip-path-path-interpolation-with-zoom-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "clip-path-path-with-zoom.html": [
+       "5879917f36e7efb74db4b1aaeb8a05bee96f39cd",
+       [
+        null,
+        [
+         [
+          "/css/css-masking/clip-path/reference/clip-path-path-with-zoom-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "clip-path-polygon-001.html": [
        "954f0ba8d91de74cb36b834f06db5a00ad59b194",
        [
@@ -158514,6 +158568,19 @@
         [
          [
           "/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "clip-path-no-content-005.svg": [
+       "e0c03d28cb0509e31ffb12034a138e0fb9b43da1",
+       [
+        null,
+        [
+         [
+          "/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg",
           "=="
          ]
         ],
@@ -239470,6 +239537,102 @@
      }
     }
    },
+   "density-size-correction": {
+    "density-corrected-image-svg-aspect-ratio.html": [
+     "fbc68de65db86477eddae60bb122a6712123a574",
+     [
+      null,
+      [
+       [
+        "/density-size-correction/density-corrected-image-svg-aspect-ratio-ref.html",
+        "=="
+       ]
+      ],
+      {
+       "fuzzy": [
+        [
+         null,
+         [
+          [
+           10,
+           10
+          ],
+          [
+           100,
+           100
+          ]
+         ]
+        ]
+       ]
+      }
+     ]
+    ],
+    "density-corrected-image-svg.html": [
+     "91c94965edd8b6abb6bd9425d7010acbc67c33fb",
+     [
+      null,
+      [
+       [
+        "/density-size-correction/density-corrected-image-svg-ref.html",
+        "=="
+       ]
+      ],
+      {}
+     ]
+    ],
+    "density-corrected-size-bg.html": [
+     "5a3190ebceab0fbab6072962060e3b3c87229b94",
+     [
+      null,
+      [
+       [
+        "/density-size-correction/density-corrected-size-bg-ref.html",
+        "=="
+       ]
+      ],
+      {}
+     ]
+    ],
+    "density-corrected-size-img.html": [
+     "7c2e788acb9661696365552922f5db721f0fc08b",
+     [
+      null,
+      [
+       [
+        "/density-size-correction/density-corrected-size-img-ref.html",
+        "=="
+       ]
+      ],
+      {}
+     ]
+    ],
+    "density-corrected-size-pseudo-elements.html": [
+     "34d318f1a2a4a10904c69cf3675cfd084d1cdca8",
+     [
+      null,
+      [
+       [
+        "/density-size-correction/density-corrected-size-pseudo-elements-ref.html",
+        "=="
+       ]
+      ],
+      {}
+     ]
+    ],
+    "density-corrected-various-elements.html": [
+     "69d80564b669abb4f59030f022688ac91225ab47",
+     [
+      null,
+      [
+       [
+        "/density-size-correction/density-corrected-various-elements-ref.html",
+        "=="
+       ]
+      ],
+      {}
+     ]
+    ]
+   },
    "document-policy": {
     "font-display": {
      "override-to-optional.tentative.html": [
@@ -279593,6 +279756,16 @@
      []
     ]
    },
+   "cors-rfc1918": {
+    "META.yml": [
+     "7f0d420a0e6f040497827a1cf19cb7b39d55922a",
+     []
+    ],
+    "README.md": [
+     "f641b61971e8b09de644476d2e04a1e45890b633",
+     []
+    ]
+   },
    "credential-management": {
     "META.yml": [
      "7b1860921312cc9d9934aa803e3f639df21423a0",
@@ -279612,11 +279785,11 @@
       []
      ],
      "otpcredential-helper.js": [
-      "0c6ce8b1f38ca321900efae35a53977da9370acb",
+      "e07e9f5be359e9173b6c916d91d8ce1f87260885",
       []
      ],
      "otpcredential-iframe.html": [
-      "83f25d573c8ecc967635bb9239a3d0c0c1544d37",
+      "4affc00ecde9951aa2911a7e818615600f324d8f",
       []
      ],
      "passwordcredential-get.html": [
@@ -311165,6 +311338,14 @@
         "567764a30124c2bc8821a508e2a7f8b6f0787c7e",
         []
        ],
+       "clip-path-path-interpolation-with-zoom-ref.html": [
+        "7e0d2a54266f3855dbc8e8e87167a06ea0cc323b",
+        []
+       ],
+       "clip-path-path-with-zoom-ref.html": [
+        "ef91c619c40615f633c64d59bfe302fcfbd8c5fb",
+        []
+       ],
        "clip-path-rectangle-border-ref.html": [
         "9a61c7690248f48ba123535524bf1bff60b4016c",
         []
@@ -329635,6 +329816,82 @@
      }
     }
    },
+   "density-size-correction": {
+    "density-corrected-image-svg-aspect-ratio-ref.html": [
+     "fa13136876c88b8e3b32d68c2c0155862151c51b",
+     []
+    ],
+    "density-corrected-image-svg-ref.html": [
+     "6507c66982903ebbbaf2de88843de6a7f3dfed65",
+     []
+    ],
+    "density-corrected-size-bg-ref.html": [
+     "758ca8edc60adccf491f7db3aa40dbba9d75798b",
+     []
+    ],
+    "density-corrected-size-img-ref.html": [
+     "5a71863a46e9e2ce14abd717230becdea77f1c58",
+     []
+    ],
+    "density-corrected-size-pseudo-elements-ref.html": [
+     "b2c9de4114e1e69192c8436beecc7ae3d07ce061",
+     []
+    ],
+    "density-corrected-various-elements-ref.html": [
+     "a0be0ac8d80f541038d0cdd1132afa4a05220392",
+     []
+    ],
+    "resources": {
+     "exif-resolution-no-change.jpg": [
+      "04f9202cfcc5ffcf5934b42c0fff9e7c4b0c541e",
+      []
+     ],
+     "exif-resolution-none.jpg": [
+      "04f9202cfcc5ffcf5934b42c0fff9e7c4b0c541e",
+      []
+     ],
+     "exif-resolution-preapplied-lores.jpg": [
+      "ad91a1479897ca221d743bbe314798f3e73902fa",
+      []
+     ],
+     "exif-resolution-preapplied-non-uniform.jpg": [
+      "c1a607f0b041c4bd110650a6f59c7650f71ecc14",
+      []
+     ],
+     "exif-resolution-valid-hires.jpg": [
+      "757ce2d877d8ac6e2cfb777e3145fabf0d946085",
+      []
+     ],
+     "exif-resolution-valid-lores.jpg": [
+      "11a5d8b12e1df4fa984601b62e1b645278774d7d",
+      []
+     ],
+     "exif-resolution-valid-non-uniform.jpg": [
+      "a028bde2e8479532ffb37483b0cdce944c1b1a78",
+      []
+     ],
+     "exif-resolution-with-orientation.jpg": [
+      "5c914f03fffbf650a9e224691666f90cfb6583b6",
+      []
+     ],
+     "exify.js": [
+      "c16b25e8676afef23133c2b35c1c6dc5623af473",
+      []
+     ]
+    },
+    "third_party": {
+     "piexif": {
+      "LICENSE.txt": [
+       "73bd9746b25f2c7d43c2bafe57043ef306304411",
+       []
+      ],
+      "piexif.js": [
+       "01b4e8f108a34f690fd2e6cafcc0c1a7f385c309",
+       []
+      ]
+     }
+    }
+   },
    "device-memory": {
     "META.yml": [
      "b8dd4761adff3e18b6552d4a8f02abdcd30a3ea6",
@@ -343776,6 +344033,10 @@
         []
        ],
        "resources": {
+        "iframe-loading-lazy-in-viewport.html": [
+         "1efd2bd056dde80de03448a76b9bd28f94fd1795",
+         []
+        ],
         "subframe.html": [
          "07cb999afaefe344a0f8d5ac2b792b60abcd22b4",
          []
@@ -353543,10 +353804,6 @@
       "6805c323df5a975231648b830e33ce183c3cbbd3",
       []
      ],
-     "mock-sms-receiver.js": [
-      "903456d6830481cfd8d977120105359d4fc43774",
-      []
-     ],
      "mock-textdetection.js": [
       "427ce38da21a9cd00e11aab313708f2719d8b094",
       []
@@ -353772,7 +354029,7 @@
         []
        ],
        "no-title.html": [
-        "3458af4459674c89de7529aecbc6a0b6de233757",
+        "ae1333a0f7f890b1b5e44a8a5ef3116fd4f5885b",
         []
        ],
        "order.html": [
@@ -354020,7 +354277,7 @@
       }
      },
      "tox.ini": [
-      "a7a02e4b93bdc009ef0b05cbc039c3977fcdd46e",
+      "c38b9f2749c8c0f8b5820ca3c621e396d4a14c7e",
       []
      ],
      "variants.js": [
@@ -354037,6 +354294,14 @@
      []
     ],
     "test-only-api.js.headers": [
+     "5e8f640c6659d176eaca4c71cc1798b7285540b7",
+     []
+    ],
+    "test-only-api.m.js": [
+     "984f635abac00272304c78f2f5bb99b397b27523",
+     []
+    ],
+    "test-only-api.m.js.headers": [
      "5e8f640c6659d176eaca4c71cc1798b7285540b7",
      []
     ],
@@ -354061,7 +354326,7 @@
      []
     ],
     "testharness.js": [
-     "85ffcf726af1b634a9e5bc1fc35aca56deb74b4c",
+     "4fb8cea0bcc167c99448c5b680276ebb1413cb5e",
      []
     ],
     "testharness.js.headers": [
@@ -358474,7 +358739,7 @@
       []
      ],
      "epochs_update.sh": [
-      "f460814c962076b4ec72c072dff09925427c90a6",
+      "1c7edf15aaf8c47638393291de1724e41bab8a2d",
       []
      ],
      "jobs.py": [
@@ -365282,7 +365547,7 @@
         []
        ],
        "chrome.py": [
-        "486070ad86d451e73f0e56ce720134024ffc1121",
+        "fd251a431c306f3bb3b12b848f548d8eff07a466",
         []
        ],
        "chrome_android.py": [
@@ -383963,6 +384228,13 @@
        {}
       ]
      ],
+     "interface-prototype-constructor-set-receiver.html": [
+      "20f33f243abeef901357fb2026f0fe2182277673",
+      [
+       null,
+       {}
+      ]
+     ],
      "interface-prototype-object.html": [
       "d2d43eda9a94688ffd707a3ed8f89c28e74324c4",
       [
@@ -396144,7 +396416,7 @@
      ]
     ],
     "otpcredential-get-basics.https.html": [
-     "edeb42a0f579209c1556d83c7fa98de08757f0dc",
+     "c0cac166de91c242a16bd4d6fc2edfa93aa37680",
      [
       null,
       {}
@@ -399458,6 +399730,13 @@
      "js": {
       "001.html": [
        "5907a492e5736a035d2c92be6764608ee2f73d84",
+       [
+        null,
+        {}
+       ]
+      ],
+      "CSS-supports.html": [
+       "dbe9506de149be2fbb1e28d1b334dbdd5dcbbbe6",
        [
         null,
         {}
@@ -406693,6 +406972,13 @@
       ]
      },
      "clip-path": {
+      "clip-path-path-with-zoom-hittest.html": [
+       "30ceefcbc03980564136ad29b6fd1a8f9a318d38",
+       [
+        null,
+        {}
+       ]
+      ],
       "interpolation.html": [
        "da3981feed6ed681ee4a7d88b7ecd167b9fd5c7b",
        [
@@ -419245,13 +419531,6 @@
        {}
       ]
      ],
-     "CSS.html": [
-      "ba048c58acaac5cd2550fb21cb9b6e9ee8fb0bb1",
-      [
-       null,
-       {}
-      ]
-     ],
      "CSSCounterStyleRule.html": [
       "afae84b0b25f4aebf2461179cf5a5a2b769cce4f",
       [
@@ -419715,7 +419994,7 @@
       ]
      ],
      "escape.html": [
-      "721c6ea35572d42e2782d6f40f7e73539df35b3a",
+      "895da59c49c0495514f0002fa6c340059c1d3123",
       [
        null,
        {}
@@ -423319,6 +423598,22 @@
      "0a54115ee11ab701edd600770900c2265a294e11",
      [
       "delegated-ink/requestPresenter-returns-valid-promise.tentative.window.html",
+      {}
+     ]
+    ]
+   },
+   "density-size-correction": {
+    "density-corrected-image-in-canvas.html": [
+     "25ac0954d3a588cdf51dd1df4108ecf5d0ea99e6",
+     [
+      null,
+      {}
+     ]
+    ],
+    "density-corrected-natural-size.html": [
+     "0b90b74f439b587f0aabb393c72a42db1a23ad61",
+     [
+      null,
       {}
      ]
     ]
@@ -473629,6 +473924,13 @@
          {}
         ]
        ],
+       "iframe-loading-lazy-in-script-disabled-iframe.html": [
+        "4f191cd7842675d763079911fe9f8b80bd447506",
+        [
+         null,
+         {}
+        ]
+       ],
        "iframe-loading-lazy-load-event.html": [
         "bf98bf7585cf608e6ebb46d025663e22bce8324c",
         [
@@ -489968,6 +490270,13 @@
       null,
       {}
      ]
+    ],
+    "onmerchantvalidation-attribute.https.html": [
+     "d31ac2dd72abcf51a28ecec850400f5f0c6b9bb5",
+     [
+      null,
+      {}
+     ]
     ]
    },
    "mimesniff": {
@@ -496499,13 +496808,6 @@
       }
      ]
     ],
-    "onmerchantvalidation-attribute.https.html": [
-     "d31ac2dd72abcf51a28ecec850400f5f0c6b9bb5",
-     [
-      null,
-      {}
-     ]
-    ],
     "onpaymentmethodchange-attribute.https.html": [
      "f641bec4aa91d8be4f1801869eb699ca4bad03a0",
      [
@@ -496524,16 +496826,7 @@
      ]
     ],
     "payment-request-abort-method.https.html": [
-     "8230e2458aaa3e0364dc45985f596759f009547d",
-     [
-      null,
-      {
-       "testdriver": true
-      }
-     ]
-    ],
-    "payment-request-canmakepayment-method-protection.https.html": [
-     "9c068dfe001e35d57783a0e99f3d6edd50cc5795",
+     "32b87970b4df49d2eef4945e3869f4abfcaa537a",
      [
       null,
       {
@@ -496655,7 +496948,7 @@
      ]
     ],
     "payment-request-show-method.https.html": [
-     "20d5bab0d14b79fb3dcf3e82e08dc495d038a33d",
+     "e5ee5eed01b26c872d01f801bb0739f791b5be58",
      [
       null,
       {
@@ -496681,11 +496974,22 @@
       }
      ]
     ],
-    "secure-payment-confirmation.https.html": [
-     "1cc12d49eba1369d57512a52de30eab4fa477da2",
+    "show-consume-activation.https.html": [
+     "0b92c4c15cf158457a9cfae6fab02171a49ca5f2",
      [
       null,
-      {}
+      {
+       "testdriver": true
+      }
+     ]
+    ],
+    "show-method-optional-promise-rejects.https.html": [
+     "3b42965503922d88213409dc814300c05b3a672f",
+     [
+      null,
+      {
+       "testdriver": true
+      }
      ]
     ]
    },
@@ -511065,7 +511369,7 @@
      ]
     ],
     "element-based-offset-clamp.html": [
-     "b140507493848688f38021573643ce7d6321e514",
+     "6467af199f10224e16f07badf16b73593270f14c",
      [
       null,
       {}
@@ -511347,6 +511651,15 @@
     ],
     "shared-worker-secure-first.https.html": [
      "ce97a628a0edc4cc59f48ce9447201fcbaeb4048",
+     [
+      null,
+      {}
+     ]
+    ]
+   },
+   "secure-payment-confirmation": {
+    "secure-payment-confirmation.tenative.https.html": [
+     "1cc12d49eba1369d57512a52de30eab4fa477da2",
      [
       null,
       {}
@@ -526952,7 +527265,7 @@
      ]
     ],
     "urlsearchparams-constructor.any.js": [
-     "1135d5d3dbbfa3625391e090985231c41e88f2c6",
+     "f9878373e5e067598054df4682652a0e9ced270a",
      [
       "url/urlsearchparams-constructor.any.html",
       {}
