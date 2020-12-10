@@ -121661,6 +121661,21 @@
      ]
     },
     "css-backgrounds": {
+     "animations": {
+      "one-element-animation.html": [
+       "36696fcaf8b9fb5ea18efb030dc5c56c5c2eee01",
+       [
+        null,
+        [
+         [
+          "/css/css-backgrounds/animations/one-element-animation-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ]
+     },
      "background-334.html": [
       "03ee2d3bb251119f55aa194615795563e6ddd350",
       [
@@ -134576,19 +134591,6 @@
         [
          [
           "/css/css-contain/content-visibility/content-visibility-078-ref.html",
-          "=="
-         ]
-        ],
-        {}
-       ]
-      ],
-      "content-visibility-079.html": [
-       "9a8b46bf5c69507289150deb707b518234de8eab",
-       [
-        null,
-        [
-         [
-          "/css/css-contain/content-visibility/content-visibility-079-ref.html",
           "=="
          ]
         ],
@@ -280232,7 +280234,7 @@
       "63d96aaf1ee7d55a1ae74bc697c3686467fb85d0",
       []
      ],
-     "script-src-strict_dynamic_double_policy_honor_source_expressions.html.headers": [
+     "script-src-strict_dynamic_double_policy_honor_source_expressions.sub.html.headers": [
       "5b4078efd377ffdf3db5346a2ae07cdb971e854f",
       []
      ],
@@ -300854,6 +300856,12 @@
       "d673be5f4f29bf82619aba6f40ed7e287e902582",
       []
      ],
+     "animations": {
+      "one-element-animation-ref.html": [
+       "8e0e70ba20e56678753b78c91ba8d02fb195b6cf",
+       []
+      ]
+     },
      "background-attachment-local": {
       "aqua-yellow-32x32.png": [
        "42f8a2100b241aebf5c62e5057a51a933e6ff4d6",
@@ -302887,10 +302895,6 @@
       ],
       "content-visibility-078-ref.html": [
        "64629ca11977c77e4b1420881c5bc59a50816323",
-       []
-      ],
-      "content-visibility-079-ref.html": [
-       "416f23e8ca6aff4cd121a1c6b7a77945accd433e",
        []
       ],
       "inline-container-with-child-ref.html": [
@@ -333241,7 +333245,7 @@
       []
      ],
      "testdriver.md": [
-      "fd87f355bc3055b97aa876c82ebfe7c7ccdf1816",
+      "931499d7b2d25f040a5b71afea2d1eecfd9dbe9b",
       []
      ],
      "testharness-api.md": [
@@ -338938,6 +338942,10 @@
        ],
        "post-done-to-opener.html": [
         "b47f0f274ef43148d3be418e2c0628a567f1c3c1",
+        []
+       ],
+       "sandbox-javascript-window-open.html": [
+        "909956a54ff52153756f863c3489f4c792b5aaff",
         []
        ]
       },
@@ -347995,7 +348003,11 @@
         []
        ],
        "evaluation-order-1-worker-setup.js": [
-        "f5bb6ecaf96c981b99f44f131023904afb9f1326",
+        "5ac90a2388a409726211987ec38100b25b529dfc",
+        []
+       ],
+       "evaluation-order-1-worker.js": [
+        "b583bf1ca627596b7e0cc1d20792625e18dda986",
         []
        ],
        "execution-timing": {
@@ -348414,7 +348426,7 @@
          []
         ],
         "evaluation-order-1-worker.mjs": [
-         "b583bf1ca627596b7e0cc1d20792625e18dda986",
+         "9be87c72227c3d3bab625f2b3a7883c62176969d",
          []
         ],
         "evaluation-order-1.mjs": [
@@ -348426,7 +348438,7 @@
          []
         ],
         "evaluation-order-2-import-worker.mjs": [
-         "81c9d0bd3e9d8ced90974f567a3edc1ef4baebca",
+         "3d9c9bb74973244909857aa73804bf1e18faf112",
          []
         ],
         "evaluation-order-2.1.mjs": [
@@ -351819,7 +351831,7 @@
     ]
    },
    "lint.ignore": [
-    "86c71544396f59526826d259242017ae426c6e7d",
+    "20f90ed585c7063bda1b5504c35c17a0fffe3a23",
     []
    ],
    "loading": {
@@ -357060,6 +357072,10 @@
      []
     ],
     "resources": {
+     "200_empty.asis": [
+      "b5d10bda324528d1d85463b9a15a347f5c1faed9",
+      []
+     ],
      "TAOResponse.py": [
       "908b68861ae8262a18e083b026d14591d1e0206e",
       []
@@ -357374,6 +357390,10 @@
      ],
      "enable-hyperlink-auditing.js": [
       "263f6512f09a90220940975b9474fecabf2837c7",
+      []
+     ],
+     "fake-serial.js": [
+      "46a79f0147afa46ff35ee1483bd3d33200b96b58",
       []
      ],
      "generic_sensor_mocks.js": [
@@ -357930,7 +357950,7 @@
      []
     ],
     "testdriver.js": [
-     "c53b24136c091f05e4ffbe286d060aba0fa66cdf",
+     "f3cee9821e13f9fd75fe37b45794a1318b6f8df0",
      []
     ],
     "testdriver.js.headers": [
@@ -358214,6 +358234,10 @@
    },
    "serial": {
     "resources": {
+     "automation.js": [
+      "98f67fb6282ceb866b63a3eb9bfa19d0dc0f1b2d",
+      []
+     ],
      "common.js": [
       "5177f83a8655f57a7b04935a136cc00bdd1b2626",
       []
@@ -369213,7 +369237,7 @@
         []
        ],
        "actions.py": [
-        "b11d30bb94aa7c2747fcc4dcfb61292f7678e273",
+        "963ed337fde44ecdd47b94b7aa417903e33849ea",
         []
        ],
        "base.py": [
@@ -369237,7 +369261,7 @@
         []
        ],
        "executormarionette.py": [
-        "675f8e0a43291fcbc4f6020eecd642a50bc412cc",
+        "dc9e3e164e40251b9e0b91b900e2ae6651776447",
         []
        ],
        "executoropera.py": [
@@ -369249,7 +369273,7 @@
         []
        ],
        "executorselenium.py": [
-        "ff26351f84ed8d2e00d82d76570208a5947086cc",
+        "0228922134a704afdde5f37e4edec31dc540fc2f",
         []
        ],
        "executorservo.py": [
@@ -369261,7 +369285,7 @@
         []
        ],
        "executorwebdriver.py": [
-        "bad5fd072237bce2b826dde77b413bcabbcca990",
+        "43fc910c5151554df38d2a11608040442754d962",
         []
        ],
        "executorwebkit.py": [
@@ -369273,7 +369297,7 @@
         []
        ],
        "protocol.py": [
-        "bd768b1073c748fdb860745f1bf9442f5b415c3b",
+        "8bdc8b0cbc01cb0ab86396e50e7232368bd08c2b",
         []
        ],
        "pytestrunner": {
@@ -369384,7 +369408,7 @@
        []
       ],
       "testdriver-extra.js": [
-       "9a8b40e0a94d264ef92ddea30dec05cfae37a0b1",
+       "e15652dcdfb4cf4518f4f3cbd49400754d2b8de3",
        []
       ],
       "testdriver-vendor.js": [
@@ -397392,7 +397416,7 @@
        {}
       ]
      ],
-     "script-src-strict_dynamic_double_policy_honor_source_expressions.html": [
+     "script-src-strict_dynamic_double_policy_honor_source_expressions.sub.html": [
       "39126de58f545472cf5a2d30dd2658b2a7f35472",
       [
        null,
@@ -458249,6 +458273,13 @@
         {}
        ]
       ],
+      "sandbox-javascript-window-open.html": [
+       "fd21e9bb028fc86b6f26bd96b0b7f963cc560cea",
+       [
+        null,
+        {}
+       ]
+      ],
       "sandbox-navigation-timing.tentative.html": [
        "686f1c0c9f6847772edbe2ef070a483db1df3d9d",
        [
@@ -489666,7 +489697,7 @@
          ]
         ],
         "evaluation-order-1.html": [
-         "10bfcadb78d2bc1487b8cee1f47bfc546c5111b7",
+         "728aded3301298ee02e4e5d55496ca68e009e45f",
          [
           null,
           {}
@@ -489687,7 +489718,7 @@
          ]
         ],
         "evaluation-order-2-import.html": [
-         "0b0bf849a4391152d34cc8d55039e8c3707ecbfc",
+         "1db333cb1cdccc827cbd6439ddb3a5f3ac6784a8",
          [
           null,
           {}
@@ -496215,6 +496246,15 @@
      ],
      "click_window.html": [
       "614a92478e07d51e48c420d5fa253338a87378b2",
+      [
+       null,
+       {
+        "testdriver": true
+       }
+      ]
+     ],
+     "delete_all_cookies.html": [
+      "14b7d5861b7f60ae329d99b29dbbe12a25cc8c0b",
       [
        null,
        {
@@ -504333,7 +504373,7 @@
      ]
     },
     "delete_async_basic.tentative.https.any.js": [
-     "1229ecf0f3db12bd32e50b8490eaeabd7069f1e6",
+     "84da14b005ad0deabad165146e5089315c29417a",
      [
       "native-io/delete_async_basic.tentative.https.any.html",
       {
@@ -504396,7 +504436,7 @@
      ]
     ],
     "delete_sync_basic.tentative.https.any.js": [
-     "8e033bbc42919ad6f733686f55c49d124ca9c440",
+     "55c113acbed4e219a5ccebc0c7b868102f6b6efe",
      [
       "native-io/delete_sync_basic.tentative.https.any.worker.html",
       {
@@ -504841,7 +504881,7 @@
      ]
     ],
     "rename_async_failure_handling.tentative.https.any.js": [
-     "038be88a3af6dc571e003a0edb14fd54362a5ef5",
+     "bff8234f4a58ff343e068f64e97330d03b79bf53",
      [
       "native-io/rename_async_failure_handling.tentative.https.any.html",
       {
@@ -504938,7 +504978,7 @@
      ]
     ],
     "rename_sync_failure_handling.tentative.https.any.js": [
-     "62a3d5b6af8e83ae98f2d26ad8524bf12fa185be",
+     "8097932f23ac7c6b2ef090cfec9d003a25f01d8a",
      [
       "native-io/rename_sync_failure_handling.tentative.https.any.worker.html",
       {
@@ -522658,7 +522698,7 @@
        ]
       ],
       "iframe-inheritance-history-about-srcdoc.html": [
-       "c16ead7b6b976808737945bcc7635d400c70de87",
+       "91ac5fc139e2941f28919f0096ff2d5c3450c2bd",
        [
         null,
         {}
@@ -523373,7 +523413,7 @@
      ]
     ],
     "iframe-failed-commit.html": [
-     "75e19f788efb2ecbccf67c4df02f030e3d9415c7",
+     "bd51d33c80f2f5d0f9ab2d1fc644302747c2979a",
      [
       null,
       {}
@@ -525222,6 +525262,856 @@
      [
       null,
       {}
+     ]
+    ],
+    "serialPort_close.https.any.js": [
+     "ec949a9917699d343192ff6b69ba999ba39a9787",
+     [
+      "serial/serialPort_close.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_close.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_events.https.any.js": [
+     "fa3db6a3b3e0d36a02e518b1d8ee8b2b62089791",
+     [
+      "serial/serialPort_events.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_events.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_getInfo.https.any.js": [
+     "2e0df3b8bdcb8cbef560cc43be63198e49365360",
+     [
+      "serial/serialPort_getInfo.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_getInfo.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_getSignals.https.any.js": [
+     "a570e35987f4ce31ac2d1293f478c81f909beee9",
+     [
+      "serial/serialPort_getSignals.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_getSignals.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_ondisconnect.https.any.js": [
+     "b20f69d265be3e7409437e9c0379d4b124e5158d",
+     [
+      "serial/serialPort_ondisconnect.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_ondisconnect.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_open.https.any.js": [
+     "ca138770888394c006c39e2e7a7adc5c0e597f7a",
+     [
+      "serial/serialPort_open.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_open.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_cancel.https.any.js": [
+     "fd1b08f6e7f34a3b7e693cc419f6ea84edfaff01",
+     [
+      "serial/serialPort_readable_cancel.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_cancel.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_chain.https.any.js": [
+     "552567cdfe400aa9b00afde30761a7aae911d664",
+     [
+      "serial/serialPort_readable_chain.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_chain.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_closeLocked.https.any.js": [
+     "21196f758b9089c87cca83478e39b911cf82fda3",
+     [
+      "serial/serialPort_readable_closeLocked.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_closeLocked.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_disconnect.https.any.js": [
+     "3532745ae035000e21f64535ea2d054fba98b4db",
+     [
+      "serial/serialPort_readable_disconnect.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_disconnect.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_largeRead.https.any.js": [
+     "f8087514f71b0040c6b947885acdf554e4e17d97",
+     [
+      "serial/serialPort_readable_largeRead.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_largeRead.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_open.https.any.js": [
+     "1a12cc2da48c1058236558dbd894423ee577623f",
+     [
+      "serial/serialPort_readable_open.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_open.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_parityError.https.any.js": [
+     "7afd494dc50dbb174510fdb2db70f37338fe9184",
+     [
+      "serial/serialPort_readable_parityError.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_parityError.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_pipeThrough.https.any.js": [
+     "13c6d48023957b6a02d64c3937795ece214c2c0f",
+     [
+      "serial/serialPort_readable_pipeThrough.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_pipeThrough.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_readable_smallRead.https.any.js": [
+     "b53ea71443d44f23aa80326b65b1f7501d7846dc",
+     [
+      "serial/serialPort_readable_smallRead.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_readable_smallRead.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_setSignals.https.any.js": [
+     "27911ab7db5448b67086e4cda538dc1c80d0f8f0",
+     [
+      "serial/serialPort_setSignals.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_setSignals.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serialPort_writable.https.any.js": [
+     "9728af7de5051dce874e10082e1443a3ca9fa7dc",
+     [
+      "serial/serialPort_writable.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serialPort_writable.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serial_getPorts.https.any.js": [
+     "03ab5f7e266cb6e708c1e8633a34bac50db143c1",
+     [
+      "serial/serial_getPorts.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serial_getPorts.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serial_onconnect.https.any.js": [
+     "e2ff9a0f0a0b7ae7253f9b5a6cc43b54fbe47522",
+     [
+      "serial/serial_onconnect.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serial_onconnect.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serial_ondisconnect.https.any.js": [
+     "583a9ea52c85fb84595383a5829558475bd1dffb",
+     [
+      "serial/serial_ondisconnect.https.any.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "serial/serial_ondisconnect.https.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
+     ]
+    ],
+    "serial_requestPort.https.window.js": [
+     "4edcfa6a46d3fe0f0e969efc66ff53445f7c7f9b",
+     [
+      "serial/serial_requestPort.https.window.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/testdriver.js"
+        ],
+        [
+         "script",
+         "/resources/testdriver-vendor.js"
+        ],
+        [
+         "script",
+         "/resources/test-only-api.js"
+        ],
+        [
+         "script",
+         "/serial/resources/common.js"
+        ],
+        [
+         "script",
+         "resources/automation.js"
+        ]
+       ]
+      }
      ]
     ]
    },
@@ -548164,11 +549054,45 @@
       }
      ]
     ],
-    "video-encoder.html": [
-     "1e723d42bf1ac0e3beb55baa32c3feffeae86ae3",
+    "video-encoder.any.js": [
+     "77fe184bafa84786315c3375936dc61927ca304b",
      [
-      null,
-      {}
+      "webcodecs/video-encoder.any.html",
+      {
+       "script_metadata": [
+        [
+         "global",
+         "window,dedicatedworker"
+        ],
+        [
+         "script",
+         "/common/media.js"
+        ],
+        [
+         "script",
+         "/webcodecs/utils.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "webcodecs/video-encoder.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "global",
+         "window,dedicatedworker"
+        ],
+        [
+         "script",
+         "/common/media.js"
+        ],
+        [
+         "script",
+         "/webcodecs/utils.js"
+        ]
+       ]
+      }
      ]
     ],
     "video-frame-serialization.any.js": [
