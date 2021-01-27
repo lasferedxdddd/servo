@@ -1172,6 +1172,15 @@
       ]
      ]
     },
+    "crashtests": {
+     "firefox-bug-1688293.html": [
+      "9ab1a88312683a66798cb52693c2ba4389222ff4",
+      [
+       null,
+       {}
+      ]
+     ]
+    },
     "extensibility": {
      "foreignObject": {
       "foreign-object-circular-filter-reference-crash.html": [
@@ -121700,6 +121709,32 @@
     },
     "css-backgrounds": {
      "animations": {
+      "animation-fallback-missing-100-percent.html": [
+       "0f1ef1e87728e1d37b1975ee00198c876aee0c80",
+       [
+        null,
+        [
+         [
+          "/css/css-backgrounds/animations/animation-fallback-missing-100-percent-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "animation-fallback-replace.html": [
+       "61330686631374307c2cca3eaab19d25ae9dffcd",
+       [
+        null,
+        [
+         [
+          "/css/css-backgrounds/animations/animation-fallback-replace-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "one-element-animation.html": [
        "36696fcaf8b9fb5ea18efb030dc5c56c5c2eee01",
        [
@@ -148222,6 +148257,19 @@
        [
         [
          "/css/reference/ref-filled-green-100px-square-only.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "grid-flex-item-006.html": [
+      "b5d49c4824c794513c823a9c949789f565476cd0",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
          "=="
         ]
        ],
@@ -181146,6 +181194,19 @@
       ],
       "percentage-resolution-004.html": [
        "5d222a9be2131028f50ecd476f6e484c51bbfe22",
+       [
+        null,
+        [
+         [
+          "/css/reference/ref-filled-green-100px-square.xht",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "percentage-resolution-005.html": [
+       "97842a26e19810347c7df622422d2b6a8639f176",
        [
         null,
         [
@@ -253511,6 +253572,47 @@
       {}
      ]
     ],
+    "focus": {
+     "focus-pseudo-on-shadow-host-1.html": [
+      "ba900d6a6d27b84b37de14f26ad2d8ed1a42adc9",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "focus-pseudo-on-shadow-host-2.html": [
+      "a605aca5a63a56d6d03aa743a5d8fee010fb6729",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "focus-pseudo-on-shadow-host-3.html": [
+      "e72d1b39d4c23fc9c6e43ab04aae6b525d957bbb",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ]
+    },
     "layout-slot-no-longer-assigned.html": [
      "dfcac99da023ec2bbd94835f71efaef952a62341",
      [
@@ -263324,6 +263426,12 @@
      "97ca870b6d5ad6908590176391142d4e8ce142d0",
      []
     ],
+    "third_party": {
+     "reftest-analyzer.xhtml": [
+      "4c7b26511acfa06b6801d36d4edc9943596aefcb",
+      []
+     ]
+    },
     "utils.js": [
      "62e742bee7f67cf3bd92a217a0a92b23fddf3017",
      []
@@ -301924,6 +302032,14 @@
       []
      ],
      "animations": {
+      "animation-fallback-missing-100-percent-ref.html": [
+       "7a0046f27b2bd432944e61aee3bb900300093019",
+       []
+      ],
+      "animation-fallback-replace-ref.html": [
+       "271281cf8842d48c5ff9c325a8189388936be45f",
+       []
+      ],
       "one-element-animation-ref.html": [
        "8e0e70ba20e56678753b78c91ba8d02fb195b6cf",
        []
@@ -319192,6 +319308,10 @@
        "1a2d02d5c71d7026c783e5215452ee7333308658",
        []
       ],
+      "history-restore-anchors-new-window.html": [
+       "bd8290e793dff28de516e84518a88498b35a307b",
+       []
+      ],
       "scrolling-vertical-rl.html": [
        "1273469dab2f53683669cc2103c0ede6e210bdc1",
        []
@@ -334487,6 +334607,26 @@
      []
     ],
     "experimental-features": {
+     "document-domain": {
+      "resources": {
+       "document-domain-disabled.html": [
+        "124ee143eee08b46b7effdb25e81cde65a1c16a8",
+        []
+       ],
+       "document-domain-disabled.html.headers": [
+        "57b46a600c0f4d5790767b74828a0ef56a34ba59",
+        []
+       ],
+       "document-domain-enabled.html": [
+        "fe03af0dbbe5dbb559b647a9fd2976b8035835b3",
+        []
+       ],
+       "document-domain-enabled.html.headers": [
+        "89ccbe756dfb39e50e8894eb791ee7626f18f59c",
+        []
+       ]
+      }
+     },
      "layout-animations-disabled-tentative.html.headers": [
       "745da550ee5162cffcdf3913a37efa6d355ca47e",
       []
@@ -342091,7 +342231,7 @@
        []
       ],
       "gentestutils.py": [
-       "b6861db5f9ef72bf5ed02087411e2c3694865d75",
+       "1ff2c77939695039601bb8d31e11d10b5962e3fe",
        []
       ],
       "name2dir-offscreen.yaml": [
@@ -342107,7 +342247,7 @@
        []
       ],
       "templates-offscreen.yaml": [
-       "58cec883c6a07443084905c939348a2221d587f6",
+       "b9d78567cc20afb8ff45826b307412d8a1190dfd",
        []
       ],
       "templates.yaml": [
@@ -342231,7 +342371,7 @@
          []
         ],
         "text.yaml": [
-         "b218d2d8b8b8bf253d9f471b1cb58aa8f21d3293",
+         "66a5b7cf9421933874202263de782726a48406f9",
          []
         ],
         "the-canvas-state.yaml": [
@@ -353257,7 +353397,7 @@
      []
     ],
     "xhr.idl": [
-     "d6d8193e1c36b71bd09c9cedf1b72fa4365d50c8",
+     "3abd09ce5ed7fa651466f7a242b573c3bc2d109f",
      []
     ],
     "xslt.tentative.idl": [
@@ -359459,7 +359599,7 @@
      []
     ],
     "testharness.js": [
-     "fea1f2f52e9f50c53e4689854927698eb57a30fb",
+     "11e31b133ddd20736119f216e0326f15dc82f691",
      []
     ],
     "testharness.js.headers": [
@@ -372042,7 +372182,7 @@
         []
        ],
        "executormarionette.py": [
-        "8301ba1073c3431f1fd919100c8fd115d57a247e",
+        "d61e1f262cd0bc7cde5792c5fd6a582e8e074b9a",
         []
        ],
        "executoropera.py": [
@@ -372066,7 +372206,7 @@
         []
        ],
        "executorwebdriver.py": [
-        "e6c5f9f1a206cb4f9f4d4fc3d2b72f5dd20e1fbc",
+        "0a968bf3f8c2833f2d621784b4f54a4c6875bde2",
         []
        ],
        "executorwebkit.py": [
@@ -372078,7 +372218,7 @@
         []
        ],
        "protocol.py": [
-        "e48add9334b68a07827be9f428b6ff81db86a7f4",
+        "05e251c78410600a7e81da65ce8572db698b0c15",
         []
        ],
        "pytestrunner": {
@@ -372125,7 +372265,7 @@
        []
       ],
       "font.py": [
-       "910358f51596f9e392f81ef156cdd0b101983b7b",
+       "97d74da4e4034193f87225483cfda797f81ae0bd",
        []
       ],
       "formatters": {
@@ -372323,7 +372463,7 @@
        []
       ],
       "wptcommandline.py": [
-       "60c74ef408e1839a2bcd733ac9ef4fda6dc0e72b",
+       "2b6d4b357c92995963485bad0a9bcac6d51f4b39",
        []
       ],
       "wptlogging.py": [
@@ -372891,15 +373031,15 @@
      []
     ],
     "trusted-types-eval-reporting-no-unsafe-eval.tentative.html.headers": [
-     "e4147bd2e372e4498f9a6ca138f9f29f4750561f",
+     "2bdd8a7d1abaa1200c50f9d58b8c8547dd589e84",
      []
     ],
     "trusted-types-eval-reporting-report-only.tentative.html.headers": [
-     "b5e94c400bb00aef7a9231c05500375f418c1065",
+     "d212eda5ef57093fb093634d664629f9633b8ee0",
      []
     ],
     "trusted-types-eval-reporting.tentative.html.headers": [
-     "3f55bba7d1b8d0965d3f9f29c7db301806f7c1a0",
+     "8989345e7220678381239e5553aa76232a1c2046",
      []
     ],
     "trusted-types-report-only.tentative.html.headers": [
@@ -372911,7 +373051,7 @@
      []
     ],
     "trusted-types-reporting.tentative.html.headers": [
-     "fa8aceab74b0f6e937da3999d471f6afaac4c24e",
+     "31c8e4131701cfa1cc794cea6b45d4c4915897fd",
      []
     ]
    },
@@ -396656,7 +396796,7 @@
      ]
     ],
     "async-navigator-clipboard-basics.https.html": [
-     "65759186a6c98ab25f35e18d4f9d9350caedb1a0",
+     "8fbcd11e7e963240f41e2e1ce6c9a0ae26979d3a",
      [
       null,
       {}
@@ -416428,7 +416568,7 @@
       ]
      ],
      "history-restore-anchors.html": [
-      "24dfcf72ec334627b2308821037f20ab5a700d68",
+      "ecd7806bc935459195862d0e331c4f6130c9efac",
       [
        null,
        {}
@@ -429680,7 +429820,7 @@
       ]
      ],
      "focus-visible-007.html": [
-      "3b7abf7646222134e80c5ecf3f518d0a5cf80abf",
+      "0fc196cbecdf1b198a5badce3694b1ec7cc95d4f",
       [
        null,
        {
@@ -429730,7 +429870,7 @@
       ]
      ],
      "focus-visible-013.html": [
-      "11cf4d7216a61bc833e4788975252c5829dfc884",
+      "a259a1cc73430e6fcee682e56e459dd6161dced6",
       [
        null,
        {
@@ -431393,6 +431533,15 @@
    },
    "document-policy": {
     "experimental-features": {
+     "document-domain": {
+      "document-domain.tentative.sub.html": [
+       "65de95c9a3899a884b9ccb47a626701799950bfa",
+       [
+        null,
+        {}
+       ]
+      ]
+     },
      "document-write.tentative.html": [
       "551703c6f56b74856e2b7b465760fc57c2fe95dc",
       [
@@ -433854,7 +434003,7 @@
       ]
      ],
      "aria-element-reflection.tentative.html": [
-      "9073e52075a502943cf9dfb7586174e0533b63fa",
+      "fc20df6696e975d368b5e18cfad776c4284615fe",
       [
        null,
        {}
@@ -446273,7 +446422,7 @@
      ]
     ],
     "textdecoder-labels.any.js": [
-     "ed407a3254792398d5109d0d1ee5fbee5e9ef093",
+     "efc4ae2d2ea586cf15d2e89369c9bb337b765cfa",
      [
       "encoding/textdecoder-labels.any.html",
       {
@@ -446285,8 +446434,13 @@
         [
          "script",
          "resources/encodings.js"
+        ],
+        [
+         "timeout",
+         "long"
         ]
-       ]
+       ],
+       "timeout": "long"
       }
      ],
      [
@@ -446300,8 +446454,13 @@
         [
          "script",
          "resources/encodings.js"
+        ],
+        [
+         "timeout",
+         "long"
         ]
-       ]
+       ],
+       "timeout": "long"
       }
      ]
     ],
@@ -470295,10 +470454,18 @@
         ]
        ],
        "2d.composite.uncovered.fill.destination-in.worker.js": [
-        "ed191da99a747d57b3efcd2dffe67e3e51c72aa1",
+        "f4555f7d1dbbfe6ff203ef4cad5239b770e5ccb2",
         [
          "html/canvas/offscreen/compositing/2d.composite.uncovered.fill.destination-in.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.composite.uncovered.fill.source-in.html": [
@@ -470595,10 +470762,18 @@
         ]
        ],
        "2d.drawImage.3arg.worker.js": [
-        "b89beed86fbc3a631544154e4c0cecb3dd382acb",
+        "219e90d36d8c18233745cbba7fc578aad71c9b9b",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.3arg.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.5arg.html": [
@@ -470611,10 +470786,18 @@
         ]
        ],
        "2d.drawImage.5arg.worker.js": [
-        "4d8b4bafd7fe0200478f85e39f2efb9981623e03",
+        "005235a24353e4354d5a9c5b2e331f56be318b61",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.5arg.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.9arg.basic.html": [
@@ -470627,10 +470810,18 @@
         ]
        ],
        "2d.drawImage.9arg.basic.worker.js": [
-        "9d6913aae9322ee110e3258bbe37b688dfd12e57",
+        "3f26c729ce8c584d57c9cdd1032ca1d54aa87ee2",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.9arg.basic.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.9arg.destpos.html": [
@@ -470643,10 +470834,18 @@
         ]
        ],
        "2d.drawImage.9arg.destpos.worker.js": [
-        "b4a2402df76e90d06a984289f189885ecc3139d2",
+        "ed9a7256709f203afa47ee06ae572825e74d5ee3",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.9arg.destpos.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.9arg.destsize.html": [
@@ -470659,10 +470858,18 @@
         ]
        ],
        "2d.drawImage.9arg.destsize.worker.js": [
-        "5ad01d6715d645778e29e53adecc0899ea71a97c",
+        "8cc7748930489bbc83c3e2014e9b3b4f20ad4411",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.9arg.destsize.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.9arg.sourcepos.html": [
@@ -470675,10 +470882,18 @@
         ]
        ],
        "2d.drawImage.9arg.sourcepos.worker.js": [
-        "9679ee4cfac06ef88c818c22f480e5af62e20eec",
+        "6697bfeb8d783c1c2d288f9b433b43f373fa35d0",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.9arg.sourcepos.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.9arg.sourcesize.html": [
@@ -470691,10 +470906,18 @@
         ]
        ],
        "2d.drawImage.9arg.sourcesize.worker.js": [
-        "bfcafa951225c5416b17912cacab5a0bff489c91",
+        "7079998786c8249af7544cb29f593044d080c1c4",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.9arg.sourcesize.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.alpha.html": [
@@ -470707,10 +470930,18 @@
         ]
        ],
        "2d.drawImage.alpha.worker.js": [
-        "2621c5f8e12baa77a4c8eda79a938c21b525777c",
+        "791665c9daf9ab3259ccde5bd874105571fa88b5",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.alpha.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.animated.poster.html": [
@@ -470723,10 +470954,18 @@
         ]
        ],
        "2d.drawImage.animated.poster.worker.js": [
-        "4678ba3c5c2c96e41a200f63de34ab0a4351fc30",
+        "e92ffd652e94f934450f84fd4854654d59eba7f8",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.animated.poster.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.broken.html": [
@@ -470739,10 +470978,18 @@
         ]
        ],
        "2d.drawImage.broken.worker.js": [
-        "31e1241ab51af895c33d01d5e5937a2cbbd0216c",
+        "ab5f2d67d5c1d53d7a41dae542ef58708596a57b",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.broken.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.canvas.html": [
@@ -470755,10 +471002,18 @@
         ]
        ],
        "2d.drawImage.canvas.worker.js": [
-        "09985f437e69b26ebfca9cfa16d8708ceedfb552",
+        "8ab99fe152f6a1404baa22e20754a62c8b38b4a9",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.canvas.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.clip.html": [
@@ -470771,10 +471026,18 @@
         ]
        ],
        "2d.drawImage.clip.worker.js": [
-        "886a84d1a4f95086a2cb794d007ecd6c86404b4d",
+        "39e6a924345680e98ede28499e06cd02051d74a1",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.clip.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.composite.html": [
@@ -470787,10 +471050,18 @@
         ]
        ],
        "2d.drawImage.composite.worker.js": [
-        "ec2185b13d82a6a8784ee7346027cd1ea74db963",
+        "cf3b6c7129bb6207c1f3314af8194818d816edf9",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.composite.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.floatsource.html": [
@@ -470803,10 +471074,18 @@
         ]
        ],
        "2d.drawImage.floatsource.worker.js": [
-        "95da2113bbe870c6fdd28e85530acc619a1539cb",
+        "28a74799136e6a23981681e00da8579de2e8d96d",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.floatsource.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.negativedest.html": [
@@ -470819,10 +471098,18 @@
         ]
        ],
        "2d.drawImage.negativedest.worker.js": [
-        "29c64a3c13301bc35d22b91cf6d9e51106a9e952",
+        "95749c437598ca92625863eb99bbb1a4ad6c7132",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.negativedest.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.negativedir.html": [
@@ -470835,10 +471122,18 @@
         ]
        ],
        "2d.drawImage.negativedir.worker.js": [
-        "a1a64c34a352372b09b1e71bb62898d36ed52044",
+        "23eb5a21bbd90a06cdca86fb4e5b5805dd09101b",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.negativedir.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.negativesource.html": [
@@ -470851,10 +471146,18 @@
         ]
        ],
        "2d.drawImage.negativesource.worker.js": [
-        "19353c38c81683f46e2ec4e9a1021c8788c4f031",
+        "b27638554bd31d36429c105546483fee8b9acdaa",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.negativesource.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.nonfinite.html": [
@@ -470867,10 +471170,18 @@
         ]
        ],
        "2d.drawImage.nonfinite.worker.js": [
-        "91ef15c8bc32e651ee112c8c7c65977945486124",
+        "0daa4c687e807e137e690e0c2cbb89c827185499",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.nonfinite.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.nowrap.html": [
@@ -470883,10 +471194,18 @@
         ]
        ],
        "2d.drawImage.nowrap.worker.js": [
-        "a4be66b950ec47c6d93b97c0b4aa299a5803a957",
+        "cd1bc0b8ba51c2a9235d785ca4b99ddba63219b4",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.nowrap.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.null.html": [
@@ -470899,10 +471218,18 @@
         ]
        ],
        "2d.drawImage.null.worker.js": [
-        "5c9d774900672a8ab67acfa27315508850983c94",
+        "0572dd5addbd47827f8066d8e14207e6573ee705",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.null.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.path.html": [
@@ -470915,10 +471242,18 @@
         ]
        ],
        "2d.drawImage.path.worker.js": [
-        "497b837579b5e4b86a112af6e437132155d73cbe",
+        "1916238531a25575ef9c6761fa6a03f3ef1d48ad",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.path.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.self.1.html": [
@@ -470931,10 +471266,18 @@
         ]
        ],
        "2d.drawImage.self.1.worker.js": [
-        "fbcf171f606ff557ed3d5a5094cd0ebd54ba537c",
+        "17fcd2ad49d08dfa89b9a4c1820a8e76d1f9162f",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.self.1.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.self.2.html": [
@@ -470947,10 +471290,18 @@
         ]
        ],
        "2d.drawImage.self.2.worker.js": [
-        "524e91c8f0bb5a8b361b9e546bf8a4424201b919",
+        "adfeea5d93b464006453fb4058e8186464b6ec3f",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.self.2.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.svg.html": [
@@ -470963,10 +471314,18 @@
         ]
        ],
        "2d.drawImage.svg.worker.js": [
-        "6fc5e84345813d3f8bd6a1ac4969ace638a7fa1f",
+        "6189edc5c3855c71bd4113df989bf9578cd3f720",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.svg.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.transform.html": [
@@ -470979,10 +471338,18 @@
         ]
        ],
        "2d.drawImage.transform.worker.js": [
-        "a8b8b9aa1f80f20e1cc8c5fb245fb35abfd421bb",
+        "791c710270263001b4b7391d73abaab007e5b232",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.transform.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.wrongtype.html": [
@@ -470995,10 +471362,18 @@
         ]
        ],
        "2d.drawImage.wrongtype.worker.js": [
-        "418c9b2ebe310da20d5d8b099fec8d19b9b2fded",
+        "c3b945ca0e786b307839df340cb217b6e2e5cf6a",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.wrongtype.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.zerocanvas.html": [
@@ -471011,10 +471386,18 @@
         ]
        ],
        "2d.drawImage.zerocanvas.worker.js": [
-        "fb23cee4b4967b37cc3feedd0386ee6f74287ac7",
+        "7d6f9767dcb05eca94091bd77d1732361b51bb1a",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.zerocanvas.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.zerosource.html": [
@@ -471036,17 +471419,33 @@
         ]
        ],
        "2d.drawImage.zerosource.image.worker.js": [
-        "200a311f7b24bbc517aba78925787a58b7e6a3cb",
+        "8901d7207d7a5d595afc67a220ef39a69818f3c5",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.zerosource.image.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.drawImage.zerosource.worker.js": [
-        "37ef6d87352571d49d9c7d30f08c5e52b87dab16",
+        "7d5994edb3a24d96238c06c63707ae56e839e292",
         [
          "html/canvas/offscreen/drawing-images-to-the-canvas/2d.drawImage.zerosource.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ]
       },
@@ -478762,17 +479161,27 @@
         ]
        ],
        "2d.text.draw.fill.maxWidth.zero.html": [
-        "a5c6645bbb3ed870d76a08350f4316dbc5854681",
+        "6174ddeb1e1562741eff5fa74372c4f5425626f8",
         [
          null,
-         {}
+         {
+          "timeout": "long"
+         }
         ]
        ],
        "2d.text.draw.fill.maxWidth.zero.worker.js": [
-        "4c326be75774ff375757f1c7397046b088baf0bd",
+        "eaeb45829e572157c4ac82f8626ffd1d11d02f80",
         [
          "html/canvas/offscreen/text/2d.text.draw.fill.maxWidth.zero.worker.html",
-         {}
+         {
+          "script_metadata": [
+           [
+            "timeout",
+            "long"
+           ]
+          ],
+          "timeout": "long"
+         }
         ]
        ],
        "2d.text.draw.fill.unaffected.html": [
@@ -482387,7 +482796,7 @@
       ],
       "synthetic": {
        "001.html": [
-        "f90c345740df3f9c4366d01a3d47e323b30069fc",
+        "c0bf8a5776a53954d2e40945cc4ddf6577910236",
         [
          null,
          {}
@@ -491617,6 +492026,13 @@
          null,
          {}
         ]
+       ],
+       "popup-stacking.tentative.html": [
+        "bcba6f064c033aa25291fa7ff4df4ddb4f63d29d",
+        [
+         null,
+         {}
+        ]
        ]
       },
       "the-summary-element": {
@@ -498153,13 +498569,6 @@
         "ba4ef3bae88b74951a039b421531f074297c0811",
         [
          null,
-         {}
-        ]
-       ],
-       "pageshow-event.window.js": [
-        "45570b35abf2232476d9cb93f294ce68362e5646",
-        [
-         "html/webappapis/dynamic-markup-insertion/opening-the-input-stream/pageshow-event.window.html",
          {}
         ]
        ],
@@ -532633,6 +533042,13 @@
        }
       ]
      ],
+     "focus-pseudo-matches-on-shadow-host.html": [
+      "245e338a3b8f9226f8fd896692c1dfa45caa79ef",
+      [
+       null,
+       {}
+      ]
+     ],
      "focus-selector-delegatesFocus.html": [
       "3702f8e2ba63228cba5c483a76f2b77372e68c4d",
       [
@@ -542870,21 +543286,21 @@
      ]
     ],
     "trusted-types-eval-reporting-no-unsafe-eval.tentative.html": [
-     "081f9becbd09e7875ca3786842b9d2495df7e9ba",
+     "2b0922d212379cf7e7803fbe24cb3007884270c0",
      [
       null,
       {}
      ]
     ],
     "trusted-types-eval-reporting-report-only.tentative.html": [
-     "3fd1c9ffa8d115a939348a149121103d7b97c2ae",
+     "4e8ac5a2f43c97740269901fceb65db6b02752a5",
      [
       null,
       {}
      ]
     ],
     "trusted-types-eval-reporting.tentative.html": [
-     "9621aaba9749a9522703f87bfd23466545f14a70",
+     "73bb011349405bbee430cfcb9b0eb966b7faf8fa",
      [
       null,
       {}
@@ -542912,7 +543328,7 @@
      ]
     ],
     "trusted-types-reporting.tentative.html": [
-     "1e9d20d308f0027febaa96b0c9f952af7adb3555",
+     "9db307db60d963308ef970790da8e6cb70b02550",
      [
       null,
       {
@@ -545366,14 +545782,30 @@
      ]
     ],
     "url-constructor.any.js": [
-     "153d985ff6796183fd01b66437549544c497d02b",
+     "3f4af56d2a9654f323f912c5a6e64686c415da42",
      [
       "url/url-constructor.any.html",
-      {}
+      {
+       "script_metadata": [
+        [
+         "timeout",
+         "long"
+        ]
+       ],
+       "timeout": "long"
+      }
      ],
      [
       "url/url-constructor.any.worker.html",
-      {}
+      {
+       "script_metadata": [
+        [
+         "timeout",
+         "long"
+        ]
+       ],
+       "timeout": "long"
+      }
      ]
     ],
     "url-origin.any.js": [
