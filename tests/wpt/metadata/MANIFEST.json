@@ -4680,6 +4680,15 @@
         ]
        ]
       },
+      "the-frameset-and-frame-elements": {
+       "multicol-table-crash.html": [
+        "adfb76e15a4d7af987e7d5493ce678a015a8fb87",
+        [
+         null,
+         {}
+        ]
+       ]
+      },
       "the-page": {
        "crashtests": {
         "body-huge-attr-value-crash.html": [
@@ -28976,61 +28985,76 @@
    },
    "scroll-animations": {
     "css": {
-     "scroll-timeline-default-iframe-print.html": [
-      "63496229fba093f382524506ed73c0ef6c3820ae",
-      [
-       null,
+     "printing": {
+      "animation-timeline-none-with-progress-print.tentative.html": [
+       "3939a1df48d7dfab5abc21a824d5d28af1163368",
        [
+        null,
         [
-         "/scroll-animations/css/scroll-timeline-default-iframe-ref.html",
-         "=="
-        ]
-       ],
-       {
-        "fuzzy": [
          [
-          null,
+          "/scroll-animations/css/printing/animation-timeline-none-with-progress-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "scroll-timeline-default-iframe-print.html": [
+       "d732ca141a3e62d666d1a6a0a7214071f1d9409e",
+       [
+        null,
+        [
+         [
+          "/scroll-animations/css/scroll-timeline-default-iframe-ref.html",
+          "=="
+         ]
+        ],
+        {
+         "fuzzy": [
           [
+           null,
            [
-            25,
-            25
-           ],
-           [
-            100,
-            100
+            [
+             25,
+             25
+            ],
+            [
+             100,
+             100
+            ]
            ]
           ]
          ]
-        ]
-       }
-      ]
-     ],
-     "scroll-timeline-default-print.tentative.html": [
-      "895c763a3326652dd7aba4dee20ff71ef371ca24",
-      [
-       null,
+        }
+       ]
+      ],
+      "scroll-timeline-default-print.tentative.html": [
+       "975a59812e9b4d45877fd0c9acdfd10079029d49",
        [
+        null,
         [
-         "/scroll-animations/css/scroll-timeline-default-ref.html",
-         "=="
-        ]
-       ],
-       {}
-      ]
-     ],
-     "scroll-timeline-specified-scroller-print.html": [
-      "ba97bd80c329fae385c090fa69335f6c1cae562a",
-      [
-       null,
+         [
+          "/scroll-animations/css/scroll-timeline-default-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "scroll-timeline-specified-scroller-print.html": [
+       "7e5b6607b6e9e99705022e10310816f2862732d8",
        [
+        null,
         [
-         "/scroll-animations/css/scroll-timeline-specified-scroller-print-ref.html",
-         "=="
-        ]
-       ],
-       {}
+         [
+          "/scroll-animations/css/printing/scroll-timeline-specified-scroller-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
       ]
-     ]
+     }
     }
    },
    "selection": {
@@ -292438,6 +292462,19 @@
        {}
       ]
      ],
+     "mq-negative-range-002.html": [
+      "d748b7cae0a0af0f29fbc69ed7d12a92f206396a",
+      [
+       null,
+       [
+        [
+         "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
      "mq-range-001.html": [
       "0aacc17564fd6796f5a9eb2875ab141008f54391",
       [
@@ -292471,6 +292508,45 @@
        [
         [
          "/css/reference/ref-filled-green-100px-square.xht",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "prefers-color-scheme-svg-image-normal-with-meta-dark.html": [
+      "be633826ece7b29ff698d67bc6f919cbea29f94c",
+      [
+       null,
+       [
+        [
+         "/css/mediaqueries/prefers-color-scheme-svg-image-normal-with-meta-dark-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "prefers-color-scheme-svg-image-normal-with-meta-light.html": [
+      "ca73ddafdea293fba097fcf53e6ba8c3384a5796",
+      [
+       null,
+       [
+        [
+         "/css/mediaqueries/prefers-color-scheme-svg-image-normal-with-meta-light-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "prefers-color-scheme-svg-image-normal.html": [
+      "9b68142e91513535395b56547e98fb60766bee34",
+      [
+       null,
+       [
+        [
+         "/css/mediaqueries/prefers-color-scheme-svg-image-normal-ref.html",
          "=="
         ]
        ],
@@ -308902,7 +308978,7 @@
    "scroll-animations": {
     "css": {
      "scroll-timeline-default-iframe.html": [
-      "46ede5d88f8ff989d214064ed5deb622b0e916a2",
+      "dbcf5941a85dfdb79f99066ae0225ab9c91db0f6",
       [
        null,
        [
@@ -320025,6 +320101,10 @@
     "resources": {
      "pressure-helpers.js": [
       "5234cf2d78c90d559d3cfd8ee1b86d9b3fa97861",
+      []
+     ],
+     "support-iframe.html": [
+      "57e18b77f62dbae3425e9f8b59b4d43c439ea709",
       []
      ]
     }
@@ -395533,6 +395613,18 @@
       "f277097263e7acf6f2e7b40fa810231c61b00e63",
       []
      ],
+     "prefers-color-scheme-svg-image-normal-ref.html": [
+      "ef7fa1b366d3a6b9a5a578c542fb864238b55859",
+      []
+     ],
+     "prefers-color-scheme-svg-image-normal-with-meta-dark-ref.html": [
+      "008c66e47d9a876680b31ce11cca4e66258166d0",
+      []
+     ],
+     "prefers-color-scheme-svg-image-normal-with-meta-light-ref.html": [
+      "4b47a7fd6ed8d04f8dc43d819ce35a3e2dde268c",
+      []
+     ],
      "prefers-color-scheme-svg-image-ref.html": [
       "7da496cf8831819c0e75d73f07004e8d96e5b65a",
       []
@@ -398056,7 +398148,7 @@
       []
      ],
      "inserttext.js": [
-      "b6b08d5cbc19d2ceaa1c7e32723be0b227b13420",
+      "ab73a2ac49c244f56ca5eea3e6971745af9c2298",
       []
      ],
      "insertunorderedlist.js": [
@@ -398088,7 +398180,7 @@
       []
      ],
      "multitest.js": [
-      "b872b0df029cafb34de93dd418fab8eb5786b891",
+      "135f133ebc34e0400d1fef38383c0cffb06b9414",
       []
      ],
      "outdent.js": [
@@ -413504,7 +413596,7 @@
           []
          ],
          "sizes-iframed.sub.html": [
-          "56bd12af78c3c6f9fb75fbdc066cf90f9e6570f1",
+          "7602dd8fce1385cc35249436b5f947778fab2925",
           []
          ]
         }
@@ -420058,7 +420150,7 @@
     ]
    },
    "lint.ignore": [
-    "7267be72b0e043466379465325c560aceab1ed57",
+    "0fb0c4c32a7f0b8071df7734d127eccb8f4c2a18",
     []
    ],
    "loading": {
@@ -427051,6 +427143,16 @@
      []
     ],
     "css": {
+     "printing": {
+      "animation-timeline-none-with-progress-ref.html": [
+       "09bcba2fd4d94085fab9dd5cd453aee7ffd259d0",
+       []
+      ],
+      "scroll-timeline-specified-scroller-ref.html": [
+       "9074f2454b1a81c7bd51b6af9167680e11496798",
+       []
+      ]
+     },
      "scroll-timeline-default-iframe-ref.html": [
       "1ab5646c8bddbec83b29c3d335b0e33fb1a3465c",
       []
@@ -427069,10 +427171,6 @@
      ],
      "scroll-timeline-inline-orientation-ref.html": [
       "7b87b1db390240a357a4392000f3155a878f6725",
-      []
-     ],
-     "scroll-timeline-specified-scroller-print-ref.html": [
-      "9074f2454b1a81c7bd51b6af9167680e11496798",
       []
      ],
      "support": {
@@ -440553,11 +440651,11 @@
          []
         ],
         "_module.py": [
-         "506c5cc998c1a2a0e044965cddee105f73db54dc",
+         "c2034033c79be44b8982164b7ac2863c9e7f4599",
          []
         ],
         "browsing_context.py": [
-         "cdb2887e1971a565445a96318b4cf1f4a88215eb",
+         "033929d5ff5f0cfcce215c60cb680ca7713e603d",
          []
         ],
         "script.py": [
@@ -442512,7 +442610,7 @@
       []
      ],
      "urltestdata.json": [
-      "3cf106965b1ffd1e694eda7108df98d131ad1145",
+      "b681ad59809e5e5d2e9e16a297b889369d4326f2",
       []
      ]
     }
@@ -444293,6 +444391,12 @@
         "006b91fc3a6812dad0116494d71b1f0da34651f9",
         []
        ],
+       "capture_screenshot": {
+        "__init__.py": [
+         "cd0ad7a282630731c8490d0a692d3d3e12d8368a",
+         []
+        ]
+       },
        "classic_interop": {
         "__init__.py": [
          "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
@@ -444887,7 +444991,7 @@
        []
       ],
       "asserts.py": [
-       "bc59d7b39664fe57e31f1e1aaf0f370aed651633",
+       "f5812bc8932360a68fa40237ca8a4e1b8ef2d205",
        []
       ],
       "authentication.py": [
@@ -444903,7 +445007,7 @@
        []
       ],
       "fixtures_bidi.py": [
-       "f4a5b9ad80ebd22a019af9ee9891cbdb08053e9d",
+       "7842e325a026ae7b49fbb06609b7b2db078c7038",
        []
       ],
       "fixtures_http.py": [
@@ -444931,6 +445035,10 @@
         "b5916148b558e5077338bf77575d3677bdffa764",
         []
        ],
+       "render.html": [
+        "d0408480dafbbeb34856553f176034489c51907a",
+        []
+       ],
        "subframe.html": [
         "2019485529f64c778081b542646d36b55e4c4a39",
         []
@@ -444941,7 +445049,7 @@
        []
       ],
       "image.py": [
-       "2e7ad8c1309b2b4a1e02b424cbd74a610535a4ed",
+       "e4fc88f5b817cb3e576337da903616fd903fe494",
        []
       ],
       "inline.py": [
@@ -444950,6 +445058,10 @@
       ],
       "merge_dictionaries.py": [
        "72f1cab352dec4f333aa9f5498d6115276a3f836",
+       []
+      ],
+      "screenshot.py": [
+       "374e5ed539cb4c3558b92268c4e3e370331ed98f",
        []
       ],
       "sync.py": [
@@ -472881,6 +472993,45 @@
       {}
      ]
     ],
+    "compute_pressure_privacy_test.tentative.https.window.js": [
+     "3a4198f547cc4b5f5fdf075f13efabc8429408a5",
+     [
+      "compute-pressure/compute_pressure_privacy_test.tentative.https.window.html",
+      {
+       "script_metadata": [
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "script",
+         "/common/get-host-info.sub.js"
+        ],
+        [
+         "script",
+         "/common/media.js"
+        ],
+        [
+         "script",
+         "/mediacapture-streams/permission-helper.js"
+        ],
+        [
+         "script",
+         "/picture-in-picture/resources/picture-in-picture-helpers.js"
+        ],
+        [
+         "script",
+         "/resources/testdriver.js"
+        ],
+        [
+         "script",
+         "/resources/testdriver-vendor.js"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ]
+    ],
     "compute_pressure_supported_sources.tentative.https.window.js": [
      "2a69e731e7f9f7c5c0b54ea3b7bc9202bda57f16",
      [
@@ -484240,7 +484391,7 @@
        ]
       ],
       "animation-valid.html": [
-       "65de3c6fcfed3f69fa798fa19425bdc054e0700b",
+       "4027ee1226e93b3804031e110b1a28a4ea3c4346",
        [
         null,
         {}
@@ -496316,7 +496467,7 @@
        ]
       ],
       "mask-position-valid.html": [
-       "efdf55a0182ae701d459c1206b18ba74625e5f95",
+       "f2d2c4a8d14cab6739b3bf6e5559ce1a1ceb6c28",
        [
         null,
         {}
@@ -496344,7 +496495,7 @@
        ]
       ],
       "mask-valid.sub.html": [
-       "63aed3e33c46bdbf2c1bf8c8b8758daff7ab0bee",
+       "c6e2c28af51dfafef5e337941497661a31e15890",
        [
         null,
         {}
@@ -498210,6 +498361,13 @@
       ],
       "custom-property-animation-time.html": [
        "b9f5984db7c53fb3294714c4c9d6cd5c8a43e019",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-animation-transform-function.html": [
+       "c4fcd5ce4c6d56bef9b00a0323c61f2551c7ea58",
        [
         null,
         {}
@@ -510450,7 +510608,7 @@
       ]
      ],
      "variable-cssText.html": [
-      "b61d29746f0d54418e74cad5dfc661d591425558",
+      "8e725622c9031eba3a4bf4a642440859dcee73cc",
       [
        null,
        {}
@@ -512352,7 +512510,7 @@
       ]
      ],
      "serialize-values.html": [
-      "31f5f64c8094eb9158e27ab48f756f03c6d594b8",
+      "e92808af70d63a3c3df33fe1afdd18cd7b10c0f4",
       [
        null,
        {}
@@ -512380,7 +512538,7 @@
       ]
      ],
      "shorthand-values.html": [
-      "699c4e6b56ceb0ebfa69c5fb519382a6171161e1",
+      "b64f7e9a12f87812cf3e77d218f8a627c87b27bb",
       [
        null,
        {}
@@ -514087,7 +514245,7 @@
       ]
      ],
      "test_media_queries.html": [
-      "22bf2db0dbbb9ce510bc5fdaa2392f465144887f",
+      "06a9cd8cc5632df3ff0a1b821a7d844474c4522a",
       [
        null,
        {}
@@ -515441,6 +515599,13 @@
       ],
       "location-pseudo-classes-in-has.html": [
        "697fc70ae67eb3638536f6fbfc530987e2aa62a7",
+       [
+        null,
+        {}
+       ]
+      ],
+      "media-pseudo-classes-in-has.html": [
+       "f0df71534aef8b63743d1874c59980f82031900c",
        [
         null,
         {}
@@ -533975,6 +534140,13 @@
          ]
         ]
        }
+      ]
+     ],
+     "invalid-realm.window.js": [
+      "beaec42641fe8d33dc6e838f8822d6396bbe9bdb",
+      [
+       "encoding/streams/invalid-realm.window.html",
+       {}
       ]
      ],
      "readable-writable-properties.any.js": [
@@ -559411,6 +559583,17 @@
          ]
         ]
        },
+       "regression-1399759.https.sub.html": [
+        "d0b09f335db6c9292417fdf64f4148db1a7abbc7",
+        [
+         "html/browsers/origin/origin-keyed-agent-clusters/regression-1399759.https.sub.html?pipe=header(Origin-Agent-Cluster,%3F0)",
+         {}
+        ],
+        [
+         "html/browsers/origin/origin-keyed-agent-clusters/regression-1399759.https.sub.html?pipe=header(Origin-Agent-Cluster,%3F1)",
+         {}
+        ]
+       ],
        "removing-iframes.sub.https.html": [
         "b83aa9f5bedbaf64c7af9215d926d86013894cab",
         [
@@ -613778,6 +613961,16 @@
       }
      ]
     ],
+    "MediaRecorder-canvas-media-source.https.html": [
+     "187015f42e64b911ac32145324a48f8b9d6763e2",
+     [
+      null,
+      {
+       "testdriver": true,
+       "timeout": "long"
+      }
+     ]
+    ],
     "MediaRecorder-creation.https.html": [
      "d2190c3ee565598614fae1ea4f4a0683ec590490",
      [
@@ -625417,6 +625610,48 @@
       }
      ]
     ],
+    "coalesced_events_attributes.html": [
+     "f6026048b68f767ec8e3ce5803c06171b0f1ebde",
+     [
+      "pointerevents/coalesced_events_attributes.html?mouse",
+      {
+       "testdriver": true
+      }
+     ],
+     [
+      "pointerevents/coalesced_events_attributes.html?pen",
+      {
+       "testdriver": true
+      }
+     ],
+     [
+      "pointerevents/coalesced_events_attributes.html?touch",
+      {
+       "testdriver": true
+      }
+     ]
+    ],
+    "coalesced_events_attributes_under_load.html": [
+     "442aecb73ee6e65433afd848459edfae153cae75",
+     [
+      "pointerevents/coalesced_events_attributes_under_load.html?mouse",
+      {
+       "testdriver": true
+      }
+     ],
+     [
+      "pointerevents/coalesced_events_attributes_under_load.html?pen",
+      {
+       "testdriver": true
+      }
+     ],
+     [
+      "pointerevents/coalesced_events_attributes_under_load.html?touch",
+      {
+       "testdriver": true
+      }
+     ]
+    ],
     "compat": {
      "pointerevent_compat-mouse-events-when-removing-nodes.html": [
       "6d13b0de354a140e472d42bd8b81b408fad52495",
@@ -625729,15 +625964,6 @@
      ],
      [
       "pointerevents/pointerevent_click_is_a_pointerevent_multiple_clicks.html?touch",
-      {
-       "testdriver": true
-      }
-     ]
-    ],
-    "pointerevent_coalesced_events_attributes.html": [
-     "d30f71e940a5ebabb70f6309f663f25b2c5198b4",
-     [
-      null,
       {
        "testdriver": true
       }
@@ -671041,7 +671267,7 @@
      ]
     ],
     "signal.tentative.https.any.js": [
-     "cbb23df8a0567fcdb4c86ffeea0579fb5f8acb23",
+     "5a37e3ae87182eb2ea1909c9e5e29b3f50fd248b",
      [
       "web-locks/signal.tentative.https.any.html",
       {
@@ -720897,6 +721123,15 @@
        ]
       ]
      },
+     "grid": {
+      "grid-item-placement-crash-multiple.html": [
+       "6ce9d39ef628105dfa5cf735e6608196f5e57a69",
+       [
+        null,
+        {}
+       ]
+      ]
+     },
      "nested-fixedpos-in-inline-crash-000.html": [
       "8d1d395e35c8a40faf07d688e6e51d34bc35e88f",
       [
@@ -724185,6 +724420,29 @@
      },
      "bidi": {
       "browsing_context": {
+       "capture_screenshot": {
+        "capture_screenshot.py": [
+         "f406698096ad277cd0573b656d54e32c2d33ed03",
+         [
+          null,
+          {}
+         ]
+        ],
+        "frame.py": [
+         "960998044cdbc95c881ff0066b122d36c9b7774a",
+         [
+          null,
+          {}
+         ]
+        ],
+        "invalid.py": [
+         "bb6d054b916df8ab7725f5898876331973d0aadc",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
        "classic_interop": {
         "window_handle.py": [
          "4f36fba1973cd84e8fe2059741af677f6e6e0594",
@@ -724428,7 +724686,7 @@
          ]
         ],
         "exception_details.py": [
-         "65d287dec5aba5283514d0e33ec022385fef07b1",
+         "ef1118d0de1ef6ce5dd6be82112c148a06868778",
          [
           null,
           {}
@@ -724558,7 +724816,7 @@
          ]
         ],
         "exception_details.py": [
-         "e92012382eea6065945e15d561b8231ac2ec1344",
+         "ac4b8b6944b5b6bbf53386077e7b96866d74a24e",
          [
           null,
           {}
@@ -726135,7 +726393,7 @@
      },
      "take_screenshot": {
       "iframe.py": [
-       "81881c1dae7345b41f6301b880d06141b12624c9",
+       "258e764407a7e936455c3c00fdfafb063bf231b8",
        [
         null,
         {}
