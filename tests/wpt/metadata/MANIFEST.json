@@ -4384,6 +4384,13 @@
        {}
       ]
      ],
+     "remove-editing-host-on-DOMNodeInserted-at-indent.html": [
+      "22e8fd07136873352671d25b2b6a647f171c4bd4",
+      [
+       null,
+       {}
+      ]
+     ],
      "remove-editing-host-which-is-selected.html": [
       "06ee6dc5059f561d71089fcdfb10d58e9795cc3b",
       [
@@ -6230,6 +6237,21 @@
        {}
       ]
      ]
+    }
+   },
+   "webaudio": {
+    "the-audio-api": {
+     "the-audiocontext-interface": {
+      "crashtests": {
+       "currentTime-after-discard.html": [
+        "8c74bd0aa1277602905c022408d7d3f4e16d1e14",
+        [
+         null,
+         {}
+        ]
+       ]
+      }
+     }
     }
    },
    "webcodecs": {
@@ -28289,6 +28311,19 @@
        [
         [
          "/css/css-break/overflowing-block-print-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "underflow-from-next-page-print.html": [
+      "57fd12a831937dad52f99a6d3fc65248464a11f5",
+      [
+       null,
+       [
+        [
+         "/css/css-break/underflow-from-next-page-print-ref.html",
          "=="
         ]
        ],
@@ -195334,6 +195369,32 @@
      },
      "clip-path": {
       "animations": {
+       "clip-path-animation-custom-timing-function-reverse.html": [
+        "7525f674503343832560e62bced2a78b484851d8",
+        [
+         null,
+         [
+          [
+           "/css/css-masking/clip-path/animations/clip-path-animation-custom-timing-function-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "clip-path-animation-custom-timing-function.html": [
+        "e73f01bc40316de43594f049dca353f7269917e8",
+        [
+         null,
+         [
+          [
+           "/css/css-masking/clip-path/animations/clip-path-animation-custom-timing-function-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
        "clip-path-animation-filter.html": [
         "cbfa8baaa769a25ca57aaa5d6f271b26810a8bf6",
         [
@@ -195489,6 +195550,35 @@
          {}
         ]
        ],
+       "clip-path-animation-non-keyframe-timing-function.html": [
+        "9e4eb019430fc9acc63414c1d7c0070ec2fcdc67",
+        [
+         null,
+         [
+          [
+           "/css/css-masking/clip-path/animations/clip-path-animation-non-keyframe-timing-function-ref.html",
+           "=="
+          ]
+         ],
+         {
+          "fuzzy": [
+           [
+            null,
+            [
+             [
+              0,
+              5
+             ],
+             [
+              0,
+              5
+             ]
+            ]
+           ]
+          ]
+         }
+        ]
+       ],
        "clip-path-animation-none.html": [
         "73b8a473354cde40b3f9542c1616859d0412e8bd",
         [
@@ -195619,6 +195709,19 @@
          [
           [
            "/css/css-masking/clip-path/animations/clip-path-animation-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "clip-path-transition-custom-timing-function.html": [
+        "022b1f0484c17e72cec06640fd24d38728b1a5db",
+        [
+         null,
+         [
+          [
+           "/css/css-masking/clip-path/animations/clip-path-animation-custom-timing-function-ref.html",
            "=="
           ]
          ],
@@ -302539,6 +302642,19 @@
        ]
       ],
       "the-select-element": {
+       "option-add-label-quirks.html": [
+        "2c3c8093e253250f11a7e84a7ba89f3535d2eb20",
+        [
+         null,
+         [
+          [
+           "/html/rendering/widgets/the-select-element/option-label-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
        "option-add-label.html": [
         "5110164c3115a087cffadaac9b7b26d677156fb7",
         [
@@ -303360,6 +303476,97 @@
          [
           [
            "/html/semantics/forms/the-input-element/range-intrinsic-size-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-list-added-repaint.html": [
+        "344f36527bc40b5ae9ac3edd51e02cb7e13939c0",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-list-change-repaint.html": [
+        "b5bee03b3b145e65af346440cf585f7584152e2d",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-list-duplicate-id-repaint.html": [
+        "0a2a90b5003bb9c17f4ecf289c63088894b1122a",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-list-nonexistent.html": [
+        "72fb19b9c8d8eecb35f364392b3fd4ae799488ed",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-option-add-repaint.html": [
+        "31631b0c593f6351328e2ae06aeb81f70e730b39",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-option-remove-repaint.html": [
+        "672e371bfbe094444ad9075cf1d7c770ed57ee94",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "range-option-value-change-repaint.html": [
+        "7dcace4e474f38020ff083f7ab06eacdf50742f8",
+        [
+         null,
+         [
+          [
+           "/html/semantics/forms/the-input-element/range-tick-marks-05-ref.html",
            "=="
           ]
          ],
@@ -312568,6 +312775,19 @@
         {}
        ]
       ],
+      "transform-dynamic-change-root.html": [
+       "dd8a22d05db1f0149a74287766be05c63d319b6e",
+       [
+        null,
+        [
+         [
+          "/svg/text/reftests/transform-dynamic-change-root-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "transform-dynamic-change.html": [
        "57b5551061945931b39f35394e2974b2306e2762",
        [
@@ -316299,7 +316519,7 @@
       []
      ],
      "support.js": [
-      "8dbfa6f1e37d7631bf5f69b9da9b906876c5d2cf",
+      "18ed971ad7cb886caee0142e830f25e13f8354ac",
       []
      ]
     },
@@ -361867,6 +362087,10 @@
      "transform-009-ref.html": [
       "d7d3ebf604c62d80874d4f42a2dc71744c776b75",
       []
+     ],
+     "underflow-from-next-page-print-ref.html": [
+      "5c444b7220436690b42c6b22ff8be424df36680a",
+      []
      ]
     },
     "css-cascade": {
@@ -377854,6 +378078,10 @@
      },
      "clip-path": {
       "animations": {
+       "clip-path-animation-custom-timing-function-ref.html": [
+        "829055a94561ae153a23e3328c1e06290e19e5c8",
+        []
+       ],
        "clip-path-animation-filter-ref.html": [
         "5bb9a9c7220f33e02b69bc7e909630ff10682de6",
         []
@@ -377880,6 +378108,10 @@
        ],
        "clip-path-animation-missing-0-percent-ref.html": [
         "200edcd03821ba2899e43fd560c475b23e7678f3",
+        []
+       ],
+       "clip-path-animation-non-keyframe-timing-function-ref.html": [
+        "d351f80a26fa93866afaed00f872a7800078d6c7",
         []
        ],
        "clip-path-animation-none-ref.html": [
@@ -380824,7 +381056,7 @@
      ],
      "resources": {
       "utils.js": [
-       "005723e70154eb866397f8b65fab8d5c91ef4e90",
+       "dbbda1d585caa1aaca994956330fb18ceb269690",
        []
       ]
      },
@@ -389738,7 +389970,7 @@
       "properties": {
        "resources": {
         "testsuite.js": [
-         "2c0df9110d09b44b509c745c8d86033e3e543125",
+         "9708c5c04fc2510c730a5e1d9aca4eab0aed4ba4",
          []
         ]
        }
@@ -398165,7 +398397,7 @@
       []
      ],
      "bold.js": [
-      "0d7587de313b3f7f1481b13c1e162d1fe3d100d1",
+      "4e2882c8cc69913a9d9e6f56bb132a8693d4222d",
       []
      ],
      "createlink.js": [
@@ -398281,7 +398513,7 @@
       []
      ],
      "strikethrough.js": [
-      "86d2668447f98bd9f82bf70563d05f11e919e43f",
+      "db26555700270d1ff9524e2c80fada2a981f434a",
       []
      ],
      "subscript.js": [
@@ -398293,7 +398525,7 @@
       []
      ],
      "underline.js": [
-      "812798a8e7f2da51386abd5a2cdcd6681e8a1f82",
+      "64fe0ac48bdebc387dc8fe7851ee124ab2d12874",
       []
      ],
      "unlink.js": [
@@ -400132,6 +400364,12 @@
      []
     ],
     "api": {
+     "body": {
+      "cloned-any.js": [
+       "2bca96c7043db34b9cd4a60156019b7f870100a2",
+       []
+      ]
+     },
      "cors": {
       "resources": {
        "corspreflight.js": [
@@ -432207,6 +432445,10 @@
        "df8afcebc18e912d3c4a66be7e069f1a827e1e88",
        []
       ],
+      "transform-dynamic-change-root-ref.html": [
+       "179cbb128dd6cf953f67f85a97b4a703779d6fad",
+       []
+      ],
       "tspan-opacity-mixed-direction-ref.svg": [
        "f07911627fed87722b41ddb7a006eb1b7a65a63a",
        []
@@ -442679,7 +442921,7 @@
       []
      ],
      "a-element.js": [
-      "553855a870c55917877d0ce9d1e5900bb744425a",
+      "65c7e85281360fcea6aa24632d3063d55bf70a15",
       []
      ],
      "percent-encoding.json": [
@@ -445426,7 +445668,7 @@
      []
     ],
     "RTCStats-helper.js": [
-     "1d33e4de7504acb8d8a042826f8f106df9afa87f",
+     "e504550c0c73a8add2b24f4dce299bed65ecb919",
      []
     ],
     "coverage": {
@@ -451015,14 +451257,14 @@
      ]
     ],
     "back-forward-cache-open-connection.window.js": [
-     "b0abd651feba6894996798726c2431142300ed1e",
+     "397eadab8763fe884f877da63b75a06c8dcc023a",
      [
       "IndexedDB/back-forward-cache-open-connection.window.html",
       {
        "script_metadata": [
         [
          "title",
-         "BFCache support test for page with open IndexedDB connection"
+         "Testing BFCache support for page with open IndexedDB connection, and eviction behavior when receiving versionchange event."
         ],
         [
          "script",
@@ -451031,6 +451273,10 @@
         [
          "script",
          "/common/utils.js"
+        ],
+        [
+         "script",
+         "resources/support.js"
         ],
         [
          "script",
@@ -454737,7 +454983,7 @@
      ]
     ],
     "storage-buckets.https.any.js": [
-     "0000adf859aab046bc64a2c45771605675ad09dc",
+     "24923ffcf8d7f224a525a34d1f110011370c8aee",
      [
       "IndexedDB/storage-buckets.https.any.html",
       {
@@ -463925,6 +464171,40 @@
       null,
       {
        "testdriver": true
+      }
+     ]
+    ]
+   },
+   "autoplay-policy-detection": {
+    "autoplaypolicy.html": [
+     "d09143690be557cf311129a7eaafb102d63d688e",
+     [
+      null,
+      {}
+     ]
+    ],
+    "autoplaypolicy_media_element.html": [
+     "6cf93f4730cef09a4907ef4269859871971d75f3",
+     [
+      null,
+      {}
+     ]
+    ],
+    "idlharness.window.js": [
+     "185509bb91a7d29db50c63ca635add9f68486894",
+     [
+      "autoplay-policy-detection/idlharness.window.html",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/resources/WebIDLParser.js"
+        ],
+        [
+         "script",
+         "/resources/idlharness.js"
+        ]
+       ]
       }
      ]
     ]
@@ -477071,6 +477351,13 @@
      ]
     },
     "inheritance": {
+     "blob-inherits-from-meta-http-equiv-with-invalid-characters.html": [
+      "8463a2eaf141796b8bf67dd12eb8d031e0c182c2",
+      [
+       null,
+       {}
+      ]
+     ],
      "blob-url-in-child-frame-self-navigate-inherits.sub.html": [
       "f2b3d063e91fd344787f1208f96250381745c27e",
       [
@@ -487686,7 +487973,7 @@
        ]
       ],
       "content-visibility-080.html": [
-       "d3cea5fb83767ddfc236850097387644e0f74c8e",
+       "6ee1c2a962b1d532a18d3f13b3bfb70bf692b7c5",
        [
         null,
         {}
@@ -487707,7 +487994,7 @@
        ]
       ],
       "content-visibility-auto-state-changed.html": [
-       "a65db6a2f82675586cc1f87d09ee5694e16334a4",
+       "65b501de1bfc22c1ff0488f8b570586ee70ff701",
        [
         null,
         {
@@ -498659,6 +498946,125 @@
         null,
         {}
        ]
+      ],
+      "custom-property-transition-angle.html": [
+       "974fc6c0db78f6413ef46c7695a33c0ce5e7bc7c",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-color.html": [
+       "445a2a6391683ef652f01b95cda53de6030ab856",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-custom-ident.html": [
+       "e22d9ce882f51a71ae8bdc9ea64410641bb5068b",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-image.html": [
+       "b7fc68e6b824087b9811f1a86bd690f07180284c",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-inherited-used-by-standard-property.html": [
+       "0680722d4a0f4d8512f849a031f2ade2aae7bb0b",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-integer.html": [
+       "64685fe07ccef130665320f0e26917ee489dad48",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-length-percentage.html": [
+       "f1ed1dec26d3851e746f2d4e23f5561b86f702a2",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-length.html": [
+       "f5a76490ccd8d0c1d9e8d2af8f7db7a331e28e03",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-mismatched-list.html": [
+       "7796e36a2e38f6074113dff3e20498b33ecf8c7a",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-non-inherited-used-by-standard-property.html": [
+       "b96c28bc8825fbabbdb1a49ebacd08d62b874842",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-number.html": [
+       "a96e319686133e576f1c5358eb3fd1ea3be600ce",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-percentage.html": [
+       "71d51b0e279c6920b09fcdced117bc08f9fb44a1",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-resolution.html": [
+       "5631910b7cb9809c1778cb4fb3ac4364b3f943b3",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-time.html": [
+       "eb579b71f11f372390c51996fae9022c85a4a080",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-transform-function.html": [
+       "aa491555c73dfe1eab4e38bab482e5c5492d3bce",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-transform-list.html": [
+       "8b7424fec5a0faaad0518775c4a3f13cd727ac9e",
+       [
+        null,
+        {}
+       ]
+      ],
+      "custom-property-transition-url.html": [
+       "785db04562237658aa7f570df40850a5c9e9dacc",
+       [
+        null,
+        {}
+       ]
       ]
      },
      "at-property-animation.html": [
@@ -507863,7 +508269,7 @@
         ]
        ],
        "animation-duration.html": [
-        "f0db5134fd62a5e93d09243f54ca7870b9c1ede6",
+        "d31f165dff49223e3132249abe8e7193dd1c2b77",
         [
          null,
          {}
@@ -507877,7 +508283,7 @@
         ]
        ],
        "animation-iteration-count.html": [
-        "7902c80dd70248b20e30ecd8967f8045f8f89c12",
+        "4ff575612e06806077fffa08edd75c9159fc2ae5",
         [
          null,
          {}
@@ -507982,7 +508388,7 @@
         ]
        ],
        "background-size.html": [
-        "7de0c4453618ac82bbd84478ce0642874241d577",
+        "78fae767d2dc074d4beca71e8f42035b06be24d7",
         [
          null,
          {}
@@ -508024,7 +508430,7 @@
         ]
        ],
        "border-image-outset.html": [
-        "46da4e341627302657e228b7c65df6294b2cb1fc",
+        "6ab5f68de68faf47ac50aa404bbc313d8945254c",
         [
          null,
          {}
@@ -508038,7 +508444,7 @@
         ]
        ],
        "border-image-slice.html": [
-        "2649446cbb4e8d3112e3fc8c91a95528e1a9fa8a",
+        "da05bad352081dc505e2e90e4cdda52de04860bb",
         [
          null,
          {}
@@ -508052,14 +508458,14 @@
         ]
        ],
        "border-image-width.html": [
-        "7520a984682877f8a69c827ddeeff2f735392867",
+        "381e3b6d1baf4519ab98ddbc7fcd4184e155fe53",
         [
          null,
          {}
         ]
        ],
        "border-radius.html": [
-        "1d7b35947612a34b7db3fb0fe034e53458feb30f",
+        "c6ebcbf38168ed89522913f8a54015d0e17aa19e",
         [
          null,
          {}
@@ -508311,7 +508717,7 @@
         ]
        ],
        "fill-opacity.html": [
-        "0985ac64e0dad13baf3a824f413f5b306f6c8140",
+        "2ba58f6400cf5bf49f204bdc00dc1757961adddd",
         [
          null,
          {}
@@ -508402,7 +508808,7 @@
         ]
        ],
        "flood-opacity.html": [
-        "15824c7103408373e304cabe15802c0257005499",
+        "8a8275131ee0bb7e32ba52b23d590d163fe73480",
         [
          null,
          {}
@@ -508549,7 +508955,7 @@
         ]
        ],
        "font-weight.html": [
-        "cd6bec30df2c47347f64199ab9860aecb716c5c8",
+        "7230cfb721c05482af9246f71af22d5001a8e073",
         [
          null,
          {}
@@ -508577,7 +508983,7 @@
         ]
        ],
        "grid-auto-columns-rows.html": [
-        "9f31d9e97895b84e93cb112d9e5d845184ac7cdc",
+        "2d21fe60408713879b331e890d3cc4cd19729373",
         [
          null,
          {}
@@ -508612,7 +509018,7 @@
         ]
        ],
        "grid-template-columns-rows.html": [
-        "ae53c2d3eb79cc34ab64c0211c4c30621ebd65b9",
+        "6908144de8afe09d669bd17b97a60a3cfcf3942b",
         [
          null,
          {}
@@ -508724,7 +509130,7 @@
         ]
        ],
        "logical.html": [
-        "c068edf751cc36a3bd6de38587bdbfa1660430a5",
+        "9a2b208b3832d02c49793a24d0c21a84f4e0e62b",
         [
          null,
          {}
@@ -509004,7 +509410,7 @@
         ]
        ],
        "scroll-padding.html": [
-        "228cf1fdc2d7aef97b027cf8365d59075c1ab5de",
+        "987f52ebdc4d18f81d14766bdd52fdc4befee9f3",
         [
          null,
          {}
@@ -509095,14 +509501,14 @@
         ]
        ],
        "stroke-dasharray.html": [
-        "e907415f0a5962505c838a511535291d9d009924",
+        "6e8fdc4a8014eaae1b96579f83cbc398bfb463bf",
         [
          null,
          {}
         ]
        ],
        "stroke-dashoffset.html": [
-        "de3c78dc34a8347789be9012ac8d15415b167d7f",
+        "f537d8049ba43e3fd78204a9347fb0b22e37d39f",
         [
          null,
          {}
@@ -509123,7 +509529,7 @@
         ]
        ],
        "stroke-miterlimit.html": [
-        "2c2e01c589150450b94ee855946c329dd69dadae",
+        "ade9f49f357fcc9df3eb190701c555c0c79f38c9",
         [
          null,
          {}
@@ -509137,7 +509543,7 @@
         ]
        ],
        "stroke-width.html": [
-        "52b93207387d5b46b2cf4022bccbbc6e33d8c2a1",
+        "c2ef7bbf08bdf9be1889bdf8ae17f8ea71fea0dd",
         [
          null,
          {}
@@ -512095,7 +512501,7 @@
       ]
      ],
      "adoptedstylesheets-observablearray.html": [
-      "cb148c5ddfb00f39c683c4d0862431cff52e05bf",
+      "783a0541633d3f2b5fdfae90c364ffa8350be561",
       [
        null,
        {}
@@ -584076,6 +584482,13 @@
          {}
         ]
        ],
+       "dir-auto-div-append-child.html": [
+        "e69f64b3a9abdf3dd4e8184897f1c2ad01b9f314",
+        [
+         null,
+         {}
+        ]
+       ],
        "dir-bdi-script.html": [
         "30080430936213b034e09a2cb3fee14608350373",
         [
@@ -612565,7 +612978,7 @@
       ],
       "writing-mode": {
        "force-horizontal-tb.html": [
-        "f867cffa2284293d95d0261eb344691bd417bb98",
+        "e239cdca5ab1761de3b916d49a119da882b5403f",
         [
          null,
          {}
@@ -624888,6 +625301,13 @@
         ]
        ]
       }
+     ]
+    ],
+    "midi-permission.html": [
+     "1d75e1c883191761b0b678500c1a647cc2136d73",
+     [
+      null,
+      {}
      ]
     ],
     "non-fully-active.https.html": [
@@ -660278,7 +660698,7 @@
        ]
       ],
       "stroke-dashoffset-valid.svg": [
-       "fe7ba12c8870a556b7fd66d74bb18bc5cbf84cf4",
+       "846b69ccd2d07846bd77231d427fa514ecfe0d5b",
        [
         null,
         {}
@@ -660397,7 +660817,7 @@
        ]
       ],
       "stroke-width-valid.svg": [
-       "1ee0449afae675b84f1118875ae21c3c7aee67cc",
+       "fa00a9b709dba7da9691ca9b2a564d71c7f4ad90",
        [
         null,
         {}
@@ -664431,16 +664851,40 @@
      ]
     ],
     "a-element-xhtml.xhtml": [
-     "c6c67cf3ce619bb5abb7522e621ff1371a957619",
+     "05bec4ce4b2f1e5a1f825ba6428fa41413943f9c",
      [
-      null,
+      "url/a-element-xhtml.xhtml?exclude=(file|javascript|mailto)",
+      {}
+     ],
+     [
+      "url/a-element-xhtml.xhtml?include=file",
+      {}
+     ],
+     [
+      "url/a-element-xhtml.xhtml?include=javascript",
+      {}
+     ],
+     [
+      "url/a-element-xhtml.xhtml?include=mailto",
       {}
      ]
     ],
     "a-element.html": [
-     "05c37f30b71e12eee71f6941d33e712aafa080f3",
+     "3429e07ec3f3f7d4cd15af6d2aa883e44ba78ac0",
      [
-      null,
+      "url/a-element.html?exclude=(file|javascript|mailto)",
+      {}
+     ],
+     [
+      "url/a-element.html?include=file",
+      {}
+     ],
+     [
+      "url/a-element.html?include=javascript",
+      {}
+     ],
+     [
+      "url/a-element.html?include=mailto",
       {}
      ]
     ],
@@ -664533,26 +664977,258 @@
      ]
     ],
     "url-constructor.any.js": [
-     "dfa98092fa64758ce6927f9770818b334e33e6c1",
+     "297b8ffd9eaf378ffebc2d604b73be7d645bb1ae",
      [
-      "url/url-constructor.any.html",
+      "url/url-constructor.any.html?exclude=(file|javascript|mailto)",
       {
        "script_metadata": [
         [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
          "timeout",
          "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
         ]
        ],
        "timeout": "long"
       }
      ],
      [
-      "url/url-constructor.any.worker.html",
+      "url/url-constructor.any.html?include=file",
       {
        "script_metadata": [
         [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
          "timeout",
          "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "url/url-constructor.any.html?include=javascript",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "url/url-constructor.any.html?include=mailto",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "url/url-constructor.any.worker.html?exclude=(file|javascript|mailto)",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "url/url-constructor.any.worker.html?include=file",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "url/url-constructor.any.worker.html?include=javascript",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ],
+       "timeout": "long"
+      }
+     ],
+     [
+      "url/url-constructor.any.worker.html?include=mailto",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "timeout",
+         "long"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
         ]
        ],
        "timeout": "long"
@@ -664582,10 +665258,114 @@
      ]
     ],
     "url-setters-a-area.window.js": [
-     "8c66f2883d3c2e864f4b3da3da9d5b48a4027136",
+     "6a5e762cd42fe89de25bef44dcad8c537b5b9874",
      [
-      "url/url-setters-a-area.window.html",
-      {}
+      "url/url-setters-a-area.window.html?exclude=(file|javascript|mailto)",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters-a-area.window.html?include=file",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters-a-area.window.html?include=javascript",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters-a-area.window.html?include=mailto",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
      ]
     ],
     "url-setters-stripping.any.js": [
@@ -664600,14 +665380,222 @@
      ]
     ],
     "url-setters.any.js": [
-     "1cddf94a8ecca9766638160d3770e6c7160cbbdc",
+     "fe88175ac63446927030867fcdacaae768c522c7",
      [
-      "url/url-setters.any.html",
-      {}
+      "url/url-setters.any.html?exclude=(file|javascript|mailto)",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
      ],
      [
-      "url/url-setters.any.worker.html",
-      {}
+      "url/url-setters.any.html?include=file",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters.any.html?include=javascript",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters.any.html?include=mailto",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters.any.worker.html?exclude=(file|javascript|mailto)",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters.any.worker.html?include=file",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters.any.worker.html?include=javascript",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
+     ],
+     [
+      "url/url-setters.any.worker.html?include=mailto",
+      {
+       "script_metadata": [
+        [
+         "script",
+         "/common/subset-tests-by-key.js"
+        ],
+        [
+         "variant",
+         "?include=file"
+        ],
+        [
+         "variant",
+         "?include=javascript"
+        ],
+        [
+         "variant",
+         "?include=mailto"
+        ],
+        [
+         "variant",
+         "?exclude=(file|javascript|mailto)"
+        ]
+       ]
+      }
      ]
     ],
     "url-tojson.any.js": [
@@ -724952,7 +725940,7 @@
       "script": {
        "call_function": {
         "arguments.py": [
-         "75db6432d4ec2540121a08c172591be0b5f99771",
+         "fff86d2a340ca1f6033aa9a087efb2f4602f37f9",
          [
           null,
           {}
