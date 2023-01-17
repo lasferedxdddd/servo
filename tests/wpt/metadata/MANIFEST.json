@@ -328,8 +328,36 @@
      ]
     },
     "css-anchor-position": {
-     "anchor-scroll-no-overflow-crash.html": [
+     "anchor-scroll-composited-scrolling-001-crash.html": [
       "d8fa3821cf5660f7f382bf8aee10c9ddd625b4c1",
+      [
+       null,
+       {}
+      ]
+     ],
+     "anchor-scroll-composited-scrolling-002-crash.html": [
+      "6e0af9f4dccef03b726628d21341a06ccc4ca4cd",
+      [
+       null,
+       {}
+      ]
+     ],
+     "anchor-scroll-composited-scrolling-003-crash.html": [
+      "046373377efe9ad7ec46fac88fa2e6126adc0e8b",
+      [
+       null,
+       {}
+      ]
+     ],
+     "anchor-scroll-composited-scrolling-004-crash.html": [
+      "12e7af0be4320ff50870efc11b7e9a1aa4f3ff52",
+      [
+       null,
+       {}
+      ]
+     ],
+     "anchor-scroll-composited-scrolling-005-crash.html": [
+      "0a4427ae921b7f3effd9b8490929c055359a1e8c",
       [
        null,
        {}
@@ -4985,6 +5013,15 @@
       "the-select-element": {
        "select-add-option-crash.html": [
         "78e9e7de53fa395456ed2b9a5a97949478477214",
+        [
+         null,
+         {}
+        ]
+       ]
+      },
+      "the-selectmenu-element": {
+       "selectmenu-listbox-fallback-change-crash.tentative.html": [
+        "690a98dcf3219e505d054d7ed5bc4c312fbbea4c",
         [
          null,
          {}
@@ -144357,6 +144394,19 @@
         {}
        ]
       ],
+      "table-rowspan-001.html": [
+       "fe431d79a7c4f4edb0c56d85f877d98764ac8ad0",
+       [
+        null,
+        [
+         [
+          "/css/reference/ref-filled-green-100px-square.xht",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "table-section-paint-htb-ltr.html": [
        "ff0eda1be83c900c256fe3ac994e16408f10f8f9",
        [
@@ -188098,7 +188148,7 @@
        ]
       ],
       "image-orientation-none-cross-origin.html": [
-       "c8db1df5c1801eaa6e37bb6f0ee76d80824c64a3",
+       "e36c1295d31d43e48a6745021be3346838431158",
        [
         null,
         [
@@ -211584,7 +211634,7 @@
        ]
       ],
       "position-sticky-writing-modes.html": [
-       "77a861e42be8b06bf4a06a66728448a4419a33cc",
+       "98f50500b8c694864c5daca6b6770e465fa4795a",
        [
         null,
         [
@@ -225476,34 +225526,6 @@
        {}
       ]
      ],
-     "floats": {
-      "floats-wrap-bfc-006b.xht": [
-       "664edbd129e688e4a6582b211e3ecb85108cb437",
-       [
-        null,
-        [
-         [
-          "/css/css-tables/floats/floats-wrap-bfc-006b-ref.xht",
-          "=="
-         ]
-        ],
-        {}
-       ]
-      ],
-      "floats-wrap-bfc-006c.xht": [
-       "88593468f9255bd4c64a18e201d42f53aed5297d",
-       [
-        null,
-        [
-         [
-          "/css/css-tables/floats/floats-wrap-bfc-006c-ref.xht",
-          "=="
-         ]
-        ],
-        {}
-       ]
-      ]
-     },
      "height-distribution": {
       "extra-height-given-to-all-row-groups-001.html": [
        "387bfafae1c2e038b67e3d86973e1c7c6c00f67c",
@@ -295291,6 +295313,97 @@
         {}
        ]
       ],
+      "nth-child-of-attr.html": [
+       "d929d6a50db02d3e34d024d83200649573ca20a4",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-of-attr-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "nth-child-of-class.html": [
+       "dc1e8cec82ed334d75c51351775fa001b3cddb4e",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-of-class-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "nth-child-of-has.html": [
+       "1a548315cc09c49bf3c5177172adf771ec0a350c",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-of-has-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "nth-child-of-in-ancestor.html": [
+       "7311c3e301155620b05cde7ffecd9d829d20618a",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-of-in-ancestor-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "nth-child-of-sibling.html": [
+       "5beaad6a58108dde8607e9940c4fb017e4056ab2",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-of-sibling-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "nth-child-when-ancestor-changes.html": [
+       "4d2b4fbce076a1ea1d651e4a86afdd0da0decf07",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-when-ancestor-changes-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "nth-child-when-sibling-changes.html": [
+       "a0025be95a2bcab29d77e4a9e1b789304fa31055",
+       [
+        null,
+        [
+         [
+          "/css/selectors/invalidation/nth-child-when-sibling-changes-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "sheet-going-away-002.html": [
        "189abbe0808a613eaab0e918fe82a4982fbcfa63",
        [
@@ -308458,6 +308571,21 @@
        ]
       ]
      },
+     "mpadded": {
+      "mpadded-percentage-001.html": [
+       "ef2391c42b58f2c634791691d86e8949a728182b",
+       [
+        null,
+        [
+         [
+          "/mathml/presentation-markup/mpadded/mpadded-percentage-001-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ]
+     },
      "mrow": {
       "dynamic-mrow-like-001.html": [
        "79de59feec61d42b30caa8ae1957cd319b2997de",
@@ -309111,6 +309239,19 @@
         [
          [
           "/mathml/presentation-markup/spaces/mspace-children-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "mspace-percentage-001.html": [
+       "758429e1db7029bbb9844523f464a1e6faec6862",
+       [
+        null,
+        [
+         [
+          "/mathml/presentation-markup/spaces/mspace-percentage-001-ref.html",
           "=="
          ]
         ],
@@ -313625,6 +313766,32 @@
         {}
        ]
       ],
+      "use-cross-origin.svg": [
+       "3de069c8d15c7a95f8c25d8c364287b7033a3730",
+       [
+        null,
+        [
+         [
+          "/svg/struct/reftests/reference/green-100x100.svg",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "use-data-url.tentative.svg": [
+       "04414030a3e65ee05314386e90e75184e8c80042",
+       [
+        null,
+        [
+         [
+          "/svg/struct/reftests/reference/green-100x100.svg",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "use-external-resource-with-revalidation.tentative.html": [
        "d899165fa9ccef15d893b599ec6a8f4e005bcb36",
        [
@@ -313640,6 +313807,19 @@
       ],
       "use-inheritance-001.svg": [
        "5e375b94cd6c15f4ded39f351ce91d67e94b74bd",
+       [
+        null,
+        [
+         [
+          "/svg/struct/reftests/reference/green-100x100.svg",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "use-same-origin.svg": [
+       "0aa1ec83afd68b3ea6022d33f6ec6f8103d99661",
        [
         null,
         [
@@ -342274,7 +342454,7 @@
       []
      ],
      "set-cookie.py": [
-      "db747bcd3bdaeb2e8391b454a0566e9bbb462278",
+      "839f350c449fb0aba3d573e155407d38039effed",
       []
      ],
      "set.py": [
@@ -377946,7 +378126,7 @@
         []
        ],
        "image-orientation-none-cross-origin-ref.html": [
-        "1ac90177701e172fc48c9819bbaf1393905893cc",
+        "c4d72fc823f3e98d7184c0536805b6f6e8be6f7c",
         []
        ],
        "image-orientation-none-cross-origin-svg-ref.html": [
@@ -382513,7 +382693,7 @@
        []
       ],
       "position-sticky-writing-modes-ref.html": [
-       "4bbedfbfe0aaaf68abd15a2499db6dc764b95418",
+       "d55c22d95330f030228e2591ed47aafe39d6697d",
        []
       ],
       "reference": {
@@ -398012,6 +398192,34 @@
      "invalidation": {
       "class-id-attr-ref.html": [
        "a3cc6d3d8f56fd31c4b19d23af606d7c65487145",
+       []
+      ],
+      "nth-child-of-attr-ref.html": [
+       "41205174eb0ad5bfca3189f6e03912530c990f9e",
+       []
+      ],
+      "nth-child-of-class-ref.html": [
+       "7a8247c469ea86fd4e8ea32a961d4e1b0741c986",
+       []
+      ],
+      "nth-child-of-has-ref.html": [
+       "ab3931d6ef46532ca1aa4e5d25683e9d5e12ed8e",
+       []
+      ],
+      "nth-child-of-in-ancestor-ref.html": [
+       "a4e4b7fd9fc44bd189aba0423d536dcb82201a9f",
+       []
+      ],
+      "nth-child-of-sibling-ref.html": [
+       "0388fc7c5ab112271e3b2d54293765c8ad87eff0",
+       []
+      ],
+      "nth-child-when-ancestor-changes-ref.html": [
+       "8b7d32906d9c2766bc2c6d60451b84246e355d5c",
+       []
+      ],
+      "nth-child-when-sibling-changes-ref.html": [
+       "9a397529900cbb8e6248d94dccd1e52670f83ec5",
        []
       ],
       "sheet-going-away-002-ref.html": [
@@ -422669,6 +422877,12 @@
        []
       ]
      },
+     "mpadded": {
+      "mpadded-percentage-001-ref.html": [
+       "79d7df39d00e3a7ccc29d79cad6dc73252990f75",
+       []
+      ]
+     },
      "mrow": {
       "dynamic-mrow-like-001-ref.html": [
        "2f823ba9550d1c5a2cac2fe5b4b3bc5867a1be75",
@@ -422886,6 +423100,10 @@
      "spaces": {
       "mspace-children-ref.html": [
        "ae74024c2fcfc587ba96180aa62a9aa091e2a07b",
+       []
+      ],
+      "mspace-percentage-001-ref.html": [
+       "da4f1dd397ed81fc90196cdf65005d1580bd6024",
        []
       ],
       "space-2-ref.html": [
@@ -433983,6 +434201,10 @@
        ],
        "etag-max-age-zero-icons.svg.headers": [
         "3f0c26c8feaf58e51ef387c972c2b772166d0fe8",
+        []
+       ],
+       "red-rect.svg": [
+        "1ee578ab6adba89df340fa643a93f63368344421",
         []
        ],
        "sprites.svg": [
@@ -446455,7 +446677,7 @@
      },
      "bidi": {
       "__init__.py": [
-       "405c9fb7e9af79661270a5b40d2f9ee7cd038faa",
+       "6ac8c3394ce73797b351cd71acc7904075485948",
        []
       ],
       "browsing_context": {
@@ -446572,7 +446794,7 @@
       },
       "network": {
        "__init__.py": [
-        "470fcfd11af0e1f12f35e49ac97c2aef10a7f161",
+        "dc6848c00f29d81d75e5e920a29aea20e38e3232",
         []
        ],
        "before_request_sent": {
@@ -446581,9 +446803,37 @@
          []
         ]
        },
+       "combined": {
+        "__init__.py": [
+         "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+         []
+        ]
+       },
+       "conftest.py": [
+        "65f0cd8911255d0112c0f29713a442c6fb852f95",
+        []
+       ],
+       "response_started": {
+        "__init__.py": [
+         "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+         []
+        ]
+       },
        "support": {
         "empty.html": [
          "69e9da4114557b774cd78c3da64f24b49ccb03b6",
+         []
+        ],
+        "empty.js": [
+         "3918c74e446336be4151ea3bdad00f4d9e6df47a",
+         []
+        ],
+        "empty.png": [
+         "afb763ce9d1c16077df82cb7de25778cf6b643c2",
+         []
+        ],
+        "empty.svg": [
+         "158b3aac164e50a1ca5aca34daac3d45bc137e92",
          []
         ],
         "empty.txt": [
@@ -447096,10 +447346,6 @@
        "f5812bc8932360a68fa40237ca8a4e1b8ef2d205",
        []
       ],
-      "authentication.py": [
-       "9da4bb7be5ffb76835cd33860bf74aa1981695b6",
-       []
-      ],
       "defaults.py": [
        "64ee18b6c157488766f5c9d24f8f9dff79ff4387",
        []
@@ -447146,6 +447392,28 @@
         []
        ]
       },
+      "http_handlers": {
+       "__init__.py": [
+        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        []
+       ],
+       "authentication.py": [
+        "62067dd1667cd5535d4f90d35ae21474d4481666",
+        []
+       ],
+       "headers.py": [
+        "ddae62dc6afabfaa9ceca93f5215d4afc5d002ed",
+        []
+       ],
+       "redirect.py": [
+        "f2fd1ebd51d4ad5f4ef0582510600eb3731fd2c7",
+        []
+       ],
+       "status.py": [
+        "4dc3de0a8860ea32a60e3813baad38f3678d57db",
+        []
+       ]
+      },
       "http_request.py": [
        "242dc9c9188708eaceccd32c9379e5c9d14fbbd4",
        []
@@ -447160,10 +447428,6 @@
       ],
       "merge_dictionaries.py": [
        "72f1cab352dec4f333aa9f5498d6115276a3f836",
-       []
-      ],
-      "redirect.py": [
-       "f2fd1ebd51d4ad5f4ef0582510600eb3731fd2c7",
        []
       ],
       "screenshot.py": [
@@ -513773,6 +514037,13 @@
        ]
       ]
      },
+     "paused-animation-at-end.html": [
+      "47db0a6fcd67450682d56de18a9d0289d62e9199",
+      [
+       null,
+       {}
+      ]
+     ],
      "pseudo-computed-style-stays-in-sync-with-new-element.html": [
       "103dc31930ca9db862415952139b555d715cf5ab",
       [
@@ -614470,6 +614741,13 @@
         null,
         {}
        ]
+      ],
+      "mpadded-percentage-002.html": [
+       "36d1b4f389a8084966c99da94a8c553ff9f3acb7",
+       [
+        null,
+        {}
+       ]
       ]
      },
      "mrow": {
@@ -658378,7 +658656,7 @@
    },
    "subapps": {
     "add-error.tentative.https.html": [
-     "d049268af98f0e378107bf39eccc346adbac2404",
+     "c9db29b62de6599425f7157c3d50d956f1e69f48",
      [
       null,
       {
@@ -661065,7 +661343,7 @@
        ]
       ],
       "use-load-error-events.tentative.html": [
-       "9cbaa0e22011a6035954762e2457ce9295f3b278",
+       "2c52072e16906575679ab654b7e901a08b5541c7",
        [
         null,
         {}
@@ -694736,7 +695014,7 @@
    },
    "webtransport": {
     "close.https.any.js": [
-     "4501e94fbff3c29f323d82f8450ce33e7d87e2ae",
+     "d1f66751926016252ea28f60b751f069014f66e7",
      [
       "webtransport/close.https.any.html",
       {
@@ -726504,7 +726782,25 @@
       "network": {
        "before_request_sent": {
         "before_request_sent_tentative.py": [
-         "6dbd3b1a81a75e5b24df058f3e164b8046c66323",
+         "1711f5177fe57fa2225339f5f29d70f4e04e862f",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "combined": {
+        "network_events_tentative.py": [
+         "a1d5b3bf8372e6ad7f7811654bc2167c24f24757",
+         [
+          null,
+          {}
+         ]
+        ]
+       },
+       "response_started": {
+        "response_started_tentative.py": [
+         "944d50fe88f9a9738a0137bc39901bdc25c7b320",
          [
           null,
           {}
