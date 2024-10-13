@@ -873,6 +873,13 @@
        {}
       ]
      ],
+     "box-decoration-break-clone-036-crash.html": [
+      "f6a319cce5bcb7be5a0972276f676d5a98c3efae",
+      [
+       null,
+       {}
+      ]
+     ],
      "break-after-in-parallel-flow-crash.html": [
       "b59563295028f487543d79524ea81543b8a78046",
       [
@@ -1658,6 +1665,13 @@
        ],
        "chrome-bug-346264227-crash.html": [
         "ae7809016e699fe8b3524b38109bc301a1e59477",
+        [
+         null,
+         {}
+        ]
+       ],
+       "chrome-bug-372358471-crash.html": [
+        "fc579cc3f887b815f26f14d7eb54714c0d1a4d2e",
         [
          null,
          {}
@@ -5095,6 +5109,13 @@
      ]
     },
     "css-typed-om": {
+     "cycle-in-unparsed-value-crash.html": [
+      "9d551901089f845e97c10150bd9200d772855925",
+      [
+       null,
+       {}
+      ]
+     ],
      "perspective-typed-arithmetic-crash.html": [
       "b65625b28681d6adf4edf414700b8c8fd1dfb3a6",
       [
@@ -5316,6 +5337,13 @@
     },
     "css-viewport": {
      "zoom": {
+      "perspective-small-effective-zoom-crash.html": [
+       "ab6f563d19ee8a826cf2ff9d0f04d105c7ba8d96",
+       [
+        null,
+        {}
+       ]
+      ],
       "scroll-corner-crash.html": [
        "0ec88deb748ba83e5408f7c126c021827e940bcf",
        [
@@ -6616,6 +6644,13 @@
        {}
       ]
      ],
+     "selectall-after-enableobjectresizing.html": [
+      "2aa1ffee8c7db9114b3cc88271a1ec10d91ea3a0",
+      [
+       null,
+       {}
+      ]
+     ],
      "selectall-and-inerthtml-in-textarea-editing-host.html": [
       "8b0e36cd655a51da8cc7df1740eed9f456bebf83",
       [
@@ -6794,6 +6829,17 @@
    },
    "html": {
     "browsers": {
+     "browsing-the-web": {
+      "navigating-across-documents": {
+       "unknown-protocol-reload-crash.html": [
+        "b274e5706939088a702042e07aa2c8af3f9bd3bd",
+        [
+         null,
+         {}
+        ]
+       ]
+      }
+     },
      "origin": {
       "origin-keyed-agent-clusters": {
        "popups-crash.https.html": [
@@ -52695,7 +52741,7 @@
        ]
       ],
       "c542-letter-sp-001.xht": [
-       "9c489e9067dabef8cbbcda9695096a1e6ea8f91b",
+       "6b61c7ae2acd0f5a9d8a343aa2fd6703385261f4",
        [
         null,
         [
@@ -123822,6 +123868,32 @@
        {}
       ]
      ],
+     "position-anchor-004.html": [
+      "d1a1ce962c4d956de3853339456eb4cc867b44db",
+      [
+       null,
+       [
+        [
+         "/css/css-anchor-position/position-anchor-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "position-anchor-target-with-children.html": [
+      "d6e5164936af90987f43802f84e62478e931dbc6",
+      [
+       null,
+       [
+        [
+         "/css/css-anchor-position/position-anchor-target-with-children-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
      "position-area-abs-inline-container.html": [
       "deaf60647d4ecf6e2039bacbe41e6eb3e8593d8b",
       [
@@ -127082,7 +127154,7 @@
        ]
       ],
       "background-repeat-space.xht": [
-       "8867520c56eb70a6d590b9fa3ffe7e20f53519d0",
+       "7ec7b47525a5b2bba83d511c5a18611d3a6ca8aa",
        [
         null,
         [
@@ -127102,7 +127174,7 @@
             ],
             [
              0,
-             2796
+             5532
             ]
            ]
           ]
@@ -127309,7 +127381,7 @@
       ]
      ],
      "background-repeat-space-10.html": [
-      "cb1c782116355f25254852b1c0568db8c4c2cba2",
+      "21e565f855000b2c1b010df54bb9cb63d643aa01",
       [
        null,
        [
@@ -127329,7 +127401,7 @@
            ],
            [
             0,
-            990
+            1680
            ]
           ]
          ]
@@ -127612,7 +127684,7 @@
       ]
      ],
      "background-repeat-space-9.html": [
-      "79f4c0c0a140d268060bafaf48cd25406d5f2f63",
+      "7ec236f474cd73eab099b9e3c003b518d951d5ce",
       [
        null,
        [
@@ -127632,7 +127704,7 @@
            ],
            [
             0,
-            981
+            1680
            ]
           ]
          ]
@@ -131774,7 +131846,7 @@
       ]
      ],
      "border-image-repeat-002.htm": [
-      "a0c081863d42cd4c0ea24996e23ace8537c7a133",
+      "e1d4490c70c8938254c467e99d6af2075b0e2980",
       [
        null,
        [
@@ -131783,7 +131855,23 @@
          "=="
         ]
        ],
-       {}
+       {
+        "fuzzy": [
+         [
+          null,
+          [
+           [
+            0,
+            20
+           ],
+           [
+            0,
+            2160
+           ]
+          ]
+         ]
+        ]
+       }
       ]
      ],
      "border-image-repeat-004.htm": [
@@ -179737,7 +179825,7 @@
       ]
      ],
      "font-size-adjust-010.html": [
-      "c3b2bc195ec1c3ed067cac3bea60fd4bf446690b",
+      "490c7711c9a076e57beaf6d33054f2e8df05f7c7",
       [
        null,
        [
@@ -179746,7 +179834,23 @@
          "=="
         ]
        ],
-       {}
+       {
+        "fuzzy": [
+         [
+          null,
+          [
+           [
+            0,
+            130
+           ],
+           [
+            0,
+            350
+           ]
+          ]
+         ]
+        ]
+       }
       ]
      ],
      "font-size-adjust-011.html": [
@@ -199654,19 +199758,6 @@
         {}
        ]
       ],
-      "initial-letter-raise-initial-rtl.html": [
-       "10b90ac395c02c5f840f7877f73149022ca1186f",
-       [
-        null,
-        [
-         [
-          "/css/css-inline/initial-letter/initial-letter-raise-initial-rtl-ref.html",
-          "=="
-         ]
-        ],
-        {}
-       ]
-      ],
       "initial-letter-raise-initial-vlr.html": [
        "6b1ebd50919fd1c2c0f34bfa0b4496cc746f16fa",
        [
@@ -199694,7 +199785,7 @@
        ]
       ],
       "initial-letter-raise-initial.html": [
-       "ec2ec6bdc07983435ffc4125fde58a296fb06ec3",
+       "076887b1de36932877cf771a274f220a30245f55",
        [
         "css/css-inline/initial-letter/initial-letter-raise-initial.html?class=",
         [
@@ -199720,6 +199811,16 @@
         [
          [
           "/css/css-inline/initial-letter/initial-letter-raise-initial-ref.html?class=no-descent",
+          "=="
+         ]
+        ],
+        {}
+       ],
+       [
+        "css/css-inline/initial-letter/initial-letter-raise-initial.html?class=rtl",
+        [
+         [
+          "/css/css-inline/initial-letter/initial-letter-raise-initial-ref.html?class=rtl",
           "=="
          ]
         ],
@@ -199778,19 +199879,6 @@
         {}
        ]
       ],
-      "initial-letter-sunk-initial-rtl.html": [
-       "214ee94c3ad51fe5025d44358c9b22d55ddf55bb",
-       [
-        null,
-        [
-         [
-          "/css/css-inline/initial-letter/initial-letter-sunk-initial-rtl-ref.html",
-          "=="
-         ]
-        ],
-        {}
-       ]
-      ],
       "initial-letter-sunk-initial-vlr.html": [
        "a4901290a6b2c00398a769a39c87c84cc8da51cf",
        [
@@ -199818,7 +199906,7 @@
        ]
       ],
       "initial-letter-sunk-initial.html": [
-       "3c00662d73cba1830a7a67ce931ec936ae3253d9",
+       "764d79f294ce1a4bd7d8367bad87e5429feddbfa",
        [
         "css/css-inline/initial-letter/initial-letter-sunk-initial.html?class=",
         [
@@ -199844,6 +199932,16 @@
         [
          [
           "/css/css-inline/initial-letter/initial-letter-sunk-initial-ref.html?class=no-descent",
+          "=="
+         ]
+        ],
+        {}
+       ],
+       [
+        "css/css-inline/initial-letter/initial-letter-sunk-initial.html?class=rtl",
+        [
+         [
+          "/css/css-inline/initial-letter/initial-letter-sunk-initial-ref.html?class=rtl",
           "=="
          ]
         ],
@@ -200242,12 +200340,12 @@
        ]
       ],
       "text-box-trim-half-leading-block-box-004.html": [
-       "3e24919fd7f36d070d3430d0ff5f482785a0d30b",
+       "d0b4eac6d0b6b96ba63d950570789d13ebe43dd6",
        [
         null,
         [
          [
-          "/css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-001-ref.html",
+          "/css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-004-ref.html",
           "=="
          ]
         ],
@@ -200255,12 +200353,12 @@
        ]
       ],
       "text-box-trim-half-leading-block-box-005.html": [
-       "fd6b18d052b3c582044320bea022c4dc64a5d6a6",
+       "d4bf188a6514198e6bb81cd9f6b44d22eae7c613",
        [
         null,
         [
          [
-          "/css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-001-ref.html",
+          "/css/css-inline/text-box-trim/text-box-trim-half-leading-block-box-004-ref.html",
           "=="
          ]
         ],
@@ -204445,6 +204543,19 @@
          {}
         ]
        ],
+       "clip-path-animation-custom-property.html": [
+        "b4de2b1009b1f02211a10629b17d3963537d9bd5",
+        [
+         null,
+         [
+          [
+           "/css/css-masking/clip-path/animations/clip-path-animation-custom-property-ref.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
        "clip-path-animation-custom-timing-function-reverse.html": [
         "5346a4c22421cafde7691356c67b896f22392f76",
         [
@@ -207588,7 +207699,7 @@
        ]
       ],
       "clip-path-url-reference-external.html": [
-       "91737bf9b7059eaa454e4974c3d242e7e49dd615",
+       "e00f59b2659fc61d37b6f099ea69e53bb8cb4d9a",
        [
         null,
         [
@@ -207604,11 +207715,11 @@
            [
             [
              0,
-             1
+             36
             ],
             [
              0,
-             120
+             384
             ]
            ]
           ]
@@ -217896,6 +218007,19 @@
         {}
        ]
       ],
+      "line-clamp-auto-038.tentative.html": [
+       "0d7ef4606d5b956bd15ceb749b92d586e503cd7c",
+       [
+        null,
+        [
+         [
+          "/css/css-overflow/line-clamp/reference/line-clamp-auto-038-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "line-clamp-auto-with-ruby-001.tentative.html": [
        "5f69cc1b71e9eaeceacbbb87140349b5d7590a8c",
        [
@@ -218119,6 +218243,19 @@
       ],
       "line-clamp-with-abspos-013.tentative.html": [
        "ccea125f7246cf526da15a469261c3e90d4d2609",
+       [
+        null,
+        [
+         [
+          "/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "line-clamp-with-abspos-014.tentative.html": [
+       "ea2f531207084097c4ab0406a270b045894a0d5d",
        [
         null,
         [
@@ -224866,6 +225003,19 @@
        [
         [
          "/css/reference/pass_if_pass_below.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "before-preceding-whitespace-dynamic.html": [
+      "c361609bf0c4b4decd2000c700be816f1c6359b2",
+      [
+       null,
+       [
+        [
+         "/css/reference/pass_if_two_words.html",
          "=="
         ]
        ],
@@ -232710,7 +232860,7 @@
         ]
        ],
        "shape-image-029.html": [
-        "3c8d58607cbc3cef483d1bd7fd607d29d477ac28",
+        "252bb3e54eb26d74be23fad77918df58e660d601",
         [
          null,
          [
@@ -295911,6 +296061,19 @@
         {}
        ]
       ],
+      "custom-scrollbar.html": [
+       "cc05ca53e1d8a2213969b30e70f66072ed5ba377",
+       [
+        null,
+        [
+         [
+          "/css/css-view-transitions/navigation/custom-scrollbar-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
       "navigation-auto-excludes-reload.html": [
        "c0fb61a4b0aa85848f55332e5d491798854853b0",
        [
@@ -295925,7 +296088,7 @@
        ]
       ],
       "no-view-transition-with-cross-origin-redirect.sub.html": [
-       "8780310af2ff2942de48a824919c8c4b950519cb",
+       "c2ad21bad94ef7d5700cd355dcac253fbb29651a",
        [
         null,
         [
@@ -296062,7 +296225,7 @@
        ]
       ],
       "root-element-transition-iframe-with-startVT-on-main.html": [
-       "2a86f629acf8e998e292954faed7117e07eac7db",
+       "3e95511b8d137bd395ad8707845d8102a314d842",
        [
         null,
         [
@@ -326908,6 +327071,19 @@
          {}
         ]
        ],
+       "2d.filter.drop-shadow-globalAlpha.html": [
+        "2a44537508647c303101bed00e50d7009b2c8aff",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/filters/2d.filter.drop-shadow-globalAlpha-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
        "2d.filter.layers.componentTransfer.discrete.tentative.html": [
         "4a307d75a8f0a4af4843125d5241d8f7e7acbcad",
         [
@@ -327065,91 +327241,117 @@
        ]
       },
       "layers": {
-       "2d.layer.anisotropic-blur.isotropic.html": [
-        "9a4505bfdc308fe48384196848a9327cc6600455",
+       "2d.layer.anisotropic-blur.isotropic.tentative.html": [
+        "273a15ed601943c4cea69a6d8a665bca525cf71b",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.anisotropic-blur.isotropic-expected.html",
+           "/html/canvas/element/layers/2d.layer.anisotropic-blur.isotropic.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.mostly-x.html": [
-        "a96858a358763730f70846bc9d95e514d05acd04",
+       "2d.layer.anisotropic-blur.mostly-x.tentative.html": [
+        "dd043ff17663affe2aa5b3f7dabdf4943406bd6b",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.anisotropic-blur.mostly-x-expected.html",
+           "/html/canvas/element/layers/2d.layer.anisotropic-blur.mostly-x.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.mostly-y.html": [
-        "364ab5a29daf1d6cc3299a5a9d04f96dec1ae431",
+       "2d.layer.anisotropic-blur.mostly-y.tentative.html": [
+        "1603bb42bd97253e5771375dfd36f8530905247b",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.anisotropic-blur.mostly-y-expected.html",
+           "/html/canvas/element/layers/2d.layer.anisotropic-blur.mostly-y.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.x-only.html": [
-        "b70126e4677d933fed55c34cdcfb7139f608dc05",
+       "2d.layer.anisotropic-blur.x-only.tentative.html": [
+        "2586011a767c89919d7c5826c5d092dc06401378",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.anisotropic-blur.x-only-expected.html",
+           "/html/canvas/element/layers/2d.layer.anisotropic-blur.x-only.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.y-only.html": [
-        "aeb739b594414eac98d05862999b67f7e3eb5a61",
+       "2d.layer.anisotropic-blur.y-only.tentative.html": [
+        "4b1a4f23f3178a02da6c814790b67291cbda4da0",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.anisotropic-blur.y-only-expected.html",
+           "/html/canvas/element/layers/2d.layer.anisotropic-blur.y-only.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.blur-from-outside-canvas.no-clipping.html": [
-        "67bc1873afabf34066c1c80a106c8e3d7d545bed",
+       "2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter.html": [
+        "4742ef50ab70180347d9d7f7cf6e51c697a6c43d",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.blur-from-outside-canvas.no-clipping-expected.html",
+           "/html/canvas/element/layers/2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.blur-from-outside-canvas.with-clipping.html": [
-        "c1084268d5cda4bdfe766d6b4e80e46cdd3e5276",
+       "2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative.html": [
+        "7e2a8f21390b73a17096563e0361d42e71f2f20f",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.blur-from-outside-canvas.with-clipping-expected.html",
+           "/html/canvas/element/layers/2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter.html": [
+        "66f075ffcd2bc9b2db5b42232ef0fb350a4978fa",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative.html": [
+        "33c06dd501bcc9bfcb1cb2c3eae9883b1d6675cb",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -327182,39 +327384,78 @@
          {}
         ]
        ],
-       "2d.layer.clip-inside-and-outside.html": [
-        "529c39f0530af1b67738589c5879ce0ccf7517e1",
+       "2d.layer.clip-inside-and-outside.ctx-filter.html": [
+        "a26f391333a97db2bf607083aa522b0feca2f7ff",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.clip-inside-and-outside-expected.html",
+           "/html/canvas/element/layers/2d.layer.clip-inside-and-outside.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-inside.html": [
-        "69847c50a1c8324ec3e1bdd40903f97ebbfe75eb",
+       "2d.layer.clip-inside-and-outside.layer-filter.tentative.html": [
+        "def8022a96f6cbfe45a16d7d1c34b014a577ce48",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.clip-inside-expected.html",
+           "/html/canvas/element/layers/2d.layer.clip-inside-and-outside.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-outside.html": [
-        "a9a22d420653f048c03ea94cf683d4c1f694a27a",
+       "2d.layer.clip-inside.ctx-filter.html": [
+        "c787be5771abc7a6a38ee6b9f308a68b4796f61c",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.clip-outside-expected.html",
+           "/html/canvas/element/layers/2d.layer.clip-inside.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-inside.layer-filter.tentative.html": [
+        "cdbbce36338dea473f5698d3e3e57822d5db0304",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.clip-inside.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-outside.ctx-filter.html": [
+        "f048e82918128cb9c80a84f747c87483c03ba2c2",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.clip-outside.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-outside.layer-filter.tentative.html": [
+        "35a527834fdd4d9c3f0a135982b9143e05497690",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.clip-outside.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -327234,39 +327475,39 @@
          {}
         ]
        ],
-       "2d.layer.css-filters.blur-and-shadow.html": [
-        "5339be30471deedd42c5780551cdf33a7e714054",
+       "2d.layer.css-filters.blur-and-shadow.tentative.html": [
+        "409ea896c40a9d42a4864a8a7380527a07965ac7",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.css-filters.blur-and-shadow-expected.html",
+           "/html/canvas/element/layers/2d.layer.css-filters.blur-and-shadow.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.blur.html": [
-        "a7d6069962d2d9db62c4ae78560b98e2012ffd1c",
+       "2d.layer.css-filters.blur.tentative.html": [
+        "1c0e0975f074e5d194f63b0114cdbac5def4ddb0",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.css-filters.blur-expected.html",
+           "/html/canvas/element/layers/2d.layer.css-filters.blur.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.shadow.html": [
-        "88038168375db267f2ea49d2ab2dbb1041071175",
+       "2d.layer.css-filters.shadow.tentative.html": [
+        "379a674ba418bdd974b870fb26fc7cc0959b810e",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.css-filters.shadow-expected.html",
+           "/html/canvas/element/layers/2d.layer.css-filters.shadow.tentative-expected.html",
            "=="
           ]
          ],
@@ -327286,13 +327527,13 @@
          {}
         ]
        ],
-       "2d.layer.ctm.filter.html": [
-        "53e15eb769c03583c0efe732b2e74e440a50af70",
+       "2d.layer.ctm.layer-filter.tentative.html": [
+        "3db631ff3be90e50b831129f0984795c7346d809",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.ctm.filter-expected.html",
+           "/html/canvas/element/layers/2d.layer.ctm.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -327338,26 +327579,52 @@
          {}
         ]
        ],
-       "2d.layer.drawImage.html": [
-        "6ae4ee8ac9cafa53e63e601867189fe693619342",
+       "2d.layer.drawImage.ctx-filter.html": [
+        "52d2d211e4bfe6f12380f03f258d4df3a5553aa8",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.drawImage-expected.html",
+           "/html/canvas/element/layers/2d.layer.drawImage.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.flush-on-frame-presentation.html": [
-        "85099e046b43bb8f73a6c884647b140acda0ddb5",
+       "2d.layer.drawImage.layer-filter.tentative.html": [
+        "a0f2df478d53e9203c686975830b9b6f9b7f0516",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.flush-on-frame-presentation-expected.html",
+           "/html/canvas/element/layers/2d.layer.drawImage.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.flush-on-frame-presentation.filtered_layer.tentative.html": [
+        "f52cfd5b3c7a86d9b3c4993261fc7283a837fd00",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.flush-on-frame-presentation.filtered_layer.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.flush-on-frame-presentation.plain_layer.html": [
+        "71a5b160cc4ab29fdc142b60a334a50510836567",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.flush-on-frame-presentation.plain_layer-expected.html",
            "=="
           ]
          ],
@@ -327390,52 +327657,52 @@
          {}
         ]
        ],
-       "2d.layer.global-states.filter.ctx-filter.no-transform.html": [
-        "bbbb6b57a1aed5ad814225da71b78d2096e93eda",
+       "2d.layer.global-states.filter.ctx-filter.no-transform.tentative.html": [
+        "415cf0360af02ece8c2c4b859098d71ad93024d9",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.global-states.filter.ctx-filter.no-transform-expected.html",
+           "/html/canvas/element/layers/2d.layer.global-states.filter.ctx-filter.no-transform.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.ctx-filter.rotation.html": [
-        "2679495a2f09d5224448c4c1e97dc8d1d8649c43",
+       "2d.layer.global-states.filter.ctx-filter.rotation.tentative.html": [
+        "0573cd7f3bea33771baff10e818f50d23363633c",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.global-states.filter.ctx-filter.rotation-expected.html",
+           "/html/canvas/element/layers/2d.layer.global-states.filter.ctx-filter.rotation.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.no-transform.html": [
-        "22b898d57836995f831b4da7a425d4fc18675419",
+       "2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative.html": [
+        "591c58acc97dfe6dd660491316c61e565633802d",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.global-states.filter.no-cxt-filter.no-transform-expected.html",
+           "/html/canvas/element/layers/2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.rotation.html": [
-        "64ee2163d8df0af97f3d638e5d5b758a14a2b0e7",
+       "2d.layer.global-states.filter.no-cxt-filter.rotation.tentative.html": [
+        "ca75d4d1515a9b84b180ac4c8a874203e324dd51",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.global-states.filter.no-cxt-filter.rotation-expected.html",
+           "/html/canvas/element/layers/2d.layer.global-states.filter.no-cxt-filter.rotation.tentative-expected.html",
            "=="
           ]
          ],
@@ -327494,13 +327761,13 @@
          {}
         ]
        ],
-       "2d.layer.nested-filters.html": [
-        "8b2afe53a11413f64621b55de2924b402f1642e1",
+       "2d.layer.nested-filters.tentative.html": [
+        "885d08730f07bf2dbf4b27ee05986d0ba62e693c",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.nested-filters-expected.html",
+           "/html/canvas/element/layers/2d.layer.nested-filters.tentative-expected.html",
            "=="
           ]
          ],
@@ -327546,39 +327813,78 @@
          {}
         ]
        ],
-       "2d.layer.non-invertible-matrix.with-render-states-and-filter.html": [
-        "d3cd08be079d85dfd21448db1c8e5d57c3058076",
+       "2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative.html": [
+        "c209f7f12c3376ed826befea9ac44608e0ee332b",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.non-invertible-matrix.with-render-states-and-filter-expected.html",
+           "/html/canvas/element/layers/2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.opaque-canvas.html": [
-        "d4b8e5c29d4d218176a0c93ad3b1a4be6d95a953",
+       "2d.layer.non-invertible-matrix.with-render-states.plain-layer.html": [
+        "7af4c03576609b2c07d74ac73c1740db16f257fd",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.opaque-canvas-expected.html",
+           "/html/canvas/element/layers/2d.layer.non-invertible-matrix.with-render-states.plain-layer-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.reset.html": [
-        "d3c005fe06863caa1c77e584dfe41321c4b883ba",
+       "2d.layer.opaque-canvas.ctx-filter.html": [
+        "7a3525f489d65f0d3b8a028bcc17e3a81071618e",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.reset-expected.html",
+           "/html/canvas/element/layers/2d.layer.opaque-canvas.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.opaque-canvas.layer-filter.tentative.html": [
+        "f7b71ba8f2451c0a23b1c89c1895b76417d01167",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.opaque-canvas.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.reset.filtered_layer.tentative.html": [
+        "98548da2e51fb53b3f126af2d6a7aa8f20ea8dd6",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.reset.filtered_layer.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.reset.plain_layer.html": [
+        "434e5a890b6c23fd2ed72104c1cf461507eca01b",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.reset.plain_layer-expected.html",
            "=="
           ]
          ],
@@ -327643,52 +327949,104 @@
          }
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.html": [
-        "1fa7e67da7f36cc6d70d7a975d55baebe7724788",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter.html": [
+        "42c0bf6169ad6277be08b00132ad2e4c0e08f40b",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping-expected.html",
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance.html": [
-        "c033d83e854f4dce46931f867f9d5dbc87ea42c6",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative.html": [
+        "83925b4fcb2b07a3aacd7c8e07bc3ac0052acb21",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.long-distance-expected.html",
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.html": [
-        "8235c0867a12517b8a4d71fb7e8a191b45b69479",
+       "2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter.html": [
+        "d43c1269201481b80adb68577983fa6c3de5b3bf",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping-expected.html",
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance.html": [
-        "c04dd715d41fb33caa7035bb7fc08aabbf015535",
+       "2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative.html": [
+        "83d491f14babef080a204a913b3e327b2e999147",
         [
          null,
          [
           [
-           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.short-distance-expected.html",
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter.html": [
+        "3c30799f7586360786a241e4a2a684cdc24d3991",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative.html": [
+        "48532dcc1929cb14b65dc7295e4c2f5740ba146d",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter.html": [
+        "8adcc647932d5edadce9f3fe52d4c6578eddf658",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative.html": [
+        "6c6e5ad344f9b7c917f65c7b9d1681c09944e44d",
+        [
+         null,
+         [
+          [
+           "/html/canvas/element/layers/2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -329308,6 +329666,32 @@
          {}
         ]
        ],
+       "2d.filter.drop-shadow-globalAlpha.html": [
+        "093b44c3d37aadd25d0f3cddc910508cd04f5837",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/filters/2d.filter.drop-shadow-globalAlpha-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.filter.drop-shadow-globalAlpha.w.html": [
+        "dfec0e19fbaf9055c037f5a11ec9785c1dd42885",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/filters/2d.filter.drop-shadow-globalAlpha-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
        "2d.filter.layers.componentTransfer.discrete.tentative.html": [
         "b72a42b7c290a1b75ce623c5b29129d87c017d75",
         [
@@ -329620,182 +330004,234 @@
        ]
       },
       "layers": {
-       "2d.layer.anisotropic-blur.isotropic.html": [
-        "0fd68752408c9d6b7e79a2c1c46f445e23fb1373",
+       "2d.layer.anisotropic-blur.isotropic.tentative.html": [
+        "d622787a280dc47410a69e33bc957fb002d6b4a2",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.isotropic-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.isotropic.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.isotropic.w.html": [
-        "67cdbf81462dc63e4fcaac720e8908db6b494414",
+       "2d.layer.anisotropic-blur.isotropic.tentative.w.html": [
+        "b89b6fe2b3eedab7e8235c73936acb5c931b8c2a",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.isotropic-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.isotropic.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.mostly-x.html": [
-        "7907c3bdbb5a1a804cc7692794c162ac408820b8",
+       "2d.layer.anisotropic-blur.mostly-x.tentative.html": [
+        "6fead4901ddeecdf027ce021262a044b95e6d78a",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-x-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-x.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.mostly-x.w.html": [
-        "25a767ddb79194b9f854ce88318cc8d07235562b",
+       "2d.layer.anisotropic-blur.mostly-x.tentative.w.html": [
+        "8cb0323a475257220cf492f149ad1a3e9c6f6425",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-x-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-x.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.mostly-y.html": [
-        "4e4993a6028e3aea484a14160233957d1d385787",
+       "2d.layer.anisotropic-blur.mostly-y.tentative.html": [
+        "2b7d8681725dbf5e3e1ec4fa858a2d4068e27e68",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-y-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-y.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.mostly-y.w.html": [
-        "ff0e7e9bc34f6c36ac9a41604f4c068c108e8a15",
+       "2d.layer.anisotropic-blur.mostly-y.tentative.w.html": [
+        "465121e17541802c0f63342adc02ae3d4d92ade7",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-y-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.mostly-y.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.x-only.html": [
-        "4cb728259a3899896b42a75217136165285ad876",
+       "2d.layer.anisotropic-blur.x-only.tentative.html": [
+        "44db62dd99f4a8f0f75cafd8b5cb765120e866b6",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.x-only-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.x-only.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.x-only.w.html": [
-        "f92606c3f14fc9105419e6c07f767c0ed008ce7d",
+       "2d.layer.anisotropic-blur.x-only.tentative.w.html": [
+        "632dbac3d53858915fc075c61efbc066a946622a",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.x-only-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.x-only.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.y-only.html": [
-        "a9731c14c22f5f3544bbec11ce664d53de7bbbd9",
+       "2d.layer.anisotropic-blur.y-only.tentative.html": [
+        "6d4aad75b5a7615c959646aba6d8032d4cbac2e4",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.y-only-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.y-only.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.anisotropic-blur.y-only.w.html": [
-        "9c4250f95cbc45f899a3fbffebd5c8392f285b86",
+       "2d.layer.anisotropic-blur.y-only.tentative.w.html": [
+        "5369a6a134fde3ed833b7e754dd11a2cb127b733",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.y-only-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.anisotropic-blur.y-only.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.blur-from-outside-canvas.no-clipping.html": [
-        "fa5d021e8d99294f49bbf827c610818e2da17e34",
+       "2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter.html": [
+        "a1be866d9e549885343bcfbdb293f6e2badbda6d",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.no-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.blur-from-outside-canvas.no-clipping.w.html": [
-        "490779ea1651247800eb8cb176eff1d096ce8b8e",
+       "2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter.w.html": [
+        "9e2bb1f5894905a6d405c6d51d269631d88d0613",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.no-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.blur-from-outside-canvas.with-clipping.html": [
-        "326f71effacb897b76b622887a8d130b0bf3f87e",
+       "2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative.html": [
+        "c7055b909151cfa44c92b706918cde22bba8cd0e",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.with-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.blur-from-outside-canvas.with-clipping.w.html": [
-        "784dde18d1b0623142bb3d63fed06fd8156ca847",
+       "2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative.w.html": [
+        "815ddbb23da3594d4f14aa048ca457dcace1d795",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.with-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter.html": [
+        "9a6c9cbed7c82eb7192c98a98489d2cb93b7a3cd",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter.w.html": [
+        "d93d4fba5eefd16927d4669e186e0faf4c15e518",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative.html": [
+        "b0198ef63bfe8dcf652e89ca5285fbddb54fc7ba",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative.w.html": [
+        "d76bcaf3e8404f72436d35a5ee2b482d2809f250",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -329854,78 +330290,156 @@
          {}
         ]
        ],
-       "2d.layer.clip-inside-and-outside.html": [
-        "8d7d6f30a8338e1368921718d209b22707ca8cea",
+       "2d.layer.clip-inside-and-outside.ctx-filter.html": [
+        "a4c83402e0a931fceb2820b169eba2bc33ad3216",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.clip-inside-and-outside-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside-and-outside.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-inside-and-outside.w.html": [
-        "6c522be739a535c2beaf5d7bd19dc5e9f8233b7c",
+       "2d.layer.clip-inside-and-outside.ctx-filter.w.html": [
+        "a144f08b87ee803c64115542b91398b5c1012706",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.clip-inside-and-outside-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside-and-outside.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-inside.html": [
-        "97e2e6941d635365a9271886ceb5c05398351a1f",
+       "2d.layer.clip-inside-and-outside.layer-filter.tentative.html": [
+        "0b83b609d614e1a35a5333d41c1763bd61ead0cd",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.clip-inside-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside-and-outside.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-inside.w.html": [
-        "3429ebcb95055c19aa6d31473d3d819a2fb63e68",
+       "2d.layer.clip-inside-and-outside.layer-filter.tentative.w.html": [
+        "9ea28b30eee94896ace94f9d79f690fd08db6ac8",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.clip-inside-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside-and-outside.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-outside.html": [
-        "19d7c3f93ef3e1d94411de49a52d22d33487541c",
+       "2d.layer.clip-inside.ctx-filter.html": [
+        "e21248edf56c49cde03e6afa8997abf33526347e",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.clip-outside-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.clip-outside.w.html": [
-        "a58e77ccfc140dd2ee2ea8474a9335e4b92d30b0",
+       "2d.layer.clip-inside.ctx-filter.w.html": [
+        "177030ed509cf3a324f206fdb6912b898a9efea4",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.clip-outside-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-inside.layer-filter.tentative.html": [
+        "04c9387e059c3dda128cd67d6514f5422b237a8c",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-inside.layer-filter.tentative.w.html": [
+        "9686867ebae45324e765f60a37739c6775ca1b09",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.clip-inside.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-outside.ctx-filter.html": [
+        "347d785c19a41c26f4ef05ea82caf2d10971d1ef",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.clip-outside.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-outside.ctx-filter.w.html": [
+        "95b474eb488ef0d683d4a8a4491b8fa42df88e3b",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.clip-outside.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-outside.layer-filter.tentative.html": [
+        "ff17cd73319865e8f627b8dee6477a7365164af5",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.clip-outside.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.clip-outside.layer-filter.tentative.w.html": [
+        "a203b927fc1895e9f127a07895413d2d985893ad",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.clip-outside.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -329958,78 +330472,78 @@
          {}
         ]
        ],
-       "2d.layer.css-filters.blur-and-shadow.html": [
-        "55ee3f11f72ecf9ba813def987849f5e5e5394be",
+       "2d.layer.css-filters.blur-and-shadow.tentative.html": [
+        "48de7f2b51a74f41fcb457f049060a3494218063",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur-and-shadow-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur-and-shadow.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.blur-and-shadow.w.html": [
-        "f8e7e78f7143465fc33e3a599dd2d606436c1d7e",
+       "2d.layer.css-filters.blur-and-shadow.tentative.w.html": [
+        "4622fed3ae7dfa09df69b012d6870b252004a02b",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur-and-shadow-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur-and-shadow.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.blur.html": [
-        "c6f0cf8975570f3b4cf27fb239ce0a21a925bba9",
+       "2d.layer.css-filters.blur.tentative.html": [
+        "057c0155acf2f219c12c608b3947506a26bba2f2",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.blur.w.html": [
-        "07ca86ec2ff7ec8e595556e5aa187dc952ba0aaf",
+       "2d.layer.css-filters.blur.tentative.w.html": [
+        "aa97ec8e2c07e746595c216609154ae030bcce43",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.css-filters.blur.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.shadow.html": [
-        "c903a3178def4e3196ac06810309275cdae39857",
+       "2d.layer.css-filters.shadow.tentative.html": [
+        "683f7d3023240322590b113771cdb69388feb5b1",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.css-filters.shadow-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.css-filters.shadow.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.css-filters.shadow.w.html": [
-        "9dbe73eab827e2457439656bd5d367c8f6f37523",
+       "2d.layer.css-filters.shadow.tentative.w.html": [
+        "1660f1d6eaa8dd760a571e3a13981cf20e10002c",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.css-filters.shadow-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.css-filters.shadow.tentative-expected.html",
            "=="
           ]
          ],
@@ -330062,26 +330576,26 @@
          {}
         ]
        ],
-       "2d.layer.ctm.filter.html": [
-        "2458469d7e29c55a37b46508a0da10ca7f614028",
+       "2d.layer.ctm.layer-filter.tentative.html": [
+        "cfa58431809eae7e15854449a8741dd2321598e4",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.ctm.filter-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.ctm.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.ctm.filter.w.html": [
-        "8ac710cfdd73ba589b3094b05750de559cd406eb",
+       "2d.layer.ctm.layer-filter.tentative.w.html": [
+        "4289871ec3715008c4238bb9cd43a4ee0c395eab",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.ctm.filter-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.ctm.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -330166,26 +330680,52 @@
          {}
         ]
        ],
-       "2d.layer.drawImage.html": [
-        "99c61cebeb39e8addba8a081388163a11bf397cc",
+       "2d.layer.drawImage.ctx-filter.html": [
+        "92a96271ef006af68e29a0bb64a61a7616723e46",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.drawImage-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.drawImage.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.drawImage.w.html": [
-        "a94641b887194ae288809e808d9b117a15b71112",
+       "2d.layer.drawImage.ctx-filter.w.html": [
+        "c30641a8c184ef3169507f8c3df2e1461b4d9eff",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.drawImage-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.drawImage.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.drawImage.layer-filter.tentative.html": [
+        "bfeb5dbb67e4b1188caf9f02120c27ae18b82cbb",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.drawImage.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.drawImage.layer-filter.tentative.w.html": [
+        "922e7df09b32d33593bdb490e32fbe52a5321224",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.drawImage.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -330244,104 +330784,104 @@
          {}
         ]
        ],
-       "2d.layer.global-states.filter.ctx-filter.no-transform.html": [
-        "2bc6e36149cd225503e035fee57b5432c224d3bb",
+       "2d.layer.global-states.filter.ctx-filter.no-transform.tentative.html": [
+        "0dd8471feb29d939582cf466878afd1837dc09f9",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.no-transform-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.no-transform.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.ctx-filter.no-transform.w.html": [
-        "da4b7720a79d0b8364bd0e8a324de6916f26e729",
+       "2d.layer.global-states.filter.ctx-filter.no-transform.tentative.w.html": [
+        "24613ffafa624b59dbd2e18045d9b90305523043",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.no-transform-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.no-transform.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.ctx-filter.rotation.html": [
-        "f5e4cc0bf9ac1967260cac1828a59df41d44c562",
+       "2d.layer.global-states.filter.ctx-filter.rotation.tentative.html": [
+        "ba26f9106955a006acf90ccd0bf416c4d46a6f36",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.rotation-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.rotation.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.ctx-filter.rotation.w.html": [
-        "17af577d7946e6a71d3934ce309d4bf669f62ad4",
+       "2d.layer.global-states.filter.ctx-filter.rotation.tentative.w.html": [
+        "59ebb65e7ad0eebe8d364f3754692d6b3009ca8d",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.rotation-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.ctx-filter.rotation.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.no-transform.html": [
-        "38c672402b82dc49c4133ee2c7ad77c7f9bb9049",
+       "2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative.html": [
+        "388a98f20f7700c079ea0b3bf5cb1e5302f6391f",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.no-transform-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.no-transform.w.html": [
-        "ba46ea488927a0c1aaa551dd46a4ad5d55366246",
+       "2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative.w.html": [
+        "ab1be4924dd87db252ada00d0584f767b2f636c2",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.no-transform-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.rotation.html": [
-        "3220bb51eb4334ee57326d91e44c04ded399b1a7",
+       "2d.layer.global-states.filter.no-cxt-filter.rotation.tentative.html": [
+        "95ce14186d32ad40e1a86d0f77b56334aae09191",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.rotation-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.rotation.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.rotation.w.html": [
-        "840a4e73ccd8a82cb0cc306725faa56680ae8067",
+       "2d.layer.global-states.filter.no-cxt-filter.rotation.tentative.w.html": [
+        "0e0644a45ea8a77a00820d9b653337aebc2200e8",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.rotation-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.global-states.filter.no-cxt-filter.rotation.tentative-expected.html",
            "=="
           ]
          ],
@@ -330452,26 +330992,26 @@
          {}
         ]
        ],
-       "2d.layer.nested-filters.html": [
-        "dce67e3089d33a3dd9d35c062213302616467cb3",
+       "2d.layer.nested-filters.tentative.html": [
+        "ec46a8ab0e3f5f6191a8d1b78a2e13a9c4d80c23",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.nested-filters-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.nested-filters.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.nested-filters.w.html": [
-        "01db9529156448c875554393d4a94716ebed8e8f",
+       "2d.layer.nested-filters.tentative.w.html": [
+        "8a031ec27f18ed168194ec0e718133d6954668b5",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.nested-filters-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.nested-filters.tentative-expected.html",
            "=="
           ]
          ],
@@ -330556,78 +331096,156 @@
          {}
         ]
        ],
-       "2d.layer.non-invertible-matrix.with-render-states-and-filter.html": [
-        "717188c9956f47884894ef79413a2059aad42182",
+       "2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative.html": [
+        "357021aa1333f736a8a5257a1013e8961fd0a382",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.non-invertible-matrix.with-render-states-and-filter-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.non-invertible-matrix.with-render-states-and-filter.w.html": [
-        "a45c945bcd2e08ec8fb88c8cc3250a31459d5cef",
+       "2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative.w.html": [
+        "95a6eee89da9a78c209bdc67144d78afe71455a5",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.non-invertible-matrix.with-render-states-and-filter-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.opaque-canvas.html": [
-        "9ddf70ab958ad0edab391aa3d07f717d444ad6ef",
+       "2d.layer.non-invertible-matrix.with-render-states.plain-layer.html": [
+        "b0382ca38717f567348acbb659417e2b3eb91e80",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.opaque-canvas-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.non-invertible-matrix.with-render-states.plain-layer-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.opaque-canvas.w.html": [
-        "2fe3f98f0ecb03532fcb301830b6e2cdd40e10fd",
+       "2d.layer.non-invertible-matrix.with-render-states.plain-layer.w.html": [
+        "dee370cd2a60d0763e3d806b6befb65cff0c7f70",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.opaque-canvas-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.non-invertible-matrix.with-render-states.plain-layer-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.reset.html": [
-        "930d4a1e2391c5065fa0a477857447a505fb2a71",
+       "2d.layer.opaque-canvas.ctx-filter.html": [
+        "d32c351def803a85808370ec640aecf85f872a7f",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.reset-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.opaque-canvas.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.reset.w.html": [
-        "fa6edac05d34f432d18cb833c2d39f1f58341c82",
+       "2d.layer.opaque-canvas.ctx-filter.w.html": [
+        "4d36f135dda49de69365fdb30c6cbcbe2c7123e7",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.reset-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.opaque-canvas.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.opaque-canvas.layer-filter.tentative.html": [
+        "2e25ee4d34de6441835aa222dd6381a829a034be",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.opaque-canvas.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.opaque-canvas.layer-filter.tentative.w.html": [
+        "92f64b4f750adfe183fddd5459081d3d75783b48",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.opaque-canvas.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.reset.filtered_layer.tentative.html": [
+        "45199aa24dd38bcfe0211250fe599ab0dd7ecf75",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.reset.filtered_layer.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.reset.filtered_layer.tentative.w.html": [
+        "7100da36e7f753fb581e4055bea71d6026d7cc2d",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.reset.filtered_layer.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.reset.plain_layer.html": [
+        "cca641e8892c101e3ff908d9ed35033d56a35282",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.reset.plain_layer-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.reset.plain_layer.w.html": [
+        "6a97bbdc383aa4af52e5f0a7fb71c13166064f3c",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.reset.plain_layer-expected.html",
            "=="
           ]
          ],
@@ -330750,104 +331368,208 @@
          }
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.html": [
-        "0c65ceac23fb18d506a1a59aeeec0648c199f54f",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter.html": [
+        "2981379a190e27811c5567980d8a955fd592d78e",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.w.html": [
-        "77d8bbf2e90c7089a58f64776907044d1558c7d1",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter.w.html": [
+        "7057728be3b198be0766658e09a810a7abbcb229",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance.html": [
-        "afcccde12d192da8483ce5fcf562fab31e56565e",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative.html": [
+        "bc1ec18042379e73477b3304e1ba0aad8d76c28d",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance.w.html": [
-        "b37895246901d3e0062d8756f1fcfc733b38abe4",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative.w.html": [
+        "ed151f1e1167c77d92d316b84e7b716c5fe23649",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.html": [
-        "388898326eb8c77d43ca780f094a46acbeb05834",
+       "2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter.html": [
+        "decc4d0ef3b85e30cbdd640b1cc1dd61e91917dc",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.w.html": [
-        "4a341b91895b283baf1e22f34973b88e6cd48804",
+       "2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter.w.html": [
+        "a74a4ca29acd9b762aa186d61c6c2fdc29dd19fc",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance.html": [
-        "1a29d2fa8ffdd316c7d1397995cfd5aa26041e49",
+       "2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative.html": [
+        "65772dd518c9b1648ad747786b94227803068509",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
          {}
         ]
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance.w.html": [
-        "4017fe7a3045ac663d8eb78634fd3f3fcdc446e0",
+       "2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative.w.html": [
+        "725433a34c83ee9e0e03b17cdaf0f4d302d75439",
         [
          null,
          [
           [
-           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-expected.html",
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter.html": [
+        "604b809b7efa7b76475cb3fab44d4a4170d7f519",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter.w.html": [
+        "9581cd5487cac29cabc04aa03b1ce4767ecb1bac",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative.html": [
+        "1d392215d9eef5c4304ff2e0d5fc8dcb62170c2c",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative.w.html": [
+        "0bb94895cababa16d5363bd96ea5ed34b0a5ae00",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter.html": [
+        "c567f4e39067af1e48b82df8999623d5ea786272",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter.w.html": [
+        "b76235e442e6a95d72efdf936cfa2061468c0427",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative.html": [
+        "6e096a3c96d221d99ca993affe447d91eb1103ee",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative-expected.html",
+           "=="
+          ]
+         ],
+         {}
+        ]
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative.w.html": [
+        "0787cf54ac65f1dd5fa7044cadd74e1474d69c35",
+        [
+         null,
+         [
+          [
+           "/html/canvas/offscreen/layers/2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative-expected.html",
            "=="
           ]
          ],
@@ -335965,7 +336687,7 @@
        ]
       ],
       "details-pseudo-elements-001.html": [
-       "8ea3d0f85af933b6202f15ee00b9fdac451ab0c9",
+       "f9d48101fb65edfc868a67a5722cdbfc0e8f7f1b",
        [
         null,
         [
@@ -335978,7 +336700,7 @@
        ]
       ],
       "details-pseudo-elements-002.html": [
-       "0f1176a3316bb08f9a49c63544d4ae090d878e40",
+       "0b852fca04c6fbe61cdc539d9fd7425dedb78f6f",
        [
         null,
         [
@@ -335997,6 +336719,32 @@
         [
          [
           "/html/rendering/the-details-element/details-pseudo-elements-003-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "details-pseudo-elements-004.html": [
+       "143a2a29d498cf04363ec1a1bcd19dc2333a4ee7",
+       [
+        null,
+        [
+         [
+          "/html/rendering/the-details-element/details-pseudo-elements-004-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "details-pseudo-elements-005.html": [
+       "71afb31193e6ab6c652af8a9a27ccb20a653c49e",
+       [
+        null,
+        [
+         [
+          "/html/rendering/the-details-element/details-pseudo-elements-005-ref.html",
           "=="
          ]
         ],
@@ -338994,7 +339742,7 @@
        ]
       ],
       "bounded-sizes-reftest.tentative.html": [
-       "45ffb633c3dc4aab7b40e750e922abc7a27e6275",
+       "277e85a89117892b5ebd70480466e24ee0bb11f5",
        [
         null,
         [
@@ -339020,7 +339768,7 @@
        ]
       ],
       "large-min-size-reftest.tentative.html": [
-       "9a786101693b25bdc0ae80a051e11c765118bb86",
+       "c61346c35267b88bf4f411446d8d8ae065a3ed44",
        [
         null,
         [
@@ -339052,6 +339800,19 @@
         [
          [
           "/html/semantics/permission-element/pseudo-elements-ref.html",
+          "=="
+         ]
+        ],
+        {}
+       ]
+      ],
+      "unbounded-width-with-border-reftest.tentative.html": [
+       "8de1876b210aff5d684aca092b31d1fd94af11ce",
+       [
+        null,
+        [
+         [
+          "/html/semantics/permission-element/unbounded-width-with-border-reftest-ref.html",
           "=="
          ]
         ],
@@ -345800,6 +346561,19 @@
        [
         [
          "/selection/caret/collapse-pre-linestart-ref.html",
+         "=="
+        ]
+       ],
+       {}
+      ]
+     ],
+     "editing-host-has-only-invisible-br.html": [
+      "594b78fb1a5b63c8d3e4fcf68341ff264bba6337",
+      [
+       null,
+       [
+        [
+         "/selection/caret/editing-host-has-only-invisible-br-ref.html",
          "=="
         ]
        ],
@@ -354317,7 +355091,7 @@
       []
      ],
      "docker.yml": [
-      "2484331cc09a2ebdaf8668afec22efaebb710e0d",
+      "bd5e23ea904707273cc56d1c6b6a930f5d031ff4",
       []
      ],
      "documentation.yml": [
@@ -358908,8 +359682,12 @@
       "6b2b3097926b192df23c3e21dd19742bb19e69d4",
       []
      ],
+     "sync-pressure-observer.js": [
+      "49f7d95a1364fc6e63a0c2c70693b8de268ccb1f",
+      []
+     ],
      "worker-support.js": [
-      "998bcd66610ba1a8e329b32e4ef6660804247332",
+      "39caeb6192f6fee2a9b71d8ea78a1cf9e64e512d",
       []
      ]
     }
@@ -397234,6 +398012,10 @@
       "4d7de12447c8297b8f0fc04338d80a028a3e9798",
       []
      ],
+     "position-anchor-target-with-children-ref.html": [
+      "dd922b0bb218311665711ca9d14d60bdfb72ba98",
+      []
+     ],
      "position-area-inline-container-ref.html": [
       "ecf54f1a9ac2d756cb78f4d2c0690c1ac8b65916",
       []
@@ -416874,11 +417656,7 @@
        []
       ],
       "initial-letter-raise-initial-ref.html": [
-       "29594f45f9595d372bb8bb5726454430206f3d89",
-       []
-      ],
-      "initial-letter-raise-initial-rtl-ref.html": [
-       "e5dd8f96b5cf40157f2811074d526ac7c1b2dc09",
+       "8a409603029d9333623311345e22ed92ba45ba91",
        []
       ],
       "initial-letter-raise-initial-vlr-ref.html": [
@@ -416906,11 +417684,7 @@
        []
       ],
       "initial-letter-sunk-initial-ref.html": [
-       "0b569177a87642a7f3deca9d1aa3306e80256d8c",
-       []
-      ],
-      "initial-letter-sunk-initial-rtl-ref.html": [
-       "cb26ab05f1e01617a6896fde2a983ebc13582158",
+       "160751274af111b9097352ec61ae92ede136b676",
        []
       ],
       "initial-letter-sunk-initial-vlr-ref.html": [
@@ -417013,6 +417787,10 @@
       ],
       "text-box-trim-half-leading-block-box-003-ref.html": [
        "176526e55b2586beb80693a48cabba0f5448f24a",
+       []
+      ],
+      "text-box-trim-half-leading-block-box-004-ref.html": [
+       "eb8952b57e935a35ce370614ee9d22d750ed903f",
        []
       ],
       "text-box-trim-height-001-ref.html": [
@@ -417762,6 +418540,10 @@
       "animations": {
        "clip-path-animation-cancel-ref.html": [
         "ac04bd53798188fb5fcc27ea87a6eae2ffb46a3b",
+        []
+       ],
+       "clip-path-animation-custom-property-ref.html": [
+        "b22cf321b45b38dab4ddcb50998af8ffb8ad4137",
         []
        ],
        "clip-path-animation-custom-timing-function-ref.html": [
@@ -419856,6 +420638,10 @@
        ],
        "line-clamp-auto-037-ref.html": [
         "eeb9543554d99659ed855e40d4f04be393858932",
+        []
+       ],
+       "line-clamp-auto-038-ref.html": [
+        "3c80bbe73fd87221b49fc1f88e25b354f16e9de2",
         []
        ],
        "line-clamp-auto-with-ruby-001-ref.html": [
@@ -434451,6 +435237,10 @@
        "90267e3a84a34157078d1ad890710ea8059a75da",
        []
       ],
+      "custom-scrollbar-ref.html": [
+       "21c3f0844288123d1ec46ca4a2a3ed2a55737d18",
+       []
+      ],
       "navigation-auto-excludes-reload-ref.html": [
        "ed12194c3107880808952a165fe591c6e5fa490b",
        []
@@ -434510,6 +435300,10 @@
        ],
        "common.js": [
         "cbe023a3d9ed808dcab2bc9b3b1a769ca6ff68cc",
+        []
+       ],
+       "custom-scrollbar.html": [
+        "8ebd34a1cea2840c4b84ac2fe8d77664bde24842",
         []
        ],
        "opt-in-style.css": [
@@ -441813,7 +442607,7 @@
       []
      ],
      "insertimage.js": [
-      "b18388a7971dfd10fca5bcc0d15998b2989310af",
+      "b62331e152098ed6d63e294119cfe7abeddb174d",
       []
      ],
      "insertlinebreak.js": [
@@ -443941,7 +444735,7 @@
       []
      ],
      "manifest_with_variable_accounts.json": [
-      "9e4af250045757a3ce7b58bc7d0347ecd2794a40",
+      "b3161e5f286034714af357cd98a7949c57f6937c",
       []
      ],
      "mark_signedin": [
@@ -444257,7 +445051,7 @@
       []
      ],
      "create-credential-inner.https.html": [
-      "5725177f21717570ebf1a78b77f0e3870c6f9965",
+      "d51dab950f8448a24d5f8daff0c6a39d801be25f",
       []
      ],
      "create-credential-inner.https.html.headers": [
@@ -448801,6 +449595,10 @@
          "557f408fba0e63b66ee170c04ba405744325036d",
          []
         ],
+        "unknown-protocol-reload-crash-frame.html": [
+         "68fd69b03f05fbe7d51a725d3315b02cc3200eed",
+         []
+        ],
         "wait-for-messages.js": [
          "62ddec49f1be2a4bb36618e1c1888e0af0bbe904",
          []
@@ -451068,6 +451866,10 @@
         "9c85dfec907e2dd6b1158002e6f8b6ed151b8852",
         []
        ],
+       "2d.filter.drop-shadow-globalAlpha-expected.html": [
+        "bec81b2422ae6716a724050614739c32a90b8371",
+        []
+       ],
        "2d.filter.layers.componentTransfer.discrete.tentative-expected.html": [
         "bbf96c360830129d4ab64c83f9ee5412a4eb6cd1",
         []
@@ -451098,32 +451900,40 @@
        ]
       },
       "layers": {
-       "2d.layer.anisotropic-blur.isotropic-expected.html": [
-        "ecd88a4acf9dff9813c965ba8adaa5c03a0b6826",
+       "2d.layer.anisotropic-blur.isotropic.tentative-expected.html": [
+        "81ddb3ffb5ca40257e5a2e27960e1f1626bdd23d",
         []
        ],
-       "2d.layer.anisotropic-blur.mostly-x-expected.html": [
-        "fff719c678e3c09a597e02c51e21d8f47252f747",
+       "2d.layer.anisotropic-blur.mostly-x.tentative-expected.html": [
+        "3ba431c2c65cebfcefb3be8cceefa87948226562",
         []
        ],
-       "2d.layer.anisotropic-blur.mostly-y-expected.html": [
-        "a379590a8117ec7b91d89317f7420f5916585d3a",
+       "2d.layer.anisotropic-blur.mostly-y.tentative-expected.html": [
+        "0e21f8c086dde68e8f13ebc1c9be9dedaf3d664f",
         []
        ],
-       "2d.layer.anisotropic-blur.x-only-expected.html": [
-        "5e6a16effbd696f5875ed76b415011422ade7cb3",
+       "2d.layer.anisotropic-blur.x-only.tentative-expected.html": [
+        "d3e70ffe7620acc2e8f971ba671aad18f67e2418",
         []
        ],
-       "2d.layer.anisotropic-blur.y-only-expected.html": [
-        "025d0949b5067110b335c87b8a413c190f828d32",
+       "2d.layer.anisotropic-blur.y-only.tentative-expected.html": [
+        "4847c40a8ff0b13b544e33ec19695dfdedfac4b3",
         []
        ],
-       "2d.layer.blur-from-outside-canvas.no-clipping-expected.html": [
-        "f7a1a7837fc9ca7062cf81bf127e9e93b647f475",
+       "2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter-expected.html": [
+        "58a5a77c39e14c0aa9d09b409fb094f5ee02b584",
         []
        ],
-       "2d.layer.blur-from-outside-canvas.with-clipping-expected.html": [
-        "87bed15740cdd05196a39858f672a7968b2bf85a",
+       "2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative-expected.html": [
+        "d02cc44b6cc889e31d3fe3b70c5d54b2a40de088",
+        []
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter-expected.html": [
+        "1a5372c82e5d2b4ea8194b5e3c30b34c371fda56",
+        []
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative-expected.html": [
+        "3b137830da079ca479d763cabeec183296915e96",
         []
        ],
        "2d.layer.clearRect.full-expected.html": [
@@ -451134,40 +451944,52 @@
         "780b7b3a3af089bd3167eb3e19b63fd560ce9b1c",
         []
        ],
-       "2d.layer.clip-inside-and-outside-expected.html": [
-        "d18ab55b1fc6a4d0bf9535986192f6cd1c869043",
+       "2d.layer.clip-inside-and-outside.ctx-filter-expected.html": [
+        "f01d09e339f632f4e6d34a72216e681a89d0f37e",
         []
        ],
-       "2d.layer.clip-inside-expected.html": [
-        "fcf0571c3e72b46a8f055acde3089a5371c43029",
+       "2d.layer.clip-inside-and-outside.layer-filter.tentative-expected.html": [
+        "e6832307139c201d9f8d5065ab4b4e4734aef3fc",
         []
        ],
-       "2d.layer.clip-outside-expected.html": [
-        "f81a24ddcfb39fc141a9797ff72ce3691a7115db",
+       "2d.layer.clip-inside.ctx-filter-expected.html": [
+        "1372c95b3744d6f8dcdbc9af126caa7557f857f7",
+        []
+       ],
+       "2d.layer.clip-inside.layer-filter.tentative-expected.html": [
+        "d63982ffa4e8a602d8815c26c79d0f78aba19a49",
+        []
+       ],
+       "2d.layer.clip-outside.ctx-filter-expected.html": [
+        "3d0bd79c403f33853ec85eeb2f781ff4cefdfe62",
+        []
+       ],
+       "2d.layer.clip-outside.layer-filter.tentative-expected.html": [
+        "7d64bc640080800f09a11b11cbca858c787b0b8a",
         []
        ],
        "2d.layer.cross-layer-paths-expected.html": [
         "f70f3e4e26b689365613240f7c552d61f0d99048",
         []
        ],
-       "2d.layer.css-filters.blur-and-shadow-expected.html": [
-        "77b45eb814f7df065dcfc4a25cf0b9be467911f6",
+       "2d.layer.css-filters.blur-and-shadow.tentative-expected.html": [
+        "43a71d4d6a351de65b8d60acca8ab62b67a35455",
         []
        ],
-       "2d.layer.css-filters.blur-expected.html": [
-        "457e05db390b8fbb013b12992cdb0a72b080d976",
+       "2d.layer.css-filters.blur.tentative-expected.html": [
+        "7d907bc527ccb650a67c99c7a8d690059931d592",
         []
        ],
-       "2d.layer.css-filters.shadow-expected.html": [
-        "acbae0fcb8fdd97cb43b0d2f12d4ed54d05aa179",
+       "2d.layer.css-filters.shadow.tentative-expected.html": [
+        "5142c2f4f6e98151c0f061066b59c0eaefb86695",
         []
        ],
        "2d.layer.ctm.ctx-filter-expected.html": [
         "4aac604caf09220dbd2ea1f256b457389e1b49f3",
         []
        ],
-       "2d.layer.ctm.filter-expected.html": [
-        "493a2cd1d99e2ca55464cbe5efda07f5dd1b9121",
+       "2d.layer.ctm.layer-filter.tentative-expected.html": [
+        "f1f564f24799260ff5350b5cc6d9ef445e22aa10",
         []
        ],
        "2d.layer.ctm.resetTransform-expected.html": [
@@ -451182,12 +452004,20 @@
         "cf16986c91bd03110713767e85ba522dce4aafb6",
         []
        ],
-       "2d.layer.drawImage-expected.html": [
-        "4a4aa93d9f2b82c44776807c181cf6db2ae4f233",
+       "2d.layer.drawImage.ctx-filter-expected.html": [
+        "0d06cdc45ed4327a58e28b31ebc1a6c30ff9054e",
         []
        ],
-       "2d.layer.flush-on-frame-presentation-expected.html": [
-        "f5aebdd832afe28c99848d5a8659560e686cabb7",
+       "2d.layer.drawImage.layer-filter.tentative-expected.html": [
+        "589f172ba5cf890ea85a1d4257b7db4c37cf75b6",
+        []
+       ],
+       "2d.layer.flush-on-frame-presentation.filtered_layer.tentative-expected.html": [
+        "7363d90a800e01c3a34b04798c3a59fb93979061",
+        []
+       ],
+       "2d.layer.flush-on-frame-presentation.plain_layer-expected.html": [
+        "01eaf0680cd2290c24c14b5e57f7a7a6ffcde9e3",
         []
        ],
        "2d.layer.global-states.ctx-filter.no-transform-expected.html": [
@@ -451198,20 +452028,20 @@
         "3290077de1ea57141ae7524d5071315d2bb1c0d6",
         []
        ],
-       "2d.layer.global-states.filter.ctx-filter.no-transform-expected.html": [
-        "af2a55af7efd34f798585fda9ba2a67e028784d4",
+       "2d.layer.global-states.filter.ctx-filter.no-transform.tentative-expected.html": [
+        "dae68b3ad7301e5f46a60b7ea466d2931969b24c",
         []
        ],
-       "2d.layer.global-states.filter.ctx-filter.rotation-expected.html": [
-        "b0a58fcb93fc977aaad832b313c8edd902f5a201",
+       "2d.layer.global-states.filter.ctx-filter.rotation.tentative-expected.html": [
+        "b18ae7f357ac829d17228e15fc490b1b6243cf37",
         []
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.no-transform-expected.html": [
-        "db1a4bdc131176a24dbfe22ac3b03eab54b09ef5",
+       "2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative-expected.html": [
+        "6263d26333a0ddc08abb05de71a4332e25c6944f",
         []
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.rotation-expected.html": [
-        "8995fe469e4d0874dc8e3a346462a4b3b653c426",
+       "2d.layer.global-states.filter.no-cxt-filter.rotation.tentative-expected.html": [
+        "0236c9a5d93681627eb813c43250cfc4a39dcced",
         []
        ],
        "2d.layer.global-states.no-cxt-filter.no-transform-expected.html": [
@@ -451234,8 +452064,8 @@
         "6fe2dbeb5231526ac4e88df91a0c2daf592dd470",
         []
        ],
-       "2d.layer.nested-filters-expected.html": [
-        "68ccec3b2da871a7b24460e98fc2f81da9019e4a",
+       "2d.layer.nested-filters.tentative-expected.html": [
+        "6b9bfbdb4650804d699ea151bab58656055a6461",
         []
        ],
        "2d.layer.non-invertible-matrix-expected.html": [
@@ -451246,16 +452076,28 @@
         "021d5ae7af90367a089c977eb04b8c9762c1c303",
         []
        ],
-       "2d.layer.non-invertible-matrix.with-render-states-and-filter-expected.html": [
-        "ead108a72c4adb1383f120126fc2d9da60bf098e",
+       "2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative-expected.html": [
+        "daa6111f7b597bc0262cb342f69593a0eda188d4",
         []
        ],
-       "2d.layer.opaque-canvas-expected.html": [
-        "02f73611d6172651327b7773264b0b80a6c8d2a3",
+       "2d.layer.non-invertible-matrix.with-render-states.plain-layer-expected.html": [
+        "3841df36ed4c9169aecc2ea3dad7cd0fd4e08ea0",
         []
        ],
-       "2d.layer.reset-expected.html": [
-        "6f3f82dc98ea469b03bd532d399b8f36c8ad89ff",
+       "2d.layer.opaque-canvas.ctx-filter-expected.html": [
+        "af704031e29e6540875fd56a0352bff5a04ecb18",
+        []
+       ],
+       "2d.layer.opaque-canvas.layer-filter.tentative-expected.html": [
+        "d195882a685656fcaa12d102b0347ea8c57b0147",
+        []
+       ],
+       "2d.layer.reset.filtered_layer.tentative-expected.html": [
+        "47bf9689e1ed1cdf506770df2fbd2d0023d61c9d",
+        []
+       ],
+       "2d.layer.reset.plain_layer-expected.html": [
+        "c018252c21394830336512747c3674b599b68ecf",
         []
        ],
        "2d.layer.restore-style-expected.html": [
@@ -451266,20 +452108,36 @@
         "e8f0e46333b22b2c1a8a13b41e39b6a596b8b1eb",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-expected.html": [
-        "4a5b1ea18a1748c0d41d503adb3430eff593a3d4",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter-expected.html": [
+        "522a7716b6e0ede2231611f1dbc6c9fa0b3a758c",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping-expected.html": [
-        "0f15210c17fd116b4d967e9c9601ac1f5b39344d",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative-expected.html": [
+        "5fe2833afe5a8e07639360c1fe6c7117792adbb1",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-expected.html": [
-        "beaa26cd3c837a66f63dcf3d36c3eaefe5b4d884",
+       "2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter-expected.html": [
+        "2c53a773b80cf47caa7384408f21997c66bc390d",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping-expected.html": [
-        "96045c23a512a4fd3643b29e3cb4a5ac449bde16",
+       "2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative-expected.html": [
+        "5f89d012f46b152571a927b6e9d98f0e79a39a7e",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter-expected.html": [
+        "6aee28f0de9290df3a382279450603c3f6511014",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative-expected.html": [
+        "f75299dde64e0f65e48f2bd212598a5aa9d1ab6f",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter-expected.html": [
+        "5ca2ebad391b30fe64b1813d5e2fc10afab9df0e",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative-expected.html": [
+        "387eb0b5d72399679dd0615bd5a6460bf8f01a67",
         []
        ]
       },
@@ -452200,6 +453058,10 @@
         "9c85dfec907e2dd6b1158002e6f8b6ed151b8852",
         []
        ],
+       "2d.filter.drop-shadow-globalAlpha-expected.html": [
+        "bec81b2422ae6716a724050614739c32a90b8371",
+        []
+       ],
        "2d.filter.layers.componentTransfer.discrete.tentative-expected.html": [
         "bbf96c360830129d4ab64c83f9ee5412a4eb6cd1",
         []
@@ -452230,32 +453092,40 @@
        ]
       },
       "layers": {
-       "2d.layer.anisotropic-blur.isotropic-expected.html": [
-        "ecd88a4acf9dff9813c965ba8adaa5c03a0b6826",
+       "2d.layer.anisotropic-blur.isotropic.tentative-expected.html": [
+        "81ddb3ffb5ca40257e5a2e27960e1f1626bdd23d",
         []
        ],
-       "2d.layer.anisotropic-blur.mostly-x-expected.html": [
-        "fff719c678e3c09a597e02c51e21d8f47252f747",
+       "2d.layer.anisotropic-blur.mostly-x.tentative-expected.html": [
+        "3ba431c2c65cebfcefb3be8cceefa87948226562",
         []
        ],
-       "2d.layer.anisotropic-blur.mostly-y-expected.html": [
-        "a379590a8117ec7b91d89317f7420f5916585d3a",
+       "2d.layer.anisotropic-blur.mostly-y.tentative-expected.html": [
+        "0e21f8c086dde68e8f13ebc1c9be9dedaf3d664f",
         []
        ],
-       "2d.layer.anisotropic-blur.x-only-expected.html": [
-        "5e6a16effbd696f5875ed76b415011422ade7cb3",
+       "2d.layer.anisotropic-blur.x-only.tentative-expected.html": [
+        "d3e70ffe7620acc2e8f971ba671aad18f67e2418",
         []
        ],
-       "2d.layer.anisotropic-blur.y-only-expected.html": [
-        "025d0949b5067110b335c87b8a413c190f828d32",
+       "2d.layer.anisotropic-blur.y-only.tentative-expected.html": [
+        "4847c40a8ff0b13b544e33ec19695dfdedfac4b3",
         []
        ],
-       "2d.layer.blur-from-outside-canvas.no-clipping-expected.html": [
-        "f7a1a7837fc9ca7062cf81bf127e9e93b647f475",
+       "2d.layer.blur-from-outside-canvas.no-clipping.ctx-filter-expected.html": [
+        "58a5a77c39e14c0aa9d09b409fb094f5ee02b584",
         []
        ],
-       "2d.layer.blur-from-outside-canvas.with-clipping-expected.html": [
-        "87bed15740cdd05196a39858f672a7968b2bf85a",
+       "2d.layer.blur-from-outside-canvas.no-clipping.layer-filter.tentative-expected.html": [
+        "d02cc44b6cc889e31d3fe3b70c5d54b2a40de088",
+        []
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.ctx-filter-expected.html": [
+        "1a5372c82e5d2b4ea8194b5e3c30b34c371fda56",
+        []
+       ],
+       "2d.layer.blur-from-outside-canvas.with-clipping.layer-filter.tentative-expected.html": [
+        "3b137830da079ca479d763cabeec183296915e96",
         []
        ],
        "2d.layer.clearRect.full-expected.html": [
@@ -452266,40 +453136,52 @@
         "780b7b3a3af089bd3167eb3e19b63fd560ce9b1c",
         []
        ],
-       "2d.layer.clip-inside-and-outside-expected.html": [
-        "d18ab55b1fc6a4d0bf9535986192f6cd1c869043",
+       "2d.layer.clip-inside-and-outside.ctx-filter-expected.html": [
+        "f01d09e339f632f4e6d34a72216e681a89d0f37e",
         []
        ],
-       "2d.layer.clip-inside-expected.html": [
-        "fcf0571c3e72b46a8f055acde3089a5371c43029",
+       "2d.layer.clip-inside-and-outside.layer-filter.tentative-expected.html": [
+        "e6832307139c201d9f8d5065ab4b4e4734aef3fc",
         []
        ],
-       "2d.layer.clip-outside-expected.html": [
-        "f81a24ddcfb39fc141a9797ff72ce3691a7115db",
+       "2d.layer.clip-inside.ctx-filter-expected.html": [
+        "1372c95b3744d6f8dcdbc9af126caa7557f857f7",
+        []
+       ],
+       "2d.layer.clip-inside.layer-filter.tentative-expected.html": [
+        "d63982ffa4e8a602d8815c26c79d0f78aba19a49",
+        []
+       ],
+       "2d.layer.clip-outside.ctx-filter-expected.html": [
+        "3d0bd79c403f33853ec85eeb2f781ff4cefdfe62",
+        []
+       ],
+       "2d.layer.clip-outside.layer-filter.tentative-expected.html": [
+        "7d64bc640080800f09a11b11cbca858c787b0b8a",
         []
        ],
        "2d.layer.cross-layer-paths-expected.html": [
         "f70f3e4e26b689365613240f7c552d61f0d99048",
         []
        ],
-       "2d.layer.css-filters.blur-and-shadow-expected.html": [
-        "77b45eb814f7df065dcfc4a25cf0b9be467911f6",
+       "2d.layer.css-filters.blur-and-shadow.tentative-expected.html": [
+        "43a71d4d6a351de65b8d60acca8ab62b67a35455",
         []
        ],
-       "2d.layer.css-filters.blur-expected.html": [
-        "457e05db390b8fbb013b12992cdb0a72b080d976",
+       "2d.layer.css-filters.blur.tentative-expected.html": [
+        "7d907bc527ccb650a67c99c7a8d690059931d592",
         []
        ],
-       "2d.layer.css-filters.shadow-expected.html": [
-        "acbae0fcb8fdd97cb43b0d2f12d4ed54d05aa179",
+       "2d.layer.css-filters.shadow.tentative-expected.html": [
+        "5142c2f4f6e98151c0f061066b59c0eaefb86695",
         []
        ],
        "2d.layer.ctm.ctx-filter-expected.html": [
         "4aac604caf09220dbd2ea1f256b457389e1b49f3",
         []
        ],
-       "2d.layer.ctm.filter-expected.html": [
-        "493a2cd1d99e2ca55464cbe5efda07f5dd1b9121",
+       "2d.layer.ctm.layer-filter.tentative-expected.html": [
+        "f1f564f24799260ff5350b5cc6d9ef445e22aa10",
         []
        ],
        "2d.layer.ctm.resetTransform-expected.html": [
@@ -452314,8 +453196,12 @@
         "cf16986c91bd03110713767e85ba522dce4aafb6",
         []
        ],
-       "2d.layer.drawImage-expected.html": [
-        "4a4aa93d9f2b82c44776807c181cf6db2ae4f233",
+       "2d.layer.drawImage.ctx-filter-expected.html": [
+        "0d06cdc45ed4327a58e28b31ebc1a6c30ff9054e",
+        []
+       ],
+       "2d.layer.drawImage.layer-filter.tentative-expected.html": [
+        "589f172ba5cf890ea85a1d4257b7db4c37cf75b6",
         []
        ],
        "2d.layer.global-states.ctx-filter.no-transform-expected.html": [
@@ -452326,20 +453212,20 @@
         "3290077de1ea57141ae7524d5071315d2bb1c0d6",
         []
        ],
-       "2d.layer.global-states.filter.ctx-filter.no-transform-expected.html": [
-        "af2a55af7efd34f798585fda9ba2a67e028784d4",
+       "2d.layer.global-states.filter.ctx-filter.no-transform.tentative-expected.html": [
+        "dae68b3ad7301e5f46a60b7ea466d2931969b24c",
         []
        ],
-       "2d.layer.global-states.filter.ctx-filter.rotation-expected.html": [
-        "b0a58fcb93fc977aaad832b313c8edd902f5a201",
+       "2d.layer.global-states.filter.ctx-filter.rotation.tentative-expected.html": [
+        "b18ae7f357ac829d17228e15fc490b1b6243cf37",
         []
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.no-transform-expected.html": [
-        "db1a4bdc131176a24dbfe22ac3b03eab54b09ef5",
+       "2d.layer.global-states.filter.no-cxt-filter.no-transform.tentative-expected.html": [
+        "6263d26333a0ddc08abb05de71a4332e25c6944f",
         []
        ],
-       "2d.layer.global-states.filter.no-cxt-filter.rotation-expected.html": [
-        "8995fe469e4d0874dc8e3a346462a4b3b653c426",
+       "2d.layer.global-states.filter.no-cxt-filter.rotation.tentative-expected.html": [
+        "0236c9a5d93681627eb813c43250cfc4a39dcced",
         []
        ],
        "2d.layer.global-states.no-cxt-filter.no-transform-expected.html": [
@@ -452362,8 +453248,8 @@
         "6fe2dbeb5231526ac4e88df91a0c2daf592dd470",
         []
        ],
-       "2d.layer.nested-filters-expected.html": [
-        "68ccec3b2da871a7b24460e98fc2f81da9019e4a",
+       "2d.layer.nested-filters.tentative-expected.html": [
+        "6b9bfbdb4650804d699ea151bab58656055a6461",
         []
        ],
        "2d.layer.non-invertible-matrix-expected.html": [
@@ -452374,16 +453260,28 @@
         "021d5ae7af90367a089c977eb04b8c9762c1c303",
         []
        ],
-       "2d.layer.non-invertible-matrix.with-render-states-and-filter-expected.html": [
-        "ead108a72c4adb1383f120126fc2d9da60bf098e",
+       "2d.layer.non-invertible-matrix.with-render-states.filtered-layer.tentative-expected.html": [
+        "daa6111f7b597bc0262cb342f69593a0eda188d4",
         []
        ],
-       "2d.layer.opaque-canvas-expected.html": [
-        "02f73611d6172651327b7773264b0b80a6c8d2a3",
+       "2d.layer.non-invertible-matrix.with-render-states.plain-layer-expected.html": [
+        "3841df36ed4c9169aecc2ea3dad7cd0fd4e08ea0",
         []
        ],
-       "2d.layer.reset-expected.html": [
-        "6f3f82dc98ea469b03bd532d399b8f36c8ad89ff",
+       "2d.layer.opaque-canvas.ctx-filter-expected.html": [
+        "af704031e29e6540875fd56a0352bff5a04ecb18",
+        []
+       ],
+       "2d.layer.opaque-canvas.layer-filter.tentative-expected.html": [
+        "d195882a685656fcaa12d102b0347ea8c57b0147",
+        []
+       ],
+       "2d.layer.reset.filtered_layer.tentative-expected.html": [
+        "47bf9689e1ed1cdf506770df2fbd2d0023d61c9d",
+        []
+       ],
+       "2d.layer.reset.plain_layer-expected.html": [
+        "c018252c21394830336512747c3674b599b68ecf",
         []
        ],
        "2d.layer.restore-style-expected.html": [
@@ -452394,20 +453292,36 @@
         "e8f0e46333b22b2c1a8a13b41e39b6a596b8b1eb",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-expected.html": [
-        "4a5b1ea18a1748c0d41d503adb3430eff593a3d4",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.ctx-filter-expected.html": [
+        "522a7716b6e0ede2231611f1dbc6c9fa0b3a758c",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping-expected.html": [
-        "0f15210c17fd116b4d967e9c9601ac1f5b39344d",
+       "2d.layer.shadow-from-outside-canvas.long-distance-with-clipping.layer-filter.tentative-expected.html": [
+        "5fe2833afe5a8e07639360c1fe6c7117792adbb1",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-expected.html": [
-        "beaa26cd3c837a66f63dcf3d36c3eaefe5b4d884",
+       "2d.layer.shadow-from-outside-canvas.long-distance.ctx-filter-expected.html": [
+        "2c53a773b80cf47caa7384408f21997c66bc390d",
         []
        ],
-       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping-expected.html": [
-        "96045c23a512a4fd3643b29e3cb4a5ac449bde16",
+       "2d.layer.shadow-from-outside-canvas.long-distance.layer-filter.tentative-expected.html": [
+        "5f89d012f46b152571a927b6e9d98f0e79a39a7e",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.ctx-filter-expected.html": [
+        "6aee28f0de9290df3a382279450603c3f6511014",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance-with-clipping.layer-filter.tentative-expected.html": [
+        "f75299dde64e0f65e48f2bd212598a5aa9d1ab6f",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.ctx-filter-expected.html": [
+        "5ca2ebad391b30fe64b1813d5e2fc10afab9df0e",
+        []
+       ],
+       "2d.layer.shadow-from-outside-canvas.short-distance.layer-filter.tentative-expected.html": [
+        "387eb0b5d72399679dd0615bd5a6460bf8f01a67",
         []
        ]
       },
@@ -452644,7 +453558,7 @@
        []
       ],
       "gentestutilsunion.py": [
-       "760368cf2220652aec7354cecf38ee047d3a0e9b",
+       "2ec2e20886b5bb16c6443daf98e502c408f55c0c",
        []
       ],
       "name2dir-canvas.yaml": [
@@ -452761,11 +453675,11 @@
         []
        ],
        "filters.yaml": [
-        "be28001fa7300714ac60b3531256079713c6825f",
+        "68c9dab7afd4d215fff22855fca2dcb0f1311a96",
         []
        ],
        "layers.yaml": [
-        "c96b9bbc7db3171192374876f876d643a620f641",
+        "9f68a85369217c95cdb1fd2892d1227bd8ef1bab",
         []
        ],
        "line-styles.yaml": [
@@ -453456,7 +454370,7 @@
        []
       ],
       "noopener-helper.js": [
-       "1f9b07750715354fc91d5091970c5a00b1362146",
+       "6dd2c9bc1c9ac2625be861246160e1a4dd7c4088",
        []
       ],
       "popup-test.js": [
@@ -453570,6 +454484,10 @@
       "59f039ed3e0596e02c55673bc1ca97e82311f358",
       []
      ],
+     "credentialless-video.https.tentative.window.js.headers": [
+      "b8c5c47c8569261e63e548565101aa18568d7cd7",
+      []
+     ],
      "isolate-and-require-corp-load-from-cache-storage.tentative.https.html.headers": [
       "33ff090f6dadf3a4e84fb26982a68df3e3975f35",
       []
@@ -453583,6 +454501,10 @@
       []
      ],
      "resources": {
+      "common.js": [
+       "df4bfcfc7d52ac006f84f4ca046cc64b4dd7a171",
+       []
+      ],
       "fetch-and-create-url.html": [
        "6b0f96221dc47c367a53ffac3b07276070f71892",
        []
@@ -453597,6 +454519,10 @@
       ],
       "nothing-no-corp.js": [
        "662e9364f99ef5ab103932aabd9c3d5aced0ac38",
+       []
+      ],
+      "redirect_none_to_credentialless.py": [
+       "34b4e9f8ea41fd1aed28b86715df31c1692b88aa",
        []
       ],
       "shared-worker-fetch.js.py": [
@@ -458862,15 +459788,23 @@
        []
       ],
       "details-pseudo-elements-001-ref.html": [
-       "e00e6c52ff5e1b73f7f1ef5fe65bc244b266e523",
+       "0c77c0e14fc3e0f3707e6dee32aea5a9738b6fb1",
        []
       ],
       "details-pseudo-elements-002-ref.html": [
-       "baf242291b5ef22370d99f5ff8c0dd1b06c5842a",
+       "b4a38f14888f530bfff2b1c408e352dd53262455",
        []
       ],
       "details-pseudo-elements-003-ref.html": [
        "e6c55cc141a3f27748df46c0bac2b191c6f61a4c",
+       []
+      ],
+      "details-pseudo-elements-004-ref.html": [
+       "3de3de55cf90670d3d82c9d615c78c8f140b03fa",
+       []
+      ],
+      "details-pseudo-elements-005-ref.html": [
+       "b34f2e35f04881f303441b00ef6b7db23f46138f",
        []
       ],
       "details-revert-ref.html": [
@@ -461172,7 +462106,7 @@
        []
       ],
       "bounded-sizes-reftest-ref.html": [
-       "b186dd644581822f288d3c756d825203e2ed8330",
+       "a341674c69c73dfd2c7da202b303b3df781655bf",
        []
       ],
       "display-css-property-reftest-ref.html": [
@@ -461180,7 +462114,7 @@
        []
       ],
       "large-min-size-reftest-ref.html": [
-       "0e97fe4f462be9c271fafbc9aa15525a11da0f9c",
+       "6c0b7a73f0c037e15121bbcec11d4750c6d80842",
        []
       ],
       "pseudo-elements-in-div-ref.html": [
@@ -461189,6 +462123,10 @@
       ],
       "pseudo-elements-ref.html": [
        "ca7ad2daa89a84d868d46c323a72714467604b50",
+       []
+      ],
+      "unbounded-width-with-border-reftest-ref.html": [
+       "8219b9a74206e84b92001d6af9f00ebd03fd40b7",
        []
       ]
      },
@@ -466342,7 +467280,7 @@
      []
     ],
     "fedcm.idl": [
-     "ba99f1174c8790bf6ca86bf580954a9817a7af74",
+     "443d3311a24aa11ea529b960ad606f96051f9a01",
      []
     ],
     "fenced-frame.idl": [
@@ -466462,7 +467400,7 @@
      []
     ],
     "invokers.tentative.idl": [
-     "4724d7deb08d0110df3a47b8d6542b719ceae9dd",
+     "046a365939c4bf601eb1b8fa4221650c02435a37",
      []
     ],
     "is-input-pending.idl": [
@@ -466562,7 +467500,7 @@
      []
     ],
     "mediasession.idl": [
-     "5c6942be5a0786234d5f9fddaa302c98c8d92f97",
+     "9c050b0efdf7dc851028a4fa03c8d47ac951b85a",
      []
     ],
     "mediastream-recording.idl": [
@@ -466938,7 +467876,7 @@
      []
     ],
     "webaudio.idl": [
-     "74aab7e2362ff736a77278e28a312e04c6caecf8",
+     "d14eb96820fb6442c39e0bc2dc0546252153055f",
      []
     ],
     "webauthn.idl": [
@@ -466974,7 +467912,7 @@
      []
     ],
     "webcodecs.idl": [
-     "52731257f1ff742d2c8d1108a2bc05e348f8a79a",
+     "984762812186c358541383ddeaa37ffd71e6416e",
      []
     ],
     "webcrypto-secure-curves.idl": [
@@ -466994,7 +467932,7 @@
      []
     ],
     "webgpu.idl": [
-     "421685c7a8fe4516e5e0b803f617181650d1d62a",
+     "58e43d02f5e42e90788b871cbc1dfe1234d2aa14",
      []
     ],
     "webhid.idl": [
@@ -467046,11 +467984,11 @@
      []
     ],
     "webtransport.idl": [
-     "6e9d10367369662f07051f64e02097678aa301f3",
+     "24fe5b7e61b91d850e1278d8577117c6d2f3954a",
      []
     ],
     "webusb.idl": [
-     "3b362d2351d695848ae97690c1358e884dd273d2",
+     "d6484db3e886e70f49cda01fe10bf7b856dedc1b",
      []
     ],
     "webvr.tentative.idl": [
@@ -473983,11 +474921,11 @@
       []
      ],
      "middle-frame.https.sub.html": [
-      "0dd26ecc2b16841c6368a0dfa455d43048daa45c",
+      "5a4a48969985210e9a49db5414f1c4c2acd32e10",
       []
      ],
      "report-helper.js": [
-      "213a635c493a198f12075992ecc8630d01717f51",
+      "4d3c3fbdee800c5ed20d297384364004602738fd",
       []
      ],
      "report.py": [
@@ -473999,7 +474937,7 @@
       []
      ],
      "same-origin-report.https.sub.html.sub.headers": [
-      "8244fafb22c34fb6aef0dd2587c12bbedc70e7f6",
+      "070ccb7967e28fa73bc245bc0516518a2c0912c5",
       []
      ],
      "second-csp-report.https.sub.html": [
@@ -475622,6 +476560,10 @@
      ],
      "collapse-pre-linestart-ref.html": [
       "2b25941ded7e51d4a62cfc536f42de0aea58a50c",
+      []
+     ],
+     "editing-host-has-only-invisible-br-ref.html": [
+      "4fa73c7a895d3ff4532522ea61e2653a222a0249",
       []
      ]
     },
@@ -479306,7 +480248,7 @@
        []
       ],
       "executor.sub.html": [
-       "ba1b3acb0c1198284c74c345b3de5c6d98fc2421",
+       "3001bc233bef6ec119e1b06260c208a670caa402",
        []
       ],
       "executor.sub.html.headers": [
@@ -479326,7 +480268,7 @@
        []
       ],
       "ruleset.py": [
-       "5b6ac87aed5ea1ed41f7e79bf340a4259039e52a",
+       "0a6cfde79ac28d5252fcb4d5711ce9c5ca8f0a49",
        []
       ],
       "slow-executor.py": [
@@ -479714,7 +480656,7 @@
        []
       ],
       "utils.js": [
-       "c9486d7fa1dfe5ad2230958c57d6c5a2a924eada",
+       "259f71f6a70c7f07e65c7620f5fafeb810e2de6f",
        []
       ],
       "wake-lock.https.html": [
@@ -492889,11 +493831,11 @@
         []
        ],
        "firefox.py": [
-        "74a9e02dafe93e209e21d46a6245077e79bfccc6",
+        "964ed8337a026af8d26a6af17032298e6f904cea",
         []
        ],
        "firefox_android.py": [
-        "526f83d595f23d6fb5c30381bf885670498b807f",
+        "9c9482d0bac91d670f0b99a6f24c2295d27dc04d",
         []
        ],
        "headless_shell.py": [
@@ -492969,7 +493911,7 @@
         []
        ],
        "executorchrome.py": [
-        "4dd2f86f5cfd0de3da2bcd58f6fb40840ca7a417",
+        "53c11f133e5e0197b86435a62b18442315cbbcc0",
         []
        ],
        "executoredge.py": [
@@ -495920,9 +496862,19 @@
      ]
     },
     "the-audio-api": {
+     "processing-model": {
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
+      ]
+     },
      "the-analysernode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -495930,11 +496882,19 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-audiobuffersourcenode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ],
       "resources": {
@@ -495949,6 +496909,10 @@
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
       ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
+      ],
       "resources": {
        "not-fully-active-helper.sub.html": [
         "2654a2a50405b5184453b23da75a58d06c1943b2",
@@ -495960,11 +496924,19 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-audioparam-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ],
       "automation-rate-testing.js": [
@@ -495977,6 +496949,10 @@
       ]
      },
      "the-audioworklet-interface": {
+      "WEB_FEATURES.yml": [
+       "1d37287c05a31dd6dbafbcf78b9a5fee7a27e255",
+       []
+      ],
       "audioworklet-postmessage-sharedarraybuffer.https.html.headers": [
        "63b60e490f47f4db77d33d7a4ca2f5b9a4181de8",
        []
@@ -496108,11 +497084,19 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-channelmergernode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496120,11 +497104,25 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
+      ]
+     },
+     "the-constantsourcenode-interface": {
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-convolvernode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496132,11 +497130,25 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
+      ]
+     },
+     "the-destinationnode-interface": {
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-dynamicscompressornode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496144,11 +497156,25 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
+      ]
+     },
+     "the-iirfilternode-interface": {
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-mediaelementaudiosourcenode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496156,11 +497182,19 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-mediastreamaudiosourcenode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496168,11 +497202,19 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "e7da88c82cdb2315b33b023c740adbdc953d0f2d",
+       []
       ]
      },
      "the-oscillatornode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496180,11 +497222,19 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-periodicwave-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      },
@@ -496192,11 +497242,25 @@
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
        []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
+      ]
+     },
+     "the-stereopanner-interface": {
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
+       []
       ]
      },
      "the-waveshapernode-interface": {
       ".gitkeep": [
        "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+       []
+      ],
+      "WEB_FEATURES.yml": [
+       "51e62e2c98405e89671f23dd36dba550cb0789a3",
        []
       ]
      }
@@ -496225,7 +497289,7 @@
       []
      ],
      "webauthn-subframe.sub.html": [
-      "c97255924e14e3242ed88b87abf74c69afb4fb8c",
+      "1d0984c33bdcdd52502b7d861d68e70e4917b1f9",
       []
      ]
     }
@@ -497572,7 +498636,7 @@
        []
       ],
       "image.py": [
-       "533b8b2068218bdfb4f88785319b880d8ed82800",
+       "058815b04084a3ac89d25b1a8f44703af23faaa8",
        []
       ],
       "inline.py": [
@@ -503736,11 +504800,83 @@
     }
    },
    "IndexedDB": {
-    "abort-in-initial-upgradeneeded.html": [
-     "e37056974fac6364b64f36f1b6fc357ee21508f1",
+    "abort-in-initial-upgradeneeded.any.js": [
+     "ebdafca8e9d776f5fc368a3e33506eabf4c7de8c",
      [
-      null,
-      {}
+      "IndexedDB/abort-in-initial-upgradeneeded.any.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/abort-in-initial-upgradeneeded.any.serviceworker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/abort-in-initial-upgradeneeded.any.sharedworker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/abort-in-initial-upgradeneeded.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
      ]
     ],
     "back-forward-cache-open-connection.window.js": [
@@ -504160,18 +505296,162 @@
       }
      ]
     ],
-    "clone-before-keypath-eval.html": [
-     "6ef36f5fe3e2b5b63abb9e32059aa69727124cc0",
+    "clone-before-keypath-eval.any.js": [
+     "8344098ae789fd66b95e3dcc71ad41d08ffb9564",
      [
-      null,
-      {}
+      "IndexedDB/clone-before-keypath-eval.any.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB: clone before key path evaluation"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/clone-before-keypath-eval.any.serviceworker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB: clone before key path evaluation"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/clone-before-keypath-eval.any.sharedworker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB: clone before key path evaluation"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/clone-before-keypath-eval.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB: clone before key path evaluation"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
      ]
     ],
-    "close-in-upgradeneeded.html": [
-     "59adc31a99f304610a7b56de07e0ff4b228806fb",
+    "close-in-upgradeneeded.any.js": [
+     "3e39360877e39bba0d913ed1fea3b6c649208f14",
      [
-      null,
-      {}
+      "IndexedDB/close-in-upgradeneeded.any.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/close-in-upgradeneeded.any.serviceworker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/close-in-upgradeneeded.any.sharedworker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
+     ],
+     [
+      "IndexedDB/close-in-upgradeneeded.any.worker.html",
+      {
+       "script_metadata": [
+        [
+         "title",
+         "IndexedDB"
+        ],
+        [
+         "global",
+         "window,worker"
+        ],
+        [
+         "script",
+         "resources/support.js"
+        ]
+       ]
+      }
      ]
     ],
     "cursor-overloads.htm": [
@@ -518174,6 +519454,66 @@
      ]
     }
    },
+   "ai": {
+    "language_detection": {
+     "canDetect.tentative.window.js": [
+      "a69d1787fb802d78fde4a693ab094e956682b195",
+      [
+       "ai/language_detection/canDetect.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "canDetect"
+         ]
+        ]
+       }
+      ]
+     ],
+     "capabilities.tentative.window.js": [
+      "09bae7de2503fc85b8f1bf23d34bb2d48c76887c",
+      [
+       "ai/language_detection/capabilities.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "capabilities test"
+         ]
+        ]
+       }
+      ]
+     ],
+     "detect-en.tentative.window.js": [
+      "b4494d460d951eabcab4603d171db302dc0ec92d",
+      [
+       "ai/language_detection/detect-en.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "Detect english"
+         ]
+        ]
+       }
+      ]
+     ],
+     "detector.tentative.window.js": [
+      "4f962de8339de0a8eb1b0444dfcf668c05f76b88",
+      [
+       "ai/language_detection/detector.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "Detect english"
+         ]
+        ]
+       }
+      ]
+     ]
+    }
+   },
    "ambient-light": {
     "AmbientLightSensor-disabled-by-feature-policy.https.html": [
      "fb20d70d938f1a1f6a47d6a58722cb77c7418096",
@@ -529496,11 +530836,15 @@
      ]
     ],
     "compute_pressure_detached_iframe.https.window.js": [
-     "a43d6b0fc2dc7ed0263dbf3bde7c242dc421cea4",
+     "78654626fe1b775aa074850b2e7daf0beacec326",
      [
       "compute-pressure/compute_pressure_detached_iframe.https.window.html?globalScope=window",
       {
        "script_metadata": [
+        [
+         "timeout",
+         "long"
+        ],
         [
          "variant",
          "?globalScope=window"
@@ -529525,7 +530869,8 @@
          "script",
          "./resources/common.js"
         ]
-       ]
+       ],
+       "timeout": "long"
       }
      ]
     ],
@@ -529749,11 +531094,15 @@
      ]
     ],
     "compute_pressure_duplicate_updates.https.window.js": [
-     "f11a59b4cbbad30b4b9b0700e243bd12f5ea68d5",
+     "e6f4ed10454a28bc276e839dd6a54f75769d565c",
      [
       "compute-pressure/compute_pressure_duplicate_updates.https.window.html?globalScope=dedicated_worker",
       {
        "script_metadata": [
+        [
+         "timeout",
+         "long"
+        ],
         [
          "variant",
          "?globalScope=window"
@@ -529781,8 +531130,13 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
-       ]
+       ],
+       "timeout": "long"
       }
      ],
      [
@@ -529790,6 +531144,10 @@
       {
        "script_metadata": [
         [
+         "timeout",
+         "long"
+        ],
+        [
          "variant",
          "?globalScope=window"
         ],
@@ -529816,8 +531174,13 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
-       ]
+       ],
+       "timeout": "long"
       }
      ]
     ],
@@ -530186,7 +531549,7 @@
      ]
     ],
     "compute_pressure_timestamp.https.window.js": [
-     "0f35eef522a454bfde3db8fcf0d2fce49f3f2bb6",
+     "b9544faef71dd43d45829ff92b5b3f662f620447",
      [
       "compute-pressure/compute_pressure_timestamp.https.window.html?globalScope=dedicated_worker",
       {
@@ -530222,6 +531585,10 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
        ],
        "timeout": "long"
@@ -530262,6 +531629,10 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
        ],
        "timeout": "long"
@@ -530269,7 +531640,7 @@
      ]
     ],
     "compute_pressure_timestamp_continuously_increasing.https.window.js": [
-     "bdf5dbae6f513ccd0603f97b4c29f6f6c65f1c12",
+     "590d0fb1f6811fde75b3e62792f150d9eade9128",
      [
       "compute-pressure/compute_pressure_timestamp_continuously_increasing.https.window.html?globalScope=dedicated_worker",
       {
@@ -530305,6 +531676,10 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
        ],
        "timeout": "long"
@@ -530345,6 +531720,10 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
        ],
        "timeout": "long"
@@ -530352,7 +531731,7 @@
      ]
     ],
     "compute_pressure_timestamp_faster_collector.https.window.js": [
-     "40ffe3b5b006e3ed8e1d1aae7ad3db40be2a17a3",
+     "ce25540385ee069fe0a6c865079cd35056843be2",
      [
       "compute-pressure/compute_pressure_timestamp_faster_collector.https.window.html?globalScope=dedicated_worker",
       {
@@ -530388,6 +531767,10 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
        ],
        "timeout": "long"
@@ -530428,6 +531811,10 @@
         [
          "script",
          "./resources/common.js"
+        ],
+        [
+         "script",
+         "./resources/sync-pressure-observer.js"
         ]
        ],
        "timeout": "long"
@@ -539450,6 +540837,13 @@
       {}
      ]
     ],
+    "credentialscontainer-frame-basics.https.html": [
+     "89f9bb6920859ec0ed86bd44f3aec2e7bdbd5652",
+     [
+      null,
+      {}
+     ]
+    ],
     "credentialscontainer-get-basics.https.html": [
      "c1030b48f954655833636971bcfb5d919f10133e",
      [
@@ -541856,7 +543250,7 @@
       ]
      ],
      "anchor-invalid-fallback.html": [
-      "15ccada17949518aede5eef33e51cf988c643218",
+      "254ba185c62c6e684457b2dd58de85b5c3f970f3",
       [
        null,
        {}
@@ -541954,7 +543348,7 @@
       ]
      ],
      "anchor-parse-invalid.html": [
-      "04b19b25301cbbb84e48ec0ebc561baeb6963389",
+      "795722972a2ab79f133842c1d146550ed885038b",
       [
        null,
        {}
@@ -542360,7 +543754,7 @@
       ]
      ],
      "anchor-size-001.html": [
-      "4beab33f057367ea227575869868f10bedad24e0",
+      "0da442d28764f3ed4ff04417be5570863f8bd544",
       [
        null,
        {}
@@ -542632,6 +544026,15 @@
       [
        null,
        {}
+      ]
+     ],
+     "popover-implicit-anchor.tentative.html": [
+      "b6bba4534c0ed30c314101c788d9ca414dff1102",
+      [
+       null,
+       {
+        "testdriver": true
+       }
       ]
      ],
      "position-anchor-003.html": [
@@ -544291,7 +545694,7 @@
        ]
       ],
       "background-valid.html": [
-       "e011c2238d2df73452dd011a8114415556ea790a",
+       "7bf23f7614bdb8d164e4404f0c4573a62af7a34d",
        [
         null,
         {}
@@ -547624,6 +549027,13 @@
       ],
       "scroll-state-snapped-wm.html": [
        "b6703e81142a3e22726ccd826aaab873b09b43a4",
+       [
+        null,
+        {}
+       ]
+      ],
+      "scroll-state-target-query-change.html": [
+       "33459f470b9920e81092a93bc82a72ef01c195b5",
        [
         null,
         {}
@@ -559029,6 +560439,13 @@
        {}
       ]
      ],
+     "nested-declarations-cssom-whitespace.html": [
+      "51febe3149dd3558f50466ed3a71efcafa9f7d5e",
+      [
+       null,
+       {}
+      ]
+     ],
      "nested-declarations-cssom.html": [
       "ee8ba2295230ca485424dff6d47305c3d1266c36",
       [
@@ -562176,6 +563593,15 @@
       [
        null,
        {}
+      ]
+     ],
+     "ignore-adjustments-while-scrolling-to-anchor.tentative.html": [
+      "5eae9c0ac436951021370056e37cf1a0158c7667",
+      [
+       null,
+       {
+        "testdriver": true
+       }
       ]
      ],
      "image-001.html": [
@@ -571325,7 +572751,7 @@
        ]
       ],
       "cssUnparsedValue.html": [
-       "c87553dd917b124fbe42d82d5d4b13d4499749b9",
+       "6e9b1a0c90c23808fced4f6f80a933b8142a4fe5",
        [
         null,
         {}
@@ -587643,6 +589069,13 @@
          {}
         ]
        ],
+       "select-option-optgroup.html": [
+        "2f310216371321da9f7ac82c63b29bdc6d0beeb0",
+        [
+         null,
+         {}
+        ]
+       ],
        "selection-preserve.html": [
         "04b81c9a0563894c68ad498b49352e7de9e01049",
         [
@@ -592335,8 +593768,92 @@
      ]
     },
     "plaintext-only": {
+     "delete-around-linebreak-or-block-boundary.html": [
+      "eb28ffa336fea148493c716157d5083ee70b3c45",
+      [
+       "editing/plaintext-only/delete-around-linebreak-or-block-boundary.html?white-space=normal",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/delete-around-linebreak-or-block-boundary.html?white-space=pre",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/delete-around-linebreak-or-block-boundary.html?white-space=pre-line",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/delete-around-linebreak-or-block-boundary.html?white-space=pre-wrap",
+       {
+        "timeout": "long"
+       }
+      ]
+     ],
+     "delete-part-of-white-spaces.html": [
+      "bc12808ec3c91d2eba96c31beefb09c92d2a0abf",
+      [
+       "editing/plaintext-only/delete-part-of-white-spaces.html?white-space=pre",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/delete-part-of-white-spaces.html?white-space=pre-wrap",
+       {
+        "timeout": "long"
+       }
+      ]
+     ],
+     "forwardDelete-around-linebreak-or-block-boundary.html": [
+      "bec13189f3884d0ea012fe398bc763345f92805a",
+      [
+       "editing/plaintext-only/forwardDelete-around-linebreak-or-block-boundary.html?white-space=normal",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/forwardDelete-around-linebreak-or-block-boundary.html?white-space=pre",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/forwardDelete-around-linebreak-or-block-boundary.html?white-space=pre-line",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/forwardDelete-around-linebreak-or-block-boundary.html?white-space=pre-wrap",
+       {
+        "timeout": "long"
+       }
+      ]
+     ],
+     "forwardDelete-part-of-white-spaces.html": [
+      "80953dd9524efa5a681f33e3d9f085dc303af35a",
+      [
+       "editing/plaintext-only/forwardDelete-part-of-white-spaces.html?white-space=pre",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/forwardDelete-part-of-white-spaces.html?white-space=pre-wrap",
+       {
+        "timeout": "long"
+       }
+      ]
+     ],
      "insertHTML.html": [
-      "b0577c45a5c20c8fdd4a42c99d188e3ee999ad83",
+      "00bd0df1d5249bdbe2a41add8b2d58d8330bb3f2",
       [
        "editing/plaintext-only/insertHTML.html?white-space=normal",
        {
@@ -592363,7 +593880,7 @@
       ]
      ],
      "insertLineBreak.html": [
-      "564eb16605c2bd05f9ec103c11e640f9250217af",
+      "73ee625dd6277257fb61240e37f363b58bac0430",
       [
        "editing/plaintext-only/insertLineBreak.html?white-space=normal",
        {
@@ -592394,7 +593911,7 @@
       ]
      ],
      "insertParagraph.html": [
-      "2841fdb4f31e8eae28d47394d06eb50c2247adac",
+      "429da8d134f6bf21b726208046a53877a6a24e69",
       [
        "editing/plaintext-only/insertParagraph.html?white-space=normal",
        {
@@ -592420,8 +593937,39 @@
        }
       ]
      ],
+     "insertText.html": [
+      "9045e04d368f3fa1b5bfac5f7d22a429d3c9701c",
+      [
+       "editing/plaintext-only/insertText.html?white-space=normal",
+       {
+        "testdriver": true,
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/insertText.html?white-space=pre",
+       {
+        "testdriver": true,
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/insertText.html?white-space=pre-line",
+       {
+        "testdriver": true,
+        "timeout": "long"
+       }
+      ],
+      [
+       "editing/plaintext-only/insertText.html?white-space=pre-wrap",
+       {
+        "testdriver": true,
+        "timeout": "long"
+       }
+      ]
+     ],
      "paste.https.html": [
-      "611c39f8bf3c89237ff7ef24a4a5111619dfe6c6",
+      "9081028732a1a8f7c7c1bce0f581fc0686737a37",
       [
        "editing/plaintext-only/paste.https.html?white-space=normal",
        {
@@ -608001,7 +609549,7 @@
     ],
     "fedcm-button-and-other-account": {
      "fedcm-button-mode-auto-selected-flag.tentative.https.html": [
-      "786c63ca5e4ece5c4ea77ca4b60234741baf5c1a",
+      "160dd6f2839e24d4092c8743f0a9bb53c3befdbc",
       [
        null,
        {
@@ -608010,7 +609558,7 @@
       ]
      ],
      "fedcm-button-mode-basics.tentative.https.html": [
-      "918f72432107e6dcb1b8825bc48501e434252323",
+      "41967e389ec96714c34d1ca4fe309d8552bb7c73",
       [
        null,
        {
@@ -608019,7 +609567,7 @@
       ]
      ],
      "fedcm-button-mode-priority.tentative.https.html": [
-      "b71e84db47e458f42931cfcbcc6e0100cd1d40d3",
+      "c95b89c0fd4f077491a89d274217a969a01aef9e",
       [
        null,
        {
@@ -608028,7 +609576,7 @@
       ]
      ],
      "fedcm-use-other-account-button-flow.tentative.https.html": [
-      "7a3f266b24b937fae03c9886184ada6e8b27c960",
+      "33cfd32e5af527c7ce6a9048bc2261f0ffd6831d",
       [
        null,
        {
@@ -608731,10 +610279,11 @@
      ]
     ],
     "create-credential.https.html": [
-     "15f0558e521d83b49891b326458d0cb04b1e4b4b",
+     "65884b27143969d133eb9182aa90c3c10d0c2614",
      [
       null,
       {
+       "testdriver": true,
        "timeout": "long"
       }
      ]
@@ -625331,7 +626880,7 @@
       ]
      ],
      "auction-config.https.window.js": [
-      "fc1441a87430011f4326207eb692b55009f72a6c",
+      "1b2eba36169271d84a9238631fea1d3511930cdf",
       [
        "fledge/tentative/auction-config.https.window.html?1-5",
        {
@@ -633938,7 +635487,7 @@
       ]
      ],
      "server-response.https.window.js": [
-      "adc079f015ac43748643f4e9016b12028a84336e",
+      "1d272fb59a82c638834e1f2e6560d6204e8dbaf1",
       [
        "fledge/tentative/server-response.https.window.html?1-4",
        {
@@ -653454,8 +655003,8 @@
        ]
       },
       "layers": {
-       "2d.layer.beginLayer-options.html": [
-        "62803cf6797032046aa843948ef3acdc3a39a591",
+       "2d.layer.beginLayer-options.tentative.html": [
+        "fe9cbb78d99fea6d47200a510cac80c16c453d7a",
         [
          null,
          {}
@@ -653468,8 +655017,8 @@
          {}
         ]
        ],
-       "2d.layer.exceptions-are-no-op.html": [
-        "2c30c7b0f3c9233d2218dfb2ff5dd43dc60ec38e",
+       "2d.layer.exceptions-are-no-op.tentative.html": [
+        "c8c7e97f87df9a6f87b4cd8e0c5889a17645491c",
         [
          null,
          {}
@@ -653973,7 +655522,7 @@
          ]
         ],
         "canvas-createImageBitmap-resize.html": [
-         "782c7e130c3c5957aad0b4b2f2ab8b52d339f2ed",
+         "76b1c9d30d24a78e1147e0dfcc9b5db957f24e81",
          [
           null,
           {}
@@ -664175,17 +665724,17 @@
        ]
       },
       "layers": {
-       "2d.layer.beginLayer-options.html": [
-        "a4c381e770242927901e9d648aac01368098ae37",
+       "2d.layer.beginLayer-options.tentative.html": [
+        "f51e2843b08cbc5d4b086ed8b4b8cd47ead6cb5d",
         [
          null,
          {}
         ]
        ],
-       "2d.layer.beginLayer-options.worker.js": [
-        "492ac3fcea187bdca39a26caaa7bd5d1ae0df1b9",
+       "2d.layer.beginLayer-options.tentative.worker.js": [
+        "09decf1f32e6020324d5e52d40bdc7a1cddb6e23",
         [
-         "html/canvas/offscreen/layers/2d.layer.beginLayer-options.worker.html",
+         "html/canvas/offscreen/layers/2d.layer.beginLayer-options.tentative.worker.html",
          {}
         ]
        ],
@@ -664203,17 +665752,17 @@
          {}
         ]
        ],
-       "2d.layer.exceptions-are-no-op.html": [
-        "cd8d050513e7422c537d9b8d055daad03c451976",
+       "2d.layer.exceptions-are-no-op.tentative.html": [
+        "cea7f37920fd45631c39eae8859afd50edc02e00",
         [
          null,
          {}
         ]
        ],
-       "2d.layer.exceptions-are-no-op.worker.js": [
-        "6e253b26d55284e0fa2f16ad4ab0ca9a91cc1a92",
+       "2d.layer.exceptions-are-no-op.tentative.worker.js": [
+        "8faad7c596f438fe53ea4160854306b71277382a",
         [
-         "html/canvas/offscreen/layers/2d.layer.exceptions-are-no-op.worker.html",
+         "html/canvas/offscreen/layers/2d.layer.exceptions-are-no-op.tentative.worker.html",
          {}
         ]
        ],
@@ -675141,7 +676690,7 @@
      "tentative": {
       "noopener": {
        "coop-noopener-allow-popups-restrict-properties.https.html": [
-        "3058011c08870cf6650a68bd27a855f01d51b8b3",
+        "68d021ec0a4b3a9b464138574cc378758dc42a71",
         [
          null,
          {
@@ -675150,7 +676699,7 @@
         ]
        ],
        "coop-noopener-allow-popups.https.html": [
-        "0daf3278476c11d99694c06535289b2d0a92cdf6",
+        "e8a1ea0009288a7a5bc7adafa25f444c336cce2c",
         [
          null,
          {
@@ -675498,6 +677047,952 @@
      }
     },
     "document-isolation-policy": {
+     "credentialless-cache-storage.https.tentative.window.js": [
+      "cb4b174e945efaf14cff897d46661971bff964f8",
+      [
+       "html/document-isolation-policy/credentialless-cache-storage.https.tentative.window.html?dedicated_worker",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "variant",
+          "?document"
+         ],
+         [
+          "variant",
+          "?dedicated_worker"
+         ],
+         [
+          "variant",
+          "?shared_worker"
+         ],
+         [
+          "variant",
+          "?service_worker"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-cache-storage.https.tentative.window.html?document",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "variant",
+          "?document"
+         ],
+         [
+          "variant",
+          "?dedicated_worker"
+         ],
+         [
+          "variant",
+          "?shared_worker"
+         ],
+         [
+          "variant",
+          "?service_worker"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-cache-storage.https.tentative.window.html?service_worker",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "variant",
+          "?document"
+         ],
+         [
+          "variant",
+          "?dedicated_worker"
+         ],
+         [
+          "variant",
+          "?shared_worker"
+         ],
+         [
+          "variant",
+          "?service_worker"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-cache-storage.https.tentative.window.html?shared_worker",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "variant",
+          "?document"
+         ],
+         [
+          "variant",
+          "?dedicated_worker"
+         ],
+         [
+          "variant",
+          "?shared_worker"
+         ],
+         [
+          "variant",
+          "?service_worker"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "credentialless-cache.tentative.window.js": [
+      "99a0f077102b4ab914c553897426c6b160d6ee0a",
+      [
+       "html/document-isolation-policy/credentialless-cache.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "credentialless-cross-origin-isolated.tentative.window.js": [
+      "4f94562dd08e0173755844f6f21f8facdd03953a",
+      [
+       "html/document-isolation-policy/credentialless-cross-origin-isolated.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "credentialless-dedicated-worker.https.tentative.window.js": [
+      "e6c9001c7f56959023c3646b626f955d95852bfa",
+      [
+       "html/document-isolation-policy/credentialless-dedicated-worker.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "credentialless-fetch.https.tentative.window.js": [
+      "b809efa2c55e063141c8129264494a762f82c5e6",
+      [
+       "html/document-isolation-policy/credentialless-fetch.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "credentialless-link.https.tentative.window.js": [
+      "0405368c4ee4234e58dd9306669352324a84081c",
+      [
+       "html/document-isolation-policy/credentialless-link.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "credentialless-redirect.tentative.window.js": [
+      "67c0a5f07c19974da32003a3e8ae5a09e8d5c3d6",
+      [
+       "html/document-isolation-policy/credentialless-redirect.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "credentialless-script.https.tentative.window.js": [
+      "8534b2f70e819bed16249f8a355aa77a4be12887",
+      [
+       "html/document-isolation-policy/credentialless-script.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "credentialless-service-worker.https.tentative.window.js": [
+      "82209ca7fc83af25ff173914428752e50b1302c6",
+      [
+       "html/document-isolation-policy/credentialless-service-worker.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "/service-workers/service-worker/resources/test-helpers.sub.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "credentialless-shared-worker.https.tentative.window.js": [
+      "e2e7b42619c8ec7174b9b6e743aee0903235a9ea",
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=cross_origin&worker_dip=credentialless&window_dip=none",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=cross_origin&worker_dip=none&window_dip=credentialless",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=cross_origin&worker_dip=none&window_dip=none",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=same_origin&worker_dip=credentialless&window_dip=none",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=same_origin&worker_dip=none&window_dip=credentialless",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "html/document-isolation-policy/credentialless-shared-worker.https.tentative.window.html?request_origin=same_origin&worker_dip=none&window_dip=none",
+       {
+        "script_metadata": [
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=same_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=none&window_dip=credentialless"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=none"
+         ],
+         [
+          "variant",
+          "?request_origin=cross_origin&worker_dip=credentialless&window_dip=credentialless"
+         ],
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "credentialless-video.https.tentative.window.js": [
+      "5998af44335081e60449f6446bcdcd27ec95ec21",
+      [
+       "html/document-isolation-policy/credentialless-video.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "credentialless-websocket.https.tentative.window.js": [
+      "4205dd74eaf9a5f5b85d777dcf5ac1b935b96b07",
+      [
+       "html/document-isolation-policy/credentialless-websocket.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "timeout",
+          "long"
+         ],
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
      "isolate-and-require-corp-load-from-cache-storage.tentative.https.html": [
       "c78835328b27f2d364f9b67c00cea0be480ee992",
       [
@@ -675519,6 +678014,66 @@
       [
        null,
        {}
+      ]
+     ],
+     "service-worker-coep-credentialless-proxy.https.tentative.window.js": [
+      "e12c660f7b42f16604bbd3394386876069a4998c",
+      [
+       "html/document-isolation-policy/service-worker-coep-credentialless-proxy.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ],
+         [
+          "script",
+          "/service-workers/service-worker/resources/test-helpers.sub.js"
+         ]
+        ]
+       }
+      ]
+     ],
+     "service-worker-coep-none-proxy.https.tentative.window.js": [
+      "7bee4e77eaec27a0a00d96d9e653809c561a4033",
+      [
+       "html/document-isolation-policy/service-worker-coep-none-proxy.https.tentative.window.html",
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/common/get-host-info.sub.js"
+         ],
+         [
+          "script",
+          "/common/utils.js"
+         ],
+         [
+          "script",
+          "/common/dispatcher/dispatcher.js"
+         ],
+         [
+          "script",
+          "./resources/common.js"
+         ],
+         [
+          "script",
+          "/service-workers/service-worker/resources/test-helpers.sub.js"
+         ]
+        ]
+       }
       ]
      ],
      "shared-workers.tentative.https.html": [
@@ -680713,6 +683268,15 @@
         null,
         {}
        ]
+      ],
+      "details-pseudo-elements-006.html": [
+       "503cba5ebb413a8e9ffb36cb2287bd3eaa7e59d2",
+       [
+        null,
+        {
+         "testdriver": true
+        }
+       ]
       ]
      },
      "unmapped-attributes.html": [
@@ -680835,7 +683399,7 @@
        ]
       ],
       "textarea-cols-rows.html": [
-       "6ad24a2eb8b399dacbc20b988932df7ba895db35",
+       "5d02a4653ef77fbaab8b1c7aa8df933a8eabcd47",
        [
         null,
         {}
@@ -688729,6 +691293,15 @@
           }
          ]
         ],
+        "select-inside-top-layer.tentative.html": [
+         "6d70f3aaf8d3dc23b2f5fb784c399991913dc938",
+         [
+          null,
+          {
+           "testdriver": true
+          }
+         ]
+        ],
         "select-keyboard-behavior.tentative.html": [
          "c7894e63c6c5fcdd37e3fdcf879e0cbfcf67d2bb",
          [
@@ -689950,7 +692523,7 @@
        ]
       ],
       "interesttarget-on-popover-behavior.tentative.html": [
-       "b930fc645dd413e40ab6c6f8e0288527ee27e749",
+       "fd0a77b93593177394a3bc175fa76a0a644725cd",
        [
         null,
         {
@@ -689975,7 +692548,7 @@
        ]
       ],
       "invokeevent-dispatch-shadow.tentative.html": [
-       "fb2a113994f76270248ee106e2edd3c4727c9d1d",
+       "9d9b99259789a8cc81f401590ef0cd4b34368bd0",
        [
         null,
         {
@@ -689984,7 +692557,7 @@
        ]
       ],
       "invokeevent-interface.tentative.html": [
-       "500c05f88a106a85f0aa43f24afe78b6ebfcc89a",
+       "cc2b5c94ea25d898708ee4c28f831e06a8f19487",
        [
         null,
         {
@@ -689993,7 +692566,7 @@
        ]
       ],
       "invoketarget-button-event-dispatch.tentative.html": [
-       "c5dfe14f90b7f214299c4b41f12bd0dbc6f0537f",
+       "ef870627a066f5dd85f29ce6ea664581ea0259fc",
        [
         null,
         {
@@ -690003,7 +692576,7 @@
        ]
       ],
       "invoketarget-fullscreen-behavior.tentative.html": [
-       "1210b8637deef9140ff27c20ca99e434358c8f93",
+       "bc7b6f416f19ed93aa315beb56fbc58fff667d91",
        [
         null,
         {
@@ -690013,7 +692586,7 @@
        ]
       ],
       "invoketarget-on-audio-behavior.tentative.html": [
-       "309a91e2842dd17fee69746e949e91634feaf0fa",
+       "77fb204b98689f8f6cb96a14fafb8ece32adf393",
        [
         null,
         {
@@ -690023,7 +692596,7 @@
        ]
       ],
       "invoketarget-on-audio-invalid-behavior.tentative.html": [
-       "3e18478a52f31db16fb096fb0745017beab70815",
+       "5aee3ae819c28074f1b03d3ca2afe43b85d82cfc",
        [
         null,
         {
@@ -690033,7 +692606,7 @@
        ]
       ],
       "invoketarget-on-details-behavior.tentative.html": [
-       "4c4998cf9d860d4be9e325ff08631ff7dad314eb",
+       "d5e8e97cf416f873424cd4390c344295d2335f76",
        [
         null,
         {
@@ -690043,7 +692616,7 @@
        ]
       ],
       "invoketarget-on-details-invalid-behavior.tentative.html": [
-       "3a4e86e9f2c901254942bba5d4ea302389151a0a",
+       "9acff71c7b59d6e5b38dd3a9b8fbfc0e6baa49d3",
        [
         null,
         {
@@ -690053,7 +692626,7 @@
        ]
       ],
       "invoketarget-on-dialog-behavior.tentative.html": [
-       "9cf1e530b3d17690039c8cb05e4ff878ef48b4a5",
+       "4fca8a312f920ad9dad0cc77a3ee24f4c802ec59",
        [
         null,
         {
@@ -690063,7 +692636,7 @@
        ]
       ],
       "invoketarget-on-dialog-invalid-behavior.tentative.html": [
-       "8ea5066dd7449f084202f26c8bb2442fff5617f5",
+       "01ef53d1c07d60d6cfc820f6b1264bb899bd34df",
        [
         null,
         {
@@ -690073,7 +692646,7 @@
        ]
       ],
       "invoketarget-on-input-number.tentative.html": [
-       "643423131eba0a20147557626c2f32ff0d7ffda7",
+       "c8d624d49437ff5dfecd8ca07a78f4d7b4ed7739",
        [
         null,
         {
@@ -690082,7 +692655,7 @@
        ]
       ],
       "invoketarget-on-popover-behavior.tentative.html": [
-       "c974b6ff108b4ce08becd41a840bb3bc17022cfb",
+       "7462ce6159a8fead0c12a8e12a03368ad23b749e",
        [
         null,
         {
@@ -690092,7 +692665,7 @@
        ]
       ],
       "invoketarget-on-popover-invalid-behavior.tentative.html": [
-       "31442261f37de3b86c70cd5bed825322b88a1677",
+       "91efd92ba82aa3d81d5e9a530296c3ae93daee06",
        [
         null,
         {
@@ -690102,7 +692675,7 @@
        ]
       ],
       "invoketarget-on-video-behavior.tentative.html": [
-       "e395281ee31fd84db8885444c9ee04cdb118660b",
+       "0812e7f038645866ac9769fb07235a21dcb3163f",
        [
         null,
         {
@@ -690338,7 +692911,7 @@
        ]
       ],
       "bounded-sizes.tentative.html": [
-       "357e4fe961aaf63653e9ecf7c59075ec647516b4",
+       "dbeaebe04de01adddfe6dc0d8c13d4b5243c4751",
        [
         null,
         {}
@@ -690361,7 +692934,7 @@
        ]
       ],
       "invalid-css-properties.tentative.html": [
-       "334280c83bdf9919626ddaf64adc522f2ca51f8d",
+       "2cf228bb7a9f3d03d45726a6b643ac2dd9694bfa",
        [
         null,
         {}
@@ -702988,7 +705561,7 @@
      ]
     ],
     "input-events-spin-button-click-on-number-input.html": [
-     "105a94f0b4a5a68673e169b08b0655b0ad8c65a6",
+     "4046f0cd12be8bb5b5c9c9323d2c6857d0908b5b",
      [
       null,
       {
@@ -704719,36 +707292,6 @@
      [
       null,
       {}
-     ]
-    ]
-   },
-   "language_detection": {
-    "canDetect.tentative.window.js": [
-     "a69d1787fb802d78fde4a693ab094e956682b195",
-     [
-      "language_detection/canDetect.tentative.window.html",
-      {
-       "script_metadata": [
-        [
-         "title",
-         "canDetect"
-        ]
-       ]
-      }
-     ]
-    ],
-    "detect-en.tentative.window.js": [
-     "b4494d460d951eabcab4603d171db302dc0ec92d",
-     [
-      "language_detection/detect-en.tentative.window.html",
-      {
-       "script_metadata": [
-        [
-         "title",
-         "Detect english"
-        ]
-       ]
-      }
      ]
     ]
    },
@@ -708234,7 +710777,7 @@
        ]
       ],
       "width-height-001.html": [
-       "57cbc1b0ab2788958d4649b0e4ef1a59baa1a159",
+       "f39b9951d3df4da70244722fdc24abe990b72c92",
        [
         null,
         {}
@@ -736035,7 +738578,7 @@
      ]
     ],
     "cross-origin-same-site-credentials.https.sub.html": [
-     "2f3f5fefcab9430fa28cef7de8d09391ffd7c564",
+     "266fd28ee716ddf395ed619bccadc713cd5aa9c7",
      [
       null,
       {}
@@ -736189,7 +738732,7 @@
      ]
     ],
     "same-origin-cross-site-credentials.https.sub.html": [
-     "258ab8e10364934dde6bcb45156c2342434248c8",
+     "50abbcccb331b4acbd8fdd41ff425b4478dc581b",
      [
       null,
       {}
@@ -736203,7 +738746,7 @@
      ]
     ],
     "same-origin-same-site-credentials.https.sub.html": [
-     "9b99edb26e8940bab186a53d99801a600f655013",
+     "8ae3dd5e53dc8f95683bc5f06ad0323338a67159",
      [
       null,
       {}
@@ -740349,7 +742892,7 @@
       ]
      ],
      "current-time-writing-modes.html": [
-      "748cda2f894f28096204526797f0e3a259e333d0",
+      "6c59634f2ae978d645b9749ead1970a2e7aed902",
       [
        null,
        {}
@@ -745763,7 +748306,7 @@
      ]
     ],
     "event-post-dispatch.html": [
-     "239881c7e153b996d33bd94a9cf056e4593001b0",
+     "98157a69b9c21f82b3fc8ee45343da0c50003839",
      [
       null,
       {}
@@ -749325,9 +751868,13 @@
       ]
      },
      "out-of-document-rule-set.https.html": [
-      "24502ee5138a861b1bfa134b5102c904cf79cc2f",
+      "b0e0253eeb786396fa42d349ff4d9518ca395eae",
       [
        "speculation-rules/prefetch/out-of-document-rule-set.https.html?include=BaseCase",
+       {}
+      ],
+      [
+       "speculation-rules/prefetch/out-of-document-rule-set.https.html?include=CSPExemption",
        {}
       ],
       [
@@ -751003,6 +753550,21 @@
       "2dc856fce5da7c8fa2fb24a8df70348fe5aa84e8",
       [
        null,
+       {
+        "timeout": "long"
+       }
+      ]
+     ],
+     "send-beacon.html": [
+      "34843efcde78c5338116ab2ae2dfbfab023df389",
+      [
+       "speculation-rules/prerender/send-beacon.html?target_hint=_blank",
+       {
+        "timeout": "long"
+       }
+      ],
+      [
+       "speculation-rules/prerender/send-beacon.html?target_hint=_self",
        {
         "timeout": "long"
        }
@@ -775989,7 +778551,7 @@
        ]
       ],
       "processing-after-resume.https.html": [
-       "e000ab124fefa6f0eea4e5517d04436428c0cd8c",
+       "a456f88e186c20b58856fdec2beb1493b0657a0d",
        [
         null,
         {}
@@ -777621,6 +780183,15 @@
       }
      ]
     ],
+    "createcredential-nested-frame.https.html": [
+     "b839e1c71d3ccfd7b8c3f1862691a2f7a6f728a9",
+     [
+      null,
+      {
+       "testdriver": true
+      }
+     ]
+    ],
     "createcredential-passing.https.html": [
      "4124c2247ea3af01eb89e7a4e0cc0b8c326d8527",
      [
@@ -777789,6 +780360,15 @@
       }
      ]
     ],
+    "getcredential-nested-frame.https.html": [
+     "18e9f81ddb2a543aef4a9220db075356f49f8c27",
+     [
+      null,
+      {
+       "testdriver": true
+      }
+     ]
+    ],
     "getcredential-passing.https.html": [
      "7c730d7183ad4ec8d7208ed7229aa5957be2722e",
      [
@@ -777853,6 +780433,15 @@
         ]
        ],
        "timeout": "long"
+      }
+     ]
+    ],
+    "isuserverifyingplatformauthenticatoravailable.https.html": [
+     "c6893f41c6a29faf1677fbc1fb7888121f02184b",
+     [
+      null,
+      {
+       "testdriver": true
       }
      ]
     ],
@@ -777969,7 +780558,7 @@
      ]
     ],
     "signal-current-user-details.https.html": [
-     "b4027377272e4921693eeb71af7eda3f9f7acb96",
+     "9dc50e398af4ade47ace17ef7e4faf20c19245a8",
      [
       null,
       {
@@ -795573,6 +798162,225 @@
        }
       ]
      ],
+     "logical_and.https.any.js": [
+      "be379de157c5d0406afd11b3d4ffc68b29676859",
+      [
+       "webnn/conformance_tests/logical_and.https.any.html?cpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalAnd operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_and.https.any.html?gpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalAnd operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_and.https.any.html?npu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalAnd operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_and.https.any.worker.html?cpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalAnd operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_and.https.any.worker.html?gpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalAnd operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_and.https.any.worker.html?npu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalAnd operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
      "logical_not.https.any.js": [
       "e56c5626ef8ab7c43971adf6556a351f803fc52e",
       [
@@ -795762,6 +798570,444 @@
          [
           "title",
           "test WebNN API element-wise logicalNot operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "logical_or.https.any.js": [
+      "f5eb21de7295af5a67a516318f0bf02434896e81",
+      [
+       "webnn/conformance_tests/logical_or.https.any.html?cpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalOr operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_or.https.any.html?gpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalOr operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_or.https.any.html?npu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalOr operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_or.https.any.worker.html?cpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalOr operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_or.https.any.worker.html?gpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalOr operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_or.https.any.worker.html?npu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalOr operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ]
+     ],
+     "logical_xor.https.any.js": [
+      "b678b04065b2cfa57aaa7f17ebbd61309b57c9b9",
+      [
+       "webnn/conformance_tests/logical_xor.https.any.html?cpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalXor operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_xor.https.any.html?gpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalXor operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_xor.https.any.html?npu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalXor operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_xor.https.any.worker.html?cpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalXor operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_xor.https.any.worker.html?gpu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalXor operation"
+         ],
+         [
+          "global",
+          "window,dedicatedworker"
+         ],
+         [
+          "variant",
+          "?cpu"
+         ],
+         [
+          "variant",
+          "?gpu"
+         ],
+         [
+          "variant",
+          "?npu"
+         ],
+         [
+          "script",
+          "../resources/utils.js"
+         ],
+         [
+          "timeout",
+          "long"
+         ]
+        ],
+        "timeout": "long"
+       }
+      ],
+      [
+       "webnn/conformance_tests/logical_xor.https.any.worker.html?npu",
+       {
+        "script_metadata": [
+         [
+          "title",
+          "test WebNN API element-wise logicalXor operation"
          ],
          [
           "global",
@@ -804334,7 +807580,7 @@
       ]
      ],
      "subgraph.https.any.js": [
-      "172c59a83b17b3f754ff75070ec91c03b9fb327d",
+      "454eb62415f9b97765836c0cd0f6d9705cfe571d",
       [
        "webnn/conformance_tests/subgraph.https.any.html?cpu",
        {
@@ -809396,7 +812642,7 @@
       ]
      ],
      "elementwise-logical.https.any.js": [
-      "bada9e7648b1eb3bf80db4ba29146bed784db018",
+      "3db25c106246cf359be8d9a8253da8aeab26e1cc",
       [
        "webnn/validation_tests/elementwise-logical.https.any.html?cpu",
        {
@@ -834605,10 +837851,21 @@
       ]
      ],
      "sandboxed_iframe.https.window.js": [
-      "0311db8849186ee2ae553c9e1a2247e3fa948b6a",
+      "fa2c3d7f8bd907aa86a91b899916fd89cd37c6d1",
       [
        "webusb/requestDevice/sandboxed_iframe.https.window.html",
-       {}
+       {
+        "script_metadata": [
+         [
+          "script",
+          "/resources/testdriver.js"
+         ],
+         [
+          "script",
+          "/resources/testdriver-vendor.js"
+         ]
+        ]
+       }
       ]
      ]
     },
@@ -864701,7 +867958,7 @@
        },
        "dom_content_loaded": {
         "dom_content_loaded.py": [
-         "aa9efb7e3bf5858bf6f52eca384b101ef6e30bdf",
+         "b426724da538001db20d3e5d0b7e24e7182b107d",
          [
           null,
           {}
@@ -864779,7 +868036,7 @@
        },
        "load": {
         "load.py": [
-         "600e4cb315655bb0615a57c63cf8313a944fff5c",
+         "0dcada337792247771eaf0e856ac9097580508ff",
          [
           null,
           {}
@@ -865448,7 +868705,7 @@
        },
        "auth_required": {
         "auth_required.py": [
-         "a23821f2ae73c1f80de9c957e8e55e5c788930df",
+         "89fbb09fd54d4079b5a1f2795b792b8fccabeacf",
          [
           null,
           {}
@@ -865464,7 +868721,7 @@
        },
        "before_request_sent": {
         "before_request_sent.py": [
-         "be2634fc6a90c834864272a251a86499168d0bf0",
+         "5ba6955bd127d7877203bd6481549bd71d8c528a",
          [
           null,
           {}
@@ -865527,6 +868784,13 @@
         ],
         "request.py": [
          "c55e477ad7475060708c27eafe6b8711dfb9ccdb",
+         [
+          null,
+          {}
+         ]
+        ],
+        "url.py": [
+         "4c65f7d7eb340ebd3eabf10ecf4dc7a2250c5a6e",
          [
           null,
           {}
@@ -865620,7 +868884,7 @@
        },
        "fetch_error": {
         "fetch_error.py": [
-         "aa2caa37702c63d80592d39dd6015084dfcb3289",
+         "872b4877a8e8e229f5c5e049426dd7370a59b721",
          [
           null,
           {}
@@ -865700,7 +868964,7 @@
        },
        "response_completed": {
         "response_completed.py": [
-         "a6f8fb20aa1864e14c23313c9b677cc390bbc955",
+         "ff406ceb95243f4f8cca5013e8db26309afa9145",
          [
           null,
           {}
@@ -865716,7 +868980,7 @@
        },
        "response_started": {
         "response_started.py": [
-         "310e91d57da05bd191bdba01de3f2c42cd1e0ec2",
+         "47ab922b0da603ec4ed36f3c572a81a490076cc2",
          [
           null,
           {}
@@ -866900,8 +870164,15 @@
        ]
       },
       "fullscreen_window": {
+       "from_minimized_window.py": [
+        "09d5579bdb90a6f08f57b593b5cd71c12cce5c65",
+        [
+         null,
+         {}
+        ]
+       ],
        "fullscreen.py": [
-        "ce9e033d64131a14c719aee3842cd4e6303c7214",
+        "f6e9e8792360c9069345a27d870f027ecaabf6cd",
         [
          null,
          {}
@@ -867675,7 +870946,7 @@
       },
       "print": {
        "background.py": [
-        "4f2f85980bae434c04f536d2ea7a2e8a3c6065bf",
+        "8f94027021fcea0e4cb71294b1a0ed2b6742e9a1",
         [
          null,
          {}
@@ -867769,8 +871040,15 @@
        ]
       },
       "set_window_rect": {
+       "from_minimized_window.py": [
+        "e5429c92a1c0fac4d992389a27e845d617401994",
+        [
+         null,
+         {}
+        ]
+       ],
        "set.py": [
-        "5295c44fddb5d8503b2c6a743080f53c7724441b",
+        "9e15d02b0d1953df3d22f7ff7b544f6e86cca1ea",
         [
          null,
          {
@@ -867779,7 +871057,7 @@
         ]
        ],
        "user_prompts.py": [
-        "908a9d920f36d0b8664c6b906bc71b0aefba96e6",
+        "e55c2d77f8cc018128aae4b3bd0a0ff21a6b8d24",
         [
          null,
          {
