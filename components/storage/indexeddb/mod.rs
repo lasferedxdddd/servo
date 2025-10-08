@@ -4,6 +4,6 @@
 
 pub use self::idb_thread::IndexedDBThreadFactory;
 
-pub mod engines;
+pub(super) mod engines;
 
 pub mod idb_thread;
