@@ -242,6 +242,7 @@ jobs:
     with:
       profile: ${{ inputs.profile }}
       wpt-args: ${{ inputs.wpt-args }}
+      arm: true
     secrets: inherit
 
   bencher:
@@ -261,7 +262,7 @@ jobs:
   build-libservo:
     if: ${{ inputs.build-libservo }}
     name: Build libservo and MSRV check
-    runs-on: macos-latest
+    runs-on: macos-13
     steps:
       - uses: actions/checkout@v4
         if: github.event_name != 'pull_request_target'
